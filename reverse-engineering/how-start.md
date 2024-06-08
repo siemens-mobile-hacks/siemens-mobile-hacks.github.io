@@ -1,6 +1,5 @@
-First steps to reverse engineering Siemens Mobile retro phones.
-
-# Prerequisites
+# How reverse engineering Siemens in the 2k24?
+Prerequisites:
 1. Installed the latest version of **Ghidra SRE**.
 2. Fullflash for the Siemens SGOLD/NewSGOLD phone.
 3. RAM mmeory dump (8 or 16 Mb from 0xA8000000).
@@ -21,3 +20,14 @@ First steps to reverse engineering Siemens Mobile retro phones.
 5. Reject analyzing (press "No").
 
    ![No analyze](img/no-analyze.png)
+
+# Define IO memory region
+1. Click `Window` -> `Memory Map`
+2. Add new memory region with given settings:
+   - Block Name: `IO`
+   - Start Addr: `0xF0000000`
+   - Length: `0x0F000000`
+   - Attributes: `Read + Write + Volatile`
+   - Uninitialized
+
+    ![Open options](img/io-memory-region.png)
