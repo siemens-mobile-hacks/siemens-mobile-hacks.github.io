@@ -7,19 +7,22 @@ Prerequisites:
 ### Open fullflash in the Ghidra
 1. Run the disassembler and click `File` -> `Import File`
 2. Select your fullflash.bin
-3. Select the appropriate disassembler settings:
+3. <details>
+        <summary>Select the appropriate disassembler settings:</summary>
+        <img src="img/open-options.png" alt="" />
+        <img src="img/open-options2.png" alt="" />
+    </details>
+
     - Format: `Raw Binary`
     - Language: `ARM v5t 32 little`
     - Options -> Block Name: `FULLFLASH`
     - Options -> Base Address: `A0000000`
-  
-    ![Open options](img/open-options.png)
-    
-    ![Open options](img/open-options2.png)
-4. Then click on `fullflash.bin` in the project files.
-5. Reject analyzing (press "No").
 
-   ![No analyze](img/no-analyze.png)
+5. Then click on `fullflash.bin` in the project files.
+6. <details>
+    <summary>Reject analyzing (press "No").</summary>
+    <img src="img/no-analyze.png" alt="" />
+</details>
 
 ### Define IO memory region
 1. Click `Window` -> `Memory Map`
@@ -29,8 +32,10 @@ Prerequisites:
    - Length: `0x0F000000`
    - Attributes: `Read + Write + Volatile`
    - Uninitialized
-
-    ![Open options](img/io-memory-region.png)
+<details>
+    <summary>Screenshot</summary>
+    <img src="img/io-memory-region.png" alt="" />
+</details>
 
 ### Import some memory from phone
 TODO
