@@ -1,4 +1,4 @@
-[⬅️ Back to the index](./index.md)
+[← Back to the index](./index.md)
 
 ## Memory dump tools
 
