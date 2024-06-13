@@ -2,7 +2,7 @@
 Prerequisites:
 1. Installed the latest version of **Ghidra SRE**.
 2. Fullflash was dumped from Siemens mobile phone (SGold platform).
-3. [RAM memory dump](./memory-dump.md)
+3. Do [RAM memory dump](./memory-dump.md).
 
 ### Step 1: Open fullflash in the Ghidra
 1. Run the disassembler and click `File` -> `Import File`
