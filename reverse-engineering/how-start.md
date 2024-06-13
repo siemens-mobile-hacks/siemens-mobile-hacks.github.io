@@ -1,7 +1,7 @@
 # How to reverse engineering Siemens in 2k24?
 Prerequisites:
 1. Installed the latest version of **Ghidra SRE**.
-2. Fullflash was dumped from Siemens mobile phone (SGold platform).
+2. Fullflash from Siemens mobile phone (SGold platform).
 3. Do [RAM memory dump](./memory-dump.md).
 
 ### Step 1: Open fullflash in the Ghidra
