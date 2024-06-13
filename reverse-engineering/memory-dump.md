@@ -1,3 +1,5 @@
+[⬅️ Back to the index](./index.md)
+
 ## Memory dump tools
 
 1. <details>
