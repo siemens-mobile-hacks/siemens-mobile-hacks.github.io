@@ -17,6 +17,7 @@
 
 ### For all phones
 This memory regions available on all mobile phones.
+
 | Name | Address  | Size     |      | Attributes         | Description                                              |
 |------|----------|----------|------|--------------------|----------------------------------------------------------|
 | BROM | 00400000 | 00008000 | 32k  | Read+Execute       | Built-in 1st stage bootloader firmware. |
@@ -25,6 +26,7 @@ This memory regions available on all mobile phones.
 
 ### ELKA
 EL71, E71, M72 (proto), CL61 (proto)
+
 | Name     | Address  | Size     |      | Attributes         | Description                  |
 |----------|----------|----------|------|--------------------|------------------------------|
 | RAM      | A8000000 | 00800000 | 16M  | Write+Read+Execute | External RAM.                |
@@ -33,6 +35,7 @@ EL71, E71, M72 (proto), CL61 (proto)
 
 ### New NSG
 C81, M81, S68
+
 | Name     | Address  | Size     |     | Attributes         | Description                  |
 |----------|----------|----------|-----|--------------------|------------------------------|
 | RAM      | A8000000 | 00800000 | 16M | Write+Read+Execute | External RAM.                |
@@ -40,6 +43,7 @@ C81, M81, S68
 
 ### Old NSG + SG (16M)
 S75, SL75, CX75, M75, SK65
+
 | Name | Address  | Size     |     | Attributes         | Description   |
 |------|----------|----------|-----|--------------------|---------------|
 | RAM  | A8000000 | 01000000 | 16M | Write+Read+Execute | External RAM. |
