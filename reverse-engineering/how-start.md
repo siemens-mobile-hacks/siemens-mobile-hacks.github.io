@@ -47,6 +47,7 @@ Example with RAM:
 3. Select apropriate settings:
    - Options -> Block Name: `RAM`
    - Options -> Base Addr: `0xA8000000`
+
    And click "OK".
 4. Click `Window` -> `Memory Map` and select attributes for "RAM":
 
