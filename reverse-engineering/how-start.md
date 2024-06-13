@@ -20,10 +20,10 @@ Prerequisites:
 
 5. Then click on `fullflash.bin` in the project files.
 6. Reject automatic analysis (press "No").
-        <details>
-            <summary>Screenshot</summary>
-            <img src="img/no-analyze.png" alt="" />
-        </details>
+    <details>
+        <summary>Screenshot</summary>
+        <img src="img/no-analyze.png" alt="" />
+    </details>
 
 ### Step 2: Define IO memory region
 1. Click `Window` -> `Memory Map`
@@ -31,7 +31,7 @@ Prerequisites:
    - Block Name: `IO`
    - Start Addr: `0xF0000000`
    - Length: `0x0F000000`
-   - Attributes: `Read + Write + Volatile`
+   - Attributes: `[x] Read   [x] Write   [ ] Execute   [x] Volatile   [ ] Overlay`
    - Uninitialized
    <details>
         <summary>Screenshot</summary>
@@ -48,7 +48,8 @@ Example with RAM:
    - Options -> Block Name: `RAM`
    - Options -> Base Addr: `0xA8000000`
    And click "OK".
-4. Click `Window` -> `Memory Map` and select attributes for the "RAM" memory block.
+4. Click `Window` -> `Memory Map` and select attributes for "RAM":
+
    ```
     R   W   X    Volatile
    [x] [x] [x]     [ ]
