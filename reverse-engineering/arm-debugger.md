@@ -1,8 +1,12 @@
-# Download
+[⬅️ Back to the index][./index.md]
+
+# ArmDebugger
 - Download: [ArmDebugger 0.7.9 M2.rar](https://web.archive.org/web/20160806055159/http://forum.allsiemens.com/files/armd-0.7.9m2_296.rar) - latest version with fixes for ELKA/NSG.
 - [Topic on forum.allsiemens.com](https://web.archive.org/web/20160806060433/http://forum.allsiemens.com/viewtopic.php?t=20735)
 
-You can use wine on Linux or OSX.
+For more info, read README.txt in the archive or topic on forum.
+
+For Linux or OSX: it works fine on wine.
 
 # CGSN patch
 To use the debugger you need to install a special patch called "CGSN Patch". This patch can be automatically generated using ArmDebugger.
@@ -14,9 +18,9 @@ Follow these steps:
 4. Now apply the resulting patch using V-Klay.
 
 # Example configs
-If your phone not defined in `devices.ini`, you need to create own device section.
+If your phone is not defined in devices.ini, you need to create own device section.
 
-Usually it can be done by copying section for the same phone and changing **MallocAddress** to the right `malloc()` function address.
+Usually, it can be done by copying the section for the same phone and changing **MallocAddress** to the right `malloc()` function address.
 
 ### Example for NSG/ELKA
 
