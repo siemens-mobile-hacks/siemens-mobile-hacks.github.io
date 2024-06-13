@@ -1,4 +1,4 @@
-[⬅️ Back to the index](./index.md)
+[← Back to the index](./index.md)
 
 # How to reverse engineering Siemens in 2k24?
 Prerequisites:
