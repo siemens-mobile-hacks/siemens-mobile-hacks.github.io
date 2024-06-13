@@ -50,6 +50,7 @@ S75, SL75, CX75, M75, SK65
 
 ### SG (8M)
 CX70, C65, CX65, M65, S65, SL65, ME75, CF75, C75, C72
+
 | Name | Address  | Size     |    | Attributes         | Description   |
 |------|----------|----------|----|--------------------|---------------|
 | RAM  | A8000000 | 00800000 | 8M | Write+Read+Execute | External RAM. |
