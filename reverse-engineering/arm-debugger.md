@@ -2,8 +2,7 @@
 - Download: [ArmDebugger 0.7.9 M2.rar](https://web.archive.org/web/20160806055159/http://forum.allsiemens.com/files/armd-0.7.9m2_296.rar) - latest version with fixes for ELKA/NSG.
 - [Topic on forum.allsiemens.com](https://web.archive.org/web/20160806060433/http://forum.allsiemens.com/viewtopic.php?t=20735)
 
-> [!TIP]
-> You can use wine on Linux or OSX.
+You can use wine on Linux or OSX.
 
 # CGSN patch
 To use the debugger you need to install a special patch called "CGSN Patch". This patch can be automatically generated using ArmDebugger.
