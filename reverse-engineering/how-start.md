@@ -56,7 +56,13 @@ Example with RAM:
    [x] [x] [x]     [ ]
    ```
 
-### Step 4: Import swilib C types
+### Step 4: Install required Ghidra Scripts
+1. Download: [ghidra_scripts.zip](https://github.com/siemens-mobile-hacks/ghidra_scripts/archive/refs/heads/main.zip) (or clone [repo](https://github.com/siemens-mobile-hacks/ghidra_scripts))
+2. Go to the `Window -> Script Manager`
+3. Click "Manage Script Directories" icon.
+4. Add path to the dir with extracted `ghidra_scripts.zip`.
+
+### Step 5: Import swilib C types
 1. Download appropriate `swilib-types-PLATFORM.h` from the [Swilib data types for dissasembler](https://siemens-mobile-hacks.github.io/web-dev-tools/re#swilib-types).
 2. Click: `File -> Parse C Source...`
 3. Click `Clear profile` (eraser icon).
@@ -64,15 +70,15 @@ Example with RAM:
 5. Select "Program architecture" to `ARM v5t 32 little`.
 6. Click `Parse to Program -> Continue -> Don't use Open Archives -> OK`
 
-### Step 5: Import swilib symbols
+### Step 6: Import swilib symbols
 1. Download appropriate `symbols-PHONE.txt` from the [Firmware symbols for dissasembler](https://siemens-mobile-hacks.github.io/web-dev-tools/re#swilib-symbols).
 2. Click `Window -> Script Manager -> ImportSymbolsWithDataType.java -> Run Script`
 3. Select your `symbols-PHONE.txt`.
 
-### Step 6: Import CPU IO registers
+### Step 7: Import CPU IO registers
 1. Download appropriate `cpu-PHONE.txt` or `cpu-pmb887x.txt` from the [CPU IO registers](https://siemens-mobile-hacks.github.io/web-dev-tools/re#cpu-registers).
 2. Click `Window -> Script Manager -> ImportSymbolsWithDataType.java -> Run Script`
 3. Select your `cpu-PHONE.txt` or `cpu-pmb887x.txt`.
 
-### Analyze firmware
+### Step 8: Analyze firmware
 TODO
