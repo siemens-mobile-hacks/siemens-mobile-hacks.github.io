@@ -4,16 +4,19 @@
 
 1. <details>
         <summary>ArmDebugger.exe (slow)</summary>
-       
+
+
+      ### This can be done using [ArmDebugger.exe](./arm-debugger.md).
+
       - Open context menu on hex view window
       - File -> Save to file  
 
         <img src="img/memory-dump.png" alt="" />
     </details>
 
-2. Online memory dumper: https://siemens-mobile-hacks.github.io/web-tools/dumper (WIP)
-3. CLI memory dumper: https://github.com/siemens-mobile-hacks/memory-dumper (WIP)
-4. MemoryDumper.elf: https://github.com/siemens-mobile-hacks/memory-dumper-elf (WIP)
+1. Online memory dumper: https://siemens-mobile-hacks.github.io/web-tools/dumper (WIP)
+2. CLI memory dumper: https://github.com/siemens-mobile-hacks/memory-dumper (WIP)
+3. MemoryDumper.elf: https://github.com/siemens-mobile-hacks/memory-dumper-elf (WIP)
 
 ## What memory should be dumped?
 
