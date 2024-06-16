@@ -14,9 +14,7 @@
         <img src="img/memory-dump.png" alt="" />
     </details>
 
-1. Online memory dumper: https://siemens-mobile-hacks.github.io/web-tools/dumper (WIP)
-2. CLI memory dumper: https://github.com/siemens-mobile-hacks/memory-dumper (WIP)
-3. MemoryDumper.elf: https://github.com/siemens-mobile-hacks/memory-dumper-elf (WIP)
+2. CLI memory dumper: https://github.com/siemens-mobile-hacks/siemens-memory-dumper (fast)
 
 ## What memory should be dumped?
 
