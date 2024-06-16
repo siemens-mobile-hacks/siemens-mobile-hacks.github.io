@@ -14,7 +14,7 @@
         <img src="img/memory-dump.png" alt="" />
     </details>
 
-2. CLI memory dumper: https://github.com/siemens-mobile-hacks/siemens-memory-dumper (fast)
+2. [CLI memory dumper](https://github.com/siemens-mobile-hacks/siemens-memory-dumper) (fast)
 
 ## What memory should be dumped?
 
