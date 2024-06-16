@@ -14,8 +14,8 @@
         <img src="img/memory-dump.png" alt="" />
     </details>
 
-2. [CLI memory dumper](https://github.com/siemens-mobile-hacks/siemens-memory-dumper)
-3. [Web memory dumper](https://siemens-mobile-hacks.github.io/web-tools/dumper) (WebSerial).
+2. [CLI memory dumper](https://github.com/siemens-mobile-hacks/siemens-memory-dumper) (Linux, OSX, Windows)
+3. [Web memory dumper](https://siemens-mobile-hacks.github.io/web-tools/dumper) (Google Chrome)
 
 ## What memory should be dumped?
 
