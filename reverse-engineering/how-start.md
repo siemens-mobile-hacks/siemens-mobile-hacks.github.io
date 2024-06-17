@@ -27,7 +27,16 @@ Prerequisites:
         <img src="img/no-analyze.png" alt="" />
     </details>
 
-### Step 2: Define IO memory region
+### Step 2. Fix attributes for FULLFLASH memory region
+Click `Window -> Memory Map` and select attributes for "FULLFLASH":
+
+   ```
+    R   W   X    Volatile
+   [x] [ ] [x]     [ ]
+   ```
+It is very important to UNCHECK `W` checkbox, since this directly affects the result of decompilation.
+
+### Step 3: Define IO memory region
 1. Click `Window -> Memory Map`
 2. Add a new memory region with given settings:
    - Block Name: `IO`
@@ -40,7 +49,7 @@ Prerequisites:
         <img src="img/io-memory-region.png" alt="" />
    </details>
 
-### Step 3: Import memory dumps from your phone
+### Step 4: Import memory dumps from your phone
 You should import all memory dumps which you previously made ([RAM memory dump](./memory-dump.md)).
 
 Example with RAM:
@@ -58,13 +67,13 @@ Example with RAM:
    [x] [x] [x]     [ ]
    ```
 
-### Step 4: Install required Ghidra Scripts
+### Step 5: Install required Ghidra Scripts
 1. Download: [ghidra_scripts.zip](https://github.com/siemens-mobile-hacks/ghidra_scripts/archive/refs/heads/main.zip) (or clone [repo](https://github.com/siemens-mobile-hacks/ghidra_scripts))
 2. Go to the `Window -> Script Manager`
 3. Click "Manage Script Directories" icon.
 4. Add path to the dir with extracted `ghidra_scripts.zip`.
 
-### Step 5: Import swilib C types
+### Step 6: Import swilib C types
 1. Download appropriate `swilib-types-PLATFORM.h` from the [Swilib data types for dissasembler](https://siemens-mobile-hacks.github.io/web-dev-tools/re#swilib-types).
 2. Click: `File -> Parse C Source...`
 3. Click `Clear profile` (eraser icon).
@@ -72,15 +81,15 @@ Example with RAM:
 5. Select "Program architecture" to `ARM v5t 32 little`.
 6. Click `Parse to Program -> Continue -> Don't use Open Archives -> OK`
 
-### Step 6: Import swilib symbols
+### Step 7: Import swilib symbols
 1. Download appropriate `symbols-PHONE.txt` from the [Firmware symbols for dissasembler](https://siemens-mobile-hacks.github.io/web-dev-tools/re#swilib-symbols).
 2. Click `Window -> Script Manager -> ImportSymbolsWithDataType.java -> Run Script`
 3. Select your `symbols-PHONE.txt`.
 
-### Step 7: Import CPU IO registers
+### Step 8: Import CPU IO registers
 1. Download appropriate `cpu-PHONE.txt` or `cpu-pmb887x.txt` from the [CPU IO registers](https://siemens-mobile-hacks.github.io/web-dev-tools/re#cpu-registers).
 2. Click `Window -> Script Manager -> ImportSymbolsWithDataType.java -> Run Script`
 3. Select your `cpu-PHONE.txt` or `cpu-pmb887x.txt`.
 
-### Step 8: Analyze firmware
+### Step 9: Analyze firmware
 TODO
