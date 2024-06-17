@@ -81,15 +81,15 @@ Example with RAM:
 5. Select "Program architecture" to `ARM v5t 32 little`.
 6. Click `Parse to Program -> Continue -> Don't use Open Archives -> OK`
 
-### Step 7: Import swilib symbols
-1. Download appropriate `symbols-PHONE.txt` from the [Firmware symbols for dissasembler](https://siemens-mobile-hacks.github.io/web-dev-tools/re#swilib-symbols).
-2. Click `Window -> Script Manager -> ImportSymbolsWithDataType.java -> Run Script`
-3. Select your `symbols-PHONE.txt`.
-
-### Step 8: Import CPU IO registers
+### Step 7: Import CPU IO registers
 1. Download appropriate `cpu-PHONE.txt` or `cpu-pmb887x.txt` from the [CPU IO registers](https://siemens-mobile-hacks.github.io/web-dev-tools/re#cpu-registers).
 2. Click `Window -> Script Manager -> ImportSymbolsWithDataType.java -> Run Script`
 3. Select your `cpu-PHONE.txt` or `cpu-pmb887x.txt`.
+
+### Step 8: Import swilib symbols
+1. Download appropriate `symbols-PHONE.txt` from the [Firmware symbols for dissasembler](https://siemens-mobile-hacks.github.io/web-dev-tools/re#swilib-symbols).
+2. Click `Window -> Script Manager -> ImportSymbolsWithDataType.java -> Run Script`
+3. Select your `symbols-PHONE.txt`.
 
 ### Step 9: Analyze firmware
 TODO
