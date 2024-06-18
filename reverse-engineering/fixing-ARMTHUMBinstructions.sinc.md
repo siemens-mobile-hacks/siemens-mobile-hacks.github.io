@@ -2,7 +2,7 @@
 
 # Fixing the latest versions of Ghidra SRE
 
-Newer versions (>= v10.2.3) have a bug where `FF FF` is treated as an `BL 0xFFE` instruction.
+Newer versions (>= v10.3) have a bug where `FF FF` is treated as an `BL 0xFFE` instruction.
 
 You can still use last working version v10.2.3 or manually patch `ARMTHUMBinstructions.sinc` in your Ghidra SRE installation.
 
