@@ -96,6 +96,12 @@ Example with RAM:
    ```
 
 ### Step 6: Install required Ghidra Scripts
+
+<details>
+     <summary>Screenshot</summary>
+     <img src="img/add-scripts-dirs.png" alt="" />
+</details>
+
 1. Download: [ghidra_scripts.zip](https://github.com/siemens-mobile-hacks/ghidra_scripts/archive/refs/heads/main.zip) (or clone [repo](https://github.com/siemens-mobile-hacks/ghidra_scripts))
 2. Go to the `Window -> Script Manager`
 3. Click "Manage Script Directories" icon.
