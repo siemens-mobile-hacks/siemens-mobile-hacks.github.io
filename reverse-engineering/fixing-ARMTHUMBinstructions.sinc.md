@@ -24,3 +24,44 @@ Download patched [ARMTHUMBinstructions.sinc](fixes/10.3+/ARMTHUMBinstructions.si
 - 10.3.2
 - 10.3.1
 - 10.3
+
+# How to port this fix to future versions
+You need to do something like that:
+```diff
+--- ARMTHUMBinstructions.sinc
++++ ARMTHUMBinstructions.sinc
+@@ -1455,16 +1455,7 @@ macro th_set_carry_for_asr(op1,shift_count) {
+   local dest = lr + off:4;
+   lr = inst_next|1;
+   SetThumbMode(1);
+-  call [dest];
++  goto [dest];
+ }
+-
+-:bl^ItCond lr			is TMode=1 & ItCond & op11=0x1f & offset11=0 & lr
+-{
+-  build ItCond;
+-  local dest = lr;
+-  lr = inst_next|1;
+-  SetThumbMode(1);
+-  call [dest];
+-}
+ 
+ :blx^ItCond "#"^off 	is TMode=1 & ItCond & op11=0x1d & offset11 & thc0000=0 [ off = offset11 << 1; ]
+@@ -1476,15 +1467,6 @@ macro th_set_carry_for_asr(op1,shift_count) {
+   call [dest];
+ }
+ 
+-:blx^ItCond lr			is TMode=1 & ItCond & op11=0x1d & offset11=0 & thc0000=0 & lr
+-{
+-  build ItCond;
+-  local dest = (lr & (~0x3));
+-  lr = inst_next|1;
+-  SetThumbMode(0);
+-  call [dest];
+-}
+-
+ @endif
+ 
+ :bl^ItCond 	ThAddr24 			is TMode=1 & CALLoverride=1 & ItCond & (op11=0x1e; part2c1415=3 & part2c1212=1) & ThAddr24
+```
