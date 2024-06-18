@@ -1455,31 +1455,13 @@ macro th_set_carry_for_asr(op1,shift_count) {
   local dest = lr + off:4;
   lr = inst_next|1;
   SetThumbMode(1);
-  call [dest];
-}
-
-:bl^ItCond lr			is TMode=1 & ItCond & op11=0x1f & offset11=0 & lr
-{
-  build ItCond;
-  local dest = lr;
-  lr = inst_next|1;
-  SetThumbMode(1);
-  call [dest];
+  goto [dest];
 }
 
 :blx^ItCond "#"^off 	is TMode=1 & ItCond & op11=0x1d & offset11 & thc0000=0 [ off = offset11 << 1; ]
 {
   build ItCond;
   local dest = (lr & (~0x3)) + off:4;
-  lr = inst_next|1;
-  SetThumbMode(0);
-  call [dest];
-}
-
-:blx^ItCond lr			is TMode=1 & ItCond & op11=0x1d & offset11=0 & thc0000=0 & lr
-{
-  build ItCond;
-  local dest = (lr & (~0x3));
   lr = inst_next|1;
   SetThumbMode(0);
   call [dest];
