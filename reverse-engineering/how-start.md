@@ -102,6 +102,12 @@ Example with RAM:
 4. Add path to the dir with extracted `ghidra_scripts.zip`.
 
 ### Step 7: Import swilib C types
+
+<details>
+     <summary>Screenshot</summary>
+     <img src="img/parse-c-source.png" alt="" />
+</details>
+
 1. Download appropriate `swilib-types-PLATFORM.h` from the [Swilib data types for dissasembler](https://siemens-mobile-hacks.github.io/web-dev-tools/re#swilib-types).
 2. Click: `File -> Parse C Source...`
 3. Click `Clear profile` (eraser icon).
