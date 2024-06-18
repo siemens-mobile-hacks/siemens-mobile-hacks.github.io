@@ -10,7 +10,7 @@ You can still use last working version v10.2.3 or manually patch `ARMTHUMBinstru
 
 Just download right file and replace `Ghidra/Processors/ARM/data/languages/ARMTHUMBinstructions.sinc` in your Ghidra SRE installation.
 
-Download patched [ARMTHUMBinstructions.sinc](fixes/11.0.2/ARMTHUMBinstructions.sinc) for versions:
+Download patched [ARMTHUMBinstructions.sinc](fixes/11.0.2+/ARMTHUMBinstructions.sinc) for versions:
 - 11.1.1
 - 11.1
 - 11.0.3
