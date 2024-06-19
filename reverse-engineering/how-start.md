@@ -55,6 +55,7 @@ It is very important to UNCHECK `W` checkbox, since this directly affects the re
    - Disable `Embedded media`.
    - Disable `Non-returning functions - discovered`. This seems to cause disassembly to stop in a lot of places it shouldn't.
    - Disable `Create Address Tables`. This seems to be better as a one-shot after initial analysis, to avoid creating data from runs of things that could be addresses.
+   - Disable `Demangler GNU`.
 
     Enable:
 
@@ -137,8 +138,16 @@ Once you see "Finished" in the Script Console - you can cancel this analysis pro
 
 <details>
      <summary>Screenshot</summary>
-     <img src="img/finished" alt="" />
+     <img src="img/finished.png" alt="" />
 </details>
 
-### Step 9: Analyze firmware
-TODO
+### Step 9: Firmware analysis
+**Auto analysis**
+1. Click `Analysis -> Auto Analyse 'fullflash.bin'`
+2. Check that the settings correspond to those previously specified in paragraph "Step 3: Setup analysis settings".
+3. Click "ANALYSE".
+
+This will take a while (~1 hour), this is not a fast process. Be patient.
+
+**One-shot analysis** (optional)
+1. Click `Analysis -> One-shot -> Create Address Tables`
