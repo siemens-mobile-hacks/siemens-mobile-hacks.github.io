@@ -141,7 +141,7 @@ Once you see "Finished" in the Script Console - you can cancel this analysis pro
      <img src="img/finished.png" alt="" />
 </details>
 
-### Step 9: Firmware analysis
+### Step 11: Firmware analysis
 **Auto analysis**
 1. Click `Analysis -> Auto Analyse 'fullflash.bin'`
 2. Check that the settings correspond to those previously specified in paragraph "Step 3: Setup analysis settings".
