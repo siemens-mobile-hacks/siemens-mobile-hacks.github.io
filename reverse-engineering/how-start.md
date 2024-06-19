@@ -131,5 +131,14 @@ Example with RAM:
 2. Click `Window -> Script Manager -> ImportSymbolsWithDataType.java -> Run Script`
 3. Select your `symbols-PHONE.txt`.
 
+This will take a while because some auto-analysis has been started. 
+
+Once you see "Finished" in the Script Console - you can cancel this analysis process and go to the next step.
+
+<details>
+     <summary>Screenshot</summary>
+     <img src="img/finished" alt="" />
+</details>
+
 ### Step 9: Analyze firmware
 TODO
