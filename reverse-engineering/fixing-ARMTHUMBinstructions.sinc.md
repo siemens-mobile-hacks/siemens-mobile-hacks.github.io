@@ -2,9 +2,9 @@
 
 # Fixing the latest versions of Ghidra SRE
 
-Newer versions (>= v10.3) have a bug where `FF FF` is treated as an `BL 0xFFE` instruction.
+Since about 2019 there has been a bug in Ghidra SRE where `FF FF` is treated as an `BL 0xFFE` instruction in v5t architecture. This causes an infinity loop in auto-analysis.
 
-You can still use last working version v10.2.3 or manually patch `ARMTHUMBinstructions.sinc` in your Ghidra SRE installation.
+You **should** apply patch `ARMTHUMBinstructions.sinc` if you want to work with Siemens firmwares.
 
 # Patching
 
@@ -30,15 +30,28 @@ You need to do something like that:
 ```diff
 --- ARMTHUMBinstructions.sinc
 +++ ARMTHUMBinstructions.sinc
-@@ -1455,16 +1455,7 @@ macro th_set_carry_for_asr(op1,shift_count) {
-   local dest = lr + off:4;
-   lr = inst_next|1;
-   SetThumbMode(1);
--  call [dest];
-+  goto [dest];
+@@ -1479,52 +1479,6 @@
+   call ThAddr24;
  }
+ 
+-@ifndef VERSION_6T2
 -
--:bl^ItCond lr			is TMode=1 & ItCond & op11=0x1f & offset11=0 & lr
+-:bl^ItCond "#"^off             is TMode=1 & ItCond & op11=0x1e & soffset11 [ off = inst_start + 4 + (soffset11 << 12); ]
+-{
+-  build ItCond;
+-  lr = off:4;
+-}
+-
+-:bl^ItCond "#"^off             is TMode=1 & ItCond & op11=0x1f & offset11 [ off = offset11 << 1; ]
+-{
+-  build ItCond;
+-  local dest = lr + off:4;
+-  lr = inst_next|1;
+-  SetThumbMode(1);
+-  call [dest];
+-}
+-
+-:bl^ItCond lr                  is TMode=1 & ItCond & op11=0x1f & offset11=0 & lr
 -{
 -  build ItCond;
 -  local dest = lr;
@@ -46,13 +59,17 @@ You need to do something like that:
 -  SetThumbMode(1);
 -  call [dest];
 -}
- 
- :blx^ItCond "#"^off 	is TMode=1 & ItCond & op11=0x1d & offset11 & thc0000=0 [ off = offset11 << 1; ]
-@@ -1476,15 +1467,6 @@ macro th_set_carry_for_asr(op1,shift_count) {
-   call [dest];
- }
- 
--:blx^ItCond lr			is TMode=1 & ItCond & op11=0x1d & offset11=0 & thc0000=0 & lr
+-
+-:blx^ItCond "#"^off    is TMode=1 & ItCond & op11=0x1d & offset11 & thc0000=0 [ off = offset11 << 1; ]
+-{
+-  build ItCond;
+-  local dest = (lr & (~0x3)) + off:4;
+-  lr = inst_next|1;
+-  SetThumbMode(0);
+-  call [dest];
+-}
+-
+-:blx^ItCond lr                 is TMode=1 & ItCond & op11=0x1d & offset11=0 & thc0000=0 & lr
 -{
 -  build ItCond;
 -  local dest = (lr & (~0x3));
@@ -61,7 +78,6 @@ You need to do something like that:
 -  call [dest];
 -}
 -
- @endif
- 
- :bl^ItCond 	ThAddr24 			is TMode=1 & CALLoverride=1 & ItCond & (op11=0x1e; part2c1415=3 & part2c1212=1) & ThAddr24
+-@endif
+-
 ```
