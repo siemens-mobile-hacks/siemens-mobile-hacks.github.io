@@ -2,19 +2,19 @@
 
 # How to reverse engineering Siemens in 2k24?
 Prerequisites:
-1. Install **Ghidra SRE v10.2.3**.
+1. Install **Ghidra SRE v11.1.1** and fix `ARMTHUMBinstructions.sinc`.
 
-   You need exact **v10.2.3** version, because newer versions have a bug where `FF FF` is treated as an `BL 0xFFE` instruction.
+   Since about 2019 there has been a bug in Ghidra SRE where `FF FF` is treated as an `BL 0xFFE` instruction in v5t architecture. This causes an infinity loop in auto-analysis.
 
-   Another option - you can [patch ARMTHUMBinstructions.sinc](./fixing-ARMTHUMBinstructions.sinc.md) in your latest Ghidra SRE version.
+   You **should** apply [patch ARMTHUMBinstructions.sinc](./fixing-ARMTHUMBinstructions.sinc.md) if you want to work with Siemens firmwares.
 
-2. Obtain fullflash from your phone and remove FFS & EEPROM from it.
+3. Obtain fullflash from your phone and remove FFS & EEPROM from it.
 
    This is important for auto-analysis, beacause FFS and EEPROM contain ambiguous data which can be treated as instructions.
 
    You can download a collection of the fullflashes with already removed FFS and EEPROM: [fullflashes.zip](https://github.com/siemens-mobile-hacks/elfloader3/releases/download/v0/fullflashes.zip).
     
-3. [Obtain RAM & SRAM memory dumps from your phone.](./memory-dump.md)
+4. [Obtain RAM & SRAM memory dumps from your phone.](./memory-dump.md)
 
 ### Step 1: Open fullflash in the Ghidra
 1. Run the disassembler and click: `File -> Import File`
