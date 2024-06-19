@@ -34,8 +34,8 @@ EL71, E71, M72 (proto), CL61 (proto)
 | Name     | Address  | Size     |      | Attributes         | Description                  |
 |----------|----------|----------|------|--------------------|------------------------------|
 | RAM      | A8000000 | 01000000 | 16M  | Write+Read+Execute | External RAM.                |
-| VMALLOC1 | AC000000 | 01000000 | 16M  | Write+Read+Execute | Virtual memory for malloc(). |
-| VMALLOC2 | AD000000 | 00800000 | 8M   | Write+Read+Execute | Virtual memory for malloc(). |
+| VMALLOC1 | AC000000 | 01000000 | 16M  | Write+Read         | Virtual memory for malloc(). |
+| VMALLOC2 | AD000000 | 00800000 | 8M   | Write+Read         | Virtual memory for malloc(). |
 
 ### New NSG
 C81, M81, S68
@@ -43,7 +43,7 @@ C81, M81, S68
 | Name     | Address  | Size     |     | Attributes         | Description                  |
 |----------|----------|----------|-----|--------------------|------------------------------|
 | RAM      | A8000000 | 01000000 | 16M | Write+Read+Execute | External RAM.                |
-| VMALLOC1 | AC000000 | 00E00000 | 14M | Write+Read+Execute | Virtual memory for malloc(). |
+| VMALLOC1 | AC000000 | 00E00000 | 14M | Write+Read         | Virtual memory for malloc(). |
 
 ### Old NSG + SG (16M)
 S75, SL75, CX75, M75, SK65
