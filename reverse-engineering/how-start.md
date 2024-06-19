@@ -149,5 +149,5 @@ Once you see "Finished" in the Script Console - you can cancel this analysis pro
 
 This will take a while (~1 hour), this is not a fast process. Be patient.
 
-**One-shot analysis** (optional)
+**One-shot analysis**
 1. Click `Analysis -> One-shot -> Create Address Tables`
