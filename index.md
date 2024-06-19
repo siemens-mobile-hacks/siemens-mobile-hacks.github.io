@@ -23,3 +23,7 @@
 * [Зеркало прошивок _Danila_Master_](https://stuff.pentium02.org/Siemens/) от Pentium02
 * [Прошивки, софт, схемы, мануалы и солюшены торрент](https://rutracker.org/forum/viewtopic.php?t=2273781)
 * [Зеркало предыдущего пункта с rutracker.org](https://stuff.pentium02.org/Siemens_rutracker.tar.gz)
+
+# Разработка и исследование ПО 😈
+* [ELF SDK](https://github.com/siemens-mobile-hacks/sdk)
+* [Reverse Engineering](./reverse-engineering/)
