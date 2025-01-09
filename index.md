@@ -27,3 +27,7 @@
 # Разработка и исследование ПО 😈
 * [ELF SDK](https://github.com/siemens-mobile-hacks/sdk)
 * [Reverse Engineering](./reverse-engineering/)
+
+# Контент
+
+* [Темы](https://github.com/siemens-mobile-hacks/UI-Themes/blob/main/README.md) для кастомизации внешнего вида интерфейса телефонов Siemens.
