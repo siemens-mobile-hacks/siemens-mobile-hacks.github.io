@@ -59,7 +59,7 @@ feed_filenames = ["atom.xml"]
 hard_link_static = false
 
 # The default author for pages
-author = 
+author = "siepatchdb@c.j.r community"
 
 # The taxonomies to be rendered for the site and their configuration of the default languages
 # Example:
