@@ -102,7 +102,7 @@ highlight_theme = "base16-ocean-dark"
 render_emoji = true
 
 # CSS class to add to external links (e.g. "external-link")
-external_links_class = 
+external_links_class = ""
 
 # Whether external links are to be opened in a new tab
 # If this is true, a `rel="noopener"` will always automatically be added for security reasons
