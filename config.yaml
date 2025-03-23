@@ -1,5 +1,5 @@
 defaultContentLanguage: ru
-baseURL = 'https://siemens-mobile-hacks.github.io/'
-languageCode = 'ru'
-title = 'Siemens Mobile Wiki'
-theme = 'ananke'
+baseURL: 'https://siemens-mobile-hacks.github.io/
+languageCode: ru
+title: Siemens Mobile Wiki
+theme: ananke
