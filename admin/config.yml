@@ -2,7 +2,7 @@ backend:
   name: github
   repo: siemens-mobile-hacks/siemens-mobile-hacks.github.io
   branch: main
-  site_domain: siemens-mobile-hacks.github.io
+  site_domain: siepatchdb.netlify.app
   auth_scope: repo
 media_folder: "uploads"
 public_folder: "/uploads"
