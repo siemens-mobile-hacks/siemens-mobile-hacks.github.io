@@ -1,0 +1,6 @@
+backend:
+  name: github
+  repo: siemens-mobile-hacks/siemens-mobile-hacks.github.io
+  branch: main
+  site_domain: siemens-mobile-hacks.github.io
+  auth_scope: repo
