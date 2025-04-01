@@ -4,5 +4,10 @@ source: .
 highlighter: rouge
 markdown: GFM
 theme: just-the-docs
-search_enabled: true
-auto_page_title: true
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
