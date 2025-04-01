@@ -1,4 +1,9 @@
-[← Back to the index](./index.md)
+---
+title: ArmDebugger
+parent: Reverse Engineering
+layout: default
+nav_order: 2
+---
 
 # ArmDebugger
 - Download: [ArmDebugger 0.7.9 M2.rar](https://web.archive.org/web/20160806055159/http://forum.allsiemens.com/files/armd-0.7.9m2_296.rar) - latest version with fixes for ELKA/NSG.

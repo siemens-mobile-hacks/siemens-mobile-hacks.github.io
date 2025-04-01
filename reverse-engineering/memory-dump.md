@@ -1,4 +1,9 @@
-[← Back to the index](./index.md)
+---
+title: Memory dump tools
+parent: Reverse Engineering
+layout: default
+nav_order: 1
+---
 
 ## Memory dump tools
 

@@ -1,4 +1,9 @@
-[← Back to the index](./index.md)
+---
+title: Fixing Ghidra SRE
+parent: Reverse Engineering
+layout: default
+nav_order: 3
+---
 
 # Fixing the latest versions of Ghidra SRE
 

@@ -1,4 +1,8 @@
-[← Back to the index](../index.md)
+---
+title: Reverse Engineering
+layout: default
+nav_order: 999
+---
 
 # Manuals
 1. [How to start reverse engineering Siemens phones.](./how-start.md)

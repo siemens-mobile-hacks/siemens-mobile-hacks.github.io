@@ -1,4 +1,9 @@
-[← Back to the index](./index.md)
+---
+title: How to reverse engineering Siemens in 2k24?
+parent: Reverse Engineering
+layout: default
+nav_order: 0
+---
 
 # How to reverse engineering Siemens in 2k24?
 Prerequisites:
