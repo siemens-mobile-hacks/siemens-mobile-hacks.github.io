@@ -3,6 +3,6 @@ title: null
 source: .
 highlighter: rouge
 markdown: GFM
-remote_theme: zendesk/jekyll-theme-zendesk-garden@main
+theme: just-the-docs
 search_enabled: true
 auto_page_title: true
