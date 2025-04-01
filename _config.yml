@@ -61,3 +61,10 @@ search:
   button: false
   # Focus the search input by pressing `ctrl + focus_shortcut_key` (or `cmd + focus_shortcut_key` on macOS)
   focus_shortcut_key: 'k'
+
+relative_links:
+  enabled:     true
+  collections: false
+
+plugins:
+  - jekyll-relative-links
