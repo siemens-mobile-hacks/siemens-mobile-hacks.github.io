@@ -7,26 +7,26 @@ nav_order: 1
 # Variants
 Some Panasonic phones use hardware from Infineon.
 Models marked with a check (✓) have internal photos available. The rest are filled in either based on FCCID or intuition.
-Model | VS2 | VS3 | VS6 | VS7 ☑ | SA6 | SA7 ☑ | MX6 | MX7
--- | -- | -- | -- | -- | -- | -- | -- | --
-Photo | ![VS2](https://github.com/user-attachments/assets/3970d9d2-4997-4ee7-8199-1d242b6392e7) | ![VS3](https://github.com/user-attachments/assets/ea404699-12d5-45ac-88ef-e393aec35ee6) | ![VS6](https://github.com/user-attachments/assets/4d3c0ff2-6613-404c-8da6-b133006e0809) | ![VS7](https://github.com/user-attachments/assets/a80d1aaa-0858-4a81-93bc-562fdc47fcb9) | ![SA6](https://github.com/user-attachments/assets/ff238909-d572-4393-bad6-182b5c3ea40d) | ![SA7](https://github.com/user-attachments/assets/d55911c1-6170-47ae-98e9-cea1379ba54e) | ![MX6](https://github.com/user-attachments/assets/c5c0cb63-464b-491d-8670-4e7391f54367) | ![MX7](https://github.com/user-attachments/assets/8267fd59-19ed-4d77-ba9c-67364800a314)
-FCCID |  | NWJ23C002A |   | NWJ26C001A |   |   |   |  
-OS | APOXI | APOXI | APOXI | APOXI | APOXI | APOXI | APOXI | APOXI
-CPU | PMB8875 | PMB8875 | PMB8875 | PMB8875 | PMB8875 | PMB8875 | PMB8875 | PMB8875
-POWER | ? | PMB6812 | ? | PMB6811 | ? | PMB6811 | ? | PMB6811
-RF | PMB6270 | PMB6270 | PMB6270 | PMB6270 | PMB6270 | PMB6270 | PMB6270 | PMB6270
-PAM | SKY77328 | SKY77328 | SKY77328 | SKY77328 | SKY77328 | SKY77328 | SKY77328 | SKY77328
-FLASH+RAM | 64/16: PF38F4460LVYTB0 | 64/16: PF38F4460LVYTB0 | 64/16: PF38F4460LVYTB0 | 64/16: PF38F4460LVYTB0 | 64/16: PF38F4460LVYTB0 | 64/16: PF38F4460LVYTB0 | 64/16: PF38F4460LVYTB0 | 64/16: PF38F4460LVYTB0
-Resolution&bit&size | 240x320x24, 2.2" | 240x320x24, 2.2" | 240x320x24, 2.2" | 240x320x24, 2.5" & 96x64x12 | 240x320x24, 2.2" | 240x320x24, 2.5" & 96x64x12 | 240x320x24, 2.2" | 240x320x24, 2.5" & 96x64x12
-LCD | ? | ? | ? | ? | ? | ? | ? | ?
-GPU | S1D13756 | S1D13756 | S1D13756 | S1D13756 | S1D13756 | S1D13756 | S1D13756 | S1D13756
-BT | no | no | PMB8761 | PMB8761 | no | PMB8761 | no | PMB8761
-IrDA | yes | yes | yes | yes | yes | yes | yes | yes
-Camera | 1.3 MP | 1.3 MP | 2.0 MP | 2.0 MP | 1.3 MP | 2.0 MP | 1.3 MP | 2.0 MP
-Macro switch | Outer | Outer | Inner | Inner | Outer | Inner | Outer | Inner
-Bat.cap. | 830 mAh | 830 mAh | 830 mAh | 830 mAh | 1660 mAh | 1660 mAh | 1660 mAh | 1660 mAh
-Covers | Static | Changeable | Static | Changeable | Static | Static | Changeable | Changeable
-Dimensions | 96x46x18.2mm, 98g | 96x46x17.6mm, 102g | 96x46x21mm, 101g | 102x51x18.8mm, 113g | 96x47x25mm, 127g | 102x53x26mm, 140g | 96x46x26mm, 130g | 102x51x26mm, 144g
+| Model | VS2 | VS3 | VS6 | VS7 ☑ | SA6 | SA7 ☑ | MX6 | MX7 |
+| -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| Photo | ![VS2](https://github.com/user-attachments/assets/3970d9d2-4997-4ee7-8199-1d242b6392e7) | ![VS3](https://github.com/user-attachments/assets/ea404699-12d5-45ac-88ef-e393aec35ee6) | ![VS6](https://github.com/user-attachments/assets/4d3c0ff2-6613-404c-8da6-b133006e0809) | ![VS7](https://github.com/user-attachments/assets/a80d1aaa-0858-4a81-93bc-562fdc47fcb9) | ![SA6](https://github.com/user-attachments/assets/ff238909-d572-4393-bad6-182b5c3ea40d) | ![SA7](https://github.com/user-attachments/assets/d55911c1-6170-47ae-98e9-cea1379ba54e) | ![MX6](https://github.com/user-attachments/assets/c5c0cb63-464b-491d-8670-4e7391f54367) | ![MX7](https://github.com/user-attachments/assets/8267fd59-19ed-4d77-ba9c-67364800a314) |
+| FCCID |  | NWJ23C002A |   | NWJ26C001A |   |   |   |   |
+| OS | APOXI | APOXI | APOXI | APOXI | APOXI | APOXI | APOXI | APOXI |
+| CPU | PMB8875 | PMB8875 | PMB8875 | PMB8875 | PMB8875 | PMB8875 | PMB8875 | PMB8875 |
+| POWER | ? | PMB6812 | ? | PMB6811 | ? | PMB6811 | ? | PMB6811 |
+| RF | PMB6270 | PMB6270 | PMB6270 | PMB6270 | PMB6270 | PMB6270 | PMB6270 | PMB6270 |
+| PAM | SKY77328 | SKY77328 | SKY77328 | SKY77328 | SKY77328 | SKY77328 | SKY77328 | SKY77328 |
+| FLASH+RAM | 64/16: PF38F4460LVYTB0 | 64/16: PF38F4460LVYTB0 | 64/16: PF38F4460LVYTB0 | 64/16: PF38F4460LVYTB0 | 64/16: PF38F4460LVYTB0 | 64/16: PF38F4460LVYTB0 | 64/16: PF38F4460LVYTB0 | 64/16: PF38F4460LVYTB0 |
+| Resolution&bit&size | 240x320x24, 2.2" | 240x320x24, 2.2" | 240x320x24, 2.2" | 240x320x24, 2.5" & 96x64x12 | 240x320x24, 2.2" | 240x320x24, 2.5" & 96x64x12 | 240x320x24, 2.2" | 240x320x24, 2.5" & 96x64x12 |
+| LCD | ? | ? | ? | ? | ? | ? | ? | ? |
+| GPU | S1D13756 | S1D13756 | S1D13756 | S1D13756 | S1D13756 | S1D13756 | S1D13756 | S1D13756 |
+| BT | no | no | PMB8761 | PMB8761 | no | PMB8761 | no | PMB8761 |
+| IrDA | yes | yes | yes | yes | yes | yes | yes | yes |
+| Camera | 1.3 MP | 1.3 MP | 2.0 MP | 2.0 MP | 1.3 MP | 2.0 MP | 1.3 MP | 2.0 MP |
+| Macro switch | Outer | Outer | Inner | Inner | Outer | Inner | Outer | Inner |
+| Bat.cap. | 830 mAh | 830 mAh | 830 mAh | 830 mAh | 1660 mAh | 1660 mAh | 1660 mAh | 1660 mAh |
+| Covers | Static | Changeable | Static | Changeable | Static | Static | Changeable | Changeable |
+| Dimensions | 96x46x18.2mm, 98g | 96x46x17.6mm, 102g | 96x46x21mm, 101g | 102x51x18.8mm, 113g | 96x47x25mm, 127g | 102x53x26mm, 140g | 96x46x26mm, 130g | 102x51x26mm, 144g |
 
 # Checking FW version
 1. Turn on the phone without a SIM card.
