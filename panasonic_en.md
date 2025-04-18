@@ -1,3 +1,10 @@
+---
+title: Panasonic SGOLD
+parent: Reverse Engineering
+layout: default
+nav_order: 2
+---
+
 # Variants
 Some Panasonic phones use hardware from Infineon.
 Models marked with a check (✓) have internal photos available. The rest are filled in either based on FCCID or intuition.
