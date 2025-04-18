@@ -46,14 +46,14 @@ These phones use an [ARIB C](https://www.arib.or.jp/english/html/overview/doc/ST
 ![image](https://github.com/user-attachments/assets/23028c6c-59e3-4a88-bace-2b53dcbf5321)
 
 ## UART pinout
-Gnd | Rx | Tx 
---|--|--
-1 | 7 | 9
+| Gnd | Rx | Tx |
+|:--|:--|:--|
+| 1 | 7 | 9 |
 
 ## USB pinout
-Gnd | D+ (USB_DP) | D- (USB_DN) | +5V (usb_vbus+ext_per) 
--- | -- | -- | -- 
-1 | 2 | 3 | 4+5
+| Gnd | D+ (USB_DP) | D- (USB_DN) | +5V (usb_vbus+ext_per) |
+|:--|:--|:--|:--| 
+| 1 | 2 | 3 | 4+5 |
 
 ## Installing drivers
 The drivers from the manufacturer's disc work fine. Download here: [VS7SA7_Handset_Manager_USB.zip](https://fw.fasoley.net/?file=panasonic/VS7SA7_Handset_Manager_USB.zip)
