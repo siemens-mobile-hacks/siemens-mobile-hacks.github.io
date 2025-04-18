@@ -46,11 +46,13 @@ These phones use an [ARIB C](https://www.arib.or.jp/english/html/overview/doc/ST
 ![image](https://github.com/user-attachments/assets/23028c6c-59e3-4a88-bace-2b53dcbf5321)
 
 ## UART pinout
+
 | Gnd | Rx | Tx |
 |:--|:--|:--|
 | 1 | 7 | 9 |
 
 ## USB pinout
+
 | Gnd | D+ (USB_DP) | D- (USB_DN) | +5V (usb_vbus+ext_per) |
 |:--|:--|:--|:--| 
 | 1 | 2 | 3 | 4+5 |
