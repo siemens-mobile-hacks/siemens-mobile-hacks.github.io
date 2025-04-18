@@ -1,8 +1,7 @@
 ---
 title: Panasonic SGOLD
-parent: Reverse Engineering
 layout: default
-nav_order: 2
+nav_order: 1
 ---
 
 # Variants
