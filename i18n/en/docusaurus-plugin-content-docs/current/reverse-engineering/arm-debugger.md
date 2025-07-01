@@ -7,14 +7,14 @@ sidebar_position: 2
 **ArmDebugger** — a powerful debugger for Siemens phones by Chaos.
 
 * [ArmDebugger 0.7.9 M2.rar](https://web.archive.org/web/20160806055159/http://forum.allsiemens.com/files/armd-0.7.9m2_296.rar) — the latest version by Dimadze with ELKA/NSG fixes.
-* [Forum thread at forum.allsiemens.com](https://web.archive.org/web/20160806060433/http://forum.allsiemens.com/viewtopic.php?t=20735)
+* [Thread on forum.allsiemens.com](https://web.archive.org/web/20160806060433/http://forum.allsiemens.com/viewtopic.php?t=20735)
 
-For additional information, read `README.txt` in the archive or the discussion on the forum.
+For more information, read the `README.txt` in the archive or the discussion on the forum.
 
 # CGSN Patch
 
-To use the debugger, a special patch named **CGSN Patch** must be installed. 
-This patch implements a special protocol for debugger operation via the serial port.
+To use the debugger, you need to install a special patch called the **CGSN Patch**. 
+This patch implements a special protocol for the debugger to work via the serial port.
 The patch can be automatically generated using ArmDebugger.
 
 Follow these steps:
@@ -26,9 +26,9 @@ Follow these steps:
 
 # Configuration Examples
 
-If your phone is not yet identified in `devices.ini`, you need to create your own config section.
+If your phone is not yet defined in `devices.ini`, you need to create your own config section.
 
-Usually, this is done by copying the section for a similar model and replacing **MallocAddress** with the correct address of the `malloc()` function.
+This is usually done by copying the section for a similar model and replacing **MallocAddress** with the correct address of the `malloc()` function.
 
 ### Example for NSG/ELKA
 

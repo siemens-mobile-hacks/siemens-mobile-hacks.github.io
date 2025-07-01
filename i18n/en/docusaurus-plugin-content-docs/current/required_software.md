@@ -6,7 +6,7 @@ layout: default
 
 TODO: Add links to at least two mirrors for downloading each binary
 
-## PC Applications
+## PC Programs
 
 * V_Klay
 * PapuaUtils
@@ -22,6 +22,6 @@ TODO: Add links to at least two mirrors for downloading each binary
 
 ## OS Images for Virtual Machines
 
-Useful if the host system is Mac OS X or a very new version of Windows. Not compatible with Apple Silicon processors.
+Useful if the host system is Mac OS X or a very new Windows. Not compatible with Apple Silicon processors.
 
 * Windows XP SP3 Eng with pre-installed software

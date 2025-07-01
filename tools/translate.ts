@@ -6,6 +6,8 @@ import crypto from "node:crypto";
 import { packageDirectorySync } from "package-directory";
 import YAML from "yaml";
 
+const VERSION = 1;
+
 const originalPath = `${packageDirectorySync()}/docs/`;
 const translatedPath = `${packageDirectorySync()}/i18n/en/docusaurus-plugin-content-docs/current/`;
 const cacheIndexFile = `${packageDirectorySync()}/i18n/index.yaml`;
@@ -45,7 +47,7 @@ type CacheIndex = {
     const model = "gpt-4o";
     const baseName = path.relative(originalPath, file);
     const markdownInput = fs.readFileSync(`${originalPath}/${baseName}`, 'utf8');
-    const markdownHash = crypto.createHash('md5').update(markdownInput).digest('hex');
+    const markdownHash = crypto.createHash('md5').update([VERSION, markdownInput].join(":")).digest('hex');
 
     if (cacheIndex.state[baseName] === markdownHash)
       continue;
@@ -60,6 +62,7 @@ type CacheIndex = {
       Make sure that the translated content is preserve the original formatting and technical terms.
     `,
       input: markdownInput,
+      temperature: 0,
       text: {
         format: {
           type: "json_schema",
