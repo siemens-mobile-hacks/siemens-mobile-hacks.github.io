@@ -1,47 +1,35 @@
 ---
-title: Memory dump tools
-parent: Reverse Engineering
-layout: default
-nav_order: 1
+sidebar_position: 1
 ---
 
-## Memory dump tools
+# Dumping Phone RAM
 
-1. <details>
-        <summary>ArmDebugger.exe (slow)</summary>
+### Tools for RAM Dump
 
-
-      ### This can be done using [ArmDebugger.exe](./arm-debugger.md).
-
-      - Open context menu on hex view window
-      - File -> Save to file  
-
-        <img src="img/memory-dump.png" alt="" />
-    </details>
-
+1. [Web memory dumper](https://siemens-mobile-hacks.github.io/web-tools/dumper) (Google Chrome) **← best choice!**
 2. [CLI memory dumper](https://github.com/siemens-mobile-hacks/siemens-memory-dumper) (Linux, OSX, Windows)
-3. [Web memory dumper](https://siemens-mobile-hacks.github.io/web-tools/dumper) (Google Chrome)
+3. [ArmDebugger.exe](./arm-debugger.md) (Windows)
 
-## What memory should be dumped?
+### Which Memory to Dump?
 
-### For all phones
-This memory regions available on all mobile phones.
+#### For All Phone Models
+These RAM regions are present on all phones.
 
-| Name | Address  | Size     |      | Attributes         | Description                                              |
-|------|----------|----------|------|--------------------|----------------------------------------------------------|
-| BROM | 00400000 | 00008000 | 32k  | Read+Execute       | Built-in 1st stage bootloader firmware. |
-| TCM  | 00000000 | 00004000 | 16k  | Write+Read+Execute | Built-in memory in the CPU, used for IRQ handlers.       |
-| SRAM | 00080000 | 00018000 | 96k  | Write+Read+Execute | Built-in memory in the CPU.                              |
+| Name | Address  | Size     |      | Attributes         | Description                                        |
+|------|----------|----------|------|--------------------|----------------------------------------------------|
+| BROM | 00400000 | 00008000 | 32k  | Read+Execute       | Built-in 1st stage bootloader firmware.            |
+| TCM  | 00000000 | 00004000 | 16k  | Write+Read+Execute | Built-in memory in the CPU, used for IRQ handlers. |
+| SRAM | 00080000 | 00018000 | 96k  | Write+Read+Execute | Built-in memory in the CPU.                        |
 
-### ELKA
-EL71, E71, M72 (proto), CL61 (proto)
+#### ELKA
+EL71, E71, M72 (proto), CL61 (proto), C0F1 (proto)
 
 | Name     | Address  | Size     |      | Attributes         | Description                  |
 |----------|----------|----------|------|--------------------|------------------------------|
 | RAM      | A8000000 | 01000000 | 16M  | Write+Read+Execute | External RAM.                |
 | VMALLOC  | AC000000 | 01800000 | 24M  | Write+Read         | Virtual memory for malloc(). |
 
-### New NSG
+#### New NSG
 C81, M81, S68
 
 | Name     | Address  | Size     |     | Attributes         | Description                  |
@@ -49,14 +37,14 @@ C81, M81, S68
 | RAM      | A8000000 | 01000000 | 16M | Write+Read+Execute | External RAM.                |
 | VMALLOC  | AC000000 | 00E00000 | 14M | Write+Read         | Virtual memory for malloc(). |
 
-### Old NSG + SG (16M)
+#### Old NSG + SG (16M)
 S75, SL75, CX75, M75, SK65
 
 | Name | Address  | Size     |     | Attributes         | Description   |
 |------|----------|----------|-----|--------------------|---------------|
 | RAM  | A8000000 | 01000000 | 16M | Write+Read+Execute | External RAM. |
 
-### SG (8M)
+#### SG (8M)
 CX70, C65, CX65, M65, S65, SL65, ME75, CF75, C75, C72
 
 | Name | Address  | Size     |    | Attributes         | Description   |

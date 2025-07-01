@@ -1,27 +1,33 @@
 ---
-title: Fixing Ghidra SRE
-parent: Reverse Engineering
-layout: default
-nav_order: 3
+sidebar_position: 3
 ---
 
-# Fixing the latest versions of Ghidra SRE
+# Исправление Ghidra SRE
 
-Since about 2019 there has been a bug in Ghidra SRE where `FF FF` is treated as an `BL 0xFFE` instruction in v5t architecture. This causes an infinity loop in auto-analysis.
+:::info
+Примерно с 2019 года в Ghidra SRE существует баг, из-за которого `FF FF` интерпретируется как инструкция `BL 0xFFE` в архитектуре v5t. Это вызывает бесконечный цикл при автоанализе.
 
-You **should** apply patch `ARMTHUMBinstructions.sinc` if you want to work with Siemens firmwares.
+Вы **обязаны** применить патч `ARMTHUMBinstructions.sinc`, если хотите работать с прошивками Siemens.
+:::
 
-# Patching
+# Применение патча
 
-Just download right file and replace `Ghidra/Processors/ARM/data/languages/ARMTHUMBinstructions.sinc` in your Ghidra SRE installation.
+Просто скачайте нужный файл и замените `Ghidra/Processors/ARM/data/languages/ARMTHUMBinstructions.sinc` в установленной Ghidra SRE.
 
-Download patched [ARMTHUMBinstructions.sinc](fixes/11.0.2+/ARMTHUMBinstructions.sinc) for versions:
+Скачать пропатченный [ARMTHUMBinstructions.sinc](fixes/11.0.2+/ARMTHUMBinstructions.sinc) для версий:
+- 11.4
+- 11.3.2
+- 11.3.1
+- 11.3
+- 11.2.1
+- 11.2
+- 11.1.2
 - 11.1.1
 - 11.1
 - 11.0.3
 - 11.0.2
 
-Download patched [ARMTHUMBinstructions.sinc](fixes/10.3+/ARMTHUMBinstructions.sinc) for versions:
+Скачать пропатченный [ARMTHUMBinstructions.sinc](fixes/10.3+/ARMTHUMBinstructions.sinc) для версий:
 - 11.0.1
 - 11.0
 - 10.4
@@ -30,8 +36,9 @@ Download patched [ARMTHUMBinstructions.sinc](fixes/10.3+/ARMTHUMBinstructions.si
 - 10.3.1
 - 10.3
 
-# How to port this fix to future versions
-You need to do something like that:
+# Как портировать это исправление на будущие версии
+
+Нужно сделать примерно следующее:
 ```diff
 --- ARMTHUMBinstructions.sinc
 +++ ARMTHUMBinstructions.sinc
