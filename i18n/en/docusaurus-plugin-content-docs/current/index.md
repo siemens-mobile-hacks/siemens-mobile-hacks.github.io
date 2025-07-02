@@ -25,7 +25,7 @@ We have compiled a selection [here](required_software.md).
 
 ## Firmware and Software Archives
 * [Firmware Archive](https://disk.yandex.ru/d/NHwLJphOEdoeA/flash/FW) by _Danila_Master_
-* [Danila_Master's Firmware Mirror](https://stuff.pentium02.org/Siemens/) by Pentium02
+* [Danila_Master Firmware Mirror](https://stuff.pentium02.org/Siemens/) by Pentium02
 * [Firmware, Software, Schematics, Manuals, and Solutions Torrent](https://rutracker.org/forum/viewtopic.php?t=2273781)
 * [Mirror of the Previous Item from rutracker.org](https://stuff.pentium02.org/Siemens_rutracker.tar.gz)
 

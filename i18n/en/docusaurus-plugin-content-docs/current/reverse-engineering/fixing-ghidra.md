@@ -5,7 +5,7 @@ sidebar_position: 3
 # Fixing Ghidra SRE
 
 :::info
-Since around 2019, there has been a bug in Ghidra SRE where `FF FF` is interpreted as the `BL 0xFFE` instruction in the v5t architecture. This causes an infinite loop during auto-analysis.
+Since around 2019, there has been a bug in Ghidra SRE where `FF FF` in the v5t architecture is interpreted as the `BL 0xFFE` instruction. This causes an infinite loop during auto-analysis.
 
 You **must** apply the `ARMTHUMBinstructions.sinc` patch if you want to work with Siemens firmware.
 :::

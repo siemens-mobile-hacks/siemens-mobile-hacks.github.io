@@ -9,14 +9,14 @@ Ghidra SRE is used as the main reverse engineering platform. All instructions an
 This guide will help you dive into the world of reverse engineering in just a few steps.
 
 :::warning
-Since around 2019, there has been a bug in Ghidra SRE: `FF FF` is recognized as the `BL 0xFFE` instruction in the v5t architecture. This causes an infinite loop in auto-analysis.
+Since around 2019, there has been a bug in Ghidra SRE: `FF FF` in the v5t architecture is recognized as the `BL 0xFFE` instruction. This causes an infinite loop in auto-analysis.
 
-You **must** apply the [ARMTHUMBinstructions.sinc patch](./fixing-ARMTHUMBinstructions.sinc.md) if you plan to work with Siemens firmware.
+You **must** apply the [ARMTHUMBinstructions.sinc patch](./fixing-ghidra) if you plan to work with Siemens firmware.
 :::
 
 ### What to Do Before Starting
 
-1. Install the latest version of **Ghidra SRE** and apply the [ARMTHUMBinstructions.sinc patch](./fixing-ARMTHUMBinstructions.sinc.md)
+1. Install the latest version of **Ghidra SRE** and apply the [ARMTHUMBinstructions.sinc patch](./fixing-ghidra)
 
 2. Obtain the fullflash from the phone and remove FFS and EEPROM from it.
 
@@ -64,13 +64,13 @@ It is very important to uncheck `W`, as this directly affects decompilation.
 
 1. Select `Analysis -> Auto Analyse`
 
-2. Change the analysis settings:
+2. Change analysis settings:
 
    Disable:
 
    * [ ] `Embedded media`
    * [ ] `Non-returning functions - discovered` (otherwise the disassembler may prematurely stop inside a function)
-   * [ ] `Create Address Tables` (better to run as one-shot after the main analysis)
+   * [ ] `Create Address Tables` (better to run as one-shot after main analysis)
    * [ ] `Demangler GNU`
 
    Enable:
@@ -87,7 +87,7 @@ It is very important to uncheck `W`, as this directly affects decompilation.
    <details> ![](img/io-memory-region.png) </details>
 
 1. Go to `Window -> Memory Map`
-2. Add a new region with the following parameters:
+2. Add a new region with parameters:
 
    * Block Name: `IO`
    * Start Addr: `0xF0000000`
@@ -109,7 +109,7 @@ Example with RAM:
    * Base Addr: `0xA8000000`
 
    Click "OK".
-4. Go to `Window -> Memory Map` and set the attributes for the "RAM" block:
+4. Go to `Window -> Memory Map` and set attributes for the "RAM" block:
 
    ```
     R   W   X    Volatile
@@ -162,7 +162,7 @@ When you see "Finished" in the script console — you can interrupt the analysis
 2. Ensure the settings match those specified in **Step 3**
 3. Click **ANALYSE**
 
-This will take 10-30 minutes. The process is lengthy — be patient.
+This will take 10-30 minutes. The process is long — be patient.
 
 **Run Only Once**
 
@@ -170,4 +170,4 @@ This will take 10-30 minutes. The process is lengthy — be patient.
 
 ### Congratulations, You Did It! ✨
 
-We await your patches in the patch database <a href="https://patches.kibab.com">patches.kibab.com</a> :)
+We look forward to your patches in the patch database <a href="https://patches.kibab.com">patches.kibab.com</a> :)

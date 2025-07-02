@@ -35,70 +35,83 @@ type CacheIndex = {
     };
 
   let totalCost = 0;
-  for (const file of fs.globSync(`${translatedPath}/**/*.md`)) {
-    const baseName = path.relative(originalPath, file);
+  for (const file of fs.globSync(`${translatedPath}/**/*`)) {
+    const baseName = path.relative(translatedPath, file);
+    if (fs.lstatSync(file).isDirectory())
+      continue;
+
     if (!fs.existsSync(`${originalPath}/${baseName}`)) {
       console.log("Remove unclaimed translation: ", baseName);
       fs.unlinkSync(file);
     }
   }
 
-  for (const file of fs.globSync(`${originalPath}/**/*.md`)) {
-    const model = "gpt-4o";
+  for (const file of fs.globSync(`${originalPath}/**/*`)) {
     const baseName = path.relative(originalPath, file);
-    const markdownInput = fs.readFileSync(`${originalPath}/${baseName}`, 'utf8');
-    const markdownHash = crypto.createHash('md5').update([VERSION, markdownInput].join(":")).digest('hex');
+    const outputFile = `${translatedPath}/${baseName}`;
 
-    if (cacheIndex.state[baseName] === markdownHash)
+    if (fs.lstatSync(file).isDirectory())
       continue;
 
-    console.log(baseName);
+    if (!fs.existsSync(path.dirname(outputFile)))
+      fs.mkdirSync(path.dirname(outputFile), {recursive: true});
 
-    const response = await client.responses.create({
-      model,
-      instructions: `
+    if (file.endsWith(".md")) {
+      const model = "gpt-4o";
+      const markdownInput = fs.readFileSync(`${originalPath}/${baseName}`, 'utf8');
+      const markdownHash = crypto.createHash('md5').update([VERSION, markdownInput].join(":")).digest('hex');
+
+      if (fs.existsSync(outputFile) && cacheIndex.state[baseName] === markdownHash)
+        continue;
+
+      console.log(baseName);
+
+      const response = await client.responses.create({
+        model,
+        instructions: `
       You a professional markdown translator.
       Please, translate following markdown content from Russian into technical English.
       Make sure that the translated content is preserve the original formatting and technical terms.
     `,
-      input: markdownInput,
-      temperature: 0,
-      text: {
-        format: {
-          type: "json_schema",
-          name: "TranslatedMarkdown",
-          schema: {
-            type: "object",
-            properties: {
-              translatedMarkdownSource: {
-                type: "string",
-                description: "Contains the translated markdown content."
-              }
-            },
-            required: ["translatedMarkdownSource"],
-            additionalProperties: false
+        input: markdownInput,
+        temperature: 0,
+        text: {
+          format: {
+            type: "json_schema",
+            name: "TranslatedMarkdown",
+            schema: {
+              type: "object",
+              properties: {
+                translatedMarkdownSource: {
+                  type: "string",
+                  description: "Contains the translated markdown content."
+                }
+              },
+              required: ["translatedMarkdownSource"],
+              additionalProperties: false
+            }
           }
         }
-      }
-    });
+      });
 
-    const cost = estimateOpenAICostUSD(model, response.usage.input_tokens, response.usage.output_tokens);
-    totalCost += cost;
-    console.log(response.usage);
-    console.log(`${+cost.toFixed(6)}$`);
+      const cost = estimateOpenAICostUSD(model, response.usage.input_tokens, response.usage.output_tokens);
+      totalCost += cost;
+      console.log(response.usage);
+      console.log(`${+cost.toFixed(6)}$`);
 
-    const outputFile = `${translatedPath}/${baseName}`;
-    if (!fs.existsSync(path.dirname(outputFile)))
-      fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+      const modelResponse = JSON.parse(response.output_text) as TranslatedMarkdown;
+      fs.writeFileSync(`${translatedPath}/${baseName}`, modelResponse.translatedMarkdownSource);
 
-    const modelResponse = JSON.parse(response.output_text) as TranslatedMarkdown;
-    fs.writeFileSync(`${translatedPath}/${baseName}`, modelResponse.translatedMarkdownSource);
-
-    cacheIndex.state[baseName] = markdownHash;
-    cacheIndex.inputTokens += response.usage.input_tokens;
-    cacheIndex.outputTokens += response.usage.output_tokens;
-    cacheIndex.money += cost;
-    fs.writeFileSync(cacheIndexFile, YAML.stringify(cacheIndex));
+      cacheIndex.state[baseName] = markdownHash;
+      cacheIndex.inputTokens += response.usage.input_tokens;
+      cacheIndex.outputTokens += response.usage.output_tokens;
+      cacheIndex.money += cost;
+      fs.writeFileSync(cacheIndexFile, YAML.stringify(cacheIndex));
+    } else {
+      if (fs.existsSync(outputFile))
+        fs.unlinkSync(outputFile);
+      fs.symlinkSync(path.relative(path.dirname(outputFile), file), outputFile);
+    }
   }
 
   console.log(`Total cost: ${+totalCost.toFixed(6)}$`);

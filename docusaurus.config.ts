@@ -33,7 +33,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'ru',
-    locales: ['ru'],
+    locales: ['ru', 'en'],
     localeConfigs: {
       ru: {
         label: 'Russian',
@@ -43,10 +43,6 @@ const config: Config = {
       },
     },
   },
-
-  plugins: [
-    'docusaurus-plugin-image-zoom',
-  ],
 
   presets: [
     [

@@ -4,7 +4,7 @@ layout: default
 ---
 # Software for Patching and Tweaking Phones
 
-TODO: Add links to at least two mirrors for downloading each binary
+TODO: Add links to at least two mirrors for downloading all binaries
 
 ## PC Programs
 
