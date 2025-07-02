@@ -1,5 +1,5 @@
 ---
-title: Panasonic SGOLD
+title: Panasonic SGOLD (OLD)
 layout: default
 nav_order: 1
 ---

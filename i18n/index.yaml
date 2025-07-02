@@ -1,6 +1,6 @@
 state:
   index.md: 8ad91bbdb006bf36d1cb631afbe5fa37
-  panasonic_en.md: 720f259e45fb2c3baada51694cddbfe1
+  panasonic_en.md: e956efa8ab261b9dd24513b3986bd6ee
   required_software.md: 1ef5c20d1ab17256a2cb0268f986b97d
   reverse-engineering/arm-debugger.md: 343623c33c691b90bb8db703e409e6b3
   reverse-engineering/fixing-ARMTHUMBinstructions.sinc.md: a0c6d27b6e20d758786f8cfba43cbd42
@@ -8,6 +8,7 @@ state:
   reverse-engineering/index.md: 4eb89fae852f952c41e6942c60aad4a0
   reverse-engineering/memory-dump.md: f7a5ae70419d3eb921e3072a3dd39921
   reverse-engineering/fixing-ghidra.md: a0c6d27b6e20d758786f8cfba43cbd42
-money: 0.7676350000000001
-inputTokens: 32091
-outputTokens: 30359
+  panasonic/index.md: 6f2145dca0300b04e4b7d015d24afe21
+money: 0.903845
+inputTokens: 37637
+outputTokens: 35783

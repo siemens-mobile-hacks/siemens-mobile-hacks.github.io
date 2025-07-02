@@ -1,11 +1,12 @@
 ---
-title: Panasonic SGOLD
+title: Panasonic SGOLD (OLD)
 layout: default
 nav_order: 1
 ---
 
 # Variants
-Some Panasonic phones use hardware from Infineon. Models marked with a check (✓) have internal photos available. The rest are filled in either based on FCCID or intuition.
+Some Panasonic phones use hardware from Infineon.
+Models marked with a check (✓) have internal photos available. The rest are filled in either based on FCCID or intuition.
 
 | Model | VS2 | VS3 | VS6 | VS7 ☑ | SA6 | SA7 ☑ | MX6 | MX7 |
 |:--|:-- |:--|:--|:--|:--|:--|:--|:--|
