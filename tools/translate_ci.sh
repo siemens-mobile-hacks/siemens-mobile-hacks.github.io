@@ -2,7 +2,7 @@
 set -e
 set -x
 
-cd "$(dirname "$0")"
+cd "$(dirname "$0")/../"
 
 git config --local core.hooksPath /notexistent
 git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
