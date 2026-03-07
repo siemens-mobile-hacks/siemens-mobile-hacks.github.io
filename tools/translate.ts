@@ -25,7 +25,7 @@ type CacheIndex = {
 };
 
 (async function () {
-  const client = new OpenAI({ apiKey: process.env['OPENAI_KEY'] });
+  const client = new OpenAI({ apiKey: process.env['OPENAI_API_KEY'] });
   const cacheIndex: CacheIndex = fs.existsSync(cacheIndexFile) ?
     YAML.parse(fs.readFileSync(cacheIndexFile).toString()) :
     {

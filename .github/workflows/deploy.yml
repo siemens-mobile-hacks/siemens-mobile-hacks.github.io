@@ -28,6 +28,8 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Translation
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: tools/translate_ci.sh
 
       - name: Build website
