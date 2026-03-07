@@ -32,7 +32,7 @@ nav_order: 0
 # Разработка и исследование ПО 😈
 * [ELF SDK](https://github.com/siemens-mobile-hacks/sdk)
 * [Reverse Engineering](./reverse-engineering/)
-* [Panasonic SGOLD](panasonic_en.md)
+* [Panasonic SGOLD](./panasonic/)
 
 # Контент
 
