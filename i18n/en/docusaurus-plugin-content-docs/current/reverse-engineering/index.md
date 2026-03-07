@@ -4,10 +4,10 @@ Welcome to the section dedicated to reverse engineering Siemens phones. Here you
 
 ## Contents
 
-- [How to Start Reverse Engineering Siemens Phones?](how-start.md)
-- [ArmDebugger — A Powerful Debugger for Siemens Phones](arm-debugger.md)
-- [How to Dump RAM from a Phone?](memory-dump.md)
+- [How to get started with reverse engineering Siemens phones?](how-start.md)
+- [ArmDebugger — a powerful debugger for Siemens phones](arm-debugger.md)
+- [How to create a RAM dump from a phone?](memory-dump.md)
 
-## Useful Links
+## Useful links
 
 - [Web Dev Tools](https://siemens-mobile-hacks.github.io/web-dev-tools/swilib) — useful tools for developers.

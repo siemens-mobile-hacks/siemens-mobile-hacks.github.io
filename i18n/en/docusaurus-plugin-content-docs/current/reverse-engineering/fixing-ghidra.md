@@ -5,12 +5,13 @@ sidebar_position: 3
 # Fixing Ghidra SRE
 
 :::info
-Since around 2019, there has been a bug in Ghidra SRE where `FF FF` in the v5t architecture is interpreted as the `BL 0xFFE` instruction. This causes an infinite loop during auto-analysis.
+Since around 2019, Ghidra SRE has had a bug that causes `FF FF` in the v5t architecture to be interpreted as the `BL 0xFFE` instruction. 
+This causes an infinite loop during auto-analysis.
 
 You **must** apply the `ARMTHUMBinstructions.sinc` patch if you want to work with Siemens firmware.
 :::
 
-# Applying the Patch
+# Applying the patch
 
 Simply download the required file and replace `Ghidra/Processors/ARM/data/languages/ARMTHUMBinstructions.sinc` in your installed Ghidra SRE.
 
@@ -36,9 +37,9 @@ Download the patched [ARMTHUMBinstructions.sinc](fixes/10.3+/ARMTHUMBinstruction
 - 10.3.1
 - 10.3
 
-# How to Port This Fix to Future Versions
+# How to port this fix to future versions
 
-You need to do something like the following:
+You need to do approximately the following:
 ```diff
 --- ARMTHUMBinstructions.sinc
 +++ ARMTHUMBinstructions.sinc

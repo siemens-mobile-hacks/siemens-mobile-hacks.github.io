@@ -2,31 +2,31 @@
 sidebar_position: 0
 ---
 
-# Reverse Engineering with Ghidra SRE
+# Reversing in Ghidra SRE
 
-Ghidra SRE is used as the main reverse engineering platform. All instructions and tools presented on the site are designed to work with Ghidra.
+Ghidra SRE is used as the primary reverse engineering platform. All instructions and tools presented on the site are designed to work with Ghidra.
 
 This guide will help you dive into the world of reverse engineering in just a few steps.
 
 :::warning
-Since around 2019, there has been a bug in Ghidra SRE: `FF FF` in the v5t architecture is recognized as the `BL 0xFFE` instruction. This causes an infinite loop in auto-analysis.
+Since around 2019, Ghidra SRE has had a bug: `FF FF` in the v5t architecture is recognized as the instruction `BL 0xFFE`. This causes an infinite loop during auto-analysis.
 
 You **must** apply the [ARMTHUMBinstructions.sinc patch](./fixing-ghidra) if you plan to work with Siemens firmware.
 :::
 
-### What to Do Before Starting
+### What to do before you start
 
 1. Install the latest version of **Ghidra SRE** and apply the [ARMTHUMBinstructions.sinc patch](./fixing-ghidra)
 
-2. Obtain the fullflash from the phone and remove FFS and EEPROM from it.
+2. Obtain a fullflash from the phone and remove FFS and EEPROM from it.
 
-   This is important for auto-analysis, as FFS and EEPROM contain ambiguous data that can be interpreted as instructions.
+   This is important for auto-analysis, because FFS and EEPROM contain ambiguous data that can be interpreted as instructions.
 
    You can download a collection of firmware with FFS and EEPROM already removed: [fullflashes.zip](https://github.com/siemens-mobile-hacks/elfloader3/releases/download/v0/fullflashes.zip)
 
 3. [Dump RAM and SRAM from your phone](./memory-dump.md).
 
-### Step 1: Load Your fullflash.bin into Ghidra
+### Step 1: Load your fullflash.bin into Ghidra
 
    <details>
       ![](img/open-options.png)
@@ -38,18 +38,18 @@ You **must** apply the [ARMTHUMBinstructions.sinc patch](./fixing-ghidra) if you
 
 2. Select the `fullflash.bin` file
 
-3. Configure import settings:
+3. Configure the import parameters:
 
    * Format: `Raw Binary`
    * Language: `ARM v5t 32 little`
    * Options → Block Name: `FULLFLASH`
    * Options → Base Address: `A0000000`
 
-4. Click on `fullflash.bin` in the project list.
+4. Click `fullflash.bin` in the project list.
 
-5. Ghidra will offer automatic analysis, you need to decline (**click No**).
+5. Ghidra will offer automatic analysis; you need to decline (**click No**).
 
-### Step 2: Edit FULLFLASH Region Attributes
+### Step 2: Adjust the FULLFLASH region attributes
 
 Go to `Window -> Memory Map` and set the attributes for the "FULLFLASH" block:
 
@@ -58,36 +58,36 @@ Go to `Window -> Memory Map` and set the attributes for the "FULLFLASH" block:
 [x] [ ] [x]     [ ]
 ```
 
-It is very important to uncheck `W`, as this directly affects decompilation.
+It is very important to clear the `W` checkbox, as this directly affects decompilation.
 
-### Step 3: Configure Auto-Analysis Settings
+### Step 3: Configure auto-analysis parameters
 
 1. Select `Analysis -> Auto Analyse`
 
-2. Change analysis settings:
+2. Change the analysis parameters:
 
    Disable:
 
    * [ ] `Embedded media`
-   * [ ] `Non-returning functions - discovered` (otherwise the disassembler may prematurely stop inside a function)
-   * [ ] `Create Address Tables` (better to run as one-shot after main analysis)
+   * [ ] `Non-returning functions - discovered` (otherwise the disassembler may stop prematurely inside a function)
+   * [ ] `Create Address Tables` (it is better to run this as a one-shot after the main analysis)
    * [ ] `Demangler GNU`
 
    Enable:
 
    * [x] `Scalar operand references`
-   * [x] `Shared return calls` with option `[x] Allow conditional jumps`
+   * [x] `Shared return calls` with the option `[x] Allow conditional jumps`
 
-3. Click **"APPLY"** but **DO NOT CLICK "ANALYZE"!!!**
+3. Click **"APPLY"**, but **DO NOT CLICK "ANALYZE"!!!**
 
 4. Close the analysis window.
 
-### Step 4: Memory Region for IO Registers
+### Step 4: Memory region for IO registers
 
    <details> ![](img/io-memory-region.png) </details>
 
 1. Go to `Window -> Memory Map`
-2. Add a new region with parameters:
+2. Add a new region with the following parameters:
 
    * Block Name: `IO`
    * Start Addr: `0xF0000000`
@@ -95,21 +95,21 @@ It is very important to uncheck `W`, as this directly affects decompilation.
    * Attributes: `[x] Read   [x] Write   [ ] Execute   [x] Volatile   [ ] Overlay`
    * Uninitialized
 
-### Step 5: Import RAM Dump from the Phone
+### Step 5: Import the RAM dump from the phone
 
 Import all previously obtained [memory dumps](./memory-dump.md).
 
 Example with RAM:
 
 1. `File -> Add to Program`
-2. Select a file, for example: `C81v51_RAM_A8000000_00800000.bin`
-3. Specify parameters:
+2. Select the file, for example: `C81v51_RAM_A8000000_00800000.bin`
+3. Specify the parameters:
 
    * Block Name: `RAM`
    * Base Addr: `0xA8000000`
 
    Click "OK".
-4. Go to `Window -> Memory Map` and set attributes for the "RAM" block:
+4. Go to `Window -> Memory Map` and set the attributes for the "RAM" block:
 
    ```
     R   W   X    Volatile
@@ -122,27 +122,27 @@ Example with RAM:
 
 1. Download: [ghidra\_scripts.zip](https://github.com/siemens-mobile-hacks/ghidra_scripts/archive/refs/heads/main.zip) or clone the [repository](https://github.com/siemens-mobile-hacks/ghidra_scripts)
 2. Open `Window -> Script Manager`
-3. Click on "Manage Script Directories"
-4. Add the path to the unpacked `ghidra_scripts` folder.
+3. Click "Manage Script Directories"
+4. Add the path to the extracted `ghidra_scripts` folder.
 
-### Step 7: Import C-Types from swilib
+### Step 7: Import C types from swilib
 
 <details> ![](img/parse-c-source.png) </details>
 
 1. Download the appropriate `swilib-types-PLATFORM.h` from [Swilib data types for disassembler](https://siemens-mobile-hacks.github.io/web-dev-tools/re#swilib-types)
 2. Select `File -> Parse C Source...`
-3. Click `Clear profile` (eraser icon)
+3. Click `Clear profile` (the eraser icon)
 4. Add `swilib-types-PLATFORM.h` to `Source files to parse`
 5. Set `Program architecture`: `ARM v5t 32 little`
 6. Click `Parse to Program -> Continue -> Don't use Open Archives -> OK`
 
-### Step 9: Import CPU IO Register List
+### Step 9: Import the CPU IO register list
 
-1. Download the corresponding `cpu-PHONE.txt` or `cpu-pmb887x.txt` from [CPU IO registers](https://siemens-mobile-hacks.github.io/web-dev-tools/re#cpu-registers)
+1. Download the appropriate `cpu-PHONE.txt` or `cpu-pmb887x.txt` from [CPU IO registers](https://siemens-mobile-hacks.github.io/web-dev-tools/re#cpu-registers)
 2. Open `Window -> Script Manager -> ImportSymbolsWithDataType.java -> Run Script`
 3. Select `cpu-PHONE.txt` or `cpu-pmb887x.txt`
 
-### Step 10: Import swilib Symbols
+### Step 10: Import swilib symbols
 
 <details> ![](img/finished.png) </details>
 
@@ -150,24 +150,24 @@ Example with RAM:
 2. Open `Window -> Script Manager -> ImportSymbolsWithDataType.java -> Run Script`
 3. Select `symbols-PHONE.txt`
 
-This will take some time as auto-analysis will start.
+This will take some time, because auto-analysis will start.
 
-When you see "Finished" in the script console — you can interrupt the analysis and proceed further.
+When you see "Finished" in the script console, you can stop the analysis and continue.
 
-### Step 11: Firmware Auto-Analysis
+### Step 11: Auto-analysis of the firmware
 
-**Full Analysis**
+**Full analysis**
 
 1. Open `Analysis -> Auto Analyse 'fullflash.bin'`
-2. Ensure the settings match those specified in **Step 3**
+2. Make sure the parameters match those specified in **Step 3**
 3. Click **ANALYSE**
 
-This will take 10-30 minutes. The process is long — be patient.
+This will take 10-30 minutes. The process is long, so be patient.
 
-**Run Only Once**
+**Run only once**
 
 1. Select `Analysis -> One-shot -> Create Address Tables`
 
-### Congratulations, You Did It! ✨
+### Congratulations, you did it! ✨
 
-We look forward to your patches in the patch database <a href="https://patches.kibab.com">patches.kibab.com</a> :)
+We are waiting for your patches in the patch database at <a href="https://patches.kibab.com">patches.kibab.com</a> :)

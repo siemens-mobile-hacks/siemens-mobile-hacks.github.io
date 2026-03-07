@@ -2,11 +2,11 @@
 title: Software
 layout: default
 ---
-# Software for Patching and Tweaking Phones
+# Software for patching and tinkering with phones
 
-TODO: Add links to at least two mirrors for downloading all binaries
+TODO: add links for all binaries to at least two mirrors where they can be downloaded
 
-## PC Programs
+## Programs for PC
 
 * V_Klay
 * PapuaUtils
@@ -14,14 +14,14 @@ TODO: Add links to at least two mirrors for downloading all binaries
 * SiMoCo
 * WinSWUP
 
-## Midlets for Key Selection
+## Midlets for key brute-forcing
 
 * px65v4
 * px75v1
 * ESC
 
-## OS Images for Virtual Machines
+## OS images for virtual machines
 
-Useful if the host system is Mac OS X or a very new Windows. Not compatible with Apple Silicon processors.
+Useful if the host system is Mac OS X or simply a very new version of Windows. They do not work on Apple Silicon processors.
 
-* Windows XP SP3 Eng with pre-installed software
+* Windows XP SP3 Eng with preinstalled software

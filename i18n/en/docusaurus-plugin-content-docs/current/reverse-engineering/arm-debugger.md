@@ -6,23 +6,25 @@ sidebar_position: 2
 
 **ArmDebugger** is a powerful debugger for Siemens phones by Chaos.
 
-* [ArmDebugger 0.7.9 M2.rar](https://web.archive.org/web/20160806055159/http://forum.allsiemens.com/files/armd-0.7.9m2_296.rar) — the latest version by Dimadze with ELKA/NSG fixes.
-* [Thread on forum.allsiemens.com](https://web.archive.org/web/20160806060433/http://forum.allsiemens.com/viewtopic.php?t=20735)
+* [ArmDebugger 0.7.9 M2.rar](https://web.archive.org/web/20160806055159/http://forum.allsiemens.com/files/armd-0.7.9m2_296.rar) — the latest version from Dimadze with ELKA/NSG fixes.
+* [Topic on the forum forum.allsiemens.com](https://web.archive.org/web/20160806060433/http://forum.allsiemens.com/viewtopic.php?t=20735)
 
-For more information, read the `README.txt` in the archive or the discussion on the forum.
+For more information, read `README.txt` in the archive or the discussion on the forum.
 
 # CGSN Patch
 
-To use the debugger, you need to install a special patch called the **CGSN Patch**. This patch implements a special protocol for the debugger to work via the serial port. The patch can be automatically generated using ArmDebugger.
+To use the debugger, you need to install a special patch called **CGSN Patch**. 
+This patch implements a special protocol for the debugger to work through the serial port.
+The patch can be generated automatically using ArmDebugger.
 
 Follow these steps:
 
 1. Run `ArmDebugger.exe`
 2. Open `Tools -> Generate CGSN Patch`
 3. Select your `fullflash.bin`
-4. Apply the generated patch using **V-Klay**
+4. Apply the resulting patch using **V-Klay**
 
-# Configuration Examples
+# Configuration examples
 
 If your phone is not yet defined in `devices.ini`, you need to create your own config section.
 
@@ -87,7 +89,7 @@ You need to replace:
 * `SIEMENS:S75:52` — with your model and firmware version
 * `Siemens S75 fw52` — with your model and firmware version
 * `MallocAddress = 0xA0094B5C` — with the correct `malloc()` address
-* `FlashSize = 0x04000000` — with the required FLASH size (e.g., `0x6000000` for SL75)
+* `FlashSize = 0x04000000` — with the required FLASH size (for example, `0x6000000` for SL75)
 
 ```ini
 [SIEMENS:S75:52]
@@ -126,8 +128,8 @@ You need to replace:
 * `SIEMENS:C75:22` — with your model and firmware version
 * `Siemens C75 fw22` — with your model and firmware version
 * `MallocAddress = 0xA0203C24` — with the correct `malloc()` address
-* `FlashSize = 0x2000000` — with the required FLASH size (e.g., `0x4000000` for SK65)
-* `ExtRAMsize = 0x800000` — with the required RAM size (e.g., `0x1000000` for SK65 or CX75)
+* `FlashSize = 0x2000000` — with the required FLASH size (for example, `0x4000000` for SK65)
+* `ExtRAMsize = 0x800000` — with the required RAM size (for example, `0x1000000` for SK65 or CX75)
 
 ```ini
 [SIEMENS:C75:22] 

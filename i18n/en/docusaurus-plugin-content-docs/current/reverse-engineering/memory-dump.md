@@ -2,17 +2,17 @@
 sidebar_position: 1
 ---
 
-# Dumping Phone RAM
+# Dumping phone RAM
 
-### Tools for Dumping RAM
+### Tools for dumping RAM
 
 1. [Web memory dumper](https://siemens-mobile-hacks.github.io/web-tools/dumper) (Google Chrome) **← best choice!**
 2. [CLI memory dumper](https://github.com/siemens-mobile-hacks/siemens-memory-dumper) (Linux, OSX, Windows)
 3. [ArmDebugger.exe](./arm-debugger.md) (Windows)
 
-### Which Memory to Dump?
+### Which memory needs to be dumped?
 
-#### For All Phone Models
+#### For all phone models
 These RAM regions are present on all phones
 
 | Name | Address  | Size     |      | Attributes         | Description                                        |
