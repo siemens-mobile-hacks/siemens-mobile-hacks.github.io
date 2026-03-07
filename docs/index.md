@@ -14,6 +14,9 @@ nav_order: 0
 
  Этот сайт специализируется на телефонах R65 и X75!
 
+## Работа с телефоном из браузера
+* [Siemens Web Tools](https://siepatch.dev/web-tools) - скриншотер, дампер памяти и другие полезные инструменты
+
 ## Программы и мидлеты для работы с телефонами Siemens
 Собрали подборку [тут](required_software.md).
 
@@ -24,6 +27,7 @@ nav_order: 0
 * [Сайт по BenQ-Siemens E71](http://e71.ru) -- несмотря на название, очень много ценной информации по Siemens X75 в целом.
 
 ## Архивы прошивок и софта
+* [Наиболее полный архив прошивок](https://global-repair-management.com/dl/fw/)
 * [Архив прошивок](https://disk.yandex.ru/d/NHwLJphOEdoeA/flash/FW) от _Danila_Master_
 * [Зеркало прошивок _Danila_Master_](https://stuff.pentium02.org/Siemens/) от Pentium02
 * [Прошивки, софт, схемы, мануалы и солюшены торрент](https://rutracker.org/forum/viewtopic.php?t=2273781)
