@@ -15,17 +15,20 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '22.x'
+          node-version: '24.x'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Enable corepack
         run: corepack enable pnpm
 
       - name: Install fresh corepack
-        run: npm install --global corepack@latest
+        run: npm install --global corepack@latest tsx@latest
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Translation
+        run: tools/translate_ci.sh
 
       - name: Build website
         run: pnpm build
