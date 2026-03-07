@@ -14,8 +14,11 @@ It was 2023, and old Siemens phone websites were disappearing one by one. We dec
 
  This site focuses on R65 and X75 phones!
 
-## Programs and MIDlets for working with Siemens phones
-We collected a selection [here](required_software.md).
+## Working with the phone from the browser
+* [Siemens Web Tools](https://siepatch.dev/web-tools) - screenshot tool, memory dumper, and other useful tools
+
+## Programs and midlets for working with Siemens phones
+We have collected a selection [here](required_software.md).
 
 ## Links to Siemens sites that are still alive for now
 
@@ -24,6 +27,7 @@ We collected a selection [here](required_software.md).
 * [BenQ-Siemens E71 site](http://e71.ru) -- despite the name, it contains a lot of valuable information about Siemens X75 in general.
 
 ## Firmware and software archives
+* [Most complete firmware archive](https://global-repair-management.com/dl/fw/)
 * [Firmware archive](https://disk.yandex.ru/d/NHwLJphOEdoeA/flash/FW) by _Danila_Master_
 * [Mirror of _Danila_Master_ firmware](https://stuff.pentium02.org/Siemens/) by Pentium02
 * [Firmware, software, schematics, manuals, and solutions torrent](https://rutracker.org/forum/viewtopic.php?t=2273781)
@@ -36,4 +40,4 @@ We collected a selection [here](required_software.md).
 
 # Content
 
-* [Themes](https://github.com/siemens-mobile-hacks/UI-Themes/blob/main/README.md) for customizing the appearance of the Siemens phone interface.
+* [Themes](https://github.com/siemens-mobile-hacks/UI-Themes/blob/main/README.md) for customizing the appearance of Siemens phone interfaces.
