@@ -1,25 +1,27 @@
-# Website
+# Siemens Wiki
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Wiki про телефоны основанные на процессорах Infineon SGOLD/SGOLD2.
 
-## Installation
+Сайт построен с помощью движка документации [Docusaurus](https://docusaurus.io/).
 
+## Правила
+1. Статьи пишем строго на русском языке.
+2. Перевод на английский выполняется автоматически. Файлы внутри папки i18n генерируются автоматически. Не допускается ручное изменение файлов внутри этой папки.
+3. Все картинки должны быть в git. Не допускается оставлять ссылки на хостинги изображений — они рано или поздно протухнут. 
+4. Желательно присылать правки в виде pull request. Но так же допускается присылать правки в виде коммитов в ветку main (при невозможности запуска локального сервера).
+
+## Установка
 ```bash
 pnpm i
 ```
 
-## Local Development
-
+## Локальная разработка
 ```bash
 pnpm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Эта команда запускает локальный dev-сервер, чтобы можно было редактировать .md-файлы в реальном времени.
 
-## Build
+## Релиз
 
-```bash
-pnpm build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+После коммита в main результат автоматически публикуется на: https://siepatch.dev
