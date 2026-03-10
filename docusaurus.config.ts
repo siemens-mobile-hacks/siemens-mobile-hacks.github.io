@@ -74,6 +74,11 @@ const config: Config = {
         gtag: {
           trackingID: 'G-GQC2DLGHLV'
         },
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'always',
+          filename: 'sitemap.xml',
+        }
       } satisfies Preset.Options,
     ],
   ],
