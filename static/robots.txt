@@ -1,0 +1,3 @@
+User-agent: *
+Allow: *
+sitemap: https://siepatch.dev/sitemap.xml
