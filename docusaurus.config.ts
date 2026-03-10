@@ -73,6 +73,14 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
+    [
+      '@docusaurus/preset-classic',
+      {
+        googleTagManager: {
+          containerId: 'GTM-TJWQTQRB',
+        },
+      },
+    ],
   ],
 
   themeConfig: {
