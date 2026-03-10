@@ -71,8 +71,8 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.scss',
         },
-        googleTagManager: {
-          containerId: 'GTM-TJWQTQRB',
+        gtag: {
+          trackingID: 'G-NFP2NZ00W0'
         },
       } satisfies Preset.Options,
     ],
