@@ -71,15 +71,10 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.scss',
         },
-      } satisfies Preset.Options,
-    ],
-    [
-      '@docusaurus/preset-classic',
-      {
         googleTagManager: {
           containerId: 'GTM-TJWQTQRB',
         },
-      },
+      } satisfies Preset.Options,
     ],
   ],
 
