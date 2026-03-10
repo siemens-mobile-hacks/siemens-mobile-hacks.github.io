@@ -75,7 +75,7 @@ const config: Config = {
           trackingID: 'G-GQC2DLGHLV'
         },
         sitemap: {
-          lastmod: 'date',
+          lastmod: 'datetime',
           changefreq: 'always',
           filename: 'sitemap.xml',
         }
