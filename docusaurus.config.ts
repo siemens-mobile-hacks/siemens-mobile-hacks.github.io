@@ -72,7 +72,7 @@ const config: Config = {
           customCss: './src/css/custom.scss',
         },
         gtag: {
-          trackingID: 'G-NFP2NZ00W0'
+          trackingID: 'G-GQC2DLGHLV'
         },
       } satisfies Preset.Options,
     ],
