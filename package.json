@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "3.9.2",
+    "@docusaurus/plugin-client-redirects": "^3.9.2",
     "@docusaurus/plugin-google-gtag": "^3.9.2",
     "@docusaurus/plugin-google-tag-manager": "^3.9.2",
     "@docusaurus/plugin-sitemap": "^3.9.2",
@@ -25,12 +26,12 @@
     "dedent": "^1.7.2",
     "docusaurus-plugin-image-zoom": "^3.0.1",
     "dotenv": "^17.3.1",
-    "openai": "^6.27.0",
+    "openai": "^6.32.0",
     "package-directory": "^8.2.0",
     "prism-react-renderer": "^2.4.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "yaml": "^2.8.2"
+    "yaml": "^2.8.3"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.9.2",
@@ -54,5 +55,5 @@
   "engines": {
     "node": ">=18.0"
   },
-  "packageManager": "pnpm@10.12.4+sha512.5ea8b0deed94ed68691c9bad4c955492705c5eeb8a87ef86bc62c74a26b037b08ff9570f108b2e4dbd1dd1a9186fea925e527f141c648e85af45631074680184"
+  "packageManager": "pnpm@11.0.0-dev.1005+sha512.91f84a392eea348ea4852a182912d2520273a4336f933b78cc44bc931eb999923c097e9433a9b355adc1f725725ea99082fc9f032a559df832632e764c92c798"
 }
