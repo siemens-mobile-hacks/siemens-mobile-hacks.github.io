@@ -85,9 +85,10 @@ const config: Config = {
 
   plugins: [
     [
-      'client-redirects',
+      '@docusaurus/plugin-client-redirects',
       {
         createRedirects(existingPath: string) {
+          console.log(existingPath);
           if (existingPath.startsWith('/web-dev-tools/')) {
             const suffix = existingPath.slice('/web-dev-tools/'.length);
             return [`https://devtools.siepatch.dev/${suffix}`];
