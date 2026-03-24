@@ -6,7 +6,7 @@ sidebar_position: 0
 
 Ghidra SRE is used as the primary reverse engineering platform. All instructions and tools presented on the site are designed to work with Ghidra.
 
-This guide will help you dive into the world of reverse engineering in just a few steps.
+This guide will help you get into reverse engineering in just a few steps.
 
 :::warning
 Since around 2019, Ghidra SRE has had a bug: `FF FF` in the v5t architecture is recognized as the instruction `BL 0xFFE`. This causes an infinite loop during auto-analysis.
@@ -20,9 +20,9 @@ You **must** apply the [ARMTHUMBinstructions.sinc patch](./fixing-ghidra) if you
 
 2. Obtain a fullflash from the phone and remove FFS and EEPROM from it.
 
-   This is important for auto-analysis, because FFS and EEPROM contain ambiguous data that can be interpreted as instructions.
+   This is important for auto-analysis, because FFS and EEPROM contain ambiguous data that may be interpreted as instructions.
 
-   You can download a collection of firmware with FFS and EEPROM already removed: [fullflashes.zip](https://github.com/siemens-mobile-hacks/elfloader3/releases/download/v0/fullflashes.zip)
+   You can download a collection of firmware files with FFS and EEPROM already removed: [fullflashes.zip](https://github.com/siemens-mobile-hacks/elfloader3/releases/download/v0/fullflashes.zip)
 
 3. [Dump RAM and SRAM from your phone](./memory-dump.md).
 
@@ -38,7 +38,7 @@ You **must** apply the [ARMTHUMBinstructions.sinc patch](./fixing-ghidra) if you
 
 2. Select the `fullflash.bin` file
 
-3. Configure the import parameters:
+3. Configure the import options:
 
    * Format: `Raw Binary`
    * Language: `ARM v5t 32 little`
@@ -95,7 +95,7 @@ It is very important to clear the `W` checkbox, as this directly affects decompi
    * Attributes: `[x] Read   [x] Write   [ ] Execute   [x] Volatile   [ ] Overlay`
    * Uninitialized
 
-### Step 5: Import the RAM dump from the phone
+### Step 5: Import a RAM dump from the phone
 
 Import all previously obtained [memory dumps](./memory-dump.md).
 
@@ -129,7 +129,7 @@ Example with RAM:
 
 <details> ![](img/parse-c-source.png) </details>
 
-1. Download the appropriate `swilib-types-PLATFORM.h` from [Swilib data types for disassembler](https://siemens-mobile-hacks.github.io/web-dev-tools/re#swilib-types)
+1. Download the appropriate `swilib-types-PLATFORM.h` from [Swilib data types for disassembler](https://devtools.siepatch.dev/re#swilib-types)
 2. Select `File -> Parse C Source...`
 3. Click `Clear profile` (the eraser icon)
 4. Add `swilib-types-PLATFORM.h` to `Source files to parse`
@@ -138,7 +138,7 @@ Example with RAM:
 
 ### Step 9: Import the CPU IO register list
 
-1. Download the appropriate `cpu-PHONE.txt` or `cpu-pmb887x.txt` from [CPU IO registers](https://siemens-mobile-hacks.github.io/web-dev-tools/re#cpu-registers)
+1. Download the appropriate `cpu-PHONE.txt` or `cpu-pmb887x.txt` from [CPU IO registers](https://devtools.siepatch.dev/re#cpu-registers)
 2. Open `Window -> Script Manager -> ImportSymbolsWithDataType.java -> Run Script`
 3. Select `cpu-PHONE.txt` or `cpu-pmb887x.txt`
 
@@ -146,15 +146,15 @@ Example with RAM:
 
 <details> ![](img/finished.png) </details>
 
-1. Download the appropriate `symbols-PHONE.txt` from [Firmware symbols for disassembler](https://siemens-mobile-hacks.github.io/web-dev-tools/re#swilib-symbols)
+1. Download the appropriate `symbols-PHONE.txt` from [Firmware symbols for disassembler](https://devtools.siepatch.dev/re#swilib-symbols)
 2. Open `Window -> Script Manager -> ImportSymbolsWithDataType.java -> Run Script`
 3. Select `symbols-PHONE.txt`
 
 This will take some time, because auto-analysis will start.
 
-When you see "Finished" in the script console, you can stop the analysis and continue.
+When you see "Finished" in the script console, you can stop the analysis and move on.
 
-### Step 11: Auto-analysis of the firmware
+### Step 11: Firmware auto-analysis
 
 **Full analysis**
 
@@ -170,4 +170,4 @@ This will take 10-30 minutes. The process is long, so be patient.
 
 ### Congratulations, you did it! ✨
 
-We are waiting for your patches in the patch database at <a href="https://patches.kibab.com">patches.kibab.com</a> :)
+We look forward to your patches in the patch database at <a href="https://patches.kibab.com">patches.kibab.com</a> :)

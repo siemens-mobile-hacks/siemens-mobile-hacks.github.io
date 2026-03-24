@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# Dumping phone RAM
+# Dumping the phone RAM
 
 ### Tools for dumping RAM
 
-1. [Web memory dumper](https://siemens-mobile-hacks.github.io/web-tools/dumper) (Google Chrome) **← best choice!**
+1. [Web memory dumper](https://tools.siepatch.dev/dumper) (Google Chrome) **← best choice!**
 2. [CLI memory dumper](https://github.com/siemens-mobile-hacks/siemens-memory-dumper) (Linux, OSX, Windows)
 3. [ArmDebugger.exe](./arm-debugger.md) (Windows)
 
