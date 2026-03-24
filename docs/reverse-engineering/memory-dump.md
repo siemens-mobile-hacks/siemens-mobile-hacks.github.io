@@ -15,19 +15,11 @@ sidebar_position: 1
 #### Для всех моделей телефонов
 Эти регионы RAM есть на всех телефонах
 
-<<<<<<< Updated upstream:docs/reverse-engineering/memory-dump.md
-| Name | Address  | Size     |      | Attributes         | Description                                        |
-|------|----------|----------|------|--------------------|----------------------------------------------------|
-| BROM | 00400000 | 00008000 | 32k  | Read+Execute       | Built-in 1st stage bootloader firmware.            |
-| TCM  | 00000000 | 00004000 | 16k  | Write+Read+Execute | Built-in memory in the CPU, used for IRQ handlers. |
-| SRAM | 00080000 | 00018000 | 96k  | Write+Read+Execute | Built-in memory in the CPU.                        |
-=======
 | Name | Address  | Size     |     | Attributes         | Description                                        |
 | ---- | -------- | -------- | --- | ------------------ | -------------------------------------------------- |
 | BROM | 00400000 | 00008000 | 32k | Read+Execute       | Built-in 1st stage bootloader firmware.            |
 | TCM  | 00000000 | 00004000 | 16k | Write+Read+Execute | Built-in memory in the CPU, used for IRQ handlers. |
 | SRAM | 00080000 | 00018000 | 96k | Write+Read+Execute | Built-in memory in the CPU.                        |
->>>>>>> Stashed changes:reverse-engineering/memory-dump.md
 
 #### ELKA
 EL71, E71, M72 (proto), CL61 (proto), C0F1 (proto)
