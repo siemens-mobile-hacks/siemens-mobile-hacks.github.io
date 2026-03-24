@@ -10,4 +10,4 @@
 
 ## Полезные ссылки
 
-- [Web Dev Tools](https://siemens-mobile-hacks.github.io/web-dev-tools/swilib) — полезные инструменты для разработчиков.
+- [Web Dev Tools](https://devtools.siepatch.dev/swilib) — полезные инструменты для разработчиков.

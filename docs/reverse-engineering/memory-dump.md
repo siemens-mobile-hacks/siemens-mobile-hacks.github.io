@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### Инструменты для снятия дампа RAM
 
-1. [Web memory dumper](https://siemens-mobile-hacks.github.io/web-tools/dumper) (Google Chrome) **← лучший выбор!**
+1. [Web memory dumper](https://tools.siepatch.dev/dumper) (Google Chrome) **← лучший выбор!**
 2. [CLI memory dumper](https://github.com/siemens-mobile-hacks/siemens-memory-dumper) (Linux, OSX, Windows)
 3. [ArmDebugger.exe](./arm-debugger.md) (Windows)
 
