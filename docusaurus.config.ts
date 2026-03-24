@@ -83,26 +83,6 @@ const config: Config = {
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        createRedirects(existingPath: string) {
-          console.log(existingPath);
-          if (existingPath.startsWith('/web-dev-tools/')) {
-            const suffix = existingPath.slice('/web-dev-tools/'.length);
-            return [`https://devtools.siepatch.dev/${suffix}`];
-          }
-          if (existingPath.startsWith('/web-tools/')) {
-            const suffix = existingPath.slice('/web-tools/'.length);
-            return [`https://tools.siepatch.dev/${suffix}`];
-          }
-          return undefined;
-        },
-      },
-    ]
-  ],
-
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
