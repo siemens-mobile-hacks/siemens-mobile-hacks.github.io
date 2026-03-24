@@ -81,6 +81,9 @@ const config: Config = {
         }
       } satisfies Preset.Options,
     ],
+  ],
+
+  plugins: [
     [
       'client-redirects',
       {
