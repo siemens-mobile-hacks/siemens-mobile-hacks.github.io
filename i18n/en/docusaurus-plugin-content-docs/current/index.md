@@ -15,7 +15,7 @@ It was 2023, and old Siemens phone websites were disappearing one by one. We dec
  This site focuses on R65 and X75 phones!
 
 ## Working with the phone from the browser
-* [Siemens Web Tools](https://siepatch.dev/web-tools) - screenshot tool, memory dumper, and other useful tools
+* [Siemens Web Tools](https://tools.siepatch.dev) - screenshot tool, memory dumper, and other useful tools
 
 ## Programs and midlets for working with Siemens phones
 We have collected a selection [here](required_software.md).
