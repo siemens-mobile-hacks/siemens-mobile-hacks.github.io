@@ -9,6 +9,7 @@ type Props = WrapperProps<typeof NotFoundType>;
 
 const rules = [
   {prefix: '/web-dev-tools', to: 'https://devtools.siepatch.dev'},
+  {prefix: '/web-devtools', to: 'https://devtools.siepatch.dev'},
   {prefix: '/web-tools', to: 'https://tools.siepatch.dev'},
 ];
 
