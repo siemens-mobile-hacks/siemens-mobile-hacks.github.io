@@ -9,7 +9,7 @@ Ghidra SRE is used as the primary reverse engineering platform. All instructions
 This guide will help you dive into the world of reverse engineering in just a few steps.
 
 :::warning
-The official version of Ghidra cannot correctly handle far pointers. You **must** use the [patched version of Ghidra](https://github.com/siemens-mobile-hacks/ghidra-patched) when working with E-GOLD firmware.
+The official version of Ghidra cannot handle far-pointers correctly. You **must** use the [patched version of Ghidra](https://github.com/siemens-mobile-hacks/ghidra-patched) when working with E-GOLD firmware.
 :::
 
 ### What to do before you start
@@ -23,7 +23,7 @@ The official version of Ghidra cannot correctly handle far pointers. You **must*
 
 4. Dump RAM and SRAM from your phone.
 
-### Step 1: Find out the load base of your fullflash
+### Step 1: Find out the load base of your fullfhash
 
 You can do this using [Smelter](https://web.archive.org/web/20090414122112/http://avkiev.kiev.ua/Siemens/Smelter/Smelter.htm).
 
@@ -107,14 +107,17 @@ Do not touch the others.
 Example for M55:
 
 1. `File -> Add to Program`
+
 2. Select the file, for example: `M55v91_RAM.bin`
+
 3. Specify the parameters:
 
    * Block Name: `RAM`
    * Base Addr: `0x000000`
-   * [x] Overlay
+   * `[x]` Overlay
 
    Click "OK".
+
 4. Go to `Window -> Memory Map` and set the attributes for the "RAM" block:
 
    ```
@@ -124,7 +127,7 @@ Example for M55:
 
 ### Step 8: Find any code
 
-Usually it is enough to go to 0x0 or 0x800000 (depending on the firmware), then press `D` (decompile).
+Usually it is enough to go to 0x0 or 0x800000 (depending on the firmware), then press `D` (decompilation).
 
 ### Step 9: Auto-analyze the firmware
 
@@ -138,4 +141,4 @@ This will take 10-30 minutes. The process is long, so be patient.
 
 ### Congratulations, you did it! ✨
 
-We are waiting for your patches in the patch database at <a href="https://patches.kibab.com">patches.kibab.com</a> :)
+We are waiting for your patches in the patch database <a href="https://patches.kibab.com">patches.kibab.com</a> :)
