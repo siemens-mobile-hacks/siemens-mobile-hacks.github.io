@@ -9,7 +9,7 @@ Ghidra SRE is used as the primary reverse engineering platform. All instructions
 This guide will help you dive into the world of reverse engineering in just a few steps.
 
 :::warning
-The official version of Ghidra cannot handle far-pointers correctly. You **must** use the [patched version of Ghidra](https://github.com/siemens-mobile-hacks/ghidra-patched) when working with E-GOLD firmware.
+The official version of Ghidra cannot correctly handle far pointers. You **must** use the [patched version of Ghidra](https://github.com/siemens-mobile-hacks/ghidra-patched) when working with E-GOLD firmware.
 :::
 
 ### What to do before you start
@@ -23,7 +23,7 @@ The official version of Ghidra cannot handle far-pointers correctly. You **must*
 
 4. Dump RAM and SRAM from your phone.
 
-### Step 1: Find out the load base of your fullfhash
+### Step 1: Find out the load base of your fullflash
 
 You can do this using [Smelter](https://web.archive.org/web/20090414122112/http://avkiev.kiev.ua/Siemens/Smelter/Smelter.htm).
 
@@ -31,7 +31,16 @@ You can do this using [Smelter](https://web.archive.org/web/20090414122112/http:
       ![](img/smelter.png)
    </details>
 
-### Step 2: Load your fullflash.bin into Ghidra
+### Step 2: Install our plugins for Ghidra
+
+<details> ![](img/add-scripts-dirs.png) </details>
+
+1. Download: [ghidra\_scripts.zip](https://github.com/siemens-mobile-hacks/ghidra_scripts/archive/refs/heads/main.zip) or clone the [repository](https://github.com/siemens-mobile-hacks/ghidra_scripts)
+2. Open `Window -> Script Manager`
+3. Click "Manage Script Directories"
+4. Add the path to the extracted `ghidra_scripts` folder.
+
+### Step 3: Load your fullflash.bin into Ghidra
 
    <details>
       ![](img/open-options.png)
@@ -54,7 +63,7 @@ You can do this using [Smelter](https://web.archive.org/web/20090414122112/http:
 
 5. Ghidra will offer automatic analysis; you need to decline (**click No**).
 
-### Step 3: Edit the FULLFLASH region attributes
+### Step 4: Edit the FULLFLASH region attributes
 
 Go to `Window -> Memory Map` and set the attributes for the "FULLFLASH" block:
 
@@ -65,7 +74,14 @@ Go to `Window -> Memory Map` and set the attributes for the "FULLFLASH" block:
 
 It is very important to clear the `W` checkbox, as this directly affects decompilation.
 
-### Step 3: Configure auto-analysis parameters
+### Step 5: Remove unnecessary memory regions
+
+1. Go to `Window -> Memory Map`
+2. Remove XRAM, CAN, IRAM
+
+Do not touch the others.
+
+### Step 6: Configure auto-analysis parameters
 
 1. Select `Analysis -> Auto Analyse`
 
@@ -75,23 +91,42 @@ It is very important to clear the `W` checkbox, as this directly affects decompi
 
    * [ ] `Embedded media`
    * [ ] `Non-returning functions - discovered` (otherwise the disassembler may stop prematurely inside a function)
-   * [ ] `Create Address Tables` (it is better to run this as a one-shot after the main analysis)
    * [ ] `Demangler GNU`
 
    Enable:
 
    * [x] `Scalar operand references`
-   * [x] `Shared return calls` with the option `[x] Allow conditional jumps`
+   * [x] `Shared return calls` with the `[x] Allow conditional jumps` option
 
 3. Click **"APPLY"**, but **DO NOT CLICK "ANALYZE"!!!**
 
 4. Close the analysis window.
 
-### Step 4: Find any code
+### Step 7: Import the previously saved RAM
 
-Usually it is enough to go to 0x0 or 0x800000 (depending on the firmware), then press `D` (decompilation).
+Example for M55:
 
-### Step 5: Auto-analyze the firmware
+1. `File -> Add to Program`
+2. Select the file, for example: `M55v91_RAM.bin`
+3. Specify the parameters:
+
+   * Block Name: `RAM`
+   * Base Addr: `0x000000`
+   * [x] Overlay
+
+   Click "OK".
+4. Go to `Window -> Memory Map` and set the attributes for the "RAM" block:
+
+   ```
+    R   W   X    Volatile
+   [x] [x] [x]     [ ]
+   ```
+
+### Step 8: Find any code
+
+Usually it is enough to go to 0x0 or 0x800000 (depending on the firmware), then press `D` (decompile).
+
+### Step 9: Auto-analyze the firmware
 
 **Full analysis**
 
@@ -100,10 +135,6 @@ Usually it is enough to go to 0x0 or 0x800000 (depending on the firmware), then 
 3. Click **ANALYSE**
 
 This will take 10-30 minutes. The process is long, so be patient.
-
-**Run only once**
-
-1. Select `Analysis -> One-shot -> Create Address Tables`
 
 ### Congratulations, you did it! ✨
 
