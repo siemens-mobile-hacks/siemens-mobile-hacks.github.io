@@ -6,17 +6,20 @@ sidebar_position: 0
 
 Ghidra SRE is used as the primary reverse engineering platform. All instructions and tools presented on the site are designed to work with Ghidra.
 
-This guide will help you get into reverse engineering in just a few steps.
+This guide will help you dive into the world of reverse engineering in just a few steps.
 
 :::warning
 Since around 2019, Ghidra SRE has had a bug: `FF FF` in the v5t architecture is recognized as the instruction `BL 0xFFE`. This causes an infinite loop during auto-analysis.
 
-You **must** apply the [ARMTHUMBinstructions.sinc patch](./fixing-ghidra) if you plan to work with Siemens firmware.
+You **must** use a fixed version of Ghidra when working with Siemens firmware.
+
+* Install the [fixed version of Ghidra](https://github.com/siemens-mobile-hacks/ghidra-patched), which already includes this fix;
+* Or install the official version of Ghidra and apply the [ARMTHUMBinstructions.sinc patch](./fixing-ghidra) manually.
 :::
 
 ### What to do before you start
 
-1. Install the latest version of **Ghidra SRE** and apply the [ARMTHUMBinstructions.sinc patch](./fixing-ghidra)
+1. Install the [fixed version of Ghidra](https://github.com/siemens-mobile-hacks/ghidra-patched) or the latest official version of **Ghidra SRE** and apply the [ARMTHUMBinstructions.sinc](./fixing-ghidra) patch.
 
 2. Obtain a fullflash from the phone and remove FFS and EEPROM from it.
 
@@ -38,7 +41,7 @@ You **must** apply the [ARMTHUMBinstructions.sinc patch](./fixing-ghidra) if you
 
 2. Select the `fullflash.bin` file
 
-3. Configure the import options:
+3. Configure the import parameters:
 
    * Format: `Raw Binary`
    * Language: `ARM v5t 32 little`
@@ -58,7 +61,7 @@ Go to `Window -> Memory Map` and set the attributes for the "FULLFLASH" block:
 [x] [ ] [x]     [ ]
 ```
 
-It is very important to clear the `W` checkbox, as this directly affects decompilation.
+It is very important to clear the `W` checkbox, because this directly affects decompilation.
 
 ### Step 3: Configure auto-analysis parameters
 

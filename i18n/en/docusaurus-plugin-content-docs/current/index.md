@@ -12,13 +12,13 @@ It was 2023, and old Siemens phone websites were disappearing one by one. We dec
  * **R65 (SGOLD)**: CX65/70 and their carrier variants, C65 and its carrier variants, C70, C72, C75, M65, M75, ME75, SL65, SK65, SK6R, S65, SP65, S66, CF75, CF76;
  * **X75 (SGOLD2)**: S75, SL75, as well as BenQ-Siemens EL71, E71, EF71, C81, C81F, M81, S68, S68F, E71A, CL61.
 
- This site focuses on R65 and X75 phones!
+ This site specializes in x55, R65, and X75 series phones!
 
 ## Working with the phone from the browser
 * [Siemens Web Tools](https://tools.siepatch.dev) - screenshot tool, memory dumper, and other useful tools
 
 ## Programs and midlets for working with Siemens phones
-We have collected a selection [here](required_software.md).
+We collected a selection [here](required_software.md).
 
 ## Links to Siemens sites that are still alive for now
 
@@ -36,6 +36,7 @@ We have collected a selection [here](required_software.md).
 # Software development and research 😈
 * [ELF SDK](https://github.com/siemens-mobile-hacks/sdk)
 * [Reverse Engineering](./reverse-engineering/)
+* [Reverse Engineering (EGOLD)](./reverse-engineering-egold/)
 * [Panasonic SGOLD](./panasonic/)
 
 # Content

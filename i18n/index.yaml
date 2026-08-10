@@ -1,10 +1,12 @@
 state:
-  index.md: 4c984a0c4ec2882024acbcda93edd8c7
+  index.md: 51a14b42a0959f12276a1e70c186ac88
   panasonic_en.md: e956efa8ab261b9dd24513b3986bd6ee
   required_software.md: 1ef5c20d1ab17256a2cb0268f986b97d
   reverse-engineering/arm-debugger.md: 343623c33c691b90bb8db703e409e6b3
-  reverse-engineering/fixing-ghidra.md: a0c6d27b6e20d758786f8cfba43cbd42
-  reverse-engineering/how-start.md: 9d5993b290aa3bc358fe64581e961272
+  reverse-engineering/fixing-ghidra.md: ab0c8bfa35044d7c779f640c0bbfd31d
+  reverse-engineering/how-start.md: 66e3a19cd11fee8f6f2798b3ebd3a50f
   reverse-engineering/index.md: f5b3fc8df6f83d447fe38d84c84e3b1b
   reverse-engineering/memory-dump.md: d42cf225213a4ca8cdf3372bd56112a7
   panasonic/index.md: 6f2145dca0300b04e4b7d015d24afe21
+  reverse-engineering-egold/how-start.md: 699a049f1c0bd0b556284a0584852f89
+  reverse-engineering-egold/index.md: f4d16b9eb835a61121dd0ff90d645a91
