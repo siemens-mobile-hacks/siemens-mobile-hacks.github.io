@@ -107,14 +107,17 @@ Ghidra SRE используется в качестве основной пла�
 Пример для M55:
 
 1. `File -> Add to Program`
+
 2. Выберите файл, например: `M55v91_RAM.bin`
+
 3. Укажите параметры:
 
    * Block Name: `RAM`
    * Base Addr: `0x000000`
-   * [x] Overlay
+   * `[x]` Overlay
 
    Нажмите "OK".
+
 4. Перейдите в `Window -> Memory Map` и задайте атрибуты для блока "RAM":
 
    ```
