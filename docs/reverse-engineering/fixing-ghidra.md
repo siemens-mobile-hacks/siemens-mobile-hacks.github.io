@@ -8,8 +8,16 @@ sidebar_position: 3
 Примерно с 2019 года в Ghidra SRE существует баг, из-за которого `FF FF` в архитектуре v5t интерпретируется как инструкция `BL 0xFFE`. 
 Это вызывает бесконечный цикл при автоанализе.
 
-Вы **обязаны** применить патч `ARMTHUMBinstructions.sinc`, если хотите работать с прошивками Siemens.
+Если вы используете официальную версию Ghidra, необходимо применить патч `ARMTHUMBinstructions.sinc` для работы с прошивками Siemens.
+
+В [исправленной версии Ghidra](https://github.com/siemens-mobile-hacks/ghidra-patched) это исправление уже включено.
 :::
+
+# Исправленная версия Ghidra
+
+[Исправленная версия Ghidra](https://github.com/siemens-mobile-hacks/ghidra-patched) подготовлена для реверс-инжиниринга телефонов Siemens и уже включает исправление ложной инструкции `BL` в ARM5T.
+
+Готовые архивы можно скачать в разделе [Releases](https://github.com/siemens-mobile-hacks/ghidra-patched/releases).
 
 # Применение патча
 
@@ -39,58 +47,29 @@ sidebar_position: 3
 
 # Как портировать это исправление на будущие версии
 
-Нужно сделать примерно следующее:
+Нужно отключить старые обработчики отдельных половин Thumb-1 `BL`/`BLX` только для ARM5T. Полные 32-битные инструкции продолжат распознаваться, а поведение ARM4T не изменится:
+
 ```diff
---- ARMTHUMBinstructions.sinc
-+++ ARMTHUMBinstructions.sinc
-@@ -1479,52 +1479,6 @@
-   call ThAddr24;
+diff --git a/Ghidra/Processors/ARM/data/languages/ARMTHUMBinstructions.sinc b/Ghidra/Processors/ARM/data/languages/ARMTHUMBinstructions.sinc
+index 1f6b9f8c..c1eef2e7 100644
+--- a/Ghidra/Processors/ARM/data/languages/ARMTHUMBinstructions.sinc
++++ b/Ghidra/Processors/ARM/data/languages/ARMTHUMBinstructions.sinc
+@@ -1490,6 +1490,7 @@ macro th_set_carry_for_asr(op1,shift_count) {
  }
- 
--@ifndef VERSION_6T2
--
--:bl^ItCond "#"^off             is TMode=1 & ItCond & op11=0x1e & soffset11 [ off = inst_start + 4 + (soffset11 << 12); ]
--{
--  build ItCond;
--  lr = off:4;
--}
--
--:bl^ItCond "#"^off             is TMode=1 & ItCond & op11=0x1f & offset11 [ off = offset11 << 1; ]
--{
--  build ItCond;
--  local dest = lr + off:4;
--  lr = inst_next|1;
--  SetThumbMode(1);
--  call [dest];
--}
--
--:bl^ItCond lr                  is TMode=1 & ItCond & op11=0x1f & offset11=0 & lr
--{
--  build ItCond;
--  local dest = lr;
--  lr = inst_next|1;
--  SetThumbMode(1);
--  call [dest];
--}
--
--:blx^ItCond "#"^off    is TMode=1 & ItCond & op11=0x1d & offset11 & thc0000=0 [ off = offset11 << 1; ]
--{
--  build ItCond;
--  local dest = (lr & (~0x3)) + off:4;
--  lr = inst_next|1;
--  SetThumbMode(0);
--  call [dest];
--}
--
--:blx^ItCond lr                 is TMode=1 & ItCond & op11=0x1d & offset11=0 & thc0000=0 & lr
--{
--  build ItCond;
--  local dest = (lr & (~0x3));
--  lr = inst_next|1;
--  SetThumbMode(0);
--  call [dest];
--}
--
+
+ @ifndef VERSION_6T2
++@ifndef VERSION_5
+
+ :bl^ItCond "#"^off		is TMode=1 & ItCond & op11=0x1e & soffset11 [ off = inst_start + 4 + (soffset11 << 12); ]
+ {
+@@ -1533,7 +1534,8 @@ macro th_set_carry_for_asr(op1,shift_count) {
+   call [dest];
+ }
+
 -@endif
--
++@endif # VERSION_5
++@endif # VERSION_6T2
+
+ :bl^ItCond 	ThAddr24 			is TMode=1 & CALLoverride=1 & ItCond & (op11=0x1e; part2c1415=3 & part2c1212=1) & ThAddr24
+ {
 ```

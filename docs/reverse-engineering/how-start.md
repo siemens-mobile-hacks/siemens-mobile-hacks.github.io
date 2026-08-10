@@ -11,12 +11,15 @@ Ghidra SRE используется в качестве основной пла�
 :::warning
 Примерно с 2019 года в Ghidra SRE присутствует баг: `FF FF` в архитектуре v5t распознаётся как инструкция `BL 0xFFE`. Это вызывает бесконечный цикл в автоанализе.
 
-Вы **должны** применить [патч ARMTHUMBinstructions.sinc](./fixing-ghidra), если планируете работать с прошивками Siemens.
+Вы **должны** использовать исправленную версию Ghidra при работе с прошивками Siemens.
+
+* Установите [исправленную версию Ghidra](https://github.com/siemens-mobile-hacks/ghidra-patched), в которую уже включено это исправление;
+* Или установите официальную версию Ghidra и примените [патч ARMTHUMBinstructions.sinc](./fixing-ghidra) вручную.
 :::
 
 ### Что сделать перед началом
 
-1. Установите последнюю версию **Ghidra SRE** и примените патч [ARMTHUMBinstructions.sinc](./fixing-ghidra)
+1. Установите [исправленную версию Ghidra](https://github.com/siemens-mobile-hacks/ghidra-patched) или последнюю официальную версию **Ghidra SRE** и примените патч [ARMTHUMBinstructions.sinc](./fixing-ghidra).
 
 2. Получите fullflash с телефона и удалите из него FFS и EEPROM.
 
