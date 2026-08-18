@@ -1,6 +1,7 @@
 ---
 title: "Сервис"
 sidebar_label: "Сервис"
+sidebar_key: "soft.service"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: -30
 ---

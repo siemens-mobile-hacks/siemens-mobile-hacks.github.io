@@ -1,6 +1,7 @@
 ---
 title: "Флешеры"
 sidebar_label: "Флешеры"
+sidebar_key: "soft.flashers"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: -20
 ---

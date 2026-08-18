@@ -1,6 +1,7 @@
 ---
 title: "Моддинг"
 sidebar_label: "Моддинг"
+sidebar_key: "soft.development.modding"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: 0
 ---

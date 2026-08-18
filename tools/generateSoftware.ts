@@ -478,6 +478,7 @@ function renderVersions(
 function pageFrontmatter(
   title: string,
   sidebarLabel = title,
+  sidebarKey?: string,
   sidebarClassName?: string,
   sidebarPosition?: number,
 ): string[] {
@@ -486,6 +487,9 @@ function pageFrontmatter(
     `title: ${JSON.stringify(title)}`,
     `sidebar_label: ${JSON.stringify(sidebarLabel)}`,
   ];
+  if (sidebarKey !== undefined) {
+    lines.push(`sidebar_key: ${JSON.stringify(sidebarKey)}`);
+  }
   if (sidebarClassName !== undefined) {
     lines.push(`sidebar_class_name: ${JSON.stringify(sidebarClassName)}`);
   }
@@ -513,6 +517,15 @@ function nodeOutputPath(
   );
 }
 
+function nodeSidebarKey(node: CatalogNode, catalogDirectory: string): string {
+  const relativeDirectory = path
+    .relative(catalogDirectory, node.directory)
+    .split(path.sep)
+    .filter(Boolean)
+    .join(".");
+  return relativeDirectory.length === 0 ? "soft" : `soft.${relativeDirectory}`;
+}
+
 function relativeMarkdownLink(fromPage: string, toPage: string): string {
   const relativePath = path.relative(path.dirname(fromPage), toPage).split(path.sep).join("/");
   return relativePath.startsWith(".") ? relativePath : `./${relativePath}`;
@@ -522,9 +535,10 @@ function renderProgramPage(
   node: CatalogNode,
   repositoryRoot: string,
   links: RepositoryLinks,
+  sidebarKey: string,
 ): string {
   const metadata = node.metadata as ProgramMetadata;
-  const lines = [...pageFrontmatter(metadata.name), ""];
+  const lines = [...pageFrontmatter(metadata.name, metadata.name, sidebarKey), ""];
 
   lines.push(heading(1, metadata.name), "");
   const headerLines: string[] = [];
@@ -567,12 +581,14 @@ function renderCategoryPage(
   catalogDirectory: string,
   outputDirectory: string,
   root: boolean,
+  sidebarKey: string,
 ): string {
   const metadata = node.metadata as CategoryMetadata;
   const lines = [
     ...pageFrontmatter(
       root ? "Софт" : metadata.name,
       root ? "Софт" : metadata.name,
+      sidebarKey,
       root ? undefined : "soft-sidebar-folder",
       root ? undefined : (metadata.order ?? 0),
     ),
@@ -649,11 +665,13 @@ function writeCatalogPages(
           catalogDirectory,
           outputDirectory,
           node.directory === catalogDirectory,
+          nodeSidebarKey(node, catalogDirectory),
         )
       : renderProgramPage(
           node,
           repositoryRoot,
           links,
+          nodeSidebarKey(node, catalogDirectory),
         );
   writeFileSync(outputPath, contents, "utf8");
 

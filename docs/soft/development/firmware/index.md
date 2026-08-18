@@ -1,6 +1,7 @@
 ---
 title: "Анализ прошивок"
 sidebar_label: "Анализ прошивок"
+sidebar_key: "soft.development.firmware"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: 0
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Драйверы"
 sidebar_label: "Драйверы"
+sidebar_key: "soft.drivers"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: 10
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Отладка"
 sidebar_label: "Отладка"
+sidebar_key: "soft.development.debugging"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: 0
 ---

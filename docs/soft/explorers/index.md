@@ -1,6 +1,7 @@
 ---
 title: "Эксплореры"
 sidebar_label: "Эксплореры"
+sidebar_key: "soft.explorers"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: -15
 ---

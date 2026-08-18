@@ -1,6 +1,7 @@
 ---
 title: "Utilities"
 sidebar_label: "Utilities"
+sidebar_key: "soft.development.utilities"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: 0
 ---

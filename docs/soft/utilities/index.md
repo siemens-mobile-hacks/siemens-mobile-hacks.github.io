@@ -1,6 +1,7 @@
 ---
 title: "Утилиты"
 sidebar_label: "Утилиты"
+sidebar_key: "soft.utilities"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: 20
 ---
