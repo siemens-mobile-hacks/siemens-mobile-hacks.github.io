@@ -1,6 +1,7 @@
 ---
 title: "Firmware Analysis"
 sidebar_label: "Firmware Analysis"
+sidebar_key: "soft.development.firmware"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: 0
 ---
@@ -8,11 +9,11 @@ sidebar_position: 0
 
 # Firmware Analysis
 
-Analyze the structure of firmware files and unpack firmware and service update files.
+Analyzing the structure and unpacking firmware files and service updates.
 
 ## Programs
 
 - **[Smelter](./smelter.md)**<br/>
-  Siemens phone FullFlash explorer: EEPROM, language pack, menu, and firmware resources.
+  FullFlash explorer for Siemens phones: EEPROM, language pack, menus, and firmware resources.
 - **[WSFF](./wsff.md)**<br/>
-  Program for analyzing and unpacking Siemens WinSwup service firmware.
+  A program for analyzing and unpacking Siemens WinSwup service firmware.

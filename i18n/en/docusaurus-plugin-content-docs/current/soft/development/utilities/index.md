@@ -14,10 +14,10 @@ Comparison and analysis of firmware, function search, and creation of VKP patche
 ## Programs
 
 - **[FFPatch](./ffpatch.md)**<br/>
-  Program for comparing FullFlash images and working with VKP patches.
+  A program for comparing FullFlash images and working with VKP patches.
 - **[FilesComparer](./filescomparer.md)**<br/>
-  Program for byte-by-byte comparison of files and FullFlash images.
+  A program for byte-by-byte comparison of files and FullFlash images.
 - **[Hex2VKP](./hex2vkp.md)**<br/>
-  Intel HEX to VKP patch format converter for V_KLay.
+  An Intel HEX to VKP patch format converter for V_KLay.
 - **[SLFC](./slfc.md)**<br/>
-  Console program for comparing FullFlash images and creating VKP patches.
+  A console program for comparing FullFlash images and creating VKP patches.

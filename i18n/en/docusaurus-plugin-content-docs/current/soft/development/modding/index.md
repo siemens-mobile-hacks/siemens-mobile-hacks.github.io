@@ -1,6 +1,7 @@
 ---
 title: "Modding"
 sidebar_label: "Modding"
+sidebar_key: "soft.development.modding"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: 0
 ---
@@ -13,4 +14,4 @@ Modifying the interface and resources of phone firmware.
 ## Programs
 
 - **[LayoutMe](./layoutme.md)**<br/>
-  Editor for keyboard layouts in Siemens phone FullFlash firmware.
+  Keyboard layout editor for Siemens phone FullFlash firmware.

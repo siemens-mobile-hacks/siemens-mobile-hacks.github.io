@@ -1,6 +1,7 @@
 ---
 title: "Explorers"
 sidebar_label: "Explorers"
+sidebar_key: "soft.explorers"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: -15
 ---
@@ -13,6 +14,6 @@ Programs for managing phone contents from a computer.
 ## Programs
 
 - **[FarDES](./fardes.md)**<br/>
-  A Far Manager plugin for working with Siemens phone flex memory via DES.
+  A Far Manager plugin for working with Siemens phone flash memory via DES.
 - **[SiMoCo](./simoco.md)**<br/>
   Manage Siemens phone data and functions from a computer.

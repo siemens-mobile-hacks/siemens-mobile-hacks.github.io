@@ -1,6 +1,7 @@
 ---
 title: "Service"
 sidebar_label: "Service"
+sidebar_key: "soft.service"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: -30
 ---
@@ -13,12 +14,12 @@ Diagnostics, firmware flashing, repair, and recovery of phones.
 ## Programs
 
 - **[Joker](./joker.md)**<br/>
-  Service program for diagnosing and recovering Siemens phones on the EGOLD platform.
+  Service software for diagnostics and recovery of Siemens phones on the EGOLD platform.
 - **[Siemens EEPROM Tool](./siemens-eeprom-tool.md)**<br/>
   Working with EEPROM blocks of Siemens phones via Service Mode.
 - **[SWriteMapR65](./swrite-map-r65.md)**<br/>
-  Siemens service program for writing MAP files to x75 series phones.
+  Siemens service software for writing MAP files to x75 series phones.
 - **[WinSwup](./winswup.md)**<br/>
-  Official program for flashing Siemens phones using XBZ/XBI files.
+  Official software for flashing Siemens phones using XBZ/XBI files.
 - **[x65PapuaUtils](./x65-papua-utils.md)**<br/>
-  Service program for servicing Siemens phones on the SGOLD platform.
+  Service software for maintaining Siemens phones on the SGOLD platform.

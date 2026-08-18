@@ -1,6 +1,7 @@
 ---
 title: "Debugging"
 sidebar_label: "Debugging"
+sidebar_key: "soft.development.debugging"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: 0
 ---

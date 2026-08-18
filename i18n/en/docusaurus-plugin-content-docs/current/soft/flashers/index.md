@@ -1,6 +1,7 @@
 ---
 title: "Flashers"
 sidebar_label: "Flashers"
+sidebar_key: "soft.flashers"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: -20
 ---
@@ -15,4 +16,4 @@ Programs for reading, writing, and restoring phone flash memory.
 - **[V_KLay](./v-klay.md)**<br/>
   Flasher and VKP patcher for Siemens phones with a keyboard layout editor.
 - **[x65flasher](./x65flasher.md)**<br/>
-  Program for reading and writing the flash memory of Siemens phones in the 65–75 series.
+  Program for reading and writing the flash memory of Siemens 65–75 series phones.

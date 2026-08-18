@@ -1,6 +1,7 @@
 ---
 title: "Development"
 sidebar_label: "Development"
+sidebar_key: "soft.development"
 sidebar_class_name: "soft-sidebar-folder"
 sidebar_position: -10
 ---

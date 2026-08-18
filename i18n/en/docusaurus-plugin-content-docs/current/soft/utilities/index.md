@@ -14,6 +14,6 @@ User utilities for phones and mobile applications.
 ## Programs
 
 - **[MidletSigner](./midletsigner.md)**<br/>
-  A program for creating certificates and signing Java MIDlets on Siemens 65/75 series phones.
+  A program for creating certificates and signing Java midlets on Siemens 65/75 series phones.
 - **[vmo2wav](./vmo2wav.md)**<br/>
   A converter for Siemens SL45 voice recorder recordings from VMO to WAV.
