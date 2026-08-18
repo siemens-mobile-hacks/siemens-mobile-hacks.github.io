@@ -5,7 +5,7 @@
 ## Содержание
 
 - [Как начать реверс-инжиниринг телефонов Siemens?](how-start.md)
-- [ArmDebugger — мощный отладчик для телефонов Siemens](arm-debugger.md)
+- [ArmDebugger — мощный дебаггер для телефонов Siemens](arm-debugger.md)
 - [Как сделать дамп RAM с телефона?](memory-dump.md)
 
 ## Полезные ссылки

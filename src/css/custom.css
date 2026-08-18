@@ -1,0 +1,20 @@
+.soft-sidebar-folder > .menu__link::before,
+.soft-sidebar-folder > .menu__list-item-collapsible > .menu__link::before {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex: 0 0 1em;
+  background-color: currentColor;
+  content: "";
+  mask: var(--soft-catalog-icon) center / contain no-repeat;
+  -webkit-mask: var(--soft-catalog-icon) center / contain no-repeat;
+}
+
+.soft-sidebar-folder {
+  --soft-catalog-icon: url("/img/icons/folder.svg");
+}
+
+.soft-sidebar-folder > .menu__link::before,
+.soft-sidebar-folder > .menu__list-item-collapsible > .menu__link::before {
+  margin-right: 0.4rem;
+}

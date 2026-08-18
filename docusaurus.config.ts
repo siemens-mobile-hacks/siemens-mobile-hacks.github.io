@@ -73,7 +73,7 @@ const config: Config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.scss',
+          customCss: './src/css/custom.css',
         },
         gtag: {
           trackingID: 'G-GQC2DLGHLV'

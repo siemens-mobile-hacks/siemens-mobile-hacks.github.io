@@ -18,7 +18,7 @@ nav_order: 0
 * [Siemens Web Tools](https://tools.siepatch.dev) - скриншотер, дампер памяти и другие полезные инструменты
 
 ## Программы и мидлеты для работы с телефонами Siemens
-Собрали подборку [тут](required_software.md).
+Собрали подборку [тут](soft/index.md).
 
 ## Ссылки на пока ещё живые сайты по Siemens
 
@@ -37,6 +37,7 @@ nav_order: 0
 * [ELF SDK](https://github.com/siemens-mobile-hacks/sdk)
 * [Reverse Engineering](./reverse-engineering/)
 * [Реверс-инжиниринг (EGOLD)](./reverse-engineering-egold/)
+* [Разработка (EGOLD)](./development-egold/)
 * [Panasonic SGOLD](./panasonic/)
 
 # Контент

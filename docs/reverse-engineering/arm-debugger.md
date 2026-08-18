@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # ArmDebugger
 
-**ArmDebugger** — мощный отладчик для телефонов Siemens от Chaos.
+**ArmDebugger** — мощный дебаггер для телефонов Siemens от Chaos.
 
 * [ArmDebugger 0.7.9 M2.rar](https://web.archive.org/web/20160806055159/http://forum.allsiemens.com/files/armd-0.7.9m2_296.rar) — последняя версия от Dimadze с фиксами ELKA/NSG.
 * [Тема на форуме forum.allsiemens.com](https://web.archive.org/web/20160806060433/http://forum.allsiemens.com/viewtopic.php?t=20735)
@@ -13,8 +13,8 @@ sidebar_position: 2
 
 # Патч CGSN
 
-Для использования отладчика необходимо установить специальный патч под названием **CGSN Patch**. 
-Этот патч реализует специальный протокол для работы отладчика через serial-порт.
+Для использования дебаггера необходимо установить специальный патч под названием **CGSN Patch**.
+Этот патч реализует специальный протокол для работы дебаггера через serial-порт.
 Патч можно автоматически сгенерировать с помощью ArmDebugger.
 
 Следуйте этим шагам:
