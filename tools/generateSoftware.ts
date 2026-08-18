@@ -398,7 +398,7 @@ function renderVersionList(
   lines: string[],
 ): void {
   for (const version of versions) {
-    const fileBlocks = version.files.map((file, index) => {
+    version.files.forEach((file, index) => {
       const url = repositoryFileUrl(repositoryRoot, programDirectory, file.path, links);
       const details = resolveFileDetails(repositoryRoot, programDirectory, file.path, links);
       const name = path.posix.basename(file.path);
@@ -422,9 +422,8 @@ function renderVersionList(
       if (compatibility.length > 0) {
         block.push(compatibility.join(" · "));
       }
-      return block.join("<br/>");
+      lines.push(`- ${block.join("<br/>")}`);
     });
-    lines.push(`- ${fileBlocks.join("<br/><br/>")}`);
   }
   lines.push("");
 }
@@ -455,9 +454,6 @@ function renderVersions(
     const available = versions.filter((version) => version.status !== "archived");
     const archived = versions.filter((version) => version.status === "archived");
     if (available.length > 0) {
-      if (archived.length > 0) {
-        lines.push("**Актуальные версии**", "");
-      }
       renderVersionList(available, repositoryRoot, programDirectory, links, lines);
     }
     if (archived.length > 0) {

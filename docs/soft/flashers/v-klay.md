@@ -38,8 +38,6 @@ VKD.
 
 ## Версии
 
-**Актуальные версии**
-
 - **3.3** — [v_klay_setup.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/flashers/v-klay/files/v_klay_setup.zip)<br/>Windows 32-bit · 1.61 МиБ
 
 <details>

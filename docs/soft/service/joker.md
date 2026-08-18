@@ -23,8 +23,6 @@ M55, MC60, S55, S56, SL55, SX1 и аналогичными.
 
 ## Версии
 
-**Актуальные версии**
-
 - **0.3.4.3** — [JokerV0343.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/joker/files/JokerV0343.zip)<br/>Windows 32-bit · 210 КиБ
 
 <details>

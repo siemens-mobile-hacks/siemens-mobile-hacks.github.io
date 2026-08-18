@@ -28,8 +28,6 @@ CX65…
 
 ## Версии
 
-**Актуальные версии**
-
 - **1.1.1c** — [x65PapuaUtilsV111c_rus.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/x65-papua-utils/files/x65PapuaUtilsV111c_rus.zip)<br/>Русская версия.<br/>Windows 32-bit · 608 КиБ
 - **1.1.1b** — [x65PapuaUtilsV111b.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/x65-papua-utils/files/x65PapuaUtilsV111b.zip)<br/>Английская версия.<br/>Windows 32-bit · 609 КиБ
 

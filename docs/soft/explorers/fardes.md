@@ -40,4 +40,5 @@ M50, MT50, C55, S55, M55 и SL55. Для работы необходимы Far M
 
 ## Версии
 
-- **1.63** — [fardes-1.63-des-2.67.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/fardes/files/fardes-1.63-des-2.67.zip) (2003-11-12)<br/>Для DES 2.67 и DES 3.0.0 из SDS 1.0.0.40<br/>Windows 32-bit · 209 КиБ<br/><br/>**1.63** — [fardes-1.63-des-3.0.0.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/fardes/files/fardes-1.63-des-3.0.0.zip) (2003-11-12)<br/>Для DES 3.0.0 из SDS 1.0.0.53 и выше<br/>Windows 32-bit · 209 КиБ
+- **1.63** — [fardes-1.63-des-2.67.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/fardes/files/fardes-1.63-des-2.67.zip) (2003-11-12)<br/>Для DES 2.67 и DES 3.0.0 из SDS 1.0.0.40<br/>Windows 32-bit · 209 КиБ
+- **1.63** — [fardes-1.63-des-3.0.0.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/fardes/files/fardes-1.63-des-3.0.0.zip) (2003-11-12)<br/>Для DES 3.0.0 из SDS 1.0.0.53 и выше<br/>Windows 32-bit · 209 КиБ
