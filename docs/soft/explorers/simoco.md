@@ -11,7 +11,7 @@ sidebar_key: "soft.explorers.simoco"
 **Тема на форуме:** [https://www.siemensmania.cz/forum/viewtopic.php?t=1018](https://www.siemensmania.cz/forum/viewtopic.php?t=1018)<br/>
 **Автор:** Ing. Pavel Cibulka
 
-![SiMoCo: скриншот 1](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/simoco/img/simoco.jpg)
+![SiMoCo: скриншот 1](./simoco/img/simoco.jpg)
 
 SiMoCo (Siemens Mobile Control, прежнее название — Sx45CZ) предназначена для
 управления мобильными телефонами Siemens с компьютера. Поддерживаются S25,

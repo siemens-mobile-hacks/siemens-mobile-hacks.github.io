@@ -1,10 +1,12 @@
 import { execFileSync } from "node:child_process";
 import {
+  copyFileSync,
   existsSync,
   mkdirSync,
   readdirSync,
   readFileSync,
   rmSync,
+  statSync,
   writeFileSync,
 } from "node:fs";
 import path from "node:path";
@@ -527,10 +529,48 @@ function relativeMarkdownLink(fromPage: string, toPage: string): string {
   return relativePath.startsWith(".") ? relativePath : `./${relativePath}`;
 }
 
+function copyProgramScreenshot(
+  programDirectory: string,
+  pagePath: string,
+  screenshotPath: string,
+): string {
+  const sourcePath = path.resolve(programDirectory, ...screenshotPath.split("/"));
+  const sourceRelativePath = path.relative(programDirectory, sourcePath);
+  if (
+    sourceRelativePath === ".." ||
+    sourceRelativePath.startsWith(`..${path.sep}`) ||
+    path.isAbsolute(sourceRelativePath)
+  ) {
+    fail(`${screenshotPath}: path escapes the program directory`);
+  }
+  if (!existsSync(sourcePath) || !statSync(sourcePath).isFile()) {
+    fail(`${sourcePath}: screenshot is missing or is not a file`);
+  }
+
+  const assetDirectory = path.join(
+    path.dirname(pagePath),
+    path.basename(pagePath, path.extname(pagePath)),
+  );
+  const destinationPath = path.resolve(assetDirectory, ...screenshotPath.split("/"));
+  const destinationRelativePath = path.relative(assetDirectory, destinationPath);
+  if (
+    destinationRelativePath === ".." ||
+    destinationRelativePath.startsWith(`..${path.sep}`) ||
+    path.isAbsolute(destinationRelativePath)
+  ) {
+    fail(`${screenshotPath}: destination escapes the program asset directory`);
+  }
+
+  mkdirSync(path.dirname(destinationPath), { recursive: true });
+  copyFileSync(sourcePath, destinationPath);
+  return relativeMarkdownLink(pagePath, destinationPath);
+}
+
 function renderProgramPage(
   node: CatalogNode,
   repositoryRoot: string,
   links: RepositoryLinks,
+  pagePath: string,
   sidebarKey: string,
 ): string {
   const metadata = node.metadata as ProgramMetadata;
@@ -554,8 +594,8 @@ function renderProgramPage(
     lines.push(headerLines.join("<br/>\n"), "");
   }
   for (const [index, screenshot] of metadata.screenshots.entries()) {
-    const url = repositoryFileUrl(repositoryRoot, node.directory, screenshot, links);
-    lines.push(`![${metadata.name}: скриншот ${index + 1}](${url})`, "");
+    const localPath = copyProgramScreenshot(node.directory, pagePath, screenshot);
+    lines.push(`![${metadata.name}: скриншот ${index + 1}](${localPath})`, "");
   }
 
   lines.push(metadata.description.trim(), "");
@@ -667,6 +707,7 @@ function writeCatalogPages(
           node,
           repositoryRoot,
           links,
+          outputPath,
           nodeSidebarKey(node, catalogDirectory),
         );
   writeFileSync(outputPath, contents, "utf8");
