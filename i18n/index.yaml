@@ -15,17 +15,17 @@ state:
   soft/utilities/midletsigner.md: 15039a08a0786fb176144aec2e0d104c
   soft/utilities/vmo2wav.md: 151b2bc5c819acf144098dc56b387d45
   soft/service/index.md: 88b07eca79c09078cce988a05550353b
-  soft/service/joker.md: 3a96a045b9abc0d5c95193854fe74aaf
+  soft/service/joker.md: 26cf86e8db94c2d7e29442cdba859231
   soft/service/siemens-eeprom-tool.md: 7e05f2eaffd3b00267ceb7c91873beb5
   soft/service/swrite-map-r65.md: 4fe4c1aa3063a2b822c61198df0617bc
-  soft/service/winswup.md: 19c80cde73b37e1b648aee3be5fa9067
-  soft/service/x65-papua-utils.md: 9af6c186d63064939d078876db30fba2
+  soft/service/winswup.md: d3eb944916751e1bf8d5250a082a209f
+  soft/service/x65-papua-utils.md: 74254be400161f80811de8fc53a57871
   soft/flashers/index.md: 28654d7856432e1f4c9ffff44700b5c2
-  soft/flashers/v-klay.md: 0708b14bf6e1bc92c1ddf967d70ff0d4
+  soft/flashers/v-klay.md: 24d5f592167a654df2103f3a553fac94
   soft/flashers/x65flasher.md: 1fa1b92a226045ef6b3f8a3676d9b2fa
-  soft/explorers/fardes.md: 8d864a832b5c3fffed7770679de0c0f5
+  soft/explorers/fardes.md: c337438489c30ff7f0b96e8dc6a60a6c
   soft/explorers/index.md: e9946a0a475bf4f3422a908b7794f437
-  soft/explorers/simoco.md: 962e7496114efd191d156a0e4042d75e
+  soft/explorers/simoco.md: a56acdb52aa0fa9ee0d2960fc12f6bd4
   soft/drivers/index.md: a909f832775de24f6aa708bbc2df228f
   soft/drivers/pl-2303.md: 9b01989f828a3f326a56f7ff190d7a3c
   soft/development/index.md: f602925d011a196d7dce8426c4046ad6

@@ -10,25 +10,23 @@ sidebar_key: "soft.service.x65-papua-utils"
 **Homepage:** [http://papuas.allsiemens.com/PapuaUtils.htm](https://web.archive.org/web/20130825050857/http://papuas.allsiemens.com/PapuaUtils.htm) (web archive)<br/>
 **Author:** Papuas
 
-This program is intended for working with SGOLD-platform models: S7F, S7C, S75, S66,
+This is a program for working with SGOLD-platform models: S7F, S7C, S75, S66,
 S6C, S6V, S65, S68, SK6C, SK6R, SK65, SL7F, SL7C, SL75, SL6C, SL6V, SL65,
 SP65, M75, ME75, M6C, M6V, M65, CX75, CX7D, CX7C, CX7I, CX70, CF76, CF75,
 C72V, C72, C7I, C7C, C7V, C75, C66, C6C, C6V, C65, CX66, CX6C, CX6V,
 CX65…
 
 This program, together with V_Klay and Siemens EEPROM Tool, already includes
-most options for recovering all software faults on x65…x75 using a simple cable
-with minimal modifications.
+most options for recovering all software faults on x65…x75 using a simple
+cable with minimal modifications.
 
-On completely dead phones, the first BCORE write is performed using
-TP (Test Point)!
+On completely dead phones, the first BCORE write is performed using TP (Test
+Point)!
 
-All methods, etc., are in test mode. If you damage your phone, that's your
+All methods, etc., are in test mode. If you damage your phone, that is your
 problem!
 
 ## Versions
-
-**Current versions**
 
 - **1.1.1c** — [x65PapuaUtilsV111c_rus.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/x65-papua-utils/files/x65PapuaUtilsV111c_rus.zip)<br/>Russian version.<br/>Windows 32-bit · 608 KiB
 - **1.1.1b** — [x65PapuaUtilsV111b.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/x65-papua-utils/files/x65PapuaUtilsV111b.zip)<br/>English version.<br/>Windows 32-bit · 609 KiB
@@ -64,7 +62,7 @@ problem!
 - **0.4.3** — [x65PapuaUtilsV043.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/x65-papua-utils/files/x65PapuaUtilsV043.zip) (2005-06-19)<br/>Windows 32-bit · 314 KiB
 - **0.4.1g** — [x65PapuaUtilsV041.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/x65-papua-utils/files/x65PapuaUtilsV041.zip) (2005-06-07)<br/>Windows 32-bit · 310 KiB
 - **0.3.8d** — [x65PapuaUtilsV038.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/x65-papua-utils/files/x65PapuaUtilsV038.zip) (2005-06-01)<br/>Windows 32-bit · 342 KiB
-- **0.3.6** — [x65PapuaUtilsV036.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/x65-papua-utils/files/x65PapuaUtilsV036.zip) (2005-05-28)<br/>Includes FAQ<br/>Windows 32-bit · 340 KiB
+- **0.3.6** — [x65PapuaUtilsV036.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/x65-papua-utils/files/x65PapuaUtilsV036.zip) (2005-05-28)<br/>FAQ included<br/>Windows 32-bit · 340 KiB
 
 </details>
 

@@ -20,12 +20,12 @@ Features:
 - Search and replace in patch text;
 - Read and write phone memory;
 - Save read data to a file and load data from a file;
-- Work with the entire fullflash, individual memory areas, and EEPROM;
+- Work with the entire full flash, individual memory areas, and EEPROM;
 - Apply patches directly to the phone or to a Flash file;
 - Read, edit, and write keyboard layouts;
 - Load and save layouts in VKL files;
 - Work with VKD loaders;
-- Automatically recognize patches, layouts, and Flash files passed via the
+- Automatically recognize patches, layouts, and Flash files passed on the
   command line;
 - Control patch application and removal from the command line;
 - Connect via Password boot, Chaos BootPatch, Bootcore bug, Patched
@@ -33,12 +33,10 @@ Features:
 - Work with the phone without powering it off in online mode;
 - Multilingual interface.
 
-Support for a specific phone is determined by the availability of a suitable
-VKD loader.
+Support for a specific phone depends on the availability of a suitable VKD
+loader.
 
 ## Versions
-
-**Current versions**
 
 - **3.3** — [v_klay_setup.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/flashers/v-klay/files/v_klay_setup.zip)<br/>Windows 32-bit · 1.61 MiB
 

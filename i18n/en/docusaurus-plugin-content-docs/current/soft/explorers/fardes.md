@@ -13,7 +13,7 @@ sidebar_key: "soft.explorers.fardes"
 Siemens created an excellent program called Data Exchange Software
 (DES), which lets you view a phone connected to a computer as a
 logical disk. This disk is visible in Windows Explorer. But what should those do who
-never got used to Explorer and prefer to use the best (in my opinion)
+never got used to Explorer and prefer to use the best (IMHO)
 file manager, Far Manager? The answer is simple: use this plugin.
 
 The plugin uses the DES engine. Therefore, if DES does not work for you,
@@ -25,14 +25,14 @@ Features:
 - Standard operations with files and directories;
 - Creating, viewing, and editing files on the phone;
 - Working with file dates and attributes;
-- Proper deletion of subdirectories;
+- Correct deletion of subdirectories;
 - Entering a JAR file as if it were an archive;
 - Working with the contents of the SMS archive;
 - Checking free space before copying;
 - Viewing additional information from the phone;
 - Formatting flex memory;
 - Creating the standard directory structure;
-- Progress display for file operations and the ability to interrupt them with Esc.
+- Progress display for file operations and the ability to interrupt with Esc.
 
 The same phone models are supported as in DES: Siemens S45, ME45, SL45,
 M50, MT50, C55, S55, M55, and SL55. Far Manager 1.70 beta
@@ -40,4 +40,5 @@ M50, MT50, C55, S55, M55, and SL55. Far Manager 1.70 beta
 
 ## Versions
 
-- **1.63** — [fardes-1.63-des-2.67.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/fardes/files/fardes-1.63-des-2.67.zip) (2003-11-12)<br/>For DES 2.67 and DES 3.0.0 from SDS 1.0.0.40<br/>Windows 32-bit · 209 KiB<br/><br/>**1.63** — [fardes-1.63-des-3.0.0.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/fardes/files/fardes-1.63-des-3.0.0.zip) (2003-11-12)<br/>For DES 3.0.0 from SDS 1.0.0.53 and later<br/>Windows 32-bit · 209 KiB
+- **1.63** — [fardes-1.63-des-2.67.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/fardes/files/fardes-1.63-des-2.67.zip) (2003-11-12)<br/>For DES 2.67 and DES 3.0.0 from SDS 1.0.0.40<br/>Windows 32-bit · 209 KiB
+- **1.63** — [fardes-1.63-des-3.0.0.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/fardes/files/fardes-1.63-des-3.0.0.zip) (2003-11-12)<br/>For DES 3.0.0 from SDS 1.0.0.53 and later<br/>Windows 32-bit · 209 KiB

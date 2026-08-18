@@ -10,20 +10,18 @@ sidebar_key: "soft.service.joker"
 **Homepage:** [http://papuas.allsiemens.com/Joker.htm](https://web.archive.org/web/20071011012321/http://papuas.allsiemens.com/Joker.htm) (web archive)<br/>
 **Author:** Papuas
 
-This program is for working with EGOLD-platform models: A50, A51, A52, A55,
+This program is intended for working with models on the EGOLD platform: A50, A51, A52, A55,
 A56, A57, A60, A62, A65, A70, A75, AX72, AX75, C55, C56, C60, CF62, CF110,
-M55, MC60, S55, S56, SL55, SX1, and similar ones.
+M55, MC60, S55, S56, SL55, SX1, and similar models.
 
-This program is intended to recover all software faults in Siemens phones on
-the EGOLD platform using a simple cable with minimal modifications together
-with Siemens EEPROM Tool.
+This program is designed to recover all software faults
+in Siemens phones on the EGOLD platform using a simple cable with minimal
+modifications together with Siemens EEPROM Tool.
 
-All methods, etc., are for test mode only. If you damage your phone — that's
-your problem!
+All methods, etc., are for test mode only. If you damage your phone —
+that is your own problem!
 
 ## Versions
-
-**Current versions**
 
 - **0.3.4.3** — [JokerV0343.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/joker/files/JokerV0343.zip)<br/>Windows 32-bit · 210 KiB
 

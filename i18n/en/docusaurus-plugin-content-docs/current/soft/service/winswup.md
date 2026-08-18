@@ -10,40 +10,40 @@ sidebar_key: "soft.service.winswup"
 **Author:** Siemens AG
 
 Official software for flashing Siemens phones. Useful for uploading XBI, XBZ,
-and XFS file system files to the phone.
+and XFS file system firmware to the phone.
 
 ## Versions
 
-**Current versions**
-
-- **4.20** — [winswup-4.20.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-4.20.zip) (2006-05-08)<br/>Developer package with SDK, documentation, and utilities<br/>Windows 32-bit · 2.88 MiB
-- **3.20** — [winswup-3.20.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-3.20.zip)<br/>For EGold and EGoldLite; XBI, XBZ, and XFS are supported<br/>Windows 32-bit · 5.60 MiB
+- **4.20** — [winswup-4.20.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-4.20.zip) (2006-05-08)<br/>For Siemens 65/75 series phones on SGold and NewSGold platforms<br/>Windows 32-bit · 2.88 MiB
+- **3.20** — [winswup-3.20.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-3.20.zip) (2006-01-26)<br/>For Siemens phones on EGold and EGoldLite platforms<br/>Windows 32-bit · 5.60 MiB
 
 <details>
-<summary><strong>Archived versions (22)</strong></summary>
+<summary><strong>Archived versions (23)</strong></summary>
 
-- **4.14p3** — [winswup-4.14p3.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-4.14p3.zip)<br/>Developer package for SL75 Escada<br/>Windows 32-bit · 1.72 MiB
-- **4.07** — [winswup-4.07.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-4.07.zip) (2004-09-08)<br/>Developer package with SDK and documentation<br/>Windows 32-bit · 1.98 MiB
-- **3.19** — [winswup-3.19.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-3.19.zip)<br/>Developer package for AL21<br/>Windows 32-bit · 5.61 MiB
-- **3.17** — [winswup-3.17.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-3.17.zip)<br/>Developer package with SDK and documentation<br/>Windows 32-bit · 5.61 MiB
-- **3.05** — [winswup-3.05.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-3.05.zip)<br/>Preliminary developer package with SDK and documentation<br/>Windows 32-bit · 4.17 MiB
-- **3.002** — [winswup-3.002.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-3.002.zip)<br/>Windows 32-bit · 316 KiB
-- **1.44** — [winswup-1.44.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.44.zip)<br/>Developer package with SDK<br/>Windows 32-bit · 5.25 MiB
-- **1.40** — [winswup-1.40.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.40.zip)<br/>Developer package with SDK and documentation<br/>Windows 32-bit · 2.98 MiB
-- **1.35** — [winswup-1.35.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.35.zip)<br/>Includes the SGOLD loader<br/>Windows 32-bit · 557 KiB
-- **1.34** — [winswup-1.34.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.34.zip)<br/>Windows 32-bit · 523 KiB
-- **1.30** — [winswup-1.30.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.30.zip)<br/>Developer package with SDK<br/>Windows 32-bit · 1.77 MiB
-- **1.28** — [winswup-1.28.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.28.zip)<br/>Developer package with SDK<br/>Windows 32-bit · 1.88 MiB
-- **1.27** — [winswup-1.27.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.27.zip)<br/>Developer package with SDK<br/>Windows 32-bit · 1.87 MiB
-- **1.23** — [winswup-1.23.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.23.zip)<br/>Windows 32-bit · 355 KiB
-- **1.04** — [winswup-1.04.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.04.zip)<br/>Includes WC3I 2001 and 2008 packages<br/>Windows 32-bit · 6.72 MiB
-- **0.98** — [winswup-0.98.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.98.zip)<br/>Windows 32-bit · 463 KiB
-- **0.98-pre** — [winswup-0.98-pre.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.98-pre.zip)<br/>Windows 32-bit · 403 KiB
-- **0.97** — [winswup-0.97.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.97.zip)<br/>“Alle Produkte” build with the original ZIP package<br/>Windows 32-bit · 825 KiB
-- **0.95** — [winswup-0.95.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.95.zip)<br/>Windows 32-bit · 373 KiB<br/><br/>**0.95** — [winswup-0.95-amd32.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.95-amd32.zip)<br/>Includes AMD32 DLL<br/>Windows 32-bit · 422 KiB
-- **0.91** — [winswup-0.91.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.91.zip)<br/>Windows 32-bit · 385 KiB
-- **0.91-pre2** — [winswup-0.91-pre2.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.91-pre2.zip)<br/>Windows 32-bit · 381 KiB
-- **0.91-pre1** — [winswup-0.91-pre1.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.91-pre1.zip)<br/>Windows 32-bit · 383 KiB
+- **4.18** — [winswup-4.18.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-4.18.zip) (2006-02-10)<br/>Windows 32-bit · 2.92 MiB
+- **4.14p3** — [winswup-4.14p3.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-4.14p3.zip) (2005-08-05)<br/>Windows 32-bit · 1.72 MiB
+- **4.07** — [winswup-4.07.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-4.07.zip) (2004-09-08)<br/>Windows 32-bit · 1.98 MiB
+- **3.19** — [winswup-3.19.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-3.19.zip) (2005-09-08)<br/>Windows 32-bit · 5.61 MiB
+- **3.17** — [winswup-3.17.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-3.17.zip) (2005-08-03)<br/>Windows 32-bit · 5.61 MiB
+- **3.05** — [winswup-3.05.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-3.05.zip) (2004-03-31)<br/>Windows 32-bit · 4.17 MiB
+- **3.002** — [winswup-3.002.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-3.002.zip) (2003-09-01)<br/>Windows 32-bit · 316 KiB
+- **1.44** — [winswup-1.44.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.44.zip) (2003-09-05)<br/>Windows 32-bit · 5.25 MiB
+- **1.40** — [winswup-1.40.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.40.zip) (2003-05-22)<br/>Windows 32-bit · 2.98 MiB
+- **1.35** — [winswup-1.35.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.35.zip) (2003-01-16)<br/>Includes the SGOLD loader<br/>Windows 32-bit · 557 KiB
+- **1.34** — [winswup-1.34.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.34.zip) (2002-12-17)<br/>Windows 32-bit · 523 KiB
+- **1.30** — [winswup-1.30.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.30.zip) (2002-10-08)<br/>Windows 32-bit · 1.77 MiB
+- **1.28** — [winswup-1.28.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.28.zip) (2002-09-05)<br/>Windows 32-bit · 1.88 MiB
+- **1.27** — [winswup-1.27.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.27.zip) (2002-08-01)<br/>Windows 32-bit · 1.87 MiB
+- **1.23** — [winswup-1.23.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.23.zip) (2002-05-29)<br/>Windows 32-bit · 355 KiB
+- **1.04** — [winswup-1.04.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-1.04.zip) (2001-07-20)<br/>Includes WC3I 2001 and 2008 packages<br/>Windows 32-bit · 6.72 MiB
+- **0.98** — [winswup-0.98.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.98.zip) (2001-05-23)<br/>Windows 32-bit · 463 KiB
+- **0.98-pre** — [winswup-0.98-pre.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.98-pre.zip) (2001-05-03)<br/>Windows 32-bit · 403 KiB
+- **0.97** — [winswup-0.97.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.97.zip) (2001-03-15)<br/>Windows 32-bit · 825 KiB
+- **0.95** — [winswup-0.95.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.95.zip) (2000-12-19)<br/>Windows 32-bit · 373 KiB
+- **0.95** — [winswup-0.95-amd32.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.95-amd32.zip) (2000-12-19)<br/>Includes the AMD32 DLL<br/>Windows 32-bit · 422 KiB
+- **0.91** — [winswup-0.91.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.91.zip) (2000-12-05)<br/>Windows 32-bit · 385 KiB
+- **0.91-pre2** — [winswup-0.91-pre2.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.91-pre2.zip) (2000-09-01)<br/>Windows 32-bit · 381 KiB
+- **0.91-pre1** — [winswup-0.91-pre1.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.91-pre1.zip) (2000-07-10)<br/>Windows 32-bit · 383 KiB
 
 </details>
 

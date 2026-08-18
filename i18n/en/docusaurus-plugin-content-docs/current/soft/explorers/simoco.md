@@ -7,25 +7,25 @@ sidebar_key: "soft.explorers.simoco"
 
 # SiMoCo
 
-**Home page:** [http://www.mysiemens.cz/ms/simoco/](https://web.archive.org/web/20070513090023/http://www.mysiemens.cz/ms/simoco/) (web archive)<br/>
+**Homepage:** [http://www.mysiemens.cz/ms/simoco/](https://web.archive.org/web/20070513090023/http://www.mysiemens.cz/ms/simoco/) (web archive)<br/>
 **Forum thread:** [https://www.siemensmania.cz/forum/viewtopic.php?t=1018](https://www.siemensmania.cz/forum/viewtopic.php?t=1018)<br/>
 **Author:** Ing. Pavel Cibulka
 
-![SiMoCo: screenshot 1](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/simoco/img/simoco.jpg)
+![SiMoCo: screenshot 1](./simoco/img/simoco.jpg)
 
-SiMoCo (Siemens Mobile Control, formerly named Sx45CZ) is designed to
-control Siemens mobile phones from a computer. It supports the S25,
+SiMoCo (Siemens Mobile Control, formerly known as Sx45CZ) is designed to
+control Siemens mobile phones from a computer. Supported models include S25,
 C35(i), M35, S35(i), SL42(i), SL45(i), C45, S45(i), ME45, M50, MT50, C55,
 S55, SL55, M55, A60, C60, MC60, CF62, C65, M65, CX65, S65, CX70, C75, CX75,
-M75, and S75. The phone is connected by cable to the serial port or via an
+M75, and S75. The phone is connected by cable to a serial port or via an
 IR port that creates a virtual COM port.
 
 Program features:
 
 - View technical information about the phone.
-- Manage calls, volume, ringtone, vibration alert, sound,
+- Control calls, volume, ringtone, vibration alert, sound,
   keypad lock, and speakerphone.
-- Display the incoming caller number, answer and reject calls.
+- Display the incoming call number, answer and reject calls.
 - View and edit the SIM and phone phonebooks, the address book,
   print, back up and restore, drag and drop entries with the mouse,
   import and export vCard.
@@ -33,28 +33,28 @@ Program features:
   report, and Flash SMS mode; long messages up to five SMS.
 - Send SMS in bulk and save recipient groups.
 - View and edit SMS on the SIM card and in the phone memory.
-- Send and receive EMS: multipart messages, images, animations, and sounds,
+- Send and receive EMS: concatenated messages, images, animations, and sounds,
   including on phones without built-in EMS support.
 - Automatically archive received and sent SMS, export to CSV, and
   save message text to a file.
-- Notifications about new SMS in a separate window or as an icon in the notification area.
+- Notifications for new SMS in a separate window or as an icon in the notification area.
 - Access FlexMemory and transfer files between the phone and the computer.
 - View and edit the organizer and calendar.
 - Support for national characters in SMS, phonebooks, the address book, and
   the organizer using UCS-2 and UTF-8.
 - View available and preferred networks, operator information, and
   edit the preferred networks list.
-- Upload logos and startup screens from BMP and GIF files, as well as a
-  logo editor.
-- Upload melodies from MIDI files and an iMelody editor with saving to
+- Upload logos and startup screens from BMP and GIF files, as well as a logo
+  editor.
+- Upload melodies from MIDI files and an iMelody melody editor with saving to
   TXT, iMelody, or MIDI.
 - Configure call forwarding and call barring.
 - Synchronize the phone date and time with the computer.
 - Send DTMF tones and strings.
 - Remotely control the phone via AT+CKPD.
 - Activate the phone service menu.
-- View communication between the program and the phone and manually enter AT commands in the
-  terminal window.
+- View communication between the program and the phone and manually enter AT commands in
+  the terminal window.
 
 ## Versions
 
