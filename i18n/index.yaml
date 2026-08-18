@@ -1,12 +1,48 @@
 state:
-  index.md: 51a14b42a0959f12276a1e70c186ac88
+  index.md: fb2d2c58e708540c252818def3bd6207
   panasonic_en.md: e956efa8ab261b9dd24513b3986bd6ee
   required_software.md: 1ef5c20d1ab17256a2cb0268f986b97d
-  reverse-engineering/arm-debugger.md: 343623c33c691b90bb8db703e409e6b3
+  reverse-engineering/arm-debugger.md: a479084c6fcaca0003f9923c449df187
   reverse-engineering/fixing-ghidra.md: ab0c8bfa35044d7c779f640c0bbfd31d
   reverse-engineering/how-start.md: 66e3a19cd11fee8f6f2798b3ebd3a50f
-  reverse-engineering/index.md: f5b3fc8df6f83d447fe38d84c84e3b1b
+  reverse-engineering/index.md: ac30825f639ba1dc05bc09a1156355fb
   reverse-engineering/memory-dump.md: d42cf225213a4ca8cdf3372bd56112a7
   panasonic/index.md: 6f2145dca0300b04e4b7d015d24afe21
   reverse-engineering-egold/how-start.md: 77fd1ec02d552f29e1be104a37a543aa
   reverse-engineering-egold/index.md: f4d16b9eb835a61121dd0ff90d645a91
+  soft/index.md: 86519fc72f079ad410dd1fd36450fedf
+  soft/utilities/index.md: a7eae363c7094ff82149c9b8c16f0aa7
+  soft/utilities/midletsigner.md: 556f9cef4721138a7fdc71ded7a024ba
+  soft/utilities/vmo2wav.md: d5f6cf6d01ef25bcd8cc741989f0fd6b
+  soft/service/index.md: c185cc7d74514f468d0a8a764980614e
+  soft/service/joker.md: d0c89925b58eb5f7954f4b8cb098827d
+  soft/service/siemens-eeprom-tool.md: 3cf591416566ed5250b9a2d060534221
+  soft/service/swrite-map-r65.md: 055536bda3757a7292fed7e6f0b61ca3
+  soft/service/winswup.md: 241177cfbc66282ae89a41f0f47b778e
+  soft/service/x65-papua-utils.md: bc46ddd76749739eab3edf76768115de
+  soft/flashers/index.md: 9bf8b887c5bd9b9d49f858d2e55e2b91
+  soft/flashers/v-klay.md: dfaa1fd9d8b348afe679809874e9b940
+  soft/flashers/x65flasher.md: b0edb5304b9bd61dae67e2a681147393
+  soft/explorers/fardes.md: 2920d1fe90db849d87a103dd6fcc619d
+  soft/explorers/index.md: a1d5c1ca76f646fb967c3ec675d6510e
+  soft/explorers/simoco.md: b7ce983dae48965c4109ddc5d72c3ff5
+  soft/drivers/index.md: e90cc49741493a1aba795fcf852f5e2f
+  soft/drivers/pl-2303.md: 26ce213e26f3123f4d5a5f7e528426d2
+  soft/development/index.md: 320925ac731c61245332ef9b6c59119b
+  soft/development/utilities/ffpatch.md: 242b0aca737ddcf69c55ce7f0471ed30
+  soft/development/utilities/filescomparer.md: a012febee1a9b7ffba5af3bf01006acc
+  soft/development/utilities/hex2vkp.md: 16f75cc880fbda5cc44aa3ead2781719
+  soft/development/utilities/index.md: 79400be31182a691ac09c3f7be5f04a9
+  soft/development/utilities/slfc.md: 14127c682e361d07fee18aa16eec9ef6
+  soft/development/modding/index.md: e3777d39da912b67049414f7ebffbc0b
+  soft/development/modding/layoutme.md: 28d326e161aaad02581b74a157fe9da3
+  soft/development/firmware/index.md: a7001ce9b9929d938b1d72c5955eff93
+  soft/development/firmware/smelter.md: ce36c69097208d3bf3ec41fccba93295
+  soft/development/firmware/wsff.md: b9861ffdfb0b5e8f5a4249a2b78699df
+  soft/development/debugging/armdebugger.md: 30204f526dd9390bbb010ca0be7f8f37
+  soft/development/debugging/atcgsn-debug.md: 89b26a6f952cce0050012ce67b70bb7b
+  soft/development/debugging/cgsn-debugger.md: 8c2caf44b13f36feb83c5cf9aa7674e8
+  soft/development/debugging/index.md: 5090f0fdbc834e60422f98e83ad22ec2
+  soft/development/debugging/siemens-debugger.md: 5c3a670e7940dacd3d942c0b146d399a
+  development-egold/index.md: 2d0eb6b3f3ced5bbd3ec62931dfe2b1a
+  development-egold/tasking-c166.md: c7aaa4a8a753cf70bdf06dbd54969bb1

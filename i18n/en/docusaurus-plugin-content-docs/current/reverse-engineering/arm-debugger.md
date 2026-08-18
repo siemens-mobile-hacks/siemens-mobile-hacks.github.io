@@ -13,8 +13,8 @@ For more information, read `README.txt` in the archive or the discussion on the 
 
 # CGSN Patch
 
-To use the debugger, you need to install a special patch called **CGSN Patch**. 
-This patch implements a special protocol for the debugger to work through the serial port.
+To use the debugger, you need to install a special patch called **CGSN Patch**.
+This patch implements a special protocol for the debugger to work over the serial port.
 The patch can be generated automatically using ArmDebugger.
 
 Follow these steps:
