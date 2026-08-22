@@ -82,7 +82,17 @@ function fail(message: string): never {
 }
 
 function readMetadata(indexPath: string): CatalogMetadata {
-  const document = YAML.parseDocument(readFileSync(indexPath, "utf8"), {
+  const lines = readFileSync(indexPath, "utf8").split(/\r?\n/);
+  if (lines[0] !== "---") {
+    fail(`${indexPath}: YAML Front Matter must start with ---`);
+  }
+
+  const closingDelimiter = lines.indexOf("---", 1);
+  if (closingDelimiter === -1) {
+    fail(`${indexPath}: YAML Front Matter is missing its closing ---`);
+  }
+
+  const document = YAML.parseDocument(lines.slice(1, closingDelimiter).join("\n"), {
     prettyErrors: true,
   });
 
@@ -90,7 +100,24 @@ function readMetadata(indexPath: string): CatalogMetadata {
     fail(`${indexPath}: ${document.errors.map((error) => error.message).join("; ")}`);
   }
 
-  const metadata = document.toJS() as Partial<CatalogMetadata>;
+  const rawMetadata = document.toJS() as unknown;
+  if (
+    typeof rawMetadata !== "object" ||
+    rawMetadata === null ||
+    Array.isArray(rawMetadata)
+  ) {
+    fail(`${indexPath}: YAML Front Matter must contain an object`);
+  }
+  if (Object.hasOwn(rawMetadata, "description")) {
+    fail(`${indexPath}: description must be the Markdown body`);
+  }
+
+  const description = lines.slice(closingDelimiter + 1).join("\n").trim();
+  if (description.length === 0) {
+    fail(`${indexPath}: Markdown description is missing`);
+  }
+
+  const metadata = { ...rawMetadata, description } as Partial<CatalogMetadata>;
   if (metadata.type !== "category" && metadata.type !== "program") {
     fail(`${indexPath}: unknown type`);
   }
@@ -115,9 +142,9 @@ function readMetadata(indexPath: string): CatalogMetadata {
 }
 
 function readCatalogNode(directory: string): CatalogNode {
-  const indexPath = path.join(directory, "index.yaml");
+  const indexPath = path.join(directory, "index.md");
   if (!existsSync(indexPath)) {
-    fail(`${directory}: index.yaml is missing`);
+    fail(`${directory}: index.md is missing`);
   }
 
   const metadata = readMetadata(indexPath);
@@ -130,7 +157,7 @@ function readCatalogNode(directory: string): CatalogNode {
       }
 
       const childDirectory = path.join(directory, entry.name);
-      if (existsSync(path.join(childDirectory, "index.yaml"))) {
+      if (existsSync(path.join(childDirectory, "index.md"))) {
         children.push(readCatalogNode(childDirectory));
       }
     }
