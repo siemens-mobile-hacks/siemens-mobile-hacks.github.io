@@ -19,8 +19,12 @@ sidebar_position: 2
   Редактирование встроенной графики в FullFlash телефонов Siemens и создание патчей V_KLay.
 - **[Siemens CE](./siemens-ce.md)**<br/>
   Поиск и редактирование встроенных шрифтов в FullFlash телефонов Siemens.
+- **[BenQ-Siemens EL71 ThemeBuilder](./benq-siemens-el71-theme-builder.md)**<br/>
+  Создание тем оформления для BenQ-Siemens E71 и EL71 из мелодий, изображений и анимации.
 - **[Colour Skin Creator](./colour-skin-creator.md)**<br/>
   Создание цветовых схем SCS для телефонов Siemens x65.
+- **[E71seriesGC](./e71seriesgc.md)**<br/>
+  Замена и извлечение изображений и шрифтов в FullFlash BenQ-Siemens E71 с созданием графических патчей.
 - **[FAK Editor](./fak-editor.md)**<br/>
   Редактирование назначений горячих клавиш в файле fak.pd телефонов Siemens S75 и SL75.
 - **[FlexTableEdit](./flex-table-edit.md)**<br/>

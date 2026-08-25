@@ -17,7 +17,7 @@ sidebar_position: 4
   Комплект USB-драйверов для подключения BenQ-Siemens EF91 к Windows.
 - **[PL-2303 Driver](./pl-2303.md)**<br/>
   Драйвер дата-кабелей на чипсете Prolific PL-2303.
+- **[Siemens DCA-140/DCA-540 Driver](./dca-540.md)**<br/>
+  Драйверы USB-кабелей Siemens DCA-140 и DCA-540 для Windows 98–10.
 - **[Siemens DCA-510 Driver](./dca-510.md)**<br/>
   Драйвер USB-кабеля Siemens DCA-510 с эмуляцией последовательного COM-порта.
-- **[Siemens DCA-540 Driver](./dca-540.md)**<br/>
-  Драйвер USB-кабеля Siemens DCA-540 для Windows 98, 2000 и XP.

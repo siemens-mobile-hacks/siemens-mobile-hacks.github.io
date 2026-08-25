@@ -19,6 +19,8 @@ sidebar_position: 4
   Программа для создания сертификатов и подписи Java-мидлетов на телефонах Siemens 65/75-й серии.
 - **[miniGPS AutoCreator](./minigps-auto-creator.md)**<br/>
   Создание файлов TMO для патча MiniGPS with GSM Data Logger по таблице базовых станций.
+- **[SiSMS](./sisms.md)**<br/>
+  Чтение архивов SMS в форматах SMI и SMO от телефонов Siemens x45–x75 с сохранением сообщений в текстовый файл.
 - **[WSFF](./wsff.md)**<br/>
   Программа для анализа и распаковки сервисных прошивок Siemens WinSwup.
 - **[x65 Wallpaper Maker](./x65-wallpaper-maker.md)**<br/>

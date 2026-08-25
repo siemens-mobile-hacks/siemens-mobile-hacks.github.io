@@ -25,6 +25,8 @@ sidebar_position: 0
   Чтение, сравнение, редактирование и запись EEPROM-блоков телефонов Siemens через Service Mode.
 - **[SWriteMapR65](./swrite-map-r65.md)**<br/>
   Сервисная программа Siemens для записи MAP-файлов в телефоны серии x75.
+- **[BrOoM NetMonitor 2006](./broom-netmonitor.md)**<br/>
+  Получение и расшифровка данных NetMonitor телефонов Siemens x65–x75 через AT-команды.
 - **[EEPROMForm](./eepromform.md)**<br/>
   Форматирование и очистка областей EELITE и EEFULL в телефонах Siemens x65.
 - **[GetMaster](./getmaster.md)**<br/>

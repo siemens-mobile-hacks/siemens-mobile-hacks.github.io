@@ -17,6 +17,8 @@ sidebar_position: 1
   Файловый менеджер EFS для телефонов на платформе BREW с графическим и консольным интерфейсами.
 - **[Brew Mobile Commander](./brew-mobile-commander.md)**<br/>
   Управление файлами, сообщениями, адресной книгой и органайзером BREW-телефонов Siemens и BenQ-Siemens.
+- **[Connective Program](./connective-program.md)**<br/>
+  Файловый менеджер для одновременной работы с телефонами BenQ-Siemens, Siemens и устройствами других производителей.
 - **[EFS Explorer Lite](./efs-explorer-lite.md)**<br/>
   Файловый менеджер для Qualcomm EFS в телефонах Siemens и BenQ-Siemens.
 - **[GAGIN](./gagin.md)**<br/>

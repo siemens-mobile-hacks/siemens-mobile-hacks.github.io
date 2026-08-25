@@ -19,6 +19,8 @@ sidebar_position: 4
   Снятие скриншотов с дисплея телефонов Siemens x35–x60 через BFB.
 - **[Siemens Service Code Generator](./siemens-service-code-generator.md)**<br/>
   Расчёт и запись в SIM-карту кодов активации сервисного меню телефонов Siemens.
+- **[SiSMS](./sisms.md)**<br/>
+  Чтение архивов SMS в форматах SMI и SMO от телефонов Siemens x45–x75 с сохранением сообщений в текстовый файл.
 - **[TXT2WMLC](./txt2wmlc.md)**<br/>
   Преобразование текстовых файлов в страницы WMLC для просмотра в WAP-браузере Siemens 45-й серии.
 - **[WSFF](./wsff.md)**<br/>
