@@ -18,3 +18,12 @@
 .soft-sidebar-folder > .menu__list-item-collapsible > .menu__link::before {
   margin-right: 0.4rem;
 }
+
+.screenshot {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 30rem;
+  margin-bottom: var(--ifm-leading);
+  object-fit: contain;
+}
