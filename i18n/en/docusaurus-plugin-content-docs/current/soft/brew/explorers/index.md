@@ -17,6 +17,8 @@ Programs for managing phone contents from a computer.
   EFS file manager for BREW-based phones with graphical and console interfaces.
 - **[Brew Mobile Commander](./brew-mobile-commander.md)**<br/>
   Manage files, messages, the address book, and the organizer on Siemens and BenQ-Siemens BREW phones.
+- **[Connective Program](./connective-program.md)**<br/>
+  File manager for working simultaneously with BenQ-Siemens and Siemens phones, as well as devices from other manufacturers.
 - **[EFS Explorer Lite](./efs-explorer-lite.md)**<br/>
   File manager for Qualcomm EFS on Siemens and BenQ-Siemens phones.
 - **[GAGIN](./gagin.md)**<br/>

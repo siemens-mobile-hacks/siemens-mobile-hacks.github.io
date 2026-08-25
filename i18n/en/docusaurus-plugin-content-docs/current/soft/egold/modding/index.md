@@ -9,34 +9,36 @@ sidebar_position: 2
 
 # Modding
 
-Changing the interface and resources of phone firmware.
+Modifying the interface and resources of phone firmware.
 
 ## Programs
 
 - **[Smelter](./smelter.md)**<br/>
   Siemens phone FullFlash explorer: EEPROM, language pack, menu, and firmware resources.
 - **[Siemens Picture Change](./siemens-picture-change.md)**<br/>
-  Editing built-in graphics in Siemens phone FullFlash and creating V_KLay patches.
+  Editing built-in graphics in Siemens phone FullFlash images and creating V_KLay patches.
 - **[Siemens CE](./siemens-ce.md)**<br/>
-  Searching for and editing built-in fonts in Siemens phone FullFlash.
+  Searching for and editing built-in fonts in Siemens phone FullFlash images.
 - **[A52 Melody Changer](./a52-melody-changer.md)**<br/>
   Replacing melodies, images, and animations in Siemens A52 firmware using V_KLay patches.
 - **[C55 Pictures Editor](./c55-pictures-editor.md)**<br/>
-  Replacing built-in graphics in Siemens C55 and creating graphic patches.
+  Replacing built-in graphics in the Siemens C55 and creating graphic patches.
 - **[Flash Imager](./flash-imager.md)**<br/>
-  Viewing and replacing built-in graphics in Siemens phone FullFlash.
+  Viewing and replacing built-in graphics in Siemens phone FullFlash images.
 - **[LayoutMe](./layoutme.md)**<br/>
-  Keyboard layout editor for Siemens phone FullFlash.
+  Keyboard layout editor for Siemens phone FullFlash images.
 - **[PCAEdit](./pcaedit.md)**<br/>
   Replacing power-on and power-off animations in the `graphcach.pca` file of Siemens phones.
 - **[PicPac](./picpac.md)**<br/>
-  Extracting, replacing, and packing built-in graphics in Siemens phone FullFlash with VKP patch creation.
+  Extracting, replacing, and packing built-in graphics in Siemens phone FullFlash images with VKP patch creation.
 - **[RingPac](./ringpac.md)**<br/>
-  Analyzing and repacking built-in melodies in FullFlash with VKP patch creation.
+  Analyzing and repacking built-in melodies in FullFlash images with VKP patch creation.
+- **[S55 Colour Scheme Editor](./s55-colour-scheme-editor.md)**<br/>
+  Creating and editing color schemes for the Siemens S55.
 - **[Siemens C45ffimager](./c45ffimager.md)**<br/>
   Replacing and adding images in Siemens C45 FullFlash.
 - **[Siemens Language Editor](./siemens-language-editor.md)**<br/>
-  Extracting and replacing the language pack in Siemens phone FullFlash for the 35/45/50/55 series.
+  Extracting and replacing the language pack in Siemens phone FullFlash images of the 35/45/50/55 series.
 - **[Siemens X55 T9 Base Creator](./t9-base-creator.md)**<br/>
   Building a T9 database for Siemens x55 from selected language dictionaries.
 - **[SLIK Graphical Menu Builder](./slik-graphical-menu.md)**<br/>

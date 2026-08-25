@@ -9,24 +9,28 @@ sidebar_position: 2
 
 # Modding
 
-Modifying the interface and firmware resources of phones.
+Changing the interface and firmware resources of phones.
 
 ## Programs
 
 - **[Smelter](./smelter.md)**<br/>
   Siemens phone FullFlash explorer: EEPROM, language pack, menu, and firmware resources.
 - **[Siemens Picture Change](./siemens-picture-change.md)**<br/>
-  Editing built-in graphics in Siemens phone FullFlash images and creating V_KLay patches.
+  Editing built-in graphics in Siemens phone FullFlash and creating V_KLay patches.
 - **[Siemens CE](./siemens-ce.md)**<br/>
-  Searching for and editing built-in fonts in Siemens phone FullFlash images.
+  Searching for and editing built-in fonts in Siemens phone FullFlash.
+- **[BenQ-Siemens EL71 ThemeBuilder](./benq-siemens-el71-theme-builder.md)**<br/>
+  Creating themes for BenQ-Siemens E71 and EL71 from melodies, images, and animation.
 - **[Colour Skin Creator](./colour-skin-creator.md)**<br/>
   Creating SCS color schemes for Siemens x65 phones.
+- **[E71seriesGC](./e71seriesgc.md)**<br/>
+  Replacing and extracting images and fonts in BenQ-Siemens E71 FullFlash with creation of graphic patches.
 - **[FAK Editor](./fak-editor.md)**<br/>
   Editing hotkey assignments in the `fak.pd` file of Siemens S75 and SL75 phones.
 - **[FlexTableEdit](./flex-table-edit.md)**<br/>
-  Viewing and editing the FFS partition table in Siemens x65–x75 phone FullFlash images.
+  Viewing and editing the FFS partition table in Siemens x65–x75 phone FullFlash.
 - **[GPF Creator](./gpf-creator.md)**<br/>
-  Converting BMP images into GPF graphics patches for Siemens phones.
+  Converting BMP images into GPF graphic patches for Siemens phones.
 - **[KEYchanger](./keychanger.md)**<br/>
   Remapping keys, the joystick, and "My menu" items on Siemens x65 phones.
 - **[LG_R](./lg-r.md)**<br/>
@@ -36,8 +40,8 @@ Modifying the interface and firmware resources of phones.
 - **[Mobile Theme Editor](./mobile-theme-editor.md)**<br/>
   Creating and editing themes for BenQ-Siemens 75/85 series phones.
 - **[Power-UP Patch Generator](./power-up-patch-generator.md)**<br/>
-  Creating Power-UP patches for Siemens x65/x75 phone FullFlash images.
+  Creating Power-UP patches for Siemens x65/x75 phone FullFlash.
 - **[S65 Key Definer](./s65-key-definer.md)**<br/>
-  Remapping keys and "My menu" items on the Siemens S65 via EEPROM blocks 5425 and 5423.
+  Remapping keys and "My menu" items on the Siemens S65 through EEPROM blocks 5425 and 5423.
 - **[x65 Direct Softkey Editor](./direct-softkey-editor.md)**<br/>
   Editor for softkey and shortcut assignments on Siemens x65 phones.

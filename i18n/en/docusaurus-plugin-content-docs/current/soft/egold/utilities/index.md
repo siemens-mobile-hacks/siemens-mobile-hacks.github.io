@@ -18,7 +18,9 @@ Utilities for working with phones, firmware, and mobile files.
 - **[Siemens Screenshot](./siemens-screenshot.md)**<br/>
   Capture screenshots from Siemens x35–x60 phone displays via BFB.
 - **[Siemens Service Code Generator](./siemens-service-code-generator.md)**<br/>
-  Calculate and write service menu activation codes for Siemens phones to the SIM card.
+  Calculate and write activation codes for the Siemens phone service menu to a SIM card.
+- **[SiSMS](./sisms.md)**<br/>
+  Read SMS archives in the SMI and SMO formats from Siemens x45–x75 phones and save messages to a text file.
 - **[TXT2WMLC](./txt2wmlc.md)**<br/>
   Convert text files into WMLC pages for viewing in the Siemens 45-series WAP browser.
 - **[WSFF](./wsff.md)**<br/>

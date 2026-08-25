@@ -8,17 +8,18 @@ sidebar_position: 8
 
 # MapInit
 
-**Author:** Siemens AG; GUI and modification — ACiD[mrp]<br/>
+**Homepage:** [http://gsmdev.de/index.php?c=viewprojektinfo&id=26](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=viewprojektinfo&id=26) (web archive)<br/>
+**Author:** Siemens AG; GUI and modification by ACiD[mrp]<br/>
 **Platforms:** x35/x45/x55 (EGOLD)
 
 ![MapInit: screenshot 1](./mapinit/img/mapinit.png)
 
 A graphical shell for the Siemens MapInit 1.14 service utility. It loads a
-MAP file, shows its version and blocks, lets you select the required blocks and
-write them to an EGOLD phone. Before writing, a backup copy of EELITE is created.
+MAP file, displays its version and blocks, lets you select the required blocks,
+and write them to an EGOLD phone. Before writing, a backup copy of EELITE is created.
 
-The ACiD[mrp] modification allows writing MAP files with an invalid checksum and MAP
-files intended for a different phone model.
+The ACiD[mrp] modification allows writing MAP files with an invalid checksum and MAP files
+intended for a different phone model.
 
 ## Versions
 

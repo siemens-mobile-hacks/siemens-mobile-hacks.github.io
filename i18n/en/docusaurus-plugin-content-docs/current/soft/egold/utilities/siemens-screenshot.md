@@ -8,15 +8,16 @@ sidebar_position: 1
 
 # Siemens Screenshot
 
+**Homepage:** [http://gsmdev.de/index.php?c=viewprojektinfo&id=28](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=viewprojektinfo&id=28) (web archive)<br/>
 **Author:** ACiD[mrp]<br/>
 **Platforms:** x35/x45/x55 (EGOLD)
 
 ![Siemens Screenshot: screenshot 1](./siemens-screenshot/img/siemens-screenshot.png)
 
-Siemens Screenshot captures an image from the phone display via BFB. It has been
-verified to work with the ME45i, S55, M55, and SL55; the program is also intended
-for the C45, S45, ME45, M50, MT50, C55, A60, and C60. Both monochrome and color
-displays are supported, including the 4096-color palette.
+Siemens Screenshot captures an image from the phone display via BFB. Operation has been
+verified with the ME45i, S55, M55, and SL55; the program is also intended for the C45, S45, ME45,
+M50, MT50, C55, A60, and C60. Monochrome and color displays are supported, including
+the 4096-color palette.
 
 To access BFB, some firmware versions require the
 [OpenBFB patch](https://patches.kibab.com/patches/search.php5?action=search&kw=BFB);

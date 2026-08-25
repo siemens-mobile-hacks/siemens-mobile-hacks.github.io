@@ -17,7 +17,7 @@ Device and cable drivers for working with mobile phones.
   USB driver package for connecting the BenQ-Siemens EF91 to Windows.
 - **[PL-2303 Driver](./pl-2303.md)**<br/>
   Driver for data cables based on the Prolific PL-2303 chipset.
+- **[Siemens DCA-140/DCA-540 Driver](./dca-540.md)**<br/>
+  USB cable drivers for the Siemens DCA-140 and DCA-540 for Windows 98–10.
 - **[Siemens DCA-510 Driver](./dca-510.md)**<br/>
   Driver for the Siemens DCA-510 USB cable with serial COM port emulation.
-- **[Siemens DCA-540 Driver](./dca-540.md)**<br/>
-  Driver for the Siemens DCA-540 USB cable for Windows 98, 2000, and XP.

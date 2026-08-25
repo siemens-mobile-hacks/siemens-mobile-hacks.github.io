@@ -13,13 +13,13 @@ Software for phones based on the S-Gold and S-Gold 2 platforms.
 
 ## Sections
 
-- **[Service](./service/index.md)** (12)<br/>
-  Diagnostics, flashing, repair, and phone recovery.
-- **[Explorers](./explorers/index.md)** (7)<br/>
+- **[Service](./service/index.md)** (13)<br/>
+  Diagnostics, flashing, repair, and recovery for phones.
+- **[Explorers](./explorers/index.md)** (9)<br/>
   Programs for managing phone contents from a computer.
-- **[Modding](./modding/index.md)** (14)<br/>
+- **[Modding](./modding/index.md)** (16)<br/>
   Modifying the interface and firmware resources of phones.
 - **[Drivers](./drivers/index.md)** (3)<br/>
   Device and cable drivers for working with mobile phones.
-- **[Utilities](./utilities/index.md)** (5)<br/>
+- **[Utilities](./utilities/index.md)** (6)<br/>
   Utilities for working with phones, firmware, and mobile files.

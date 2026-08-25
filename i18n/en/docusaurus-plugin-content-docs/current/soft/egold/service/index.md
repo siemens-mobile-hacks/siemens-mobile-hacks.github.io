@@ -9,7 +9,7 @@ sidebar_position: 0
 
 # Service
 
-Diagnostics, firmware flashing, repair, and recovery of phones.
+Diagnostics, firmware flashing, repair, and phone recovery.
 
 ## Programs
 
@@ -33,21 +33,23 @@ Diagnostics, firmware flashing, repair, and recovery of phones.
   Writing standard and delta MAP files to Siemens phones on the EGOLD platform.
 - **[OpenAll](./openall.md)**<br/>
   Obtaining service keys and enabling read and write access to EEPROM blocks of Siemens x55/x65 phones.
+- **[S45i v4 Activator](./s45i-activator.md)**<br/>
+  Activating S45i v4 features after upgrading Siemens S45 and ME45.
 - **[Siemens Contrast Tool](./siemens-contrast-tool.md)**<br/>
   Reading and adjusting the display contrast of Siemens phones in service mode.
 - **[Siemens Quick EEPROM Features](./siemens-quick-eeprom-features.md)**<br/>
-  Enabling hidden features of Siemens phones by writing patched EEPROM blocks via ServiceMode.
+  Enabling hidden features of Siemens phones by writing corrected EEPROM blocks via ServiceMode.
 - **[Siemens Service Profiler](./siemens-service-profiler.md)**<br/>
-  Editing the Factory Service Profile in Siemens phone EEPROM to manage operator-dependent features.
+  Editing the Factory Service Profile in the EEPROM of Siemens phones to manage operator-dependent features.
 - **[Siemens Tools](./siemens-tools.md)**<br/>
   Reading and writing EEPROM, viewing and changing sensor readings of Siemens 35/45 series phones.
 - **[SiemPROM](./siemprom.md)**<br/>
-  Analysis of EEPROM blocks in the FullFlash of Siemens 35/45/50/55 series phones.
+  Analyzing EEPROM blocks in the FullFlash of Siemens 35/45/50/55 series phones.
 - **[SST Service Toolbox](./sst.md)**<br/>
   Service software for unlocking, flashing, and recovering Siemens phones across different platforms.
 - **[UniSiemens Professional](./unisiemens.md)**<br/>
   Flasher for reading and writing FullFlash and EEPROM of older Siemens phones from x35 to x50.
 - **[X55 Contrast Tool](./x55-contrast-tool.md)**<br/>
-  Adjusting the display contrast of Siemens x55 phones via a service cable.
+  Adjusting the display contrast of Siemens x35–x60 phones via a service cable.
 - **[ZeeSiemens](./zeesiemens.md)**<br/>
   Removing SP Lock and PhoneCode from Siemens C35, M35, and S35 phones.

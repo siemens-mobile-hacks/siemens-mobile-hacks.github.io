@@ -19,8 +19,12 @@ Programs for managing phone contents from a computer.
   Dual-pane file manager for the FlexMemory of Siemens x55–x75 phones.
 - **[ATEnabler](./at-enabler.md)**<br/>
   Enables the AT interface on Siemens x65 phones for connecting via third-party cables.
+- **[Connective Program](./connective-program.md)**<br/>
+  File manager for working simultaneously with BenQ-Siemens and Siemens phones, as well as devices from other manufacturers.
 - **[FAROBEX](./farobex.md)**<br/>
   Far Manager plugin for managing the file system of Siemens x65–x75 phones over OBEX.
+- **[Mobile Phone Manager (MPM)](./mobile-phone-manager.md)**<br/>
+  Official BenQ-Siemens phone manager for working with files, data, messages, and internet connectivity.
 - **[SIFS](./sifs.md)**<br/>
   Total Commander plugin for accessing the FlexMemory of Siemens phones over OBEX.
 - **[VNavigator x65 (OLD)](./vnavigator.md)**<br/>

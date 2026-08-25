@@ -16,9 +16,11 @@ Utilities for working with phones, firmware, and mobile files.
 - **[X85Screen](./x85screen.md)**<br/>
   Capture screenshots from Siemens phone displays via the serial port.
 - **[MidletSigner](./midletsigner.md)**<br/>
-  A program for creating certificates and signing Java midlets on Siemens 65/75 series phones.
+  A program for creating certificates and signing Java MIDlets on Siemens 65/75 series phones.
 - **[miniGPS AutoCreator](./minigps-auto-creator.md)**<br/>
   Create TMO files for the MiniGPS with GSM Data Logger patch based on a base station table.
+- **[SiSMS](./sisms.md)**<br/>
+  Read SMS archives in SMI and SMO formats from Siemens x45–x75 phones and save messages to a text file.
 - **[WSFF](./wsff.md)**<br/>
   A program for analyzing and unpacking Siemens WinSwup service firmware.
 - **[x65 Wallpaper Maker](./x65-wallpaper-maker.md)**<br/>

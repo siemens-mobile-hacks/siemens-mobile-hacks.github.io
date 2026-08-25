@@ -22,3 +22,5 @@ Utilities for working with phones, firmware, and mobile files.
   Converts Siemens firmware dumps from BIN and FLS to FullFlash BIN.
 - **[FilesComparer](./filescomparer.md)**<br/>
   A program for byte-by-byte comparison of files and FullFlash images.
+- **[SendSMS](./sendsms.md)**<br/>
+  Send SMS through a phone connected to the COM port from a graphical interface or the command line.

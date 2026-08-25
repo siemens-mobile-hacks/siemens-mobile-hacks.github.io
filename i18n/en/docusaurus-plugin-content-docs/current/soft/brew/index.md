@@ -15,7 +15,7 @@ Software for phones on the BREW platform.
 
 - **[Service](./service/index.md)** (1)<br/>
   Diagnostics, flashing, repair, and recovery of phones.
-- **[Explorers](./explorers/index.md)** (5)<br/>
+- **[Explorers](./explorers/index.md)** (6)<br/>
   Programs for managing phone contents from a computer.
 - **[Development](./development/index.md)** (1)<br/>
   Tools for researching and developing phone software.
