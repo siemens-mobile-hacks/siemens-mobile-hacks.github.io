@@ -13,8 +13,8 @@ sidebar_position: 4
 ![Ringtone Editor: скриншот 1](./ringtone-editor/img/ringtone-editor.png)
 
 Ringtone Editor предназначен для создания, редактирования и прослушивания
-монофонических мелодий. Сохранённая Siemens Edition поддерживает формат Siemens
-C/M35 и Nokia Standard; в архив входит оригинальная справка.
+монофонических мелодий. Siemens Edition поддерживает форматы Siemens C/M35 и
+Nokia Standard.
 
 ## Версии
 

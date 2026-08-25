@@ -23,9 +23,6 @@ VkpResolver — продолжение VkpTracer, написанное для р
 непрерывный патч без промежутков. Результат записывается в файл с суффиксом
 `_out`.
 
-В комплекте находится подробное руководство по устройству графических патчей и
-работе с программой.
-
 ## Версии
 
 - **1.0** — [vkp-resolver-1.0.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/development/utilities/vkp/vkp-resolver/files/vkp-resolver-1.0.zip) (2005-03-24)<br/>Windows 32-bit · 289 КиБ

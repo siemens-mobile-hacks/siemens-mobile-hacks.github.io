@@ -8,12 +8,14 @@ sidebar_position: 3
 
 # Siemens Debugger
 
-**Домашняя страница:** [http://alexsid.antex.ru/index.php?main=techinfo.php](https://web.archive.org/web/20050901015815/http://alexsid.antex.ru/index.php?main=techinfo.php) (web archive)<br/>
+**Домашняя страница:** [http://gsmdev.de/index.php?c=projekte](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=projekte) (web archive)<br/>
 **Автор:** ACiD[mrp]
 
 ![Siemens Debugger: скриншот 1](./siemens-debugger/img/siemens-debugger.png)
 
 Дебаггер для телефонов Siemens на платформе EGOLD с открытым BFB. Для работы требуется патч, открывающий BFB Mode и отключающий проверку CRC; примеры патчей для разных моделей входят в комплект.
+
+Подробнее о разработке для EGOLD: [http://alexsid.antex.ru/index.php?main=techinfo.php](https://web.archive.org/web/20050901015815/http://alexsid.antex.ru/index.php?main=techinfo.php) (web archive)
 
 ## Версии
 

@@ -17,8 +17,6 @@ GAGIN показывает каталоги и файлы встроенной �
 показывает размер каталогов. Программа также загружает и удаляет модули BREW с комплектом файлов MIF, MOD, SIG и BAR и умеет переводить
 телефон в автономный режим.
 
-В архиве сохранены три варианта программы с именами BREW Root, BREW Ringers и BREW Games.
-
 ## Версии
 
 - **1.0** — [gagin-1.0.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/gagin/files/gagin-1.0.zip)<br/>Windows 32-bit · 407 КиБ

@@ -20,7 +20,7 @@ sidebar_position: 0
 - **[Joker](./joker.md)**<br/>
   Сервисная программа для диагностики и восстановления телефонов Siemens на платформе EGOLD.
 - **[Siemens EEPROM Tool](./siemens-eeprom-tool.md)**<br/>
-  Работа с блоками EEPROM телефонов Siemens через Service Mode.
+  Чтение, сравнение, редактирование и запись EEPROM-блоков телефонов Siemens через Service Mode.
 - **[All Siemens Unlocker](./all-siemens.md)**<br/>
   Сервисная программа для прошивки, разблокировки и работы с MAP-файлами старых телефонов Siemens.
 - **[Freia](./freia.md)**<br/>
@@ -35,8 +35,6 @@ sidebar_position: 0
   Получение сервисных ключей и открытие чтения и записи EEPROM-блоков телефонов Siemens x55/x65.
 - **[Siemens Contrast Tool](./siemens-contrast-tool.md)**<br/>
   Чтение и настройка контраста дисплея телефонов Siemens в сервисном режиме.
-- **[Siemens Flash Reader by Andromeda](./siemens-flash-reader.md)**<br/>
-  Чтение Flash-памяти телефонов Siemens через сервисный кабель.
 - **[Siemens Quick EEPROM Features](./siemens-quick-eeprom-features.md)**<br/>
   Включение скрытых функций телефонов Siemens путём записи исправленных блоков EEPROM через ServiceMode.
 - **[Siemens Service Profiler](./siemens-service-profiler.md)**<br/>

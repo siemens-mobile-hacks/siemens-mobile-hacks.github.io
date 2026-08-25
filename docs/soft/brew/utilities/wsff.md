@@ -14,7 +14,9 @@ sidebar_position: 2
 
 ![WSFF: скриншот 1](./wsff/img/wsff.png)
 
-Программа для анализа и распаковки WinSwup-баз.
+WSFF анализирует WinSwup-базы и распаковывает их содержимое. Версия 4 работает с
+XBI v4, позволяет сохранять журналы DataBlock и CmdBlock и поддерживает режим
+Replace Data BIN.
 
 ## Версии
 

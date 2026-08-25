@@ -8,7 +8,7 @@ sidebar_position: 2
 
 # CGSN Debugger
 
-**Домашняя страница:** [http://alexsid.antex.ru/index.php?main=techinfo.php](https://web.archive.org/web/20050901015815/http://alexsid.antex.ru/index.php?main=techinfo.php) (web archive)<br/>
+**Домашняя страница:** [http://gsmdev.de/index.php?c=projekte](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=projekte) (web archive)<br/>
 **Автор:** KonstanT
 
 ![CGSN Debugger: скриншот 1](./cgsn-debugger/img/cgsn-debugger.png)
@@ -21,6 +21,8 @@ sidebar_position: 2
 - Поиск данных в пределах сегмента;
 - Мониторинг выбранного участка памяти;
 - Вызов процедуры по заданному адресу с установкой значений регистров.
+
+Подробнее о разработке для EGOLD: [http://alexsid.antex.ru/index.php?main=techinfo.php](https://web.archive.org/web/20050901015815/http://alexsid.antex.ru/index.php?main=techinfo.php) (web archive)
 
 ## Версии
 

@@ -8,12 +8,14 @@ sidebar_position: 1
 
 # ATCGSN.Debug
 
-**Домашняя страница:** [http://alexsid.antex.ru/index.php?main=techinfo.php](https://web.archive.org/web/20050901015815/http://alexsid.antex.ru/index.php?main=techinfo.php) (web archive)<br/>
+**Домашняя страница:** [http://gsmdev.de/index.php?c=projekte](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=projekte) (web archive)<br/>
 **Автор:** ACiD[mrp]
 
 ![ATCGSN.Debug: скриншот 1](./atcgsn-debug/img/atcgsn-debug.png)
 
 Дебаггер для чтения и изменения памяти работающего телефона Siemens на платформе EGOLD через расширенную команду AT+CGSN и установленный в прошивку патч.
+
+Подробнее о разработке для EGOLD: [http://alexsid.antex.ru/index.php?main=techinfo.php](https://web.archive.org/web/20050901015815/http://alexsid.antex.ru/index.php?main=techinfo.php) (web archive)
 
 ## Версии
 

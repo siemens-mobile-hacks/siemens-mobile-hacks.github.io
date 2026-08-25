@@ -11,7 +11,7 @@ sidebar_position: 1
 **Автор:** D. B. Moskvin
 
 SMS Sender — небольшая J2ME-программа для набора и отправки SMS с телефонов
-Siemens. Архив содержит готовые JAR и JAD для установки в телефон.
+Siemens.
 
 ## Версии
 

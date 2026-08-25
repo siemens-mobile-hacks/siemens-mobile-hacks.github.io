@@ -17,8 +17,6 @@ SXG75 Controller работает с файловой системой Siemens S
 переименовывает и удаляет файлы. Также программа читает и записывает SMS, устанавливает темы и переносит Java-приложения и игры в
 соответствующие каталоги телефона.
 
-В комплект входят русский, английский, немецкий и чешский языки интерфейса.
-
 ## Версии
 
 - **0.7** — [sxg75-controller-0.7.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/sxg75-controller/files/sxg75-controller-0.7.zip)<br/>Windows 32-bit · 519 КиБ

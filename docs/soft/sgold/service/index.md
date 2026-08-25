@@ -20,9 +20,9 @@ sidebar_position: 0
 - **[x65flasher](./x65flasher.md)**<br/>
   Программа для чтения и записи flash-памяти телефонов Siemens 65–75-й серии.
 - **[x65PapuaUtils](./x65-papua-utils.md)**<br/>
-  Сервисная программа для обслуживания телефонов Siemens на платформе SGOLD.
+  Сервисная программа для диагностики и восстановления телефонов Siemens на платформе SGOLD.
 - **[Siemens EEPROM Tool](./siemens-eeprom-tool.md)**<br/>
-  Работа с блоками EEPROM телефонов Siemens через Service Mode.
+  Чтение, сравнение, редактирование и запись EEPROM-блоков телефонов Siemens через Service Mode.
 - **[SWriteMapR65](./swrite-map-r65.md)**<br/>
   Сервисная программа Siemens для записи MAP-файлов в телефоны серии x75.
 - **[EEPROMForm](./eepromform.md)**<br/>

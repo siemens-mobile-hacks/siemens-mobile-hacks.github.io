@@ -30,6 +30,6 @@ sidebar_position: 3
 - **[Mobile Theme Editor](./mobile-theme-editor.md)**<br/>
   Создание и редактирование тем оформления для телефонов BenQ-Siemens 75/85-й серии.
 - **[Outer Logo Converter](./outer-logo-converter.md)**<br/>
-  Преобразование изображений в специальный растровый формат логотипа внешнего дисплея BenQ-Siemens.
+  Преобразование изображений в 16- и 18-битный растровый формат логотипа внешнего дисплея BenQ-Siemens.
 - **[QC BS Firmware Analyzer](./qc-bs-firmware-analyzer.md)**<br/>
   Анализ прошивок и сервисные операции с BenQ-Siemens на платформе Qualcomm.

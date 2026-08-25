@@ -13,8 +13,9 @@ sidebar_position: 11
 
 ![Power-UP Patch Generator: скриншот 1](./power-up-patch-generator/img/power-up-patch-generator.png)
 
-Power-UP Patch Generator создаёт патчи для запуска пользовательского кода во
-время включения телефонов Siemens x65/x75.
+Power-UP Patch Generator открывает FullFlash телефонов Siemens x65/x75 и создаёт
+VKP-патч для запуска пользовательского кода при включении телефона. Программа
+может сразу запустить V_KLay.
 
 ## Версии
 
