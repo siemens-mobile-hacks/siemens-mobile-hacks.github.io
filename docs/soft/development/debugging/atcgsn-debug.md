@@ -13,7 +13,9 @@ sidebar_position: 1
 
 ![ATCGSN.Debug: скриншот 1](./atcgsn-debug/img/atcgsn-debug.png)
 
-Дебаггер для чтения и изменения памяти работающего телефона Siemens на платформе EGOLD через расширенную команду AT+CGSN и установленный в прошивку патч.
+ATCGSN.Debug читает и изменяет RAM работающего телефона Siemens через расширенную команду AT+CGSN и установленный в прошивку патч.
+Программа выполняет вызовы по адресу, записывает и запускает код, ищет данные в памяти и подключается через COM-порт, USB, IrDA или
+Bluetooth. В комплект входят готовые патчи и инструкция по созданию патча для другого телефона.
 
 Подробнее о разработке для EGOLD: [http://alexsid.antex.ru/index.php?main=techinfo.php](https://web.archive.org/web/20050901015815/http://alexsid.antex.ru/index.php?main=techinfo.php) (web archive)
 

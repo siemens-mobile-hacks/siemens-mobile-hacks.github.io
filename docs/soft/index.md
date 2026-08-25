@@ -15,7 +15,7 @@ sidebar_key: "soft"
 
 - **[x65/x75 (SGOLD)](./sgold/index.md)** (41)<br/>
   Софт для телефонов на платформах S-Gold и S-Gold 2.
-- **[x35/x45/x55 (EGOLD)](./egold/index.md)** (48)<br/>
+- **[x35/x45/x55 (EGOLD)](./egold/index.md)** (50)<br/>
   Софт для телефонов на платформе E-Gold.
 - **[x10/x25 (HIGOLD)](./higold/index.md)** (13)<br/>
   Софт для телефонов на платформе HiGold.
@@ -29,7 +29,7 @@ sidebar_key: "soft"
   J2ME-мидлеты для телефонов.
 - **[Эмуляторы](./emulators/index.md)** (22)<br/>
   Эмуляторы отдельных моделей телефонов Siemens и среда Siemens Mobility Toolkit.
-- **[Утилиты](./utilities/index.md)** (10)<br/>
+- **[Утилиты](./utilities/index.md)** (11)<br/>
   Утилиты для работы с телефонами, прошивками и мобильными файлами.
 
 ## Дерево файлов
@@ -81,8 +81,8 @@ sidebar_key: "soft"
     - [miniGPS AutoCreator](./sgold/utilities/minigps-auto-creator.md)
     - [WSFF](./sgold/utilities/wsff.md)
     - [x65 Wallpaper Maker](./sgold/utilities/x65-wallpaper-maker.md)
-- **[x35/x45/x55 (EGOLD)](./egold/index.md)** (48)
-  - **[Сервис](./egold/service/index.md)** (19)
+- **[x35/x45/x55 (EGOLD)](./egold/index.md)** (50)
+  - **[Сервис](./egold/service/index.md)** (20)
     - [WinSwup](./egold/service/winswup.md)
     - [V_KLay](./egold/service/v-klay.md)
     - [Joker](./egold/service/joker.md)
@@ -93,6 +93,7 @@ sidebar_key: "soft"
     - [KSiE](./egold/service/ksie.md)
     - [MapInit](./egold/service/mapinit.md)
     - [OpenAll](./egold/service/openall.md)
+    - [S45i v4 Activator](./egold/service/s45i-activator.md)
     - [Siemens Contrast Tool](./egold/service/siemens-contrast-tool.md)
     - [Siemens Quick EEPROM Features](./egold/service/siemens-quick-eeprom-features.md)
     - [Siemens Service Profiler](./egold/service/siemens-service-profiler.md)
@@ -108,7 +109,7 @@ sidebar_key: "soft"
     - [C55 Phonebook](./egold/explorers/c55-phonebook.md)
     - [FarDES](./egold/explorers/fardes.md)
     - [vSOFS](./egold/explorers/vsofs.md)
-  - **[Моддинг](./egold/modding/index.md)** (16)
+  - **[Моддинг](./egold/modding/index.md)** (17)
     - [Smelter](./egold/modding/smelter.md)
     - [Siemens Picture Change](./egold/modding/siemens-picture-change.md)
     - [Siemens CE](./egold/modding/siemens-ce.md)
@@ -119,6 +120,7 @@ sidebar_key: "soft"
     - [PCAEdit](./egold/modding/pcaedit.md)
     - [PicPac](./egold/modding/picpac.md)
     - [RingPac](./egold/modding/ringpac.md)
+    - [S55 Colour Scheme Editor](./egold/modding/s55-colour-scheme-editor.md)
     - [Siemens C45ffimager](./egold/modding/c45ffimager.md)
     - [Siemens Language Editor](./egold/modding/siemens-language-editor.md)
     - [Siemens X55 T9 Base Creator](./egold/modding/t9-base-creator.md)
@@ -249,7 +251,7 @@ sidebar_key: "soft"
   - [Siemens SL65](./emulators/sl65.md)
   - [Siemens SL75](./emulators/sl75.md)
   - [Siemens SXG75](./emulators/sxg75.md)
-- **[Утилиты](./utilities/index.md)** (10)
+- **[Утилиты](./utilities/index.md)** (11)
   - **[Аудио](./utilities/audio/index.md)** (8)
     - [Create Ringtone](./utilities/audio/create-ringtone.md)
     - [MA-1 SMF to SMAF Converter](./utilities/audio/smf-to-smaf-converter.md)
@@ -261,3 +263,4 @@ sidebar_key: "soft"
     - [WAV/AMR Converter](./utilities/audio/wav-amr-converter.md)
   - [FF Converter](./utilities/ff-converter.md)
   - [FilesComparer](./utilities/filescomparer.md)
+  - [SendSMS](./utilities/sendsms.md)

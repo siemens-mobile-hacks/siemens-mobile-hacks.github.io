@@ -33,6 +33,8 @@ sidebar_position: 0
   Запись standard- и delta-MAP в телефоны Siemens на платформе EGOLD.
 - **[OpenAll](./openall.md)**<br/>
   Получение сервисных ключей и открытие чтения и записи EEPROM-блоков телефонов Siemens x55/x65.
+- **[S45i v4 Activator](./s45i-activator.md)**<br/>
+  Активация функций S45i v4 после обновления Siemens S45 и ME45.
 - **[Siemens Contrast Tool](./siemens-contrast-tool.md)**<br/>
   Чтение и настройка контраста дисплея телефонов Siemens в сервисном режиме.
 - **[Siemens Quick EEPROM Features](./siemens-quick-eeprom-features.md)**<br/>
@@ -48,6 +50,6 @@ sidebar_position: 0
 - **[UniSiemens Professional](./unisiemens.md)**<br/>
   Флешер для чтения и записи FullFlash и EEPROM старых телефонов Siemens от x35 до x50.
 - **[X55 Contrast Tool](./x55-contrast-tool.md)**<br/>
-  Настройка контраста дисплея телефонов Siemens x55 через сервисный кабель.
+  Настройка контраста дисплея телефонов Siemens x35–x60 через сервисный кабель.
 - **[ZeeSiemens](./zeesiemens.md)**<br/>
   Снятие SP Lock и PhoneCode с телефонов Siemens C35, M35 и S35.

@@ -8,6 +8,7 @@ sidebar_position: 1
 
 # Siemens Screenshot
 
+**Домашняя страница:** [http://gsmdev.de/index.php?c=viewprojektinfo&id=28](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=viewprojektinfo&id=28) (web archive)<br/>
 **Автор:** ACiD[mrp]<br/>
 **Платформы:** x35/x45/x55 (EGOLD)
 

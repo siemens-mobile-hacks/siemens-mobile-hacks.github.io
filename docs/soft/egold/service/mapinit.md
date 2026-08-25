@@ -8,6 +8,7 @@ sidebar_position: 8
 
 # MapInit
 
+**Домашняя страница:** [http://gsmdev.de/index.php?c=viewprojektinfo&id=26](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=viewprojektinfo&id=26) (web archive)<br/>
 **Автор:** Siemens AG; GUI и модификация — ACiD[mrp]<br/>
 **Платформы:** x35/x45/x55 (EGOLD)
 

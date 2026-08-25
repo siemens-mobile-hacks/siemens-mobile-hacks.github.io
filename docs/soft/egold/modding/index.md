@@ -33,6 +33,8 @@ sidebar_position: 2
   Извлечение, замена и упаковка встроенной графики FullFlash телефонов Siemens с созданием патчей VKP.
 - **[RingPac](./ringpac.md)**<br/>
   Анализ и перепаковка встроенных мелодий в FullFlash с созданием патча VKP.
+- **[S55 Colour Scheme Editor](./s55-colour-scheme-editor.md)**<br/>
+  Создание и редактирование цветовых схем для Siemens S55.
 - **[Siemens C45ffimager](./c45ffimager.md)**<br/>
   Замена и добавление изображений в FullFlash Siemens C45.
 - **[Siemens Language Editor](./siemens-language-editor.md)**<br/>

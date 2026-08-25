@@ -13,7 +13,18 @@ sidebar_position: 3
 
 ![Siemens Debugger: скриншот 1](./siemens-debugger/img/siemens-debugger.png)
 
-Дебаггер для телефонов Siemens на платформе EGOLD с открытым BFB. Для работы требуется патч, открывающий BFB Mode и отключающий проверку CRC; примеры патчей для разных моделей входят в комплект.
+Дебаггер для телефонов Siemens на платформе EGOLD с открытым BFB. Для работы требуется
+[патч BFB](https://patches.kibab.com/patches/search.php5?action=search&kw=BFB), отключающий проверку CRC; примеры патчей для разных
+моделей входят в комплект.
+
+- Монитор портов;
+- HEX-редактор памяти и дизассемблер;
+- Запись в RAM и проверка патчей в RAM;
+- Монитор и редактор EEPROM;
+- Вызов функций и поиск в памяти;
+- Резервное копирование памяти;
+- Снятие скриншотов;
+- Эмуляция нажатий клавиатуры.
 
 Подробнее о разработке для EGOLD: [http://alexsid.antex.ru/index.php?main=techinfo.php](https://web.archive.org/web/20050901015815/http://alexsid.antex.ru/index.php?main=techinfo.php) (web archive)
 

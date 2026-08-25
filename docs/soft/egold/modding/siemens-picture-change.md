@@ -8,6 +8,7 @@ sidebar_position: 1
 
 # Siemens Picture Change
 
+**Домашняя страница:** [http://gsmdev.de/index.php?c=viewprojektinfo&id=33](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=viewprojektinfo&id=33) (web archive)<br/>
 **Автор:** ACiD[mrp], b@iLLi, CLuni<br/>
 **Платформы:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 

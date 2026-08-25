@@ -22,3 +22,5 @@ sidebar_position: 3
   Преобразование дампов прошивки Siemens из BIN и FLS в FullFlash BIN.
 - **[FilesComparer](./filescomparer.md)**<br/>
   Программа для побайтового сравнения файлов и образов FullFlash.
+- **[SendSMS](./sendsms.md)**<br/>
+  Отправка SMS через подключённый к COM-порту телефон из графического интерфейса или командной строки.

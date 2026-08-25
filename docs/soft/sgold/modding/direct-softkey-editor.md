@@ -8,7 +8,7 @@ sidebar_position: 13
 
 # x65 Direct Softkey Editor
 
-**Домашняя страница:** [http://www.gsmdev.de/](https://web.archive.org/web/20041126044722/http://www.gsmdev.de/) (web archive)<br/>
+**Домашняя страница:** [http://gsmdev.de/index.php?c=viewprojektinfo&id=34](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=viewprojektinfo&id=34) (web archive)<br/>
 **Автор:** ACiD[mrp]<br/>
 **Платформы:** x65/x75 (SGOLD)
 
@@ -21,6 +21,8 @@ Direct Softkey Editor позволяет изменить все софт-кла
 Программа переводит телефон в сервисный режим, считывает назначения клавиш и
 список «Моё меню», позволяет выбрать новые значения и записывает изменения
 обратно в телефон.
+
+В комплект входят хорватский, английский, немецкий, греческий, итальянский и русский языки интерфейса.
 
 ## Версии
 
