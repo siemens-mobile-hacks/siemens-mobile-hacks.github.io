@@ -10,7 +10,9 @@ sidebar_position: 0
 
 **Author:** Siemens Mobile, BenQ Mobile
 
-Environment for running Siemens and BenQ-Siemens phone emulators.
+An environment for running individual emulator packages for Siemens and
+BenQ-Siemens phones. Each package is designed for a specific SMTK or MTK version;
+it is indicated on the page of the corresponding emulator.
 
 ## Versions
 

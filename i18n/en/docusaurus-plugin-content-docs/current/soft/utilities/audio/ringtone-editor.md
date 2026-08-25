@@ -13,8 +13,8 @@ sidebar_position: 4
 ![Ringtone Editor: screenshot 1](./ringtone-editor/img/ringtone-editor.png)
 
 Ringtone Editor is intended for creating, editing, and playing back
-monophonic melodies. The preserved Siemens Edition supports the Siemens
-C/M35 and Nokia Standard formats; the archive includes the original help file.
+monophonic melodies. Siemens Edition supports the Siemens C/M35 and
+Nokia Standard formats.
 
 ## Versions
 

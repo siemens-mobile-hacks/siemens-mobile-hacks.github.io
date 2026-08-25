@@ -15,16 +15,16 @@ Source metadata and files: [https://git.siepatch.dev/siepatch/soft](https://git.
 
 - **[x65/x75 (SGOLD)](./sgold/index.md)** (41)<br/>
   Software for phones based on the S-Gold and S-Gold 2 platforms.
-- **[x35/x45/x55 (EGOLD)](./egold/index.md)** (49)<br/>
+- **[x35/x45/x55 (EGOLD)](./egold/index.md)** (48)<br/>
   Software for phones based on the E-Gold platform.
-- **[x10/x25 (HIGOLD)](./higold/index.md)** (12)<br/>
+- **[x10/x25 (HIGOLD)](./higold/index.md)** (13)<br/>
   Software for phones based on the HiGold platform.
 - **[BREW](./brew/index.md)** (24)<br/>
   Software for phones based on the BREW platform.
 - **[ODM](./odm/index.md)** (16)<br/>
   Software for phones based on ODM platforms.
 - **[Development](./development/index.md)** (10)<br/>
-  Tools for researching and developing phone software.
+  Tools for phone software research and development.
 - **[J2ME Midlets](./j2me/index.md)** (3)<br/>
   J2ME midlets for phones.
 - **[Emulators](./emulators/index.md)** (22)<br/>
@@ -32,7 +32,7 @@ Source metadata and files: [https://git.siepatch.dev/siepatch/soft](https://git.
 - **[Utilities](./utilities/index.md)** (10)<br/>
   Utilities for working with phones, firmware, and mobile files.
 
-## File tree
+## File Tree
 
 - **[x65/x75 (SGOLD)](./sgold/index.md)** (41)
   - **[Service](./sgold/service/index.md)** (12)
@@ -81,8 +81,8 @@ Source metadata and files: [https://git.siepatch.dev/siepatch/soft](https://git.
     - [miniGPS AutoCreator](./sgold/utilities/minigps-auto-creator.md)
     - [WSFF](./sgold/utilities/wsff.md)
     - [x65 Wallpaper Maker](./sgold/utilities/x65-wallpaper-maker.md)
-- **[x35/x45/x55 (EGOLD)](./egold/index.md)** (49)
-  - **[Service](./egold/service/index.md)** (20)
+- **[x35/x45/x55 (EGOLD)](./egold/index.md)** (48)
+  - **[Service](./egold/service/index.md)** (19)
     - [WinSwup](./egold/service/winswup.md)
     - [V_KLay](./egold/service/v-klay.md)
     - [Joker](./egold/service/joker.md)
@@ -94,7 +94,6 @@ Source metadata and files: [https://git.siepatch.dev/siepatch/soft](https://git.
     - [MapInit](./egold/service/mapinit.md)
     - [OpenAll](./egold/service/openall.md)
     - [Siemens Contrast Tool](./egold/service/siemens-contrast-tool.md)
-    - [Siemens Flash Reader by Andromeda](./egold/service/siemens-flash-reader.md)
     - [Siemens Quick EEPROM Features](./egold/service/siemens-quick-eeprom-features.md)
     - [Siemens Service Profiler](./egold/service/siemens-service-profiler.md)
     - [Siemens Tools](./egold/service/siemens-tools.md)
@@ -136,10 +135,11 @@ Source metadata and files: [https://git.siepatch.dev/siepatch/soft](https://git.
     - [Siemens Service Code Generator](./egold/utilities/siemens-service-code-generator.md)
     - [TXT2WMLC](./egold/utilities/txt2wmlc.md)
     - [WSFF](./egold/utilities/wsff.md)
-- **[x10/x25 (HIGOLD)](./higold/index.md)** (12)
-  - **[Service](./higold/service/index.md)** (2)
+- **[x10/x25 (HIGOLD)](./higold/index.md)** (13)
+  - **[Service](./higold/service/index.md)** (3)
     - [V_KLay](./higold/service/v-klay.md)
     - [C25info](./higold/service/c25info.md)
+    - [Siemens Flash Reader by Andromeda](./higold/service/siemens-flash-reader.md)
   - **[Explorers](./higold/explorers/index.md)** (2)
     - [SiMoCo](./higold/explorers/simoco.md)
     - [C55 Phonebook](./higold/explorers/c55-phonebook.md)

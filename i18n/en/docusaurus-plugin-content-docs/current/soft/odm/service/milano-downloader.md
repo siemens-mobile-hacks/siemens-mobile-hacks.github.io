@@ -11,9 +11,9 @@ sidebar_position: 5
 **Author:** Quanta Computer Inc.<br/>
 **Platforms:** ODM
 
-Software for flashing Siemens ST55 and ST60. The main firmware, mapping, and language pack are selected separately; each selected part can be enabled or disabled before writing.
+A program for flashing Siemens ST55 and ST60. The main firmware, mapping, and language pack are selected separately; each selected part can be enabled or disabled before writing.
 
-The phone is connected while powered off using a service cable. For version 4.10, the package includes COM and FTDI interface libraries and the original instructions.
+The phone is connected while powered off via a service cable.
 
 ## Versions
 

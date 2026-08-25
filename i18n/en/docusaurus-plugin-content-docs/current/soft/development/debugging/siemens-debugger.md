@@ -8,12 +8,14 @@ sidebar_position: 3
 
 # Siemens Debugger
 
-**Homepage:** [http://alexsid.antex.ru/index.php?main=techinfo.php](https://web.archive.org/web/20050901015815/http://alexsid.antex.ru/index.php?main=techinfo.php) (web archive)<br/>
+**Homepage:** [http://gsmdev.de/index.php?c=projekte](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=projekte) (web archive)<br/>
 **Author:** ACiD[mrp]
 
 ![Siemens Debugger: screenshot 1](./siemens-debugger/img/siemens-debugger.png)
 
-A debugger for Siemens phones based on the EGOLD platform with an unlocked BFB. To work, it requires a patch that enables BFB Mode and disables CRC checking; examples of patches for different models are included.
+Debugger for Siemens phones on the EGOLD platform with open BFB. Operation requires a patch that enables BFB Mode and disables CRC checking; example patches for different models are included.
+
+More about development for EGOLD: [http://alexsid.antex.ru/index.php?main=techinfo.php](https://web.archive.org/web/20050901015815/http://alexsid.antex.ru/index.php?main=techinfo.php) (web archive)
 
 ## Versions
 

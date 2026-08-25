@@ -8,7 +8,7 @@ sidebar_position: 2
 
 # CGSN Debugger
 
-**Home page:** [http://alexsid.antex.ru/index.php?main=techinfo.php](https://web.archive.org/web/20050901015815/http://alexsid.antex.ru/index.php?main=techinfo.php) (web archive)<br/>
+**Homepage:** [http://gsmdev.de/index.php?c=projekte](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=projekte) (web archive)<br/>
 **Author:** KonstanT
 
 ![CGSN Debugger: screenshot 1](./cgsn-debugger/img/cgsn-debugger.png)
@@ -21,6 +21,8 @@ on the EGOLD platform through the corresponding version of the AT+CGSN patch.
 - Search for data within a segment;
 - Monitor the selected memory region;
 - Call a procedure at a specified address with register values set.
+
+More about development for EGOLD: [http://alexsid.antex.ru/index.php?main=techinfo.php](https://web.archive.org/web/20050901015815/http://alexsid.antex.ru/index.php?main=techinfo.php) (web archive)
 
 ## Versions
 

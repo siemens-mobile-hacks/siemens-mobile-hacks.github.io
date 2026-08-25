@@ -14,7 +14,9 @@ sidebar_position: 2
 
 ![WSFF: screenshot 1](./wsff/img/wsff.png)
 
-A program for analyzing and unpacking WinSwup bases.
+WSFF analyzes WinSwup databases and extracts their contents. Version 4 works with
+XBI v4, allows saving DataBlock and CmdBlock logs, and supports the
+Replace Data BIN mode.
 
 ## Versions
 

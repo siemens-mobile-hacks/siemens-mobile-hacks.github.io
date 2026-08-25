@@ -20,17 +20,17 @@ Diagnostics, firmware flashing, repair, and recovery for phones.
 - **[x65flasher](./x65flasher.md)**<br/>
   Software for reading and writing the flash memory of Siemens 65–75 series phones.
 - **[x65PapuaUtils](./x65-papua-utils.md)**<br/>
-  Service software for maintaining Siemens phones on the SGOLD platform.
+  Service software for diagnostics and recovery of Siemens phones based on the SGOLD platform.
 - **[Siemens EEPROM Tool](./siemens-eeprom-tool.md)**<br/>
-  Working with EEPROM blocks of Siemens phones via Service Mode.
+  Reading, comparing, editing, and writing EEPROM blocks of Siemens phones via Service Mode.
 - **[SWriteMapR65](./swrite-map-r65.md)**<br/>
   Siemens service software for writing MAP files to x75 series phones.
 - **[EEPROMForm](./eepromform.md)**<br/>
   Formatting and clearing the EELITE and EEFULL areas in Siemens x65 phones.
 - **[GetMaster](./getmaster.md)**<br/>
-  Calculating the master code of Siemens x65 phones by IMEI and EEPROM block 5121.
+  Calculating the master code for Siemens x65 phones from the IMEI and EEPROM block 5121.
 - **[MAP65](./map65.md)**<br/>
-  Reading and writing standard and delta MAP in Siemens x65 phones.
+  Reading and writing standard and delta MAP files in Siemens x65 phones.
 - **[OpenAll](./openall.md)**<br/>
   Obtaining service keys and enabling reading and writing of EEPROM blocks in Siemens x55/x65 phones.
 - **[SST Service Toolbox](./sst.md)**<br/>

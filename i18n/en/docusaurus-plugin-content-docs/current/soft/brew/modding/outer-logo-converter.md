@@ -13,8 +13,9 @@ sidebar_position: 8
 
 ![Outer Logo Converter: screenshot 1](./outer-logo-converter/img/outer-logo-converter.png)
 
-Outer Logo Converter converts a regular image into a special bitmap format used for the phone's external display logo.
-The program shows the source and resulting images and lets you choose the output file type.
+Outer Logo Converter converts an image to the 16-bit or 18-bit bitmap format
+for the phone's outer display logo. The user selects the source file, the
+output file, and the bit depth of the result.
 
 ## Versions
 

@@ -9,12 +9,12 @@ sidebar_position: 0
 
 # Debugging
 
-Programs for analyzing memory, machine code, and program execution.
+Debuggers for analyzing memory and machine code on Siemens phones.
 
-## Programs
+## Applications
 
 - **[ArmDebugger](./armdebugger.md)**<br/>
-  Debugger for Siemens phones of the 65/70/75 series.
+  Debugger for Siemens 65/70/75 series phones.
 - **[ATCGSN.Debug](./atcgsn-debug.md)**<br/>
   Debugger for Siemens phones on the EGOLD platform via AT+CGSN.
 - **[CGSN Debugger](./cgsn-debugger.md)**<br/>

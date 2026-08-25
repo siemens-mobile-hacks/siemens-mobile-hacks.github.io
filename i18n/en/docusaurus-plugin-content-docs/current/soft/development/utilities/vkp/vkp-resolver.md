@@ -13,18 +13,14 @@ sidebar_position: 4
 ![VkpResolver: screenshot 1](./vkp-resolver/img/vkp-resolver.png)
 
 VkpResolver is a continuation of VkpTracer, written to resolve conflicts between
-graphical VKP patches. Such conflicts occur when a new patch writes an
+graphic VKP patches. Such conflicts occur when a new patch writes an
 image to a flash area already occupied by a previously installed patch.
 
-The program analyzes VKP files from the selected folder and moves the new patch to
-a free area after the highest used address. You can specify a
-new start address or a hexadecimal offset, limit the processed
-address range, fix reference tables, clear old data, and build a
-continuous patch without gaps. The result is written to a file with the suffix
-`_out`.
-
-The package includes a detailed guide to the structure of graphical patches and
-working with the program.
+The program analyzes VKP files in the selected folder and moves the new patch to
+a free area after the highest used address. You can specify a new starting
+address or a hexadecimal offset, limit the processed address range, fix
+reference tables, clear old data, and build a contiguous patch without gaps. The
+result is written to a file with the `_out` suffix.
 
 ## Versions
 

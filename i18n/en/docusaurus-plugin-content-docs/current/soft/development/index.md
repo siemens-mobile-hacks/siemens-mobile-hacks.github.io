@@ -9,11 +9,11 @@ sidebar_position: 0
 
 # Development
 
-Tools for researching and developing phone software.
+Tools for researching and developing software for phones.
 
 ## Sections
 
 - **[Debugging](./debugging/index.md)** (4)<br/>
-  Programs for analyzing memory, machine code, and program execution.
+  Debuggers for analyzing the memory and machine code of Siemens phones.
 - **[Utilities](./utilities/index.md)** (6)<br/>
-  Firmware comparison and analysis, function search, and auxiliary development tools.
+  Converters, analyzers, and other auxiliary development tools.

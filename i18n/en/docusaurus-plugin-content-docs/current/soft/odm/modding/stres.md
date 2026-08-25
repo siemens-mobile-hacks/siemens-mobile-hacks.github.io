@@ -17,9 +17,9 @@ The program opens a full backup in MOT format created by Milano Backup Tool,
 replaces the graphics in it using an STR resource file, and saves the modified backup for
 writing back to the phone.
 
-Version 0.3 supports the Siemens ST55 with firmware 040503 and the WishM build, as well as the
-ST60 with firmware versions 040226 and 040305. The package includes resource tables for
-supported firmware versions and the original manual.
+Version 0.3 supports the Siemens ST55 with firmware 040503 and WishM build, as well as the
+ST60 with firmware versions 040226 and 040305. For supported firmware versions,
+ready-made resource tables are provided.
 
 ## Versions
 

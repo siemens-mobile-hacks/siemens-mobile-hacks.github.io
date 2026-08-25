@@ -14,10 +14,8 @@ sidebar_position: 3
 ![GAGIN: screenshot 1](./gagin/img/gagin.png)
 
 GAGIN displays directories and files in the built-in BREW file system, copies files between the phone and the computer, deletes them, and
-displays directory sizes. The program also uploads and deletes BREW modules with the MIF, MOD, SIG, and BAR file set and can switch the
+shows directory sizes. The program also uploads and deletes BREW modules with the MIF, MOD, SIG, and BAR file set, and can switch the
 phone to offline mode.
-
-The archive contains three versions of the program named BREW Root, BREW Ringers, and BREW Games.
 
 ## Versions
 

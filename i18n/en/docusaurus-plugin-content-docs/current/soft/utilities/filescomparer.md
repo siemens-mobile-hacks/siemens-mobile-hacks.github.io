@@ -11,7 +11,10 @@ sidebar_position: 2
 **Homepage:** [http://vi-soft.com.ua/](https://web.archive.org/web/20130813164842/http://vi-soft.com.ua/) (web archive)<br/>
 **Author:** SaiNT
 
-For DOS. The file/flash comparer can compare not only files of equal size, but also files of different sizes, and can also compare a user-defined address range from start to end. Parameters can be specified on the command line. Supports byte alignment of results. For DOS & Windows.
+Compares files and FullFlash images byte by byte, whether they are the same size or different sizes.
+The user specifies the comparison range from the start address to the end address;
+parameters can be passed on the command line. Byte alignment of the
+results is supported. Runs in DOS and Windows.
 
 ## Versions
 

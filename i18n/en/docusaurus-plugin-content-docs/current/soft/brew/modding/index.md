@@ -14,22 +14,22 @@ Modifying the interface and resources of phone firmware.
 ## Programs
 
 - **[Bar Image Grabber](./bar-image-grabber.md)**<br/>
-  Viewing and extracting graphical resources from BAR files of phones on the BREW platform.
+  Viewing and extracting graphic resources from BAR files of phones on the BREW platform.
 - **[BREW Compressed Image Authoring Tool](./bci-authoring-tool.md)**<br/>
   Creating and converting compressed BCI images for BREW applications and resources.
 - **[BREW Graphicpatch Creator](./brew-graphicpatch-creator.md)**<br/>
-  Replacing graphics in BAR firmware resources for BenQ-Siemens devices on the BREW platform.
+  Replacing graphics in BAR firmware resources for BenQ-Siemens on the BREW platform.
 - **[BREW MIF Editor](./brew-mif-editor.md)**<br/>
   Editor for MIF manifests and BREW application resources.
 - **[BREW Resource Editor](./brew-resource-editor.md)**<br/>
   Editor for strings, images, menus, and dialogs in BAR resources of BREW applications.
 - **[MBN Resourcer](./mbn-resourcer.md)**<br/>
-  Extracting and analyzing resources from AMSS.MBN and QAPP firmware of phones on the BREW platform.
+  Extracting and analyzing resources from AMSS.MBN and QAPP firmware for phones on the BREW platform.
 - **[MIF Unlocker](./mif-unlocker.md)**<br/>
   Changing the usage and recovery status of BREW applications in MIF files.
 - **[Mobile Theme Editor](./mobile-theme-editor.md)**<br/>
   Creating and editing themes for BenQ-Siemens 75/85 series phones.
 - **[Outer Logo Converter](./outer-logo-converter.md)**<br/>
-  Converting images to the special bitmap format used for the BenQ-Siemens external display logo.
+  Converting images to the 16-bit and 18-bit bitmap format used for the BenQ-Siemens external display logo.
 - **[QC BS Firmware Analyzer](./qc-bs-firmware-analyzer.md)**<br/>
-  Firmware analysis and service operations for BenQ-Siemens devices on the Qualcomm platform.
+  Firmware analysis and service operations for BenQ-Siemens on the Qualcomm platform.

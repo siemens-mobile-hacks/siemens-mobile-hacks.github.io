@@ -13,15 +13,14 @@ sidebar_position: 4
 
 ![FAK Editor: screenshot 1](./fak-editor/img/fak-editor.png)
 
-FAK Editor is designed to assign hotkeys on Siemens S75 and SL75.
-The program opens the `fak.pd` file, displays key-to-action mappings, and
+FAK Editor is intended for assigning hotkeys on Siemens S75 and SL75.
+The program opens the `fak.pd` file, shows key-to-action mappings, and
 allows you to add, remove, and modify them.
 
-The list of available actions and keys is stored in editable INI files. If
-you load `frdb.pd`, the list of actions will include the midlets installed on
-the phone. Unknown assignments and key modifiers are preserved unchanged.
-
-The archive includes Russian and English action databases and a user manual.
+The list of available actions and keys is stored in the Russian and English databases in
+editable INI files. If you load `frdb.pd`, the list of actions will include the
+midlets installed on the phone. Unknown assignments and key modifiers are
+preserved unchanged.
 
 ## Versions
 

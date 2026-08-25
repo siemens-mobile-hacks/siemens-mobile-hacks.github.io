@@ -9,7 +9,7 @@ sidebar_position: 1
 
 # Utilities
 
-Firmware comparison and analysis, function search, and auxiliary development tools.
+Converters, analyzers, and other auxiliary development tools.
 
 ## Sections
 

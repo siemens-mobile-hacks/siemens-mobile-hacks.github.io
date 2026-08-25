@@ -12,7 +12,7 @@ sidebar_position: 0
 **Platforms:** BREW
 
 USB driver installer for connecting the BenQ-Siemens EF91 to a computer running
-Windows. The archive has been preserved in its original form as a single installer package.
+Windows.
 
 ## Versions
 

@@ -14,4 +14,4 @@ Tools for researching and developing phone software.
 ## Sections
 
 - **[Utilities](./utilities/index.md)** (1)<br/>
-  Firmware comparison and analysis, function search, and auxiliary development tools.
+  Converters, analyzers, and other auxiliary development tools.

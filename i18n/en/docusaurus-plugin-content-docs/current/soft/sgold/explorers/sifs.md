@@ -15,9 +15,9 @@ SIFS is a Total Commander file plugin for accessing the FlexMemory of Siemens
 phones via serial port and OBEX. It allows you to browse directories, copy,
 move, rename, and delete files directly from Total Commander.
 
-The archived build is based on SIFS 1.1 and modified to work with Siemens
-x65. Requires Total Commander 5.51 or later.
+This modification of SIFS 1.1 supports Siemens x65. Total Commander
+5.51 or later is required.
 
 ## Versions
 
-- **1.1** — [sifs-1.1-x65.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/sifs/files/sifs-1.1-x65.zip) (2005-02-02)<br/>Modified version with Siemens x65 support<br/>Windows 32-bit · 47.9 KiB
+- **1.1** — [sifs-1.1-x65.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/sifs/files/sifs-1.1-x65.zip) (2005-02-02)<br/>Modification with Siemens x65 support<br/>Windows 32-bit · 47.9 KiB

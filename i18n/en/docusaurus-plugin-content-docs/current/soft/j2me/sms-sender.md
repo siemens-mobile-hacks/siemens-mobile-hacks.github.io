@@ -10,7 +10,8 @@ sidebar_position: 1
 
 **Author:** D. B. Moskvin
 
-SMS Sender is a small J2ME application for composing and sending SMS messages from Siemens phones. The archive contains ready-to-install JAR and JAD files for the phone.
+SMS Sender is a small J2ME application for composing and sending SMS from
+Siemens phones.
 
 ## Versions
 

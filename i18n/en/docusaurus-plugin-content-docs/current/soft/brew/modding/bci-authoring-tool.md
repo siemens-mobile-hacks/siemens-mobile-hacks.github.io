@@ -13,10 +13,10 @@ sidebar_position: 1
 
 ![BREW Compressed Image Authoring Tool: screenshot 1](./bci-authoring-tool/img/bci-authoring-tool.png)
 
-BREW Compressed Image Authoring Tool is intended for creating BCI resources used by BREW applications. The program imports
-images, converts them to BREW's internal compressed format, and allows you to view individual animation frames.
-
-The package includes JPEG and PNG codecs, a palette converter, and a UI resource library.
+BREW Compressed Image Authoring Tool is intended for creating BCI resources
+used by BREW applications. The program imports images, converts
+them to BREW's internal compressed format, and allows viewing individual
+animation frames.
 
 ## Versions
 

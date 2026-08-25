@@ -17,8 +17,6 @@ SXG75 Controller works with the Siemens SXG75 file system via OBEX and BREW: it 
 renames, and deletes files. The program also reads and writes SMS messages, installs themes, and transfers Java applications and games to
 the corresponding phone directories.
 
-The package includes Russian, English, German, and Czech interface languages.
-
 ## Versions
 
 - **0.7** — [sxg75-controller-0.7.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/sxg75-controller/files/sxg75-controller-0.7.zip)<br/>Windows 32-bit · 519 KiB

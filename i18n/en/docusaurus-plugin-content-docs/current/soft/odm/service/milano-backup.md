@@ -11,9 +11,8 @@ sidebar_position: 4
 **Author:** Quanta Computer Inc.<br/>
 **Platforms:** ODM
 
-A service utility for Siemens ST55 and ST60. It allows you to create a backup copy of phone data and clear the user area when restoring the device.
-
-The package includes ready-made configurations for operation via COM1–COM6.
+A service utility for Siemens ST55 and ST60. Lets you create a backup copy
+of phone data and clear the user area when restoring the device.
 
 ## Versions
 

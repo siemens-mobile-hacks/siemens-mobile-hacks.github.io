@@ -12,8 +12,9 @@ sidebar_position: 1
 
 ![ST55 BG Maker: screenshot 1](./st55-bg-maker/img/st55-bg-maker.png)
 
-ST55 BG Maker is intended for preparing background images and logos for
-Siemens ST55.
+ST55 BG Maker prepares the background and operator logo for the Siemens ST55 and
+shows the result on a mockup of the phone display. You can save only the background or
+the background together with the operator logo.
 
 ## Versions
 

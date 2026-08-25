@@ -13,9 +13,7 @@ sidebar_position: 0
 
 ![NV Editor: screenshot 1](./nv-editor/img/nv-editor.jpg)
 
-NV Editor lets you edit the contents of NV Items and save the result to files or
-directly to the phone. Values are displayed in a readable form — in
-decimal and hexadecimal representation.
+NV Editor lets you edit the contents of NV Items and save the result to files or directly to the phone. Values are displayed in a readable form — in decimal and hexadecimal representation.
 
 Features:
 
@@ -27,8 +25,7 @@ Features:
 - Select and sort NV Items by name, ID, size, and data type;
 - Add descriptions for new NV Items and data structures via DEF files.
 
-QPST Server must be installed to use the program. The package includes a detailed
-user guide.
+QPST Server must be installed to use the application.
 
 ## Versions
 

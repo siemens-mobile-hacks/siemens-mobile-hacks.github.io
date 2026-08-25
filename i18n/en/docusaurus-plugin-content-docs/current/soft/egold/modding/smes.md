@@ -14,10 +14,10 @@ sidebar_position: 14
 ![SMES: screenshot 1](./smes/img/smes.png)
 
 The program is intended for replacing standard melodies in the Siemens C55. Firmware versions 14 and 24 are supported; for other versions, it is recommended to
-make a backup copy of the firmware in advance.
+make a backup copy of the firmware first.
 
-SMES replaces IMA ADPCM sounds and SI3 melodies, trims the file or pads it with silence if necessary, lets you change the melody name,
-and creates a patch for V_KLay. Version 1.6 adds quick launch of V_KLay and creation of data for rolling back changes.
+SMES replaces IMA ADPCM sounds and SI3 melodies, trims the file or pads it with silence if necessary, allows you to change the melody name,
+creates a patch with data to roll back the changes, and lets you launch V_KLay immediately.
 
 ## Versions
 

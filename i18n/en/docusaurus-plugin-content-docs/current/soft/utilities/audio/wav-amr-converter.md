@@ -8,9 +8,8 @@ sidebar_position: 7
 
 # WAV/AMR Converter
 
-The converter converts audio files from WAV to AMR and back. The package includes
- a graphical application, command BAT files for both directions, a description of
-the AMR format, and test files.
+The converter converts audio files from WAV to AMR and back. Conversion in
+both directions is available through the graphical interface and command BAT files.
 
 ## Versions
 

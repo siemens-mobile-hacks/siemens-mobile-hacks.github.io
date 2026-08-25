@@ -11,9 +11,11 @@ sidebar_position: 0
 
 Diagnostics, firmware flashing, repair, and phone recovery.
 
-## Programs
+## Applications
 
 - **[V_KLay](./v-klay.md)**<br/>
   Flasher and VKP patcher for Siemens phones with a keyboard layout editor.
 - **[C25info](./c25info.md)**<br/>
   View service information and settings for Siemens C25/C28 with AT command support and service functions.
+- **[Siemens Flash Reader by Andromeda](./siemens-flash-reader.md)**<br/>
+  Read Flash, EEPROM, and RAM from Siemens C25/S25/C35/S35 phones via a service cable.

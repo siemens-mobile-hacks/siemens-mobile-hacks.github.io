@@ -17,8 +17,6 @@ MIF Unlocker modifies the service fields of MIF files: it sets the Unlimited Use
 and allows it to be restored. For applications with ringtones,
 the program sets 255 credits.
 
-Version 1.2.5 adds MIF file selection and fixes bugs.
-
 ## Versions
 
 - **1.2.5** — [mif-unlocker-1.2.5.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/mif-unlocker/files/mif-unlocker-1.2.5.zip)<br/>Windows 32-bit · 15.3 KiB

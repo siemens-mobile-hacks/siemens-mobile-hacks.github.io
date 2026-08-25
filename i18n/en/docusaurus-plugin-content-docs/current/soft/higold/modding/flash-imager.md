@@ -15,11 +15,8 @@ sidebar_position: 0
 
 Flash Imager opens FullFlash in BIN or BIF format, displays the detected
 graphics, and lets you replace images. Model support and image locations are
-defined by text files in the `menu` directory, so the set can be expanded
-without modifying the program.
-
-The archive includes a complete set of tables for various Siemens models and
-firmware versions, as well as more than 40 sample images.
+defined by ready-made tables for different Siemens models and firmware in the
+`menu` directory, so support can be extended without modifying the program.
 
 ## Versions
 

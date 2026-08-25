@@ -13,7 +13,8 @@ sidebar_position: 0
 
 ![FFPatch: screenshot 1](./ffpatch/img/ffpatch.png)
 
-For Windows. Compares 2 files (fullflash); the comparison result can be saved as a vkp file. This program can also be used to search for installed patches in a fullflash file.
+Compares two FullFlash files. The comparison result can be saved to a VKP file.
+The program also searches for installed patches in the FullFlash image.
 
 ## Versions
 

@@ -16,17 +16,16 @@ sidebar_position: 1
 Siemens Picture Change opens FullFlash in BIN format, finds embedded graphics,
 and displays the selected image. Images can be extracted to BMP,
 replaced with custom ones, and the changes can be saved as a V_KLay patch. The new image
-may differ in size from the original; compressed graphics are supported on
-phones whose firmware provides for them.
+may differ in size from the original; compressed graphics are supported for those
+phones whose firmware provides for it.
 
 SPC 2.0 includes an editor for the S/ME45i main screen: icons can be moved around the
 screen, and profile, network, and battery images can be viewed and replaced.
 Model support is defined in the INI file; x35, x45, and
 M(T)50 phones are supported by default.
 
-SPC 3 ports the editor to x65. Public Beta 7 includes language packs,
-a language database editor, image processing plugins, and the source code of a sample
-plugin.
+SPC 3 ports the editor to x65 and adds a language pack editor and image processing
+plugins.
 
 ## Versions
 

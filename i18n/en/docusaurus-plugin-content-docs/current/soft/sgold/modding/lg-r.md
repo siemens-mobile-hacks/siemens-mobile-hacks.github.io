@@ -13,11 +13,10 @@ sidebar_position: 8
 
 ![LG_R: screenshot 1](./lg-r/img/lg-r.png)
 
-LG_R transfers the translation from an old language pack version to a new one. The program matches strings from the old and new English language packs,
-inserts the corresponding Russian strings, and marks phrases for which no translation was found.
-
-The archive includes the Delphi source code and text exports of the English and Russian language packs for Siemens CX65 versions 43 and 50.
+LG_R transfers the translation from an old language pack version to a new one. The program matches
+strings from the old and new English language packs, inserts the corresponding
+Russian strings, and marks phrases for which no translation was found.
 
 ## Versions
 
-- **1.0** — [lg-r-1.0.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/lg-r/files/lg-r-1.0.zip)<br/>Windows 32-bit · 725 KiB
+- **1.0** — [lg-r-1.0.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/lg-r/files/lg-r-1.0.zip)<br/>Delphi source code and text dumps of Siemens CX65 language packs versions 43 and 50<br/>Windows 32-bit · 725 KiB

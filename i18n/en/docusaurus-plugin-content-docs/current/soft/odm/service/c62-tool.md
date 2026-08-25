@@ -8,11 +8,12 @@ sidebar_position: 2
 
 # C62 Tool
 
-**Homepage:** [http://www.gsm-asia.com/](https://web.archive.org/web/20051218103808/http://www.gsm-asia.com/) (web archive)<br/>
+**Home page:** [http://www.gsm-asia.com/](https://web.archive.org/web/20051218103808/http://www.gsm-asia.com/) (web archive)<br/>
 **Author:** GSM-Asia<br/>
 **Platforms:** ODM
 
-A program for unlocking the Siemens C62 via a service cable. The archive contains the executable file and the required Borland C++ Builder libraries.
+A program for unlocking the Siemens C62 via a service cable. To run it,
+the included Borland C++ Builder libraries are used.
 
 ## Versions
 

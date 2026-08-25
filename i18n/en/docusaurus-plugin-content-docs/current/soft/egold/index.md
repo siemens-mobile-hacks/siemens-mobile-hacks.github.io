@@ -13,7 +13,7 @@ Software for phones based on the E-Gold platform.
 
 ## Sections
 
-- **[Service](./service/index.md)** (20)<br/>
+- **[Service](./service/index.md)** (19)<br/>
   Diagnostics, flashing, repair, and recovery of phones.
 - **[Explorers](./explorers/index.md)** (5)<br/>
   Programs for managing phone contents from a computer.
