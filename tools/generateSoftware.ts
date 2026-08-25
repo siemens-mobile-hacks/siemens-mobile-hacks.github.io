@@ -42,8 +42,10 @@ type CategoryMetadata = {
 type ProgramMetadata = {
   type: "program";
   name: string;
+  order?: number;
   summary: string;
   description: string;
+  targets?: SoftwareTarget[];
   homepage?: string;
   source?: string;
   forum?: string;
@@ -52,6 +54,13 @@ type ProgramMetadata = {
   versions: VersionMetadata[];
   additional_files?: FileMetadata[];
 };
+
+type SoftwareTarget =
+  | "higold"
+  | "egold"
+  | "sgold"
+  | "odm"
+  | "brew";
 
 type CatalogMetadata = CategoryMetadata | ProgramMetadata;
 
@@ -71,6 +80,68 @@ const collator = new Intl.Collator("ru", {
   numeric: true,
   sensitivity: "base",
 });
+
+type TargetSection = {
+  key: SoftwareTarget | "other";
+  slug: string;
+  name: string;
+  description: string;
+  order: number;
+};
+
+const targetSections: TargetSection[] = [
+  {
+    key: "sgold",
+    slug: "sgold",
+    name: "x65/x75 (SGOLD)",
+    description: "Софт для телефонов на платформах S-Gold и S-Gold 2.",
+    order: -90,
+  },
+  {
+    key: "egold",
+    slug: "egold",
+    name: "x35/x45/x55 (EGOLD)",
+    description: "Софт для телефонов на платформе E-Gold.",
+    order: -80,
+  },
+  {
+    key: "higold",
+    slug: "higold",
+    name: "x10/x25 (HIGOLD)",
+    description: "Софт для телефонов на платформе HiGold.",
+    order: -70,
+  },
+  {
+    key: "brew",
+    slug: "brew",
+    name: "BREW",
+    description: "Софт для телефонов на платформе BREW.",
+    order: -60,
+  },
+  {
+    key: "odm",
+    slug: "odm",
+    name: "ODM",
+    description: "Софт для телефонов на ODM-платформах.",
+    order: -50,
+  },
+];
+
+const rootCatalogSection: TargetSection = {
+  key: "other",
+  slug: "",
+  name: "",
+  description: "",
+  order: 0,
+};
+
+const softwareTargets = new Set<SoftwareTarget>([
+  "higold",
+  "egold",
+  "sgold",
+  "odm",
+  "brew",
+]);
 
 function usage(): never {
   console.error("Usage: pnpm generate-software <path-to-soft-repository>");
@@ -134,8 +205,19 @@ function readMetadata(indexPath: string): CatalogMetadata {
     if (!Array.isArray(metadata.screenshots) || !Array.isArray(metadata.versions)) {
       fail(`${indexPath}: program is missing screenshots or versions`);
     }
-  } else if (metadata.order !== undefined && !Number.isInteger(metadata.order)) {
-    fail(`${indexPath}: category order must be an integer`);
+    if (metadata.targets !== undefined) {
+      if (
+        !Array.isArray(metadata.targets) ||
+        metadata.targets.length === 0 ||
+        metadata.targets.some((target) => !softwareTargets.has(target as SoftwareTarget)) ||
+        new Set(metadata.targets).size !== metadata.targets.length
+      ) {
+        fail(`${indexPath}: invalid program targets`);
+      }
+    }
+  }
+  if (metadata.order !== undefined && !Number.isInteger(metadata.order)) {
+    fail(`${indexPath}: order must be an integer`);
   }
 
   return metadata as CatalogMetadata;
@@ -166,11 +248,9 @@ function readCatalogNode(directory: string): CatalogNode {
       if (left.metadata.type !== right.metadata.type) {
         return left.metadata.type === "category" ? -1 : 1;
       }
-      if (left.metadata.type === "category" && right.metadata.type === "category") {
-        const orderDifference = (left.metadata.order ?? 0) - (right.metadata.order ?? 0);
-        if (orderDifference !== 0) {
-          return orderDifference;
-        }
+      const orderDifference = (left.metadata.order ?? 0) - (right.metadata.order ?? 0);
+      if (orderDifference !== 0) {
+        return orderDifference;
       }
       return collator.compare(left.metadata.name, right.metadata.name);
     });
@@ -357,32 +437,56 @@ function descriptionSummary(description: string): string {
   return `${shortened.slice(0, lastSpace > 0 ? lastSpace : undefined)}…`;
 }
 
-function countPrograms(node: CatalogNode): number {
-  if (node.metadata.type === "program") {
-    return 1;
+function programBelongsToSection(
+  metadata: ProgramMetadata,
+  section: TargetSection,
+): boolean {
+  if (metadata.targets === undefined) {
+    return section.key === "other";
   }
-  return node.children.reduce((total, child) => total + countPrograms(child), 0);
+  return section.key !== "other" && metadata.targets.includes(section.key);
+}
+
+function countPrograms(node: CatalogNode, section: TargetSection): number {
+  if (node.metadata.type === "program") {
+    return programBelongsToSection(node.metadata, section) ? 1 : 0;
+  }
+  return node.children.reduce(
+    (total, child) => total + countPrograms(child, section),
+    0,
+  );
+}
+
+function childrenForSection(node: CatalogNode, section: TargetSection): CatalogNode[] {
+  return node.children.filter((child) => countPrograms(child, section) > 0);
 }
 
 function renderCatalogTree(
   node: CatalogNode,
+  section: TargetSection,
   currentPage: string,
   catalogDirectory: string,
   outputDirectory: string,
   lines: string[],
   depth = 0,
 ): void {
-  for (const child of node.children) {
-    const targetPage = nodeOutputPath(child, catalogDirectory, outputDirectory);
+  for (const child of childrenForSection(node, section)) {
+    const targetPage = nodeOutputPath(
+      child,
+      section,
+      catalogDirectory,
+      outputDirectory,
+    );
     const href = relativeMarkdownLink(currentPage, targetPage);
     const indent = "  ".repeat(depth);
 
     if (child.metadata.type === "category") {
       lines.push(
-        `${indent}- **[${child.metadata.name}](${href})** (${countPrograms(child)})`,
+        `${indent}- **[${child.metadata.name}](${href})** (${countPrograms(child, section)})`,
       );
       renderCatalogTree(
         child,
+        section,
         currentPage,
         catalogDirectory,
         outputDirectory,
@@ -527,33 +631,60 @@ function pageFrontmatter(
 
 function nodeOutputPath(
   node: CatalogNode,
+  section: TargetSection,
   catalogDirectory: string,
   outputDirectory: string,
 ): string {
   const relativeDirectory = path.relative(catalogDirectory, node.directory);
   if (node.metadata.type === "category") {
-    return path.join(outputDirectory, relativeDirectory, "index.md");
+    return path.join(outputDirectory, section.slug, relativeDirectory, "index.md");
   }
 
   return path.join(
     outputDirectory,
+    section.slug,
     path.dirname(relativeDirectory),
     `${path.basename(relativeDirectory)}.md`,
   );
 }
 
-function nodeSidebarKey(node: CatalogNode, catalogDirectory: string): string {
+function nodeSidebarKey(
+  node: CatalogNode,
+  section: TargetSection,
+  catalogDirectory: string,
+): string {
   const relativeDirectory = path
     .relative(catalogDirectory, node.directory)
     .split(path.sep)
     .filter(Boolean)
     .join(".");
-  return relativeDirectory.length === 0 ? "soft" : `soft.${relativeDirectory}`;
+  const sectionKey = section.slug.length === 0 ? "soft" : `soft.${section.slug}`;
+  return relativeDirectory.length === 0
+    ? sectionKey
+    : `${sectionKey}.${relativeDirectory}`;
 }
 
 function relativeMarkdownLink(fromPage: string, toPage: string): string {
   const relativePath = path.relative(path.dirname(fromPage), toPage).split(path.sep).join("/");
   return relativePath.startsWith(".") ? relativePath : `./${relativePath}`;
+}
+
+function targetSection(key: SoftwareTarget): TargetSection {
+  const section = targetSections.find((candidate) => candidate.key === key);
+  if (section === undefined) {
+    fail(`Unknown target section: ${key}`);
+  }
+  return section;
+}
+
+function renderProgramTargets(
+  metadata: ProgramMetadata,
+): string | undefined {
+  if (metadata.targets === undefined) {
+    return undefined;
+  }
+  const names = metadata.targets.map((target) => targetSection(target).name);
+  return `**Платформы:** ${names.join(", ")}`;
 }
 
 function copyProgramScreenshot(
@@ -595,13 +726,26 @@ function copyProgramScreenshot(
 
 function renderProgramPage(
   node: CatalogNode,
+  section: TargetSection,
   repositoryRoot: string,
   links: RepositoryLinks,
   pagePath: string,
   sidebarKey: string,
+  sidebarPosition: number,
+  catalogDirectory: string,
+  outputDirectory: string,
 ): string {
   const metadata = node.metadata as ProgramMetadata;
-  const lines = [...pageFrontmatter(metadata.name, metadata.name, sidebarKey), ""];
+  const lines = [
+    ...pageFrontmatter(
+      metadata.name,
+      metadata.name,
+      sidebarKey,
+      undefined,
+      sidebarPosition,
+    ),
+    "",
+  ];
 
   lines.push(heading(1, metadata.name), "");
   const headerLines: string[] = [];
@@ -616,6 +760,10 @@ function renderProgramPage(
   }
   if (metadata.author !== undefined) {
     headerLines.push(`**Автор:** ${metadata.author}`);
+  }
+  const targets = renderProgramTargets(metadata);
+  if (targets !== undefined) {
+    headerLines.push(targets);
   }
   if (headerLines.length > 0) {
     lines.push(headerLines.join("<br/>\n"), "");
@@ -639,44 +787,44 @@ function renderProgramPage(
 
 function renderCategoryPage(
   node: CatalogNode,
+  section: TargetSection,
   links: RepositoryLinks,
   currentPage: string,
   catalogDirectory: string,
   outputDirectory: string,
-  root: boolean,
   sidebarKey: string,
+  sidebarPosition: number,
 ): string {
   const metadata = node.metadata as CategoryMetadata;
   const lines = [
     ...pageFrontmatter(
-      root ? "Софт" : metadata.name,
-      root ? "Софт" : metadata.name,
+      metadata.name,
+      metadata.name,
       sidebarKey,
-      root ? undefined : "soft-sidebar-folder",
-      root ? undefined : (metadata.order ?? 0),
+      "soft-sidebar-folder",
+      sidebarPosition,
     ),
     "",
   ];
 
   lines.push(heading(1, metadata.name), "", metadata.description.trim(), "");
 
-  if (root) {
-    lines.push(
-      `Исходные метаданные и файлы: [${links.repositoryUrl}](${links.repositoryUrl}).`,
-      "",
-    );
-  }
-
-  const categories = node.children.filter((child) => child.metadata.type === "category");
-  const programs = node.children.filter((child) => child.metadata.type === "program");
+  const children = childrenForSection(node, section);
+  const categories = children.filter((child) => child.metadata.type === "category");
+  const programs = children.filter((child) => child.metadata.type === "program");
 
   if (categories.length > 0) {
     lines.push(heading(2, "Разделы"), "");
     for (const child of categories) {
-      const targetPage = nodeOutputPath(child, catalogDirectory, outputDirectory);
+      const targetPage = nodeOutputPath(
+        child,
+        section,
+        catalogDirectory,
+        outputDirectory,
+      );
       const href = relativeMarkdownLink(currentPage, targetPage);
       lines.push(
-        `- **[${child.metadata.name}](${href})** (${countPrograms(child)})<br/>\n  ${descriptionSummary(child.metadata.description)}`,
+        `- **[${child.metadata.name}](${href})** (${countPrograms(child, section)})<br/>\n  ${descriptionSummary(child.metadata.description)}`,
       );
     }
     lines.push("");
@@ -685,7 +833,12 @@ function renderCategoryPage(
   if (programs.length > 0) {
     lines.push(heading(2, "Программы"), "");
     for (const child of programs) {
-      const targetPage = nodeOutputPath(child, catalogDirectory, outputDirectory);
+      const targetPage = nodeOutputPath(
+        child,
+        section,
+        catalogDirectory,
+        outputDirectory,
+      );
       const href = relativeMarkdownLink(currentPage, targetPage);
       lines.push(
         `- **[${child.metadata.name}](${href})**<br/>\n  ${singleLine((child.metadata as ProgramMetadata).summary)}`,
@@ -694,62 +847,246 @@ function renderCategoryPage(
     lines.push("");
   }
 
-  if (root) {
-    lines.push(heading(2, "Дерево файлов"), "");
-    renderCatalogTree(
-      node,
-      currentPage,
-      catalogDirectory,
-      outputDirectory,
-      lines,
-    );
+  return `${lines.join("\n").trimEnd()}\n`;
+}
+
+function sectionOutputPath(section: TargetSection, outputDirectory: string): string {
+  return path.join(outputDirectory, section.slug, "index.md");
+}
+
+function renderSectionPage(
+  root: CatalogNode,
+  section: TargetSection,
+  outputDirectory: string,
+  catalogDirectory: string,
+): string {
+  const currentPage = sectionOutputPath(section, outputDirectory);
+  const lines = [
+    ...pageFrontmatter(
+      section.name,
+      section.name,
+      `soft.${section.slug}`,
+      "soft-sidebar-folder",
+      section.order,
+    ),
+    "",
+    heading(1, section.name),
+    "",
+    section.description,
+    "",
+  ];
+
+  const children = childrenForSection(root, section);
+  const categories = children.filter((child) => child.metadata.type === "category");
+  const programs = children.filter((child) => child.metadata.type === "program");
+
+  if (categories.length > 0) {
+    lines.push(heading(2, "Разделы"), "");
+    for (const child of categories) {
+      const targetPage = nodeOutputPath(
+        child,
+        section,
+        catalogDirectory,
+        outputDirectory,
+      );
+      lines.push(
+        `- **[${child.metadata.name}](${relativeMarkdownLink(currentPage, targetPage)})** (${countPrograms(child, section)})<br/>\n  ${descriptionSummary(child.metadata.description)}`,
+      );
+    }
+    lines.push("");
+  }
+
+  if (programs.length > 0) {
+    lines.push(heading(2, "Программы"), "");
+    for (const child of programs) {
+      const targetPage = nodeOutputPath(
+        child,
+        section,
+        catalogDirectory,
+        outputDirectory,
+      );
+      lines.push(
+        `- **[${child.metadata.name}](${relativeMarkdownLink(currentPage, targetPage)})**<br/>\n  ${singleLine((child.metadata as ProgramMetadata).summary)}`,
+      );
+    }
     lines.push("");
   }
 
   return `${lines.join("\n").trimEnd()}\n`;
 }
 
+function renderRootPage(
+  root: CatalogNode,
+  sections: TargetSection[],
+  links: RepositoryLinks,
+  outputDirectory: string,
+  catalogDirectory: string,
+): string {
+  const currentPage = path.join(outputDirectory, "index.md");
+  const metadata = root.metadata as CategoryMetadata;
+  const lines = [
+    ...pageFrontmatter("Софт", "Софт", "soft"),
+    "",
+    heading(1, metadata.name),
+    "",
+    metadata.description.trim(),
+    "",
+    `Исходные метаданные и файлы: [${links.repositoryUrl}](${links.repositoryUrl}).`,
+    "",
+  ];
+
+  const rootChildren = childrenForSection(root, rootCatalogSection);
+  const rootCategories = rootChildren.filter((child) => child.metadata.type === "category");
+  const rootPrograms = rootChildren.filter((child) => child.metadata.type === "program");
+
+  lines.push(heading(2, "Разделы"), "");
+
+  for (const section of sections) {
+    const targetPage = sectionOutputPath(section, outputDirectory);
+    lines.push(
+      `- **[${section.name}](${relativeMarkdownLink(currentPage, targetPage)})** (${countPrograms(root, section)})<br/>\n  ${section.description}`,
+    );
+  }
+
+  for (const child of rootCategories) {
+    const targetPage = nodeOutputPath(
+      child,
+      rootCatalogSection,
+      catalogDirectory,
+      outputDirectory,
+    );
+    lines.push(
+      `- **[${child.metadata.name}](${relativeMarkdownLink(currentPage, targetPage)})** (${countPrograms(child, rootCatalogSection)})<br/>\n  ${descriptionSummary(child.metadata.description)}`,
+    );
+  }
+
+  for (const child of rootPrograms) {
+    const targetPage = nodeOutputPath(
+      child,
+      rootCatalogSection,
+      catalogDirectory,
+      outputDirectory,
+    );
+    lines.push(
+      `- **[${child.metadata.name}](${relativeMarkdownLink(currentPage, targetPage)})**<br/>\n  ${singleLine((child.metadata as ProgramMetadata).summary)}`,
+    );
+  }
+
+  lines.push("", heading(2, "Дерево файлов"), "");
+  for (const section of sections) {
+    const targetPage = sectionOutputPath(section, outputDirectory);
+    lines.push(
+      `- **[${section.name}](${relativeMarkdownLink(currentPage, targetPage)})** (${countPrograms(root, section)})`,
+    );
+    renderCatalogTree(
+      root,
+      section,
+      currentPage,
+      catalogDirectory,
+      outputDirectory,
+      lines,
+      1,
+    );
+  }
+  renderCatalogTree(
+    root,
+    rootCatalogSection,
+    currentPage,
+    catalogDirectory,
+    outputDirectory,
+    lines,
+  );
+  lines.push("");
+
+  return `${lines.join("\n").trimEnd()}\n`;
+}
+
 function writeCatalogPages(
   node: CatalogNode,
+  section: TargetSection,
   repositoryRoot: string,
   links: RepositoryLinks,
   catalogDirectory: string,
   outputDirectory: string,
+  sidebarPosition: number,
 ): number {
-  const outputPath = nodeOutputPath(node, catalogDirectory, outputDirectory);
+  const outputPath = nodeOutputPath(
+    node,
+    section,
+    catalogDirectory,
+    outputDirectory,
+  );
   mkdirSync(path.dirname(outputPath), { recursive: true });
 
   const contents =
     node.metadata.type === "category"
       ? renderCategoryPage(
           node,
+          section,
           links,
           outputPath,
           catalogDirectory,
           outputDirectory,
-          node.directory === catalogDirectory,
-          nodeSidebarKey(node, catalogDirectory),
+          nodeSidebarKey(node, section, catalogDirectory),
+          sidebarPosition,
         )
       : renderProgramPage(
           node,
+          section,
           repositoryRoot,
           links,
           outputPath,
-          nodeSidebarKey(node, catalogDirectory),
+          nodeSidebarKey(node, section, catalogDirectory),
+          sidebarPosition,
+          catalogDirectory,
+          outputDirectory,
         );
   writeFileSync(outputPath, contents, "utf8");
 
   let written = 1;
   if (node.metadata.type === "category") {
-    for (const child of node.children) {
+    for (const [index, child] of childrenForSection(node, section).entries()) {
       written += writeCatalogPages(
         child,
+        section,
         repositoryRoot,
         links,
         catalogDirectory,
         outputDirectory,
+        index,
       );
     }
+  }
+  return written;
+}
+
+function writeSectionPages(
+  root: CatalogNode,
+  section: TargetSection,
+  repositoryRoot: string,
+  links: RepositoryLinks,
+  catalogDirectory: string,
+  outputDirectory: string,
+): number {
+  const outputPath = sectionOutputPath(section, outputDirectory);
+  mkdirSync(path.dirname(outputPath), { recursive: true });
+  writeFileSync(
+    outputPath,
+    renderSectionPage(root, section, outputDirectory, catalogDirectory),
+    "utf8",
+  );
+
+  let written = 1;
+  for (const [index, child] of childrenForSection(root, section).entries()) {
+    written += writeCatalogPages(
+      child,
+      section,
+      repositoryRoot,
+      links,
+      catalogDirectory,
+      outputDirectory,
+      index,
+    );
   }
   return written;
 }
@@ -777,13 +1114,37 @@ function main(): void {
   rmSync(legacyOutputPath, { force: true });
   rmSync(outputDirectory, { recursive: true, force: true });
   mkdirSync(outputDirectory, { recursive: true });
-  const written = writeCatalogPages(
-    root,
-    repositoryRoot,
-    links,
-    catalogDirectory,
-    outputDirectory,
+  const sections = targetSections.filter(
+    (section) => countPrograms(root, section) > 0,
   );
+  writeFileSync(
+    path.join(outputDirectory, "index.md"),
+    renderRootPage(root, sections, links, outputDirectory, catalogDirectory),
+    "utf8",
+  );
+
+  let written = 1;
+  for (const [index, child] of childrenForSection(root, rootCatalogSection).entries()) {
+    written += writeCatalogPages(
+      child,
+      rootCatalogSection,
+      repositoryRoot,
+      links,
+      catalogDirectory,
+      outputDirectory,
+      index,
+    );
+  }
+  for (const section of sections) {
+    written += writeSectionPages(
+      root,
+      section,
+      repositoryRoot,
+      links,
+      catalogDirectory,
+      outputDirectory,
+    );
+  }
   console.log(`Generated ${written} pages in ${outputDirectory}`);
 }
 
