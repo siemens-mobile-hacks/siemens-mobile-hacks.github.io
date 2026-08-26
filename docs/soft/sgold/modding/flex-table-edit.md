@@ -11,11 +11,11 @@ sidebar_position: 7
 **Автор:** Alonefox, Geka<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./flex-table-edit/img/flex-table-edit.png").default}
-  alt={"FlexTableEdit: скриншот 1"}
-/>
+<div className="screenshot">
+
+![FlexTableEdit: скриншот 1](./flex-table-edit/img/flex-table-edit.png)
+
+</div>
 
 FlexTableEdit работает с Flex-таблицей прошивок Siemens x65–x75. Программа
 показывает расположение и параметры разделов FFS, FFS_B и FFS_C, позволяет

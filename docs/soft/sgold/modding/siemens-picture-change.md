@@ -12,11 +12,11 @@ sidebar_position: 1
 **Автор:** ACiD[mrp], b@iLLi, CLuni<br/>
 **Платформы:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./siemens-picture-change/img/siemens-picture-change.png").default}
-  alt={"Siemens Picture Change: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Siemens Picture Change: скриншот 1](./siemens-picture-change/img/siemens-picture-change.png)
+
+</div>
 
 Siemens Picture Change открывает FullFlash в формате BIN, находит встроенную
 графику и показывает выбранное изображение. Картинки можно извлекать в BMP,

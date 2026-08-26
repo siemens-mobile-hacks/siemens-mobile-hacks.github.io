@@ -13,11 +13,11 @@ sidebar_position: 5
 **Автор:** Zeus<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./e71seriesgc/img/e71seriesgc.png").default}
-  alt={"E71seriesGC: скриншот 1"}
-/>
+<div className="screenshot">
+
+![E71seriesGC: скриншот 1](./e71seriesgc/img/e71seriesgc.png)
+
+</div>
 
 Программа для работы с графикой и шрифтами в FullFlash BenQ-Siemens E71 с
 прошивками 42 и 45.

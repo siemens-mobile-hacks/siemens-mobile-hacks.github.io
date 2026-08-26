@@ -11,11 +11,11 @@ sidebar_position: 14
 **Автор:** Martian<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./s65-key-definer/img/s65-key-definer.png").default}
-  alt={"S65 Key Definer: скриншот 1"}
-/>
+<div className="screenshot">
+
+![S65 Key Definer: скриншот 1](./s65-key-definer/img/s65-key-definer.png)
+
+</div>
 
 S65 Key Definer открывает блоки EEPROM 5425 и 5423 в формате Siemens EEPROM
 Tool. Блок 5425 содержит назначения клавиш, коротких и длинных нажатий джойстика;

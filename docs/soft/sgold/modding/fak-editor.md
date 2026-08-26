@@ -11,11 +11,11 @@ sidebar_position: 6
 **Автор:** Kibab<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./fak-editor/img/fak-editor.png").default}
-  alt={"FAK Editor: скриншот 1"}
-/>
+<div className="screenshot">
+
+![FAK Editor: скриншот 1](./fak-editor/img/fak-editor.png)
+
+</div>
 
 FAK Editor предназначен для назначения горячих клавиш на Siemens S75 и SL75.
 Программа открывает файл `fak.pd`, показывает сопоставления клавиш и действий и

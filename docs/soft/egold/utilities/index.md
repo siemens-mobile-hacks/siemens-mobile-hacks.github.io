@@ -15,6 +15,8 @@ sidebar_position: 4
 
 - **[Bookshelf](./bookshelf.md)**<br/>
   Создание J2ME-книг из текстовых файлов для Siemens SL45i, C55, M50, S55 и SL55.
+- **[MobileChat](./mobilechat.md)**<br/>
+  Обмен SMS в виде чата через подключённый телефон Siemens.
 - **[Siemens Screenshot](./siemens-screenshot.md)**<br/>
   Снятие скриншотов с дисплея телефонов Siemens x35–x60 через BFB.
 - **[Siemens Service Code Generator](./siemens-service-code-generator.md)**<br/>

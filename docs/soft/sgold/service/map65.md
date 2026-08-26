@@ -11,11 +11,11 @@ sidebar_position: 9
 **Автор:** ACiD[mrp]<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./map65/img/map65.png").default}
-  alt={"MAP65: скриншот 1"}
-/>
+<div className="screenshot">
+
+![MAP65: скриншот 1](./map65/img/map65.png)
+
+</div>
 
 MAP65 предназначен для работы со standard- и delta-MAP телефонов Siemens x65.
 Программа подключается к телефону, определяет HWID и версии блоков, читает MAP в

@@ -11,11 +11,11 @@ sidebar_position: 4
 **Автор:** Nutzo<br/>
 **Платформы:** x35/x45/x55 (EGOLD), ODM
 
-<img
-  className="screenshot"
-  src={require("./all-siemens/img/all-siemens.png").default}
-  alt={"All Siemens Unlocker: скриншот 1"}
-/>
+<div className="screenshot">
+
+![All Siemens Unlocker: скриншот 1](./all-siemens/img/all-siemens.png)
+
+</div>
 
 All Siemens Unlocker выполняет прямую разблокировку телефона, создаёт резервный MAP и MAP для разблокировки по LOG-файлу, записывает
 MAP в телефон и расшифровывает блоки EEPROM. Программа также читает Flash в форматах KSI и FLS, записывает прошивку и проверяет или

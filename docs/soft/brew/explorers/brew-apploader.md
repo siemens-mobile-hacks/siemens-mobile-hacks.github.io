@@ -11,11 +11,11 @@ sidebar_position: 0
 **Автор:** QUALCOMM Incorporated; патч — VeXed<br/>
 **Платформы:** BREW
 
-<img
-  className="screenshot"
-  src={require("./brew-apploader/img/brew-apploader.png").default}
-  alt={"BREW AppLoader: скриншот 1"}
-/>
+<div className="screenshot">
+
+![BREW AppLoader: скриншот 1](./brew-apploader/img/brew-apploader.png)
+
+</div>
 
 BREW AppLoader предназначен для работы с файловой системой телефона через
 последовательный порт. Программа позволяет:

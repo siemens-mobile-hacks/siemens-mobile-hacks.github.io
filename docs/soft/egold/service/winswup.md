@@ -11,11 +11,11 @@ sidebar_position: 0
 **Автор:** Siemens AG<br/>
 **Платформы:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./winswup/img/winswup.png").default}
-  alt={"WinSwup: скриншот 1"}
-/>
+<div className="screenshot">
+
+![WinSwup: скриншот 1](./winswup/img/winswup.png)
+
+</div>
 
 Официальная программа для прошивки телефонов Siemens. Пригодится для заливки
 прошивок XBI, XBZ и файловой системы XFS в телефон.

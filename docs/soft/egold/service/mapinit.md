@@ -12,11 +12,11 @@ sidebar_position: 8
 **Автор:** Siemens AG; GUI и модификация — ACiD[mrp]<br/>
 **Платформы:** x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./mapinit/img/mapinit.png").default}
-  alt={"MapInit: скриншот 1"}
-/>
+<div className="screenshot">
+
+![MapInit: скриншот 1](./mapinit/img/mapinit.png)
+
+</div>
 
 Графическая оболочка для сервисной программы Siemens MapInit 1.14. Она загружает
 MAP-файл, показывает его версию и блоки, позволяет выбрать нужные блоки и

@@ -11,11 +11,11 @@ sidebar_position: 0
 **Домашняя страница:** [http://www.create-ringtone.com/](http://www.create-ringtone.com/)<br/>
 **Автор:** Excode Software
 
-<img
-  className="screenshot"
-  src={require("./create-ringtone/img/create-ringtone.png").default}
-  alt={"Create Ringtone: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Create Ringtone: скриншот 1](./create-ringtone/img/create-ringtone.png)
+
+</div>
 
 Create Ringtone создаёт рингтоны из MP3, WAV, WMA, OGG и дорожек Audio CD,
 а также подготавливает фоновые изображения для мобильных телефонов.

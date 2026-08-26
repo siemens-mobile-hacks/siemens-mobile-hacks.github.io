@@ -11,11 +11,11 @@ sidebar_position: 3
 **Домашняя страница:** [http://gsmdev.de/index.php?c=projekte](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=projekte) (web archive)<br/>
 **Автор:** ACiD[mrp]
 
-<img
-  className="screenshot"
-  src={require("./siemens-debugger/img/siemens-debugger.png").default}
-  alt={"Siemens Debugger: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Siemens Debugger: скриншот 1](./siemens-debugger/img/siemens-debugger.png)
+
+</div>
 
 Дебаггер для телефонов Siemens на платформе EGOLD с открытым BFB. Для работы требуется
 [патч BFB](https://patches.kibab.com/patches/search.php5?action=search&kw=BFB), отключающий проверку CRC; примеры патчей для разных

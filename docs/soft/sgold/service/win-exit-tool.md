@@ -11,11 +11,11 @@ sidebar_position: 12
 **Автор:** Siemens AG<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./win-exit-tool/img/win-exit-tool.png").default}
-  alt={"WinExitTool: скриншот 1"}
-/>
+<div className="screenshot">
+
+![WinExitTool: скриншот 1](./win-exit-tool/img/win-exit-tool.png)
+
+</div>
 
 WinExitTool переводит телефон в ServiceMode, читает сведения об аппарате, последний EXIT-код и журнал аварийных завершений. Для записи
 показываются тип и время сбоя, адрес, сигнатура, контрольная сумма, имя файла и текстовая расшифровка. Результат можно сохранить в файл,

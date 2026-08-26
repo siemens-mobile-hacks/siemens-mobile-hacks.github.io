@@ -11,11 +11,11 @@ sidebar_position: 6
 **Автор:** BrOoM<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./broom-netmonitor/img/broom-netmonitor.png").default}
-  alt={"BrOoM NetMonitor 2006: скриншот 1"}
-/>
+<div className="screenshot">
+
+![BrOoM NetMonitor 2006: скриншот 1](./broom-netmonitor/img/broom-netmonitor.png)
+
+</div>
 
 Программа была написана для получения данных из NetMonitor телефонов Siemens
 x65–x75 посредством AT-команд с последующей расшифровкой и обработкой, что

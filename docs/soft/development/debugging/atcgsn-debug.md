@@ -11,11 +11,11 @@ sidebar_position: 1
 **Домашняя страница:** [http://gsmdev.de/index.php?c=projekte](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=projekte) (web archive)<br/>
 **Автор:** ACiD[mrp]
 
-<img
-  className="screenshot"
-  src={require("./atcgsn-debug/img/atcgsn-debug.png").default}
-  alt={"ATCGSN.Debug: скриншот 1"}
-/>
+<div className="screenshot">
+
+![ATCGSN.Debug: скриншот 1](./atcgsn-debug/img/atcgsn-debug.png)
+
+</div>
 
 ATCGSN.Debug читает и изменяет RAM работающего телефона Siemens через расширенную команду AT+CGSN и установленный в прошивку патч.
 Программа выполняет вызовы по адресу, записывает и запускает код, ищет данные в памяти и подключается через COM-порт, USB, IrDA или

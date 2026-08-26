@@ -11,11 +11,11 @@ sidebar_position: 3
 **Автор:** QUALCOMM Incorporated<br/>
 **Платформы:** BREW
 
-<img
-  className="screenshot"
-  src={require("./brew-mif-editor/img/brew-mif-editor.png").default}
-  alt={"BREW MIF Editor: скриншот 1"}
-/>
+<div className="screenshot">
+
+![BREW MIF Editor: скриншот 1](./brew-mif-editor/img/brew-mif-editor.png)
+
+</div>
 
 Официальный редактор MIF-файлов из BREW SDK. MIF содержит описание модуля и
 апплетов BREW-приложения, их классы, права доступа и связанные ресурсы.

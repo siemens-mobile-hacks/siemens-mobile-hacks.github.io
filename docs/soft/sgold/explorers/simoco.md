@@ -13,11 +13,11 @@ sidebar_position: 0
 **Автор:** Ing. Pavel Cibulka<br/>
 **Платформы:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./simoco/img/simoco.jpg").default}
-  alt={"SiMoCo: скриншот 1"}
-/>
+<div className="screenshot">
+
+![SiMoCo: скриншот 1](./simoco/img/simoco.jpg)
+
+</div>
 
 SiMoCo (Siemens Mobile Control, прежнее название — Sx45CZ) предназначена для
 управления мобильными телефонами Siemens с компьютера. Поддерживаются S25,

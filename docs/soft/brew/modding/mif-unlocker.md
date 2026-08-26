@@ -11,11 +11,11 @@ sidebar_position: 6
 **Автор:** SirGeoph<br/>
 **Платформы:** BREW
 
-<img
-  className="screenshot"
-  src={require("./mif-unlocker/img/mif-unlocker.png").default}
-  alt={"MIF Unlocker: скриншот 1"}
-/>
+<div className="screenshot">
+
+![MIF Unlocker: скриншот 1](./mif-unlocker/img/mif-unlocker.png)
+
+</div>
 
 MIF Unlocker изменяет служебные поля MIF-файлов: устанавливает для BREW-приложения
 статус Unlimited Use и разрешает его восстановление. Для приложений с рингтонами

@@ -11,11 +11,11 @@ sidebar_position: 4
 **Автор:** Siemens<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./colour-skin-creator/img/colour-skin-creator.png").default}
-  alt={"Colour Skin Creator: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Colour Skin Creator: скриншот 1](./colour-skin-creator/img/colour-skin-creator.png)
+
+</div>
 
 Официальная программа Siemens из набора Siemens Customization Tools для
 создания цветовых схем телефонов x65.

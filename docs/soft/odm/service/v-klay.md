@@ -12,11 +12,11 @@ sidebar_position: 0
 **Автор:** ValeraVi (Валерий Вишняк)<br/>
 **Платформы:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD), x65/x75 (SGOLD), ODM
 
-<img
-  className="screenshot"
-  src={require("./v-klay/img/v-klay.png").default}
-  alt={"V_KLay: скриншот 1"}
-/>
+<div className="screenshot">
+
+![V_KLay: скриншот 1](./v-klay/img/v-klay.png)
+
+</div>
 
 Программа для применения патчей, чтения/записи Флеш и изменения раскладки
 клавиатуры мобильных телефонов Siemens.

@@ -11,11 +11,11 @@ sidebar_position: 0
 **Автор:** 武汉探索电脑工作室<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./x85screen/img/x85screen.png").default}
-  alt={"X85Screen: скриншот 1"}
-/>
+<div className="screenshot">
+
+![X85Screen: скриншот 1](./x85screen/img/x85screen.png)
+
+</div>
 
 X85Screen подключается к телефону через COM-порт, считывает содержимое дисплея и
 сохраняет снимок в BMP или JPEG. Полученные кадры можно разложить по шести

@@ -11,11 +11,11 @@ sidebar_position: 5
 **Автор:** Viper BJK<br/>
 **Платформы:** BREW
 
-<img
-  className="screenshot"
-  src={require("./mbn-resourcer/img/mbn-resourcer.png").default}
-  alt={"MBN Resourcer: скриншот 1"}
-/>
+<div className="screenshot">
+
+![MBN Resourcer: скриншот 1](./mbn-resourcer/img/mbn-resourcer.png)
+
+</div>
 
 MBN Resourcer, также называвшийся AMSS Analyser, предназначен для исследования
 файлов `AMSS.MBN` и QAPP телефонов на платформе BREW, включая Siemens SXG75 и

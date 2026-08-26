@@ -11,11 +11,11 @@ sidebar_position: 0
 **Автор:** -=[LCW]=-ExXtReMe<br/>
 **Платформы:** BREW
 
-<img
-  className="screenshot"
-  src={require("./bar-image-grabber/img/bar-image-grabber.png").default}
-  alt={"Bar Image Grabber: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Bar Image Grabber: скриншот 1](./bar-image-grabber/img/bar-image-grabber.png)
+
+</div>
 
 Bar Image Grabber открывает архивы ресурсов BAR, показывает найденные в них графические файлы и позволяет сохранить выбранные
 изображения в указанную папку.

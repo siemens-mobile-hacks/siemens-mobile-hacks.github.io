@@ -11,11 +11,11 @@ sidebar_position: 4
 **Автор:** Sinclair<br/>
 **Платформы:** x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./c55-pictures-editor/img/c55-pictures-editor.png").default}
-  alt={"C55 Pictures Editor: скриншот 1"}
-/>
+<div className="screenshot">
+
+![C55 Pictures Editor: скриншот 1](./c55-pictures-editor/img/c55-pictures-editor.png)
+
+</div>
 
 C55 Pictures Editor предназначен для замены встроенных изображений в прошивке
 Siemens C55. Программа показывает найденную графику, позволяет подставить свои

@@ -10,11 +10,11 @@ sidebar_position: 2
 
 **Автор:** Michael Zolotiskiy
 
-<img
-  className="screenshot"
-  src={require("./midi-converter/img/midi-converter.png").default}
-  alt={"MIDIConverter: скриншот 1"}
-/>
+<div className="screenshot">
+
+![MIDIConverter: скриншот 1](./midi-converter/img/midi-converter.png)
+
+</div>
 
 MIDIConverter создаёт стандартные MIDI-файлы по текстовой записи мелодии для
 Siemens S/C25 и M/C/S35. Результат можно прослушать через установленный в

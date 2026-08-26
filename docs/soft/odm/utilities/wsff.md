@@ -12,11 +12,11 @@ sidebar_position: 0
 **Автор:** Papuas<br/>
 **Платформы:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD), x65/x75 (SGOLD), ODM, BREW
 
-<img
-  className="screenshot"
-  src={require("./wsff/img/wsff.png").default}
-  alt={"WSFF: скриншот 1"}
-/>
+<div className="screenshot">
+
+![WSFF: скриншот 1](./wsff/img/wsff.png)
+
+</div>
 
 WSFF анализирует WinSwup-базы и распаковывает их содержимое. Версия 4 работает с
 XBI v4, позволяет сохранять журналы DataBlock и CmdBlock и поддерживает режим

@@ -11,11 +11,11 @@ sidebar_position: 1
 **Автор:** -=[LCW]=-ExXtReMe<br/>
 **Платформы:** BREW
 
-<img
-  className="screenshot"
-  src={require("./sxg75-filename-cutter/img/sxg75-filename-cutter.png").default}
-  alt={"SXG75 Filename Cutter: скриншот 1"}
-/>
+<div className="screenshot">
+
+![SXG75 Filename Cutter: скриншот 1](./sxg75-filename-cutter/img/sxg75-filename-cutter.png)
+
+</div>
 
 SXG75 Filename Cutter обрабатывает имена изображений, звуковых, текстовых и видеофайлов перед копированием на Siemens SXG75.
 Программа ограничивает длину имени, удаляет выбранные специальные символы и может сохранить результат в отдельной папке `SXG75` или

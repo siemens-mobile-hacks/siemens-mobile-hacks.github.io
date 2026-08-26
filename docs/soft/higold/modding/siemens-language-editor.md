@@ -11,11 +11,11 @@ sidebar_position: 1
 **Автор:** Skylord<br/>
 **Платформы:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./siemens-language-editor/img/siemens-language-editor.png").default}
-  alt={"Siemens Language Editor: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Siemens Language Editor: скриншот 1](./siemens-language-editor/img/siemens-language-editor.png)
+
+</div>
 
 Программа предназначена для редактирования текстовых ресурсов телефона — ленгпака. С её помощью можно заменить названия пунктов меню,
 изменить справку или создать новый язык интерфейса, не предусмотренный Siemens.

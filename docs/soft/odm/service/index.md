@@ -17,15 +17,29 @@ sidebar_position: 0
   Флешер и VKP-патчер для телефонов Siemens с редактором раскладки клавиатуры.
 - **[All Siemens Unlocker](./all-siemens.md)**<br/>
   Сервисная программа для прошивки, разблокировки и работы с MAP-файлами старых телефонов Siemens.
+- **[BenQ TI Tool](./benq-ti-tool.md)**<br/>
+  Чтение и запись FullFlash и EEPROM, запись прошивки и языковых пакетов телефонов BenQ и BenQ-Siemens на платформе TI.
+- **[BenQ XCSD Tool](./benq-xcsd-tool.md)**<br/>
+  Прошивка, настройка и восстановление телефонов BenQ-Siemens на платформе TI.
+- **[C30 Repair BIN Generator](./c30-repair-bin-generator.md)**<br/>
+  Создание файла repair.bin по IMEI телефона Siemens C30.
 - **[C62 Tool](./c62-tool.md)**<br/>
   Сервисная программа GSM-Asia для разблокировки телефона Siemens C62.
+- **[CL50 Dinghy SW Downloader](./cl50-dinghy-downloader.md)**<br/>
+  Прошивка Siemens CL50 с раздельной загрузкой основной программы, языкового пакета и mapping.
 - **[Flash Programmer](./flash-programmer.md)**<br/>
   Флешер Microcell для загрузки программного обеспечения и восстановления GDFS телефона Siemens C62.
 - **[Milano Backup Tool](./milano-backup.md)**<br/>
   Сервисная программа для резервного копирования и очистки пользовательских данных Siemens ST55 и ST60.
 - **[Milano Downloader](./milano-downloader.md)**<br/>
   Сервисный флешер для Siemens ST55 и ST60 с раздельной загрузкой прошивки, mapping и языкового пакета.
+- **[Siemens S40 Tool](./siemens-s40-tool.md)**<br/>
+  Блокировка, разблокировка, чтение и запись flash-памяти Siemens S40.
+- **[Siemens U10/U15 Update Software](./u10-u15-update-software.md)**<br/>
+  Обновление программного обеспечения Siemens U10 и U15.
 - **[SST Service Toolbox](./sst.md)**<br/>
   Сервисная программа для разблокировки, прошивки и восстановления телефонов Siemens разных платформ.
 - **[UniSiemens Professional](./unisiemens.md)**<br/>
   Флешер для чтения и записи FullFlash и EEPROM старых телефонов Siemens от x35 до x50.
+- **[X3 Software Update Program](./x3-software-update-program.md)**<br/>
+  Чтение и запись flash-памяти ODM-телефонов Siemens через TTPCom FLASH430.

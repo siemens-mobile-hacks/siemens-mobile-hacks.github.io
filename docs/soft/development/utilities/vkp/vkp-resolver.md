@@ -10,11 +10,11 @@ sidebar_position: 4
 
 **Автор:** Тараканов
 
-<img
-  className="screenshot"
-  src={require("./vkp-resolver/img/vkp-resolver.png").default}
-  alt={"VkpResolver: скриншот 1"}
-/>
+<div className="screenshot">
+
+![VkpResolver: скриншот 1](./vkp-resolver/img/vkp-resolver.png)
+
+</div>
 
 VkpResolver — продолжение VkpTracer, написанное для разрешения конфликтов между
 графическими VKP-патчами. Такие конфликты возникают, когда новый патч записывает

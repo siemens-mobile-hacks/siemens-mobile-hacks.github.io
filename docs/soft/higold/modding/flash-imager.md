@@ -11,11 +11,11 @@ sidebar_position: 0
 **Автор:** Club SieMEns 45.55<br/>
 **Платформы:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./flash-imager/img/flash-imager.png").default}
-  alt={"Flash Imager: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Flash Imager: скриншот 1](./flash-imager/img/flash-imager.png)
+
+</div>
 
 Flash Imager открывает FullFlash в формате BIN или BIF, показывает найденную
 графику и позволяет заменять изображения. Поддержка моделей и расположение

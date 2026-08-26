@@ -12,11 +12,11 @@ sidebar_position: 2
 **Автор:** Chaos<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./x65flasher/img/x65flasher.png").default}
-  alt={"x65flasher: скриншот 1"}
-/>
+<div className="screenshot">
+
+![x65flasher: скриншот 1](./x65flasher/img/x65flasher.png)
+
+</div>
 
 Флешер для телефонов 65-75-й серии + мидлет для поиска boot-ключей.
 

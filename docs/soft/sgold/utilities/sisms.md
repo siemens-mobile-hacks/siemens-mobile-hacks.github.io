@@ -11,11 +11,11 @@ sidebar_position: 3
 **Домашняя страница:** [http://kamka.hit.bg/programs/sisms/](http://kamka.hit.bg/programs/sisms/)<br/>
 **Платформы:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./sisms/img/sisms.png").default}
-  alt={"SiSMS: скриншот 1"}
-/>
+<div className="screenshot">
+
+![SiSMS: скриншот 1](./sisms/img/sisms.png)
+
+</div>
 
 Программа читает файлы SMI и SMO со старыми архивами SMS телефонов Siemens
 x45–x75 и позволяет сохранить сообщения в текстовом формате. Пакетное

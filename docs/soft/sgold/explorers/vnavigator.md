@@ -12,11 +12,11 @@ sidebar_position: 7
 **Автор:** VNavigator Soft<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./vnavigator/img/vnavigator.png").default}
-  alt={"VNavigator x65 (OLD): скриншот 1"}
-/>
+<div className="screenshot">
+
+![VNavigator x65 (OLD): скриншот 1](./vnavigator/img/vnavigator.png)
+
+</div>
 
 Программа для работы с файловой системой телефонов Siemens x65. Файлы и папки
 можно копировать, перемещать, переименовывать и удалять, а также изменять их

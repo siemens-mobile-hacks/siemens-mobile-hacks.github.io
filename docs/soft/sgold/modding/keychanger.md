@@ -11,11 +11,11 @@ sidebar_position: 9
 **Автор:** TheKING<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./keychanger/img/keychanger.png").default}
-  alt={"KEYchanger: скриншот 1"}
-/>
+<div className="screenshot">
+
+![KEYchanger: скриншот 1](./keychanger/img/keychanger.png)
+
+</div>
 
 KEYchanger редактирует блоки EEPROM 5425 и 5423, сохранённые программой Siemens
 EEPROM Tool. Блок 5425 отвечает за действия кнопок и джойстика в режиме ожидания,

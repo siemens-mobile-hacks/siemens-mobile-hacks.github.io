@@ -11,11 +11,11 @@ sidebar_position: 2
 **Тема на форуме:** [http://forum.siemens-club.ru/viewtopic.php?TopicID=13060](http://forum.siemens-club.ru/viewtopic.php?TopicID=13060)<br/>
 **Платформы:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD), ODM
 
-<img
-  className="screenshot"
-  src={require("./c55-phonebook/img/c55-phonebook.png").default}
-  alt={"C55 Phonebook: скриншот 1"}
-/>
+<div className="screenshot">
+
+![C55 Phonebook: скриншот 1](./c55-phonebook/img/c55-phonebook.png)
+
+</div>
 
 Программа для редактирования телефонных книг мобильных телефонов Siemens.
 

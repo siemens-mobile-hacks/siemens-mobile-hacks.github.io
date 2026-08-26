@@ -11,11 +11,11 @@ sidebar_position: 0
 **Автор:** Антон Красовский<br/>
 **Платформы:** x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./bookshelf/img/bookshelf.png").default}
-  alt={"Bookshelf: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Bookshelf: скриншот 1](./bookshelf/img/bookshelf.png)
+
+</div>
 
 Bookshelf позволяет преобразовать один или несколько текстовых файлов в готовый для установки мидлет. При запуске мидлета на телефоне
 пользователь получает возможность читать включённые в него тексты.

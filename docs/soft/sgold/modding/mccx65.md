@@ -11,11 +11,11 @@ sidebar_position: 11
 **Тема на форуме:** [http://forum.siemens-club.org/viewtopic.php?TopicID=40203](http://forum.siemens-club.org/viewtopic.php?TopicID=40203)<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./mccx65/img/mccx65.png").default}
-  alt={"MCCx65: скриншот 1"}
-/>
+<div className="screenshot">
+
+![MCCx65: скриншот 1](./mccx65/img/mccx65.png)
+
+</div>
 
 Menu Creator for Siemens x65–x75 предназначен для редактирования файлов меню
 телефона в формате FS.

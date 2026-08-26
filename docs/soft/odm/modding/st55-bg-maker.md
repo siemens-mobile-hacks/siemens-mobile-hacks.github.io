@@ -10,11 +10,11 @@ sidebar_position: 1
 
 **Платформы:** ODM
 
-<img
-  className="screenshot"
-  src={require("./st55-bg-maker/img/st55-bg-maker.png").default}
-  alt={"ST55 BG Maker: скриншот 1"}
-/>
+<div className="screenshot">
+
+![ST55 BG Maker: скриншот 1](./st55-bg-maker/img/st55-bg-maker.png)
+
+</div>
 
 ST55 BG Maker подготавливает фон и логотип оператора для Siemens ST55 и
 показывает результат на макете дисплея телефона. Можно сохранить только фон или

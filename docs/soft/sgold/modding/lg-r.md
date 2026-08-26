@@ -11,11 +11,11 @@ sidebar_position: 10
 **Автор:** Sandra<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./lg-r/img/lg-r.png").default}
-  alt={"LG_R: скриншот 1"}
-/>
+<div className="screenshot">
+
+![LG_R: скриншот 1](./lg-r/img/lg-r.png)
+
+</div>
 
 LG_R переносит перевод со старой версии ленгпака на новую. Программа сопоставляет
 строки старого и нового английского ленгпаков, подставляет соответствующие

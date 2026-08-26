@@ -12,11 +12,11 @@ sidebar_position: 1
 **Автор:** VNavigator Soft<br/>
 **Платформы:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./vsfe/img/vsfe.png").default}
-  alt={"VNavigator: скриншот 1"}
-/>
+<div className="screenshot">
+
+![VNavigator: скриншот 1](./vsfe/img/vsfe.png)
+
+</div>
 
 VNavigator Siemens Flex Explorer — продолжение VNavigator Siemens x65 Mobile
 Manager с полностью переработанным движком OBEX, двухпанельным интерфейсом и

@@ -15,3 +15,7 @@ sidebar_position: 1
 
 - **[C55 Phonebook](./c55-phonebook.md)**<br/>
   Редактор телефонных книг Siemens с поддержкой Unicode и синхронизацией часов по SNTP.
+- **[C62DirLi](./c62dirli.md)**<br/>
+  Редактирование списков каталогов файловой системы Siemens C62.
+- **[Smart Tool](./smart-tool.md)**<br/>
+  Управление SMS, телефонной книгой, изображениями, мелодиями и другими данными Siemens ST55/ST60.

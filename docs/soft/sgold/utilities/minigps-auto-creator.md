@@ -11,11 +11,11 @@ sidebar_position: 2
 **Автор:** [crazy]misha<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./minigps-auto-creator/img/minigps-auto-creator.png").default}
-  alt={"miniGPS AutoCreator: скриншот 1"}
-/>
+<div className="screenshot">
+
+![miniGPS AutoCreator: скриншот 1](./minigps-auto-creator/img/minigps-auto-creator.png)
+
+</div>
 
 Программа автоматизирует создание файлов TMO для патча MiniGPS with GSM Data Logger 0.8 по известным данным из таблицы базовых станций.
 Она загружает и сохраняет таблицы CSV, поддерживает транслитерацию, обрезку подписей, ведущие нули, наборы секторов и констант и

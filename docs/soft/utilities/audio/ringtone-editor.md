@@ -10,11 +10,11 @@ sidebar_position: 4
 
 **Автор:** Michael Zolotiskiy
 
-<img
-  className="screenshot"
-  src={require("./ringtone-editor/img/ringtone-editor.png").default}
-  alt={"Ringtone Editor: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Ringtone Editor: скриншот 1](./ringtone-editor/img/ringtone-editor.png)
+
+</div>
 
 Ringtone Editor предназначен для создания, редактирования и прослушивания
 монофонических мелодий. Siemens Edition поддерживает форматы Siemens C/M35 и

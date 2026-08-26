@@ -11,11 +11,11 @@ sidebar_position: 2
 **Домашняя страница:** [http://gsmdev.de/index.php?c=projekte](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=projekte) (web archive)<br/>
 **Автор:** KonstanT
 
-<img
-  className="screenshot"
-  src={require("./cgsn-debugger/img/cgsn-debugger.png").default}
-  alt={"CGSN Debugger: скриншот 1"}
-/>
+<div className="screenshot">
+
+![CGSN Debugger: скриншот 1](./cgsn-debugger/img/cgsn-debugger.png)
+
+</div>
 
 Дебаггер для работы с внутренней памятью RAM, ROM и Flash телефонов Siemens
 на платформе EGOLD через соответствующую версию патча AT+CGSN.

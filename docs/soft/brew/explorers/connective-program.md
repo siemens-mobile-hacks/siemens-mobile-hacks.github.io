@@ -12,11 +12,11 @@ sidebar_position: 2
 **Автор:** Владимир Горьков<br/>
 **Платформы:** x65/x75 (SGOLD), BREW
 
-<img
-  className="screenshot"
-  src={require("./connective-program/img/connective-program.png").default}
-  alt={"Connective Program: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Connective Program: скриншот 1](./connective-program/img/connective-program.png)
+
+</div>
 
 Программа для обмена данными между компьютером и мобильными телефонами,
 смартфонами и КПК. Поддерживает BenQ-Siemens E71, EL71, EF81, C81, M81 и S68.

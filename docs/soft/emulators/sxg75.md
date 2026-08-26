@@ -10,11 +10,11 @@ sidebar_position: 21
 
 **Автор:** BenQ Mobile
 
-<img
-  className="screenshot"
-  src={require("./sxg75/img/sxg75.png").default}
-  alt={"Siemens SXG75: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Siemens SXG75: скриншот 1](./sxg75/img/sxg75.png)
+
+</div>
 
 Эмулятор Siemens SXG75 для BenQ Mobile Toolkit.
 

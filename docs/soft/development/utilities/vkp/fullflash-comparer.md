@@ -8,11 +8,11 @@ sidebar_position: 1
 
 # Fullflash Comparer
 
-<img
-  className="screenshot"
-  src={require("./fullflash-comparer/img/fullflash-comparer.png").default}
-  alt={"Fullflash Comparer: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Fullflash Comparer: скриншот 1](./fullflash-comparer/img/fullflash-comparer.png)
+
+</div>
 
 Fullflash Comparer сравнивает исходный и изменённый FullFlash в формате BIN.
 Можно задать адресный диапазон и смещение FullFlash, после чего сохранить

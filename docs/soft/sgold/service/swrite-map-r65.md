@@ -11,11 +11,11 @@ sidebar_position: 5
 **Автор:** Siemens<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./swrite-map-r65/img/swrite-map-r65.png").default}
-  alt={"SWriteMapR65: скриншот 1"}
-/>
+<div className="screenshot">
+
+![SWriteMapR65: скриншот 1](./swrite-map-r65/img/swrite-map-r65.png)
+
+</div>
 
 Сервисная программа Siemens для записи стандартных и дельта-MAP-файлов в
 EEPROM телефонов серии x75. Работает с телефоном через COM-порт в BFB Mode;

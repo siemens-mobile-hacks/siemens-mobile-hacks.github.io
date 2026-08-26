@@ -11,11 +11,11 @@ sidebar_position: 3
 **Автор:** Skylord<br/>
 **Платформы:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./siemens-eeprom-tool/img/siemens-eeprom-tool.png").default}
-  alt={"Siemens EEPROM Tool: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Siemens EEPROM Tool: скриншот 1](./siemens-eeprom-tool/img/siemens-eeprom-tool.png)
+
+</div>
 
 Сия прога предназначена для работы с EEPROM мобильных телефонов Сименс через
 Service Mode. Позволяет выгружать и сохранять блоки EEPROM как скопом, так и

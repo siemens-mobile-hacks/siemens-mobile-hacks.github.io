@@ -10,11 +10,11 @@ sidebar_position: 17
 
 **Автор:** Siemens Mobile
 
-<img
-  className="screenshot"
-  src={require("./sl45i/img/sl45i.png").default}
-  alt={"Siemens SL45i: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Siemens SL45i: скриншот 1](./sl45i/img/sl45i.png)
+
+</div>
 
 Эмулятор Siemens SL45i для Siemens Mobility Toolkit.
 

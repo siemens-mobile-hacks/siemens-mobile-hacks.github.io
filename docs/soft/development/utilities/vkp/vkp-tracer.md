@@ -10,11 +10,11 @@ sidebar_position: 5
 
 **Автор:** !Freeman!
 
-<img
-  className="screenshot"
-  src={require("./vkp-tracer/img/vkp-tracer.png").default}
-  alt={"VkpTracer: скриншот 1"}
-/>
+<div className="screenshot">
+
+![VkpTracer: скриншот 1](./vkp-tracer/img/vkp-tracer.png)
+
+</div>
 
 Программа предназначена для смещения указанного диапазона адресов на заданное
 значение в файлах VKP для V_KLay. Это позволяет перенести данные патча в другую

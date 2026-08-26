@@ -10,11 +10,11 @@ sidebar_position: 2
 
 **Платформы:** ODM
 
-<img
-  className="screenshot"
-  src={require("./stres/img/stres.png").default}
-  alt={"STRes: скриншот 1"}
-/>
+<div className="screenshot">
+
+![STRes: скриншот 1](./stres/img/stres.png)
+
+</div>
 
 STRes предназначен для изменения ресурсов телефонов Siemens ST55 и ST60.
 Программа открывает полный бэкап в формате MOT, созданный Milano Backup Tool,

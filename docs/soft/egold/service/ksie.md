@@ -11,11 +11,11 @@ sidebar_position: 7
 **Автор:** Nutzo<br/>
 **Платформы:** x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./ksie/img/ksie.png").default}
-  alt={"KSiE: скриншот 1"}
-/>
+<div className="screenshot">
+
+![KSiE: скриншот 1](./ksie/img/ksie.png)
+
+</div>
 
 Программа командной строки, главным образом предназначенная для разблокировки Siemens C45. Версия 2.02 также поддерживает A50 и C55.
 

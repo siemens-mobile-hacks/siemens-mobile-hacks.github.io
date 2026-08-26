@@ -10,11 +10,11 @@ sidebar_position: 1
 
 **Платформы:** x10/x25 (HIGOLD)
 
-<img
-  className="screenshot"
-  src={require("./c25info/img/c25info.png").default}
-  alt={"C25info: скриншот 1"}
-/>
+<div className="screenshot">
+
+![C25info: скриншот 1](./c25info/img/c25info.png)
+
+</div>
 
 C25info показывает сведения о Siemens C25 и C28: версию прошивки, IMEI, заряд аккумулятора, состояние блокировок и регистрации в сети.
 Программа позволяет включить Net Monitor и полное сервисное меню, загрузить MIDI-мелодию и отправлять телефону AT-команды.

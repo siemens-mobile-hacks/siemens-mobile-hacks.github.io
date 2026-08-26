@@ -11,11 +11,11 @@ sidebar_position: 0
 **Автор:** BenQ Mobile<br/>
 **Платформы:** BREW
 
-<img
-  className="screenshot"
-  src={require("./java-midlet-installer/img/java-midlet-installer.png").default}
-  alt={"Java Midlet Installer: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Java Midlet Installer: скриншот 1](./java-midlet-installer/img/java-midlet-installer.png)
+
+</div>
 
 Java Midlet Installer устанавливает J2ME-мидлеты на телефон как приложение или игру. Пользователь выбирает локальный JAR либо JAD,
 программа автоматически находит второй файл пары, копирует оба файла в соответствующий каталог телефона и предлагает перезагрузить

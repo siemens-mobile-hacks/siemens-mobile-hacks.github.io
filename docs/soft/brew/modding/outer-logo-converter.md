@@ -11,11 +11,11 @@ sidebar_position: 8
 **Автор:** BenQ Poland<br/>
 **Платформы:** BREW
 
-<img
-  className="screenshot"
-  src={require("./outer-logo-converter/img/outer-logo-converter.png").default}
-  alt={"Outer Logo Converter: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Outer Logo Converter: скриншот 1](./outer-logo-converter/img/outer-logo-converter.png)
+
+</div>
 
 Outer Logo Converter преобразует изображение в 16- или 18-битный растровый
 формат логотипа внешнего дисплея телефона. Пользователь выбирает исходный и

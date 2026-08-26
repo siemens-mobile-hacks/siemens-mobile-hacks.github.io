@@ -12,11 +12,11 @@ sidebar_position: 1
 **Автор:** BEZY<br/>
 **Платформы:** BREW
 
-<img
-  className="screenshot"
-  src={require("./brew-mobile-commander/img/brew-mobile-commander.jpg").default}
-  alt={"Brew Mobile Commander: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Brew Mobile Commander: скриншот 1](./brew-mobile-commander/img/brew-mobile-commander.jpg)
+
+</div>
 
 Brew Mobile Commander (BMC) предназначен для управления телефонами Siemens и
 BenQ-Siemens с поддержкой BREW. Полностью поддерживаются Siemens SXG75 и SG75,

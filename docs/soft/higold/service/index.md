@@ -19,3 +19,5 @@ sidebar_position: 0
   Просмотр служебной информации и настроек Siemens C25/C28 с поддержкой AT-команд и сервисных функций.
 - **[Siemens Flash Reader by Andromeda](./siemens-flash-reader.md)**<br/>
   Чтение Flash, EEPROM и RAM телефонов Siemens C25/S25/C35/S35 через сервисный кабель.
+- **[Siemens S6 Flasher](./siemens-s6-flasher.md)**<br/>
+  Официальная программа обновления программного обеспечения Siemens S6.

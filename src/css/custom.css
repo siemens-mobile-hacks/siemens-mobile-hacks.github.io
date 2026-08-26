@@ -21,9 +21,12 @@
 
 .screenshot {
   display: block;
-  width: auto;
+  margin-bottom: var(--ifm-leading);
+}
+
+.screenshot img {
+  display: block;
   max-width: 100%;
   max-height: 30rem;
-  margin-bottom: var(--ifm-leading);
   object-fit: contain;
 }

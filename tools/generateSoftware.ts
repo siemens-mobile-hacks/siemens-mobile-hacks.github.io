@@ -59,6 +59,7 @@ type SoftwareTarget =
   | "higold"
   | "egold"
   | "sgold"
+  | "apoxi"
   | "odm"
   | "brew";
 
@@ -119,6 +120,13 @@ const targetSections: TargetSection[] = [
     order: -60,
   },
   {
+    key: "apoxi",
+    slug: "apoxi",
+    name: "APOXI",
+    description: "Софт для телефонов на платформе APOXI.",
+    order: -55,
+  },
+  {
     key: "odm",
     slug: "odm",
     name: "ODM",
@@ -139,6 +147,7 @@ const softwareTargets = new Set<SoftwareTarget>([
   "higold",
   "egold",
   "sgold",
+  "apoxi",
   "odm",
   "brew",
 ]);
@@ -772,11 +781,11 @@ function renderProgramPage(
     const localPath = copyProgramScreenshot(node.directory, pagePath, screenshot);
     const alt = `${metadata.name}: скриншот ${index + 1}`;
     lines.push(
-      '<img',
-      '  className="screenshot"',
-      `  src={require(${JSON.stringify(localPath)}).default}`,
-      `  alt={${JSON.stringify(alt)}}`,
-      '/>',
+      '<div className="screenshot">',
+      "",
+      `![${alt.replace(/([\\\[\]])/g, "\\$1")}](${localPath})`,
+      "",
+      "</div>",
       "",
     );
   }

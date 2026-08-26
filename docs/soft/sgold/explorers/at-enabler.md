@@ -11,11 +11,11 @@ sidebar_position: 2
 **Автор:** Phantom<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./at-enabler/img/at-enabler.png").default}
-  alt={"ATEnabler: скриншот 1"}
-/>
+<div className="screenshot">
+
+![ATEnabler: скриншот 1](./at-enabler/img/at-enabler.png)
+
+</div>
 
 AT Activator for x65 переводит телефон Siemens x65 в режим, необходимый для
 работы программ с файловой системой через самодельные и нефирменные кабели.

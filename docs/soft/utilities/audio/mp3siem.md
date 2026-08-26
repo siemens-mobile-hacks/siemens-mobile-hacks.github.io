@@ -8,11 +8,11 @@ sidebar_position: 3
 
 # MP3Siem
 
-<img
-  className="screenshot"
-  src={require("./mp3siem/img/mp3siem.png").default}
-  alt={"MP3Siem: скриншот 1"}
-/>
+<div className="screenshot">
+
+![MP3Siem: скриншот 1](./mp3siem/img/mp3siem.png)
+
+</div>
 
 MP3Siem перекодирует MP3 через промежуточный WAV с частотой 16 кГц и одним каналом для воспроизведения на Siemens C55, M55, S55,
 SX1, C65, CX65, M65 и S65. В комплект программы входят кодировщик LAME и SoX.

@@ -25,6 +25,8 @@ sidebar_position: 2
   Замена встроенной графики Siemens C55 и создание графических патчей.
 - **[Flash Imager](./flash-imager.md)**<br/>
   Просмотр и замена встроенной графики в FullFlash телефонов Siemens.
+- **[FunnyBytes](./funnybytes.md)**<br/>
+  Русификация и применение готовых исправлений к FullFlash Siemens C35, M35 и S35.
 - **[LayoutMe](./layoutme.md)**<br/>
   Редактор клавиатурных раскладок в FullFlash телефонов Siemens.
 - **[PCAEdit](./pcaedit.md)**<br/>
@@ -37,6 +39,8 @@ sidebar_position: 2
   Создание и редактирование цветовых схем для Siemens S55.
 - **[Siemens C45ffimager](./c45ffimager.md)**<br/>
   Замена и добавление изображений в FullFlash Siemens C45.
+- **[Siemens Image Viewer/Importer](./siemens-cms35-ie.md)**<br/>
+  Просмотр и замена встроенной графики и скинов в FullFlash Siemens x35.
 - **[Siemens Language Editor](./siemens-language-editor.md)**<br/>
   Извлечение и замена ленгпака в FullFlash телефонов Siemens 35/45/50/55-й серий.
 - **[Siemens X55 T9 Base Creator](./t9-base-creator.md)**<br/>

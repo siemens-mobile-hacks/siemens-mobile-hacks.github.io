@@ -12,11 +12,11 @@ sidebar_position: 0
 **Тема на форуме:** [http://forum.allsiemens.com/viewtopic.php?t=20735](https://web.archive.org/web/20160806060433/http://forum.allsiemens.com/viewtopic.php?t=20735) (web archive)<br/>
 **Автор:** Chaos
 
-<img
-  className="screenshot"
-  src={require("./armdebugger/img/armdebugger.png").default}
-  alt={"ArmDebugger: скриншот 1"}
-/>
+<div className="screenshot">
+
+![ArmDebugger: скриншот 1](./armdebugger/img/armdebugger.png)
+
+</div>
 
 Отладчик для телефонов Siemens 65/70/75-й серии.
 

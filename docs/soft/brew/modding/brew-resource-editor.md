@@ -11,11 +11,11 @@ sidebar_position: 4
 **Автор:** QUALCOMM Incorporated<br/>
 **Платформы:** BREW
 
-<img
-  className="screenshot"
-  src={require("./brew-resource-editor/img/brew-resource-editor.png").default}
-  alt={"BREW Resource Editor: скриншот 1"}
-/>
+<div className="screenshot">
+
+![BREW Resource Editor: скриншот 1](./brew-resource-editor/img/brew-resource-editor.png)
+
+</div>
 
 Официальный редактор ресурсов из BREW SDK. Позволяет создавать и изменять
 строки, изображения, меню и диалоги приложений BREW, а затем компилировать их в

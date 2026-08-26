@@ -12,11 +12,11 @@ sidebar_position: 7
 **Автор:** Phantom<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./eepromform/img/eepromform-before.gif").default}
-  alt={"EEPROMForm: скриншот 1"}
-/>
+<div className="screenshot">
+
+![EEPROMForm: скриншот 1](./eepromform/img/eepromform-before.gif)
+
+</div>
 
 EEPROMForm предназначена для форматирования и очистки областей EELITE и EEFULL
 в телефонах Siemens x65.

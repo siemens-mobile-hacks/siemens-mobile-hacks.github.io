@@ -15,13 +15,15 @@ sidebar_key: "soft"
 
 - **[x65/x75 (SGOLD)](./sgold/index.md)** (47)<br/>
   Софт для телефонов на платформах S-Gold и S-Gold 2.
-- **[x35/x45/x55 (EGOLD)](./egold/index.md)** (51)<br/>
+- **[x35/x45/x55 (EGOLD)](./egold/index.md)** (55)<br/>
   Софт для телефонов на платформе E-Gold.
-- **[x10/x25 (HIGOLD)](./higold/index.md)** (13)<br/>
+- **[x10/x25 (HIGOLD)](./higold/index.md)** (14)<br/>
   Софт для телефонов на платформе HiGold.
-- **[BREW](./brew/index.md)** (25)<br/>
+- **[BREW](./brew/index.md)** (33)<br/>
   Софт для телефонов на платформе BREW.
-- **[ODM](./odm/index.md)** (16)<br/>
+- **[APOXI](./apoxi/index.md)** (5)<br/>
+  Софт для телефонов на платформе APOXI.
+- **[ODM](./odm/index.md)** (25)<br/>
   Софт для телефонов на ODM-платформах.
 - **[Разработка](./development/index.md)** (10)<br/>
   Инструменты для исследования и разработки программного обеспечения телефонов.
@@ -29,7 +31,7 @@ sidebar_key: "soft"
   J2ME-мидлеты для телефонов.
 - **[Эмуляторы](./emulators/index.md)** (22)<br/>
   Эмуляторы отдельных моделей телефонов Siemens и среда Siemens Mobility Toolkit.
-- **[Утилиты](./utilities/index.md)** (11)<br/>
+- **[Утилиты](./utilities/index.md)** (15)<br/>
   Утилиты для работы с телефонами, прошивками и мобильными файлами.
 
 ## Дерево файлов
@@ -87,8 +89,8 @@ sidebar_key: "soft"
     - [SiSMS](./sgold/utilities/sisms.md)
     - [WSFF](./sgold/utilities/wsff.md)
     - [x65 Wallpaper Maker](./sgold/utilities/x65-wallpaper-maker.md)
-- **[x35/x45/x55 (EGOLD)](./egold/index.md)** (51)
-  - **[Сервис](./egold/service/index.md)** (20)
+- **[x35/x45/x55 (EGOLD)](./egold/index.md)** (55)
+  - **[Сервис](./egold/service/index.md)** (21)
     - [WinSwup](./egold/service/winswup.md)
     - [V_KLay](./egold/service/v-klay.md)
     - [Joker](./egold/service/joker.md)
@@ -98,6 +100,7 @@ sidebar_key: "soft"
     - [InitMap](./egold/service/initmap.md)
     - [KSiE](./egold/service/ksie.md)
     - [MapInit](./egold/service/mapinit.md)
+    - [MobiSIM](./egold/service/mobisim.md)
     - [OpenAll](./egold/service/openall.md)
     - [S45i v4 Activator](./egold/service/s45i-activator.md)
     - [Siemens Contrast Tool](./egold/service/siemens-contrast-tool.md)
@@ -115,19 +118,21 @@ sidebar_key: "soft"
     - [C55 Phonebook](./egold/explorers/c55-phonebook.md)
     - [FarDES](./egold/explorers/fardes.md)
     - [vSOFS](./egold/explorers/vsofs.md)
-  - **[Моддинг](./egold/modding/index.md)** (17)
+  - **[Моддинг](./egold/modding/index.md)** (19)
     - [Smelter](./egold/modding/smelter.md)
     - [Siemens Picture Change](./egold/modding/siemens-picture-change.md)
     - [Siemens CE](./egold/modding/siemens-ce.md)
     - [A52 Melody Changer](./egold/modding/a52-melody-changer.md)
     - [C55 Pictures Editor](./egold/modding/c55-pictures-editor.md)
     - [Flash Imager](./egold/modding/flash-imager.md)
+    - [FunnyBytes](./egold/modding/funnybytes.md)
     - [LayoutMe](./egold/modding/layoutme.md)
     - [PCAEdit](./egold/modding/pcaedit.md)
     - [PicPac](./egold/modding/picpac.md)
     - [RingPac](./egold/modding/ringpac.md)
     - [S55 Colour Scheme Editor](./egold/modding/s55-colour-scheme-editor.md)
     - [Siemens C45ffimager](./egold/modding/c45ffimager.md)
+    - [Siemens Image Viewer/Importer](./egold/modding/siemens-cms35-ie.md)
     - [Siemens Language Editor](./egold/modding/siemens-language-editor.md)
     - [Siemens X55 T9 Base Creator](./egold/modding/t9-base-creator.md)
     - [SLIK Graphical Menu Builder](./egold/modding/slik-graphical-menu.md)
@@ -137,18 +142,20 @@ sidebar_key: "soft"
     - [PL-2303 Driver](./egold/drivers/pl-2303.md)
     - [Siemens DCA-140/DCA-540 Driver](./egold/drivers/dca-540.md)
     - [Siemens DCA-510 Driver](./egold/drivers/dca-510.md)
-  - **[Утилиты](./egold/utilities/index.md)** (6)
+  - **[Утилиты](./egold/utilities/index.md)** (7)
     - [Bookshelf](./egold/utilities/bookshelf.md)
+    - [MobileChat](./egold/utilities/mobilechat.md)
     - [Siemens Screenshot](./egold/utilities/siemens-screenshot.md)
     - [Siemens Service Code Generator](./egold/utilities/siemens-service-code-generator.md)
     - [SiSMS](./egold/utilities/sisms.md)
     - [TXT2WMLC](./egold/utilities/txt2wmlc.md)
     - [WSFF](./egold/utilities/wsff.md)
-- **[x10/x25 (HIGOLD)](./higold/index.md)** (13)
-  - **[Сервис](./higold/service/index.md)** (3)
+- **[x10/x25 (HIGOLD)](./higold/index.md)** (14)
+  - **[Сервис](./higold/service/index.md)** (4)
     - [V_KLay](./higold/service/v-klay.md)
     - [C25info](./higold/service/c25info.md)
     - [Siemens Flash Reader by Andromeda](./higold/service/siemens-flash-reader.md)
+    - [Siemens S6 Flasher](./higold/service/siemens-s6-flasher.md)
   - **[Эксплореры](./higold/explorers/index.md)** (2)
     - [SiMoCo](./higold/explorers/simoco.md)
     - [C55 Phonebook](./higold/explorers/c55-phonebook.md)
@@ -163,9 +170,14 @@ sidebar_key: "soft"
   - **[Утилиты](./higold/utilities/index.md)** (2)
     - [Siemens Service Code Generator](./higold/utilities/siemens-service-code-generator.md)
     - [WSFF](./higold/utilities/wsff.md)
-- **[BREW](./brew/index.md)** (25)
-  - **[Сервис](./brew/service/index.md)** (1)
+- **[BREW](./brew/index.md)** (33)
+  - **[Сервис](./brew/service/index.md)** (6)
+    - [3GSwup2QPST](./brew/service/3gswup2qpst.md)
+    - [CDMA Workshop](./brew/service/cdma-workshop.md)
     - [NV Editor](./brew/service/nv-editor.md)
+    - [QPST](./brew/service/qpst.md)
+    - [ReadWriteFlash QC](./brew/service/readwriteflash-qc.md)
+    - [S80 User Download Tool](./brew/service/s80-user-download-tool.md)
   - **[Эксплореры](./brew/explorers/index.md)** (6)
     - [BREW AppLoader](./brew/explorers/brew-apploader.md)
     - [Brew Mobile Commander](./brew/explorers/brew-mobile-commander.md)
@@ -173,9 +185,13 @@ sidebar_key: "soft"
     - [EFS Explorer Lite](./brew/explorers/efs-explorer-lite.md)
     - [GAGIN](./brew/explorers/gagin.md)
     - [SXG75 Controller](./brew/explorers/sxg75-controller.md)
-  - **[Разработка](./brew/development/index.md)** (1)
-    - **[Утилиты](./brew/development/utilities/index.md)** (1)
+  - **[Разработка](./brew/development/index.md)** (4)
+    - **[Отладка](./brew/development/debugging/index.md)** (1)
+      - [QXDM](./brew/development/debugging/qxdm.md)
+    - **[Утилиты](./brew/development/utilities/index.md)** (3)
+      - [BREW App Signer](./brew/development/utilities/brew-app-signer.md)
       - [BREW Tools Suite](./brew/development/utilities/brew-tools-suite.md)
+      - [BREW Utilities](./brew/development/utilities/brew-utilities.md)
   - **[Моддинг](./brew/modding/index.md)** (10)
     - [Bar Image Grabber](./brew/modding/bar-image-grabber.md)
     - [BREW Compressed Image Authoring Tool](./brew/modding/bci-authoring-tool.md)
@@ -196,18 +212,35 @@ sidebar_key: "soft"
     - [Java Midlet Installer](./brew/utilities/java-midlet-installer.md)
     - [SXG75 Filename Cutter](./brew/utilities/sxg75-filename-cutter.md)
     - [WSFF](./brew/utilities/wsff.md)
-- **[ODM](./odm/index.md)** (16)
-  - **[Сервис](./odm/service/index.md)** (8)
+- **[APOXI](./apoxi/index.md)** (5)
+  - **[Сервис](./apoxi/service/index.md)** (3)
+    - [IFWD FlashTool E2](./apoxi/service/ifwd-flashtool-e2.md)
+    - [KP500 Flashing Tool](./apoxi/service/kp500-flashing-tool.md)
+    - [Phone Tool](./apoxi/service/phone-tool.md)
+  - **[Драйверы](./apoxi/drivers/index.md)** (2)
+    - [FlashUSB Driver](./apoxi/drivers/flashusb.md)
+    - [PL-2303 Driver](./apoxi/drivers/pl-2303.md)
+- **[ODM](./odm/index.md)** (25)
+  - **[Сервис](./odm/service/index.md)** (15)
     - [V_KLay](./odm/service/v-klay.md)
     - [All Siemens Unlocker](./odm/service/all-siemens.md)
+    - [BenQ TI Tool](./odm/service/benq-ti-tool.md)
+    - [BenQ XCSD Tool](./odm/service/benq-xcsd-tool.md)
+    - [C30 Repair BIN Generator](./odm/service/c30-repair-bin-generator.md)
     - [C62 Tool](./odm/service/c62-tool.md)
+    - [CL50 Dinghy SW Downloader](./odm/service/cl50-dinghy-downloader.md)
     - [Flash Programmer](./odm/service/flash-programmer.md)
     - [Milano Backup Tool](./odm/service/milano-backup.md)
     - [Milano Downloader](./odm/service/milano-downloader.md)
+    - [Siemens S40 Tool](./odm/service/siemens-s40-tool.md)
+    - [Siemens U10/U15 Update Software](./odm/service/u10-u15-update-software.md)
     - [SST Service Toolbox](./odm/service/sst.md)
     - [UniSiemens Professional](./odm/service/unisiemens.md)
-  - **[Эксплореры](./odm/explorers/index.md)** (1)
+    - [X3 Software Update Program](./odm/service/x3-software-update-program.md)
+  - **[Эксплореры](./odm/explorers/index.md)** (3)
     - [C55 Phonebook](./odm/explorers/c55-phonebook.md)
+    - [C62DirLi](./odm/explorers/c62dirli.md)
+    - [Smart Tool](./odm/explorers/smart-tool.md)
   - **[Моддинг](./odm/modding/index.md)** (3)
     - [Siemens CE](./odm/modding/siemens-ce.md)
     - [ST55 BG Maker](./odm/modding/st55-bg-maker.md)
@@ -259,7 +292,7 @@ sidebar_key: "soft"
   - [Siemens SL65](./emulators/sl65.md)
   - [Siemens SL75](./emulators/sl75.md)
   - [Siemens SXG75](./emulators/sxg75.md)
-- **[Утилиты](./utilities/index.md)** (11)
+- **[Утилиты](./utilities/index.md)** (15)
   - **[Аудио](./utilities/audio/index.md)** (8)
     - [Create Ringtone](./utilities/audio/create-ringtone.md)
     - [MA-1 SMF to SMAF Converter](./utilities/audio/smf-to-smaf-converter.md)
@@ -269,6 +302,11 @@ sidebar_key: "soft"
     - [Universal Ringtone Converter](./utilities/audio/universal-ringtone-converter.md)
     - [vmo2wav](./utilities/audio/vmo2wav.md)
     - [WAV/AMR Converter](./utilities/audio/wav-amr-converter.md)
+  - **[SIM-карты](./utilities/sim/index.md)** (2)
+    - [SIM Scan](./utilities/sim/sim-scan.md)
+    - [SIM-EMU](./utilities/sim/sim-emu.md)
   - [FF Converter](./utilities/ff-converter.md)
   - [FilesComparer](./utilities/filescomparer.md)
+  - [HiSerial](./utilities/hiserial.md)
+  - [JADMaker](./utilities/jadmaker.md)
   - [SendSMS](./utilities/sendsms.md)

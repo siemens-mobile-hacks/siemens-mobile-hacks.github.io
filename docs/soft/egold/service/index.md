@@ -31,6 +31,8 @@ sidebar_position: 0
   Сервисная программа для разблокировки и работы с flash-памятью старых телефонов Siemens, включая C45, A50 и C55.
 - **[MapInit](./mapinit.md)**<br/>
   Запись standard- и delta-MAP в телефоны Siemens на платформе EGOLD.
+- **[MobiSIM](./mobisim.md)**<br/>
+  Сервисная программа для диагностики и восстановления телефонов Siemens на платформе EGOLD.
 - **[OpenAll](./openall.md)**<br/>
   Получение сервисных ключей и открытие чтения и записи EEPROM-блоков телефонов Siemens x55/x65.
 - **[S45i v4 Activator](./s45i-activator.md)**<br/>

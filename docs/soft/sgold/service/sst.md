@@ -13,11 +13,11 @@ sidebar_position: 11
 **Автор:** SST-GSM Team<br/>
 **Платформы:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD), ODM
 
-<img
-  className="screenshot"
-  src={require("./sst/img/sst.jpg").default}
-  alt={"SST Service Toolbox: скриншот 1"}
-/>
+<div className="screenshot">
+
+![SST Service Toolbox: скриншот 1](./sst/img/sst.jpg)
+
+</div>
 
 SST Service Toolbox Professional Edition — профессиональная сервисная программа для телефонов Siemens.
 

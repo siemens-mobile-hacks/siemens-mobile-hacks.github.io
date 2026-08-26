@@ -11,11 +11,11 @@ sidebar_position: 0
 **Домашняя страница:** [http://vi-soft.com.ua/](https://web.archive.org/web/20130813164842/http://vi-soft.com.ua/) (web archive)<br/>
 **Автор:** Александр Яблочкин
 
-<img
-  className="screenshot"
-  src={require("./ffpatch/img/ffpatch.png").default}
-  alt={"FFPatch: скриншот 1"}
-/>
+<div className="screenshot">
+
+![FFPatch: скриншот 1](./ffpatch/img/ffpatch.png)
+
+</div>
 
 Сравнивает два файла FullFlash. Результат сравнения можно сохранить в VKP-файл.
 Также программа ищет установленные патчи в образе FullFlash.

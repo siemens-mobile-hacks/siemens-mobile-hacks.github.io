@@ -11,11 +11,11 @@ sidebar_position: 13
 **Автор:** seesadmean (poo-shock/N1K)<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./power-up-patch-generator/img/power-up-patch-generator.png").default}
-  alt={"Power-UP Patch Generator: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Power-UP Patch Generator: скриншот 1](./power-up-patch-generator/img/power-up-patch-generator.png)
+
+</div>
 
 Power-UP Patch Generator открывает FullFlash телефонов Siemens x65/x75 и создаёт
 VKP-патч для запуска пользовательского кода при включении телефона. Программа

@@ -11,11 +11,11 @@ sidebar_position: 0
 **Автор:** Greenstone; помощь в анализе — DarkBear<br/>
 **Платформы:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./siemens-service-code-generator/img/siemens-service-code-generator.png").default}
-  alt={"Siemens Service Code Generator: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Siemens Service Code Generator: скриншот 1](./siemens-service-code-generator/img/siemens-service-code-generator.png)
+
+</div>
 
 Генератор вычисляет по IMSI два кода активации недокументированного сервисного
 меню Siemens. Первый код открывает все пункты, второй — только Monitor и

@@ -12,11 +12,11 @@ sidebar_position: 2
 **Автор:** Papuas<br/>
 **Платформы:** x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./joker/img/joker.png").default}
-  alt={"Joker: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Joker: скриншот 1](./joker/img/joker.png)
+
+</div>
 
 Это программа для работы с моделями на EGOLD-платформе: A50, A51, A52, A55,
 A56, A57, A60, A62, A65, A70, A75, AX72, AX75, C55, C56, C60, CF62, CF110,

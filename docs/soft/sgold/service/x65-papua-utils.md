@@ -12,11 +12,11 @@ sidebar_position: 3
 **Автор:** Papuas<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./x65-papua-utils/img/x65-papua-utils.png").default}
-  alt={"x65PapuaUtils: скриншот 1"}
-/>
+<div className="screenshot">
+
+![x65PapuaUtils: скриншот 1](./x65-papua-utils/img/x65-papua-utils.png)
+
+</div>
 
 Это программа для работы с моделями на SGOLD-платформе: S7F, S7C, S75, S66,
 S6C, S6V, S65, S68, SK6C, SK6R, SK65, SL7F, SL7C, SL75, SL6C, SL6V, SL65,

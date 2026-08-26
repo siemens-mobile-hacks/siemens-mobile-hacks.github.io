@@ -13,5 +13,15 @@ sidebar_position: 0
 
 ## Программы
 
+- **[3GSwup2QPST](./3gswup2qpst.md)**<br/>
+  Преобразование сервисных прошивок 3GSwup в файлы для QPST.
+- **[CDMA Workshop](./cdma-workshop.md)**<br/>
+  Сервисная программа для чтения памяти и настройки CDMA-телефонов через диагностический порт.
 - **[NV Editor](./nv-editor.md)**<br/>
   Чтение, редактирование и запись NV Items в телефонах на платформе Qualcomm.
+- **[QPST](./qpst.md)**<br/>
+  Сервисный пакет Qualcomm для прошивки и работы с EFS и NV-параметрами телефонов на платформе BREW.
+- **[ReadWriteFlash QC](./readwriteflash-qc.md)**<br/>
+  Сервисная утилита для изменения заводских и NV-параметров телефонов Qualcomm.
+- **[S80 User Download Tool](./s80-user-download-tool.md)**<br/>
+  Программа обновления программного обеспечения Siemens S80.

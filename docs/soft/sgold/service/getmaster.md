@@ -10,11 +10,11 @@ sidebar_position: 8
 
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./getmaster/img/getmaster.png").default}
-  alt={"GetMaster: скриншот 1"}
-/>
+<div className="screenshot">
+
+![GetMaster: скриншот 1](./getmaster/img/getmaster.png)
+
+</div>
 
 GetMaster рассчитывает мастер-код телефонов Siemens x65 по IMEI и данным
 EEPROM-блока 5121.

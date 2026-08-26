@@ -11,11 +11,11 @@ sidebar_position: 3
 **Автор:** phobos computer<br/>
 **Платформы:** x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./a52-melody-changer/img/a52-melody-changer.png").default}
-  alt={"A52 Melody Changer: скриншот 1"}
-/>
+<div className="screenshot">
+
+![A52 Melody Changer: скриншот 1](./a52-melody-changer/img/a52-melody-changer.png)
+
+</div>
 
 Программа предназначена для изменения стандартных и пользовательских мелодий,
 картинок и анимаций в Siemens A52. Она сама не записывает данные в телефон, а

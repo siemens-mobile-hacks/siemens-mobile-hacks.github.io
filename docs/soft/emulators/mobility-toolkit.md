@@ -10,11 +10,11 @@ sidebar_position: 0
 
 **Автор:** Siemens Mobile, BenQ Mobile
 
-<img
-  className="screenshot"
-  src={require("./mobility-toolkit/img/mobility-toolkit.png").default}
-  alt={"Siemens Mobility Toolkit / BenQ Mobile Toolkit: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Siemens Mobility Toolkit / BenQ Mobile Toolkit: скриншот 1](./mobility-toolkit/img/mobility-toolkit.png)
+
+</div>
 
 Среды для запуска отдельных пакетов эмуляторов телефонов Siemens и
 BenQ-Siemens. Для эмуляторов Siemens используется Siemens Mobility Toolkit

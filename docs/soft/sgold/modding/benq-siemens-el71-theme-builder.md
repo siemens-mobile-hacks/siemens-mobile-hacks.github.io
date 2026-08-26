@@ -13,11 +13,11 @@ sidebar_position: 3
 **Автор:** Blind007<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./benq-siemens-el71-theme-builder/img/benq-siemens-el71-theme-builder.png").default}
-  alt={"BenQ-Siemens EL71 ThemeBuilder: скриншот 1"}
-/>
+<div className="screenshot">
+
+![BenQ-Siemens EL71 ThemeBuilder: скриншот 1](./benq-siemens-el71-theme-builder/img/benq-siemens-el71-theme-builder.png)
+
+</div>
 
 Программа собирает темы оформления для BenQ-Siemens E71 и EL71. В тему можно
 добавить мелодии звонка, сообщений, включения и выключения, анимацию,

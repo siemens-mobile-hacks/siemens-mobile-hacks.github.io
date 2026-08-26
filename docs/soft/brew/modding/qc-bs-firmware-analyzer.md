@@ -11,11 +11,11 @@ sidebar_position: 9
 **Автор:** Viper BJK<br/>
 **Платформы:** BREW
 
-<img
-  className="screenshot"
-  src={require("./qc-bs-firmware-analyzer/img/qc-bs-firmware-analyzer.png").default}
-  alt={"QC BS Firmware Analyzer: скриншот 1"}
-/>
+<div className="screenshot">
+
+![QC BS Firmware Analyzer: скриншот 1](./qc-bs-firmware-analyzer/img/qc-bs-firmware-analyzer.png)
+
+</div>
 
 QC BS Firmware Analyzer предназначен для исследования прошивок BenQ-Siemens на
 платформе Qualcomm и работы с телефоном через диагностический порт.

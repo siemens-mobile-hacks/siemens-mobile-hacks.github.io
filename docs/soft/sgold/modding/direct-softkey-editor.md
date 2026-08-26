@@ -12,11 +12,11 @@ sidebar_position: 15
 **Автор:** ACiD[mrp]<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./direct-softkey-editor/img/direct-softkey-editor.png").default}
-  alt={"x65 Direct Softkey Editor: скриншот 1"}
-/>
+<div className="screenshot">
+
+![x65 Direct Softkey Editor: скриншот 1](./direct-softkey-editor/img/direct-softkey-editor.png)
+
+</div>
 
 Direct Softkey Editor позволяет изменить все софт-клавиши и ярлыки в любом
 телефоне Siemens x65, в том числе те, которые штатное меню предлагает назначить

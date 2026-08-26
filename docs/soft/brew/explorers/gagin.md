@@ -11,11 +11,11 @@ sidebar_position: 4
 **Автор:** GAGIN<br/>
 **Платформы:** BREW
 
-<img
-  className="screenshot"
-  src={require("./gagin/img/gagin.png").default}
-  alt={"GAGIN: скриншот 1"}
-/>
+<div className="screenshot">
+
+![GAGIN: скриншот 1](./gagin/img/gagin.png)
+
+</div>
 
 GAGIN показывает каталоги и файлы встроенной файловой системы BREW, копирует файлы между телефоном и компьютером, удаляет их и
 показывает размер каталогов. Программа также загружает и удаляет модули BREW с комплектом файлов MIF, MOD, SIG и BAR и умеет переводить

@@ -11,11 +11,11 @@ sidebar_position: 5
 **Автор:** Nutzo<br/>
 **Платформы:** x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./freia/img/freia.png").default}
-  alt={"Freia: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Freia: скриншот 1](./freia/img/freia.png)
+
+</div>
 
 Программа командной строки и с графическим интерфейсом, главным образом для разблокировки и прошивки телефонов Siemens.
 
@@ -32,11 +32,12 @@ sidebar_position: 5
 
 ## Версии
 
-- **15** — [freia-15.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/freia/files/freia-15.zip) (2004-05-06)<br/>Windows 32-bit · 691 КиБ
+- **18** — [freia-18.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/freia/files/freia-18.zip)<br/>Windows 32-bit · 655 КиБ
 
 <details>
-<summary><strong>Архивные версии (3)</strong></summary>
+<summary><strong>Архивные версии (4)</strong></summary>
 
+- **15** — [freia-15.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/freia/files/freia-15.zip) (2004-05-06)<br/>Windows 32-bit · 691 КиБ
 - **10** — [freia-10.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/freia/files/freia-10.zip) (2004-03-04)<br/>Windows 32-bit · 687 КиБ
 - **9** — [freia-9.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/freia/files/freia-9.zip) (2003-12-10)<br/>Windows 32-bit · 773 КиБ
 - **8** — [freia-8.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/freia/files/freia-8.zip) (2003-09-25)<br/>Windows 32-bit · 767 КиБ

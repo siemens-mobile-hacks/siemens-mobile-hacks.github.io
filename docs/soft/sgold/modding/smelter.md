@@ -12,11 +12,11 @@ sidebar_position: 0
 **Автор:** avkiev<br/>
 **Платформы:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./smelter/img/smelter.png").default}
-  alt={"Smelter: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Smelter: скриншот 1](./smelter/img/smelter.png)
+
+</div>
 
 Эта программа предназначена для исследования фуллфлеша телефона. Она
 вытаскивает из фф информацию о еепромах, ленгпаке, меню, картинках, мелодиях,
@@ -62,7 +62,7 @@ Control, размещённого в дополнительных файлах.
 - **9.65** — [smelter-9.65.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/smelter/files/smelter-9.65.zip) (2008-04-20)<br/>В комплекте базы, скрипты и документация<br/>Windows 32-bit · 497 КиБ
 
 <details>
-<summary><strong>Архивные версии (9)</strong></summary>
+<summary><strong>Архивные версии (10)</strong></summary>
 
 - **9.10** — [smelter-9.10.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/smelter/files/smelter-9.10.zip) (2007-04-03)<br/>Windows 32-bit · 445 КиБ
 - **8.84** — [smelter-8.84.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/smelter/files/smelter-8.84.zip) (2007-01-26)<br/>Windows 32-bit · 428 КиБ
@@ -73,6 +73,7 @@ Control, размещённого в дополнительных файлах.
 - **7.20** — [smelter-7.20.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/smelter/files/smelter-7.20.zip) (2005-11-22)<br/>Windows 32-bit · 301 КиБ
 - **6.65** — [smelter-6.65.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/smelter/files/smelter-6.65.zip) (2005-09-02)<br/>Windows 32-bit · 285 КиБ
 - **5.67** — [smelter-5.67.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/smelter/files/smelter-5.67.zip) (2005-02-04)<br/>Windows 32-bit · 234 КиБ
+- **5.09** — [smelter-5.09.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/smelter/files/smelter-5.09.zip)<br/>Windows 32-bit · 250 КиБ
 
 </details>
 

@@ -11,11 +11,11 @@ sidebar_position: 12
 **Автор:** BenQ Mobile<br/>
 **Платформы:** x65/x75 (SGOLD), BREW
 
-<img
-  className="screenshot"
-  src={require("./mobile-theme-editor/img/mobile-theme-editor.png").default}
-  alt={"Mobile Theme Editor: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Mobile Theme Editor: скриншот 1](./mobile-theme-editor/img/mobile-theme-editor.png)
+
+</div>
 
 Mobile Theme Editor предназначен для создания и редактирования тем оформления
 телефонов BenQ-Siemens. Программа позволяет изменять графику и цветовые схемы

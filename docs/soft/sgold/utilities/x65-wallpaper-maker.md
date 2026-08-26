@@ -11,11 +11,11 @@ sidebar_position: 5
 **Автор:** Herbert Joos<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./x65-wallpaper-maker/img/x65-wallpaper-maker.png").default}
-  alt={"x65 Wallpaper Maker: скриншот 1"}
-/>
+<div className="screenshot">
+
+![x65 Wallpaper Maker: скриншот 1](./x65-wallpaper-maker/img/x65-wallpaper-maker.png)
+
+</div>
 
 x65 Wallpaper Maker вырезает из большого изображения область нужного размера и
 готовит обои 132×176 пикселей для телефонов Siemens x65. Поддерживаются исходные

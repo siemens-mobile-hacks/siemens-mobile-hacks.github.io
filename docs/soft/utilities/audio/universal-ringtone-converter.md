@@ -10,11 +10,11 @@ sidebar_position: 5
 
 **Автор:** Riza Purwo Nugroho
 
-<img
-  className="screenshot"
-  src={require("./universal-ringtone-converter/img/universal-ringtone-converter.png").default}
-  alt={"Universal Ringtone Converter: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Universal Ringtone Converter: скриншот 1](./universal-ringtone-converter/img/universal-ringtone-converter.png)
+
+</div>
 
 Universal Ringtone Converter преобразует MIDI в текстовые форматы мелодий мобильных телефонов и обратно. Можно перевести мелодию из
 одного текстового формата в другой, отредактировать её, прослушать через MIDI-секвенсор и получить последовательность клавиш для набора

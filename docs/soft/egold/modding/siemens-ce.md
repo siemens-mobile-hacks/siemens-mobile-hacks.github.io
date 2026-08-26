@@ -11,11 +11,11 @@ sidebar_position: 2
 **Автор:** V!per (Vad!m); доработки — dspmobile<br/>
 **Платформы:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD), ODM
 
-<img
-  className="screenshot"
-  src={require("./siemens-ce/img/siemens-ce.png").default}
-  alt={"Siemens CE: скриншот 1"}
-/>
+<div className="screenshot">
+
+![Siemens CE: скриншот 1](./siemens-ce/img/siemens-ce.png)
+
+</div>
 
 Программа Siemens CE предназначена для поиска и изменения шрифтов мобильных
 телефонов Siemens. Она открывает FullFlash, FLS и отдельные блоки шрифтов,

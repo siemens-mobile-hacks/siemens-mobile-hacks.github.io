@@ -11,11 +11,11 @@ sidebar_position: 8
 **Автор:** ziemenz<br/>
 **Платформы:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./gpf-creator/img/gpf-creator.png").default}
-  alt={"GPF Creator: скриншот 1"}
-/>
+<div className="screenshot">
+
+![GPF Creator: скриншот 1](./gpf-creator/img/gpf-creator.png)
+
+</div>
 
 Программа предназначена для конвертации обычных BMP-картинок в GPF-файлы.
 
