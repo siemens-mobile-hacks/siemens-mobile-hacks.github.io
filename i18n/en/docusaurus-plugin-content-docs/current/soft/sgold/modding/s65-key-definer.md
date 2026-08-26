@@ -11,15 +11,15 @@ sidebar_position: 14
 **Author:** Martian<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./s65-key-definer/img/s65-key-definer.png").default}
-  alt={"S65 Key Definer: screenshot 1"}
-/>
+<div className="screenshot">
 
-S65 Key Definer opens EEPROM blocks 5425 and 5423 in Siemens EEPROM
+![S65 Key Definer: screenshot 1](./s65-key-definer/img/s65-key-definer.png)
+
+</div>
+
+S65 Key Definer opens EEPROM blocks 5425 and 5423 in the Siemens EEPROM
 Tool format. Block 5425 contains key assignments and short and long joystick presses;
-block 5423 contains "My menu" items. The selected functions can be replaced or removed,
+block 5423 contains the items in “My Menu”. The selected functions can be replaced or removed,
 after which the block can be saved for writing back to the phone.
 
 ## Versions

@@ -11,7 +11,17 @@ sidebar_position: 0
 
 Diagnostics, firmware flashing, repair, and phone recovery.
 
-## Applications
+## Programs
 
+- **[3GSwup2QPST](./3gswup2qpst.md)**<br/>
+  Convert 3GSwup service firmware into files for QPST.
+- **[CDMA Workshop](./cdma-workshop.md)**<br/>
+  Service software for reading memory and configuring CDMA phones through the diagnostic port.
 - **[NV Editor](./nv-editor.md)**<br/>
-  Read, edit, and write NV Items on Qualcomm-based phones.
+  Read, edit, and write NV Items on phones based on the Qualcomm platform.
+- **[QPST](./qpst.md)**<br/>
+  Qualcomm service suite for firmware flashing and working with EFS and NV parameters on phones based on the BREW platform.
+- **[ReadWriteFlash QC](./readwriteflash-qc.md)**<br/>
+  Service utility for changing factory and NV parameters on Qualcomm phones.
+- **[S80 User Download Tool](./s80-user-download-tool.md)**<br/>
+  Software update program for the Siemens S80.

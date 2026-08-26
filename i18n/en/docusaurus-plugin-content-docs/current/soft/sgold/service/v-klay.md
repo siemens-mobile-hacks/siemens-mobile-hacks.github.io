@@ -12,14 +12,14 @@ sidebar_position: 1
 **Author:** ValeraVi (Valeriy Vishnyak)<br/>
 **Platforms:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD), x65/x75 (SGOLD), ODM
 
-<img
-  className="screenshot"
-  src={require("./v-klay/img/v-klay.png").default}
-  alt={"V_KLay: screenshot 1"}
-/>
+<div className="screenshot">
 
-A program for applying patches, reading/writing Flash, and changing the
-keyboard layout of Siemens mobile phones.
+![V_KLay: screenshot 1](./v-klay/img/v-klay.png)
+
+</div>
+
+A program for applying patches, reading/writing Flash, and changing the keyboard
+layout of Siemens mobile phones.
 
 Features:
 
@@ -28,7 +28,7 @@ Features:
 - Search and replace in patch text;
 - Read and write phone memory;
 - Save read data to a file and load data from a file;
-- Work with the entire full flash, individual memory areas, and EEPROM;
+- Work with the entire fullflash, individual memory areas, and EEPROM;
 - Apply patches directly to the phone or to a Flash file;
 - Read, edit, and write keyboard layouts;
 - Load and save layouts in VKL files;

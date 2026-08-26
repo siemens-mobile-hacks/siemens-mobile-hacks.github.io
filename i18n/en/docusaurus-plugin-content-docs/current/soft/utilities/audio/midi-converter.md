@@ -10,11 +10,11 @@ sidebar_position: 2
 
 **Author:** Michael Zolotiskiy
 
-<img
-  className="screenshot"
-  src={require("./midi-converter/img/midi-converter.png").default}
-  alt={"MIDIConverter: screenshot 1"}
-/>
+<div className="screenshot">
+
+![MIDIConverter: screenshot 1](./midi-converter/img/midi-converter.png)
+
+</div>
 
 MIDIConverter creates standard MIDI files from a text notation of a melody for
 Siemens S/C25 and M/C/S35. The result can be played back using the MIDI player

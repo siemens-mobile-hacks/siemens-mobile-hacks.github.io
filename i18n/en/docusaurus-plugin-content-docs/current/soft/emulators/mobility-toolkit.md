@@ -10,11 +10,11 @@ sidebar_position: 0
 
 **Author:** Siemens Mobile, BenQ Mobile
 
-<img
-  className="screenshot"
-  src={require("./mobility-toolkit/img/mobility-toolkit.png").default}
-  alt={"Siemens Mobility Toolkit / BenQ Mobile Toolkit: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Siemens Mobility Toolkit / BenQ Mobile Toolkit: screenshot 1](./mobility-toolkit/img/mobility-toolkit.png)
+
+</div>
 
 Environments for running individual emulator packages for Siemens and
 BenQ-Siemens phones. Siemens emulators use Siemens Mobility Toolkit

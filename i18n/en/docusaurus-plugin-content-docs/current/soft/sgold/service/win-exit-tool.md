@@ -11,14 +11,14 @@ sidebar_position: 12
 **Author:** Siemens AG<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./win-exit-tool/img/win-exit-tool.png").default}
-  alt={"WinExitTool: screenshot 1"}
-/>
+<div className="screenshot">
+
+![WinExitTool: screenshot 1](./win-exit-tool/img/win-exit-tool.png)
+
+</div>
 
 WinExitTool switches the phone to ServiceMode, reads device information, the last EXIT code, and the crash log. For each entry,
-it shows the crash type and time, address, signature, checksum, file name, and a text description. The result can be saved to a file,
+it shows the crash type and time, address, signature, checksum, file name, and a textual description. The result can be saved to a file,
 and the entries read can be marked or deleted.
 
 The program was intended by Siemens for development and service diagnostics of 65-series phones.

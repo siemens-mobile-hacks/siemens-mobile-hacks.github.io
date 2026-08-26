@@ -19,3 +19,5 @@ Diagnostics, firmware flashing, repair, and phone recovery.
   View service information and settings for Siemens C25/C28 with AT command support and service functions.
 - **[Siemens Flash Reader by Andromeda](./siemens-flash-reader.md)**<br/>
   Read Flash, EEPROM, and RAM from Siemens C25/S25/C35/S35 phones via a service cable.
+- **[Siemens S6 Flasher](./siemens-s6-flasher.md)**<br/>
+  Official Siemens S6 software update program.

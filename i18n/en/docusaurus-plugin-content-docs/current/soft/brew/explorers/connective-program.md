@@ -12,11 +12,11 @@ sidebar_position: 2
 **Author:** Vladimir Gorkov<br/>
 **Platforms:** x65/x75 (SGOLD), BREW
 
-<img
-  className="screenshot"
-  src={require("./connective-program/img/connective-program.png").default}
-  alt={"Connective Program: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Connective Program: screenshot 1](./connective-program/img/connective-program.png)
+
+</div>
 
 A program for exchanging data between a computer and mobile phones,
 smartphones, and PDAs. Supports BenQ-Siemens E71, EL71, EF81, C81, M81, and S68.

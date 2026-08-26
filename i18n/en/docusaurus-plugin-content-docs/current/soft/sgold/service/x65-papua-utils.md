@@ -8,15 +8,15 @@ sidebar_position: 3
 
 # x65PapuaUtils
 
-**Home page:** [http://papuas.allsiemens.com/PapuaUtils.htm](https://web.archive.org/web/20130825050857/http://papuas.allsiemens.com/PapuaUtils.htm) (web archive)<br/>
+**Homepage:** [http://papuas.allsiemens.com/PapuaUtils.htm](https://web.archive.org/web/20130825050857/http://papuas.allsiemens.com/PapuaUtils.htm) (web archive)<br/>
 **Author:** Papuas<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./x65-papua-utils/img/x65-papua-utils.png").default}
-  alt={"x65PapuaUtils: screenshot 1"}
-/>
+<div className="screenshot">
+
+![x65PapuaUtils: screenshot 1](./x65-papua-utils/img/x65-papua-utils.png)
+
+</div>
 
 This program is intended for working with SGOLD-platform models: S7F, S7C, S75, S66,
 S6C, S6V, S65, S68, SK6C, SK6R, SK65, SL7F, SL7C, SL75, SL6C, SL6V, SL65,
@@ -31,7 +31,7 @@ with minimal modifications.
 On completely dead phones, the first BCORE write is performed using
 TP (Test Point)!
 
-All methods etc. are in test mode. If you damage your phone, that is your own
+All methods, etc., are in test mode. If you damage your phone, that's your
 problem!
 
 ## Versions

@@ -12,20 +12,20 @@ sidebar_position: 1
 **Author:** BEZY<br/>
 **Platforms:** BREW
 
-<img
-  className="screenshot"
-  src={require("./brew-mobile-commander/img/brew-mobile-commander.jpg").default}
-  alt={"Brew Mobile Commander: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Brew Mobile Commander: screenshot 1](./brew-mobile-commander/img/brew-mobile-commander.jpg)
+
+</div>
 
 Brew Mobile Commander (BMC) is designed for managing Siemens and
 BenQ-Siemens phones with BREW support. Siemens SXG75 and SG75,
 BenQ-Siemens EF81 and SL91 are fully supported; other phones based on Qualcomm
-chipsets, including the S81, are partially supported.
+chipsets, including S81, are partially supported.
 
 Features:
 
-- Copying files between the computer and phone over OBEX or BREW, plus standard two-pane file manager operations;
+- Copying files between the computer and the phone over OBEX or BREW, as well as standard two-pane file manager operations;
 - Viewing received SMS messages and sending messages;
 - Viewing and editing the address book;
 - Working with the calendar, groups, and GPRS profiles;

@@ -10,14 +10,14 @@ sidebar_position: 4
 
 **Author:** Michael Zolotiskiy
 
-<img
-  className="screenshot"
-  src={require("./ringtone-editor/img/ringtone-editor.png").default}
-  alt={"Ringtone Editor: screenshot 1"}
-/>
+<div className="screenshot">
 
-Ringtone Editor is designed for creating, editing, and playing back
-monophonic melodies. The Siemens Edition supports the Siemens C/M35 and
+![Ringtone Editor: screenshot 1](./ringtone-editor/img/ringtone-editor.png)
+
+</div>
+
+Ringtone Editor is intended for creating, editing, and playing back
+monophonic melodies. Siemens Edition supports the Siemens C/M35 and
 Nokia Standard formats.
 
 ## Versions

@@ -11,16 +11,16 @@ sidebar_position: 5
 **Author:** Club SieMEns 45.55<br/>
 **Platforms:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./flash-imager/img/flash-imager.png").default}
-  alt={"Flash Imager: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Flash Imager: screenshot 1](./flash-imager/img/flash-imager.png)
+
+</div>
 
 Flash Imager opens FullFlash in BIN or BIF format, displays the detected
-graphics, and lets you replace images. Model support and image locations
-are defined by ready-made tables for different Siemens models and firmware in
-the `menu` directory, so support can be extended without modifying the program.
+graphics, and lets you replace images. Model support and image locations are
+defined by ready-made tables for different Siemens models and firmware in the
+`menu` directory, so support can be extended without modifying the program.
 
 ## Versions
 

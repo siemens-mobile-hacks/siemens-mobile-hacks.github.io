@@ -8,19 +8,19 @@ sidebar_position: 0
 
 # SiMoCo
 
-**Homepage:** [http://www.mysiemens.cz/ms/simoco/](https://web.archive.org/web/20070513090023/http://www.mysiemens.cz/ms/simoco/) (web archive)<br/>
+**Home page:** [http://www.mysiemens.cz/ms/simoco/](https://web.archive.org/web/20070513090023/http://www.mysiemens.cz/ms/simoco/) (web archive)<br/>
 **Forum thread:** [https://www.siemensmania.cz/forum/viewtopic.php?t=1018](https://www.siemensmania.cz/forum/viewtopic.php?t=1018)<br/>
 **Author:** Ing. Pavel Cibulka<br/>
 **Platforms:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./simoco/img/simoco.jpg").default}
-  alt={"SiMoCo: screenshot 1"}
-/>
+<div className="screenshot">
+
+![SiMoCo: screenshot 1](./simoco/img/simoco.jpg)
+
+</div>
 
 SiMoCo (Siemens Mobile Control, formerly known as Sx45CZ) is designed to
-control Siemens mobile phones from a computer. Supported models include S25,
+control Siemens mobile phones from a computer. It supports the S25,
 C35(i), M35, S35(i), SL42(i), SL45(i), C45, S45(i), ME45, M50, MT50, C55,
 S55, SL55, M55, A60, C60, MC60, CF62, C65, M65, CX65, S65, CX70, C75, CX75,
 M75, and S75. The phone is connected by cable to a serial port or via an
@@ -44,14 +44,14 @@ Program features:
 - Automatically archive received and sent SMS, export to CSV, and
   save message text to a file.
 - Notifications for new SMS in a separate window or as an icon in the notification area.
-- Access FlexMemory and transfer files between the phone and computer.
+- Access FlexMemory and transfer files between the phone and the computer.
 - View and edit the organizer and calendar.
 - Support for national characters in SMS, phonebooks, the address book, and
   the organizer using UCS-2 and UTF-8.
 - View available and preferred networks, operator information, and
   edit the preferred networks list.
-- Upload logos and screensavers from BMP and GIF files, as well as a logo
-  editor.
+- Upload logos and startup screens from BMP and GIF files, as well as a
+  logo editor.
 - Upload melodies from MIDI files and an iMelody editor with saving to
   TXT, iMelody, or MIDI.
 - Configure call forwarding and call barring.
@@ -69,11 +69,11 @@ Program features:
 <details>
 <summary><strong>Archived versions (6)</strong></summary>
 
-- **2.2.8** — [SiMoCo-2.2.8.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/simoco/files/SiMoCo-2.2.8.zip)<br/>Windows 32-bit · 968 KiB
-- **2.2.7a** — [SiMoCo-2.2.7a.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/simoco/files/SiMoCo-2.2.7a.zip)<br/>Windows 32-bit · 956 KiB
-- **2.2.5** — [SiMoCo-2.2.5.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/simoco/files/SiMoCo-2.2.5.zip)<br/>Windows 32-bit · 939 KiB
-- **2.2.3** — [SiMoCo-2.2.3.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/simoco/files/SiMoCo-2.2.3.zip)<br/>Windows 32-bit · 924 KiB
-- **2.1.6** — [SiMoCo-2.1.6.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/simoco/files/SiMoCo-2.1.6.zip)<br/>Windows 32-bit · 890 KiB
-- **2.1.4** — [SiMoCo-2.1.4.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/simoco/files/SiMoCo-2.1.4.zip)<br/>Windows 32-bit · 868 KiB
+- **2.2.8** — [SiMoCo-2.2.8.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/simoco/files/SiMoCo-2.2.8.zip)<br/>Windows 32-bit · 968 КиБ
+- **2.2.7a** — [SiMoCo-2.2.7a.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/simoco/files/SiMoCo-2.2.7a.zip)<br/>Windows 32-bit · 956 КиБ
+- **2.2.5** — [SiMoCo-2.2.5.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/simoco/files/SiMoCo-2.2.5.zip)<br/>Windows 32-bit · 939 КиБ
+- **2.2.3** — [SiMoCo-2.2.3.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/simoco/files/SiMoCo-2.2.3.zip)<br/>Windows 32-bit · 924 КиБ
+- **2.1.6** — [SiMoCo-2.1.6.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/simoco/files/SiMoCo-2.1.6.zip)<br/>Windows 32-bit · 890 КиБ
+- **2.1.4** — [SiMoCo-2.1.4.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/explorers/simoco/files/SiMoCo-2.1.4.zip)<br/>Windows 32-bit · 868 КиБ
 
 </details>

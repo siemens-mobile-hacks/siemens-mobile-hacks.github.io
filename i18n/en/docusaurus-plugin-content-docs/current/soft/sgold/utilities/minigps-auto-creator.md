@@ -11,17 +11,17 @@ sidebar_position: 2
 **Author:** [crazy]misha<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./minigps-auto-creator/img/minigps-auto-creator.png").default}
-  alt={"miniGPS AutoCreator: screenshot 1"}
-/>
+<div className="screenshot">
+
+![miniGPS AutoCreator: screenshot 1](./minigps-auto-creator/img/minigps-auto-creator.png)
+
+</div>
 
 The program automates the creation of TMO files for the MiniGPS with GSM Data Logger 0.8 patch using known data from the base station table.
 It loads and saves CSV tables, supports transliteration, label trimming, leading zeros, sector and constant sets, and
 creates an LAC directory with ready-made TMO files.
 
-The built-in editor lets you open a single file or an entire TMO folder, change actions, Cell ID, and text, and save the changes. The
+The built-in editor lets you open a single file or an entire TMO folder, modify actions, Cell ID, and text, and save the changes. The
 package includes base station tables for Ufa operators.
 
 ## Versions

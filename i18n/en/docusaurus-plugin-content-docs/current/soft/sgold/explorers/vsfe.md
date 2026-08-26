@@ -12,11 +12,11 @@ sidebar_position: 1
 **Author:** VNavigator Soft<br/>
 **Platforms:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./vsfe/img/vsfe.png").default}
-  alt={"VNavigator: screenshot 1"}
-/>
+<div className="screenshot">
+
+![VNavigator: screenshot 1](./vsfe/img/vsfe.png)
+
+</div>
 
 VNavigator Siemens Flex Explorer is a continuation of VNavigator Siemens x65 Mobile
 Manager with a completely redesigned OBEX engine, a dual-pane interface, and
@@ -27,8 +27,8 @@ the phone, delete and rename them, create directories, change file attributes,
 and view free space. Siemens x55, x65, x70, and x75 phones connected by cable,
 via IrDA, or Bluetooth are supported.
 
-For non-original cables, a built-in AT Enabler is included. Opening hidden
-drives on x65–x75 phones is done using the OD 2 function.
+An AT Enabler is built in for non-original cables. Opening hidden drives on
+x65–x75 phones is done using the OD 2 function.
 
 ## Versions
 

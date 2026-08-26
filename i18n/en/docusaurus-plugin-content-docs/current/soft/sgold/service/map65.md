@@ -11,16 +11,16 @@ sidebar_position: 9
 **Author:** ACiD[mrp]<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./map65/img/map65.png").default}
-  alt={"MAP65: screenshot 1"}
-/>
+<div className="screenshot">
+
+![MAP65: screenshot 1](./map65/img/map65.png)
+
+</div>
 
 MAP65 is designed to work with standard and delta MAPs of Siemens x65 phones.
 The program connects to the phone, detects the HWID and block versions, reads the MAP to a
-file, and writes the selected MAP back to the device. Before writing, you can save the
-phone's original data.
+file, and writes the selected MAP back to the device. Before writing, you can save
+the phone's original data.
 
 ## Versions
 

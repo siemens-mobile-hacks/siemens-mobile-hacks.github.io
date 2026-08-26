@@ -12,21 +12,21 @@ sidebar_position: 2
 **Author:** Papuas<br/>
 **Platforms:** x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./joker/img/joker.png").default}
-  alt={"Joker: screenshot 1"}
-/>
+<div className="screenshot">
 
-This program is intended for working with EGOLD-platform models: A50, A51, A52, A55,
+![Joker: screenshot 1](./joker/img/joker.png)
+
+</div>
+
+This program is intended for working with models on the EGOLD platform: A50, A51, A52, A55,
 A56, A57, A60, A62, A65, A70, A75, AX72, AX75, C55, C56, C60, CF62, CF110,
 M55, MC60, S55, S56, SL55, SX1, and similar models.
 
-This program is designed to recover all software faults
+This program is being developed to recover all software-related faults
 in Siemens phones on the EGOLD platform using a simple cable with minimal
 modifications together with Siemens EEPROM Tool.
 
-All methods, etc., are for test mode only. If you damage your phone —
+All methods, etc., are only for test mode. If you damage your phone —
 that is your own problem!
 
 ## Versions
@@ -42,7 +42,7 @@ that is your own problem!
 - **0.3.5.4** — [JokerV0354.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/joker/files/JokerV0354.zip)<br/>Unofficial version for A70<br/>Windows 32-bit · 1.79 MiB
 - **0.3.5.2** — [JokerV0352.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/joker/files/JokerV0352.zip)<br/>Windows 32-bit · 288 KiB
 - **0.3.4.1** — [JokerV0341.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/joker/files/JokerV0341.zip)<br/>Windows 32-bit · 358 KiB
-- **0.3.4.1** — [JokerV0341-UFSx.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/joker/files/JokerV0341-UFSx.zip)<br/>Version for working with the UFS programmer; port by KarwosGSM.PL Team<br/>Windows 32-bit · 595 KiB
+- **0.3.4.1** — [JokerV0341-UFSx.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/joker/files/JokerV0341-UFSx.zip)<br/>Version for use with the UFS programmer; port by KarwosGSM.PL Team<br/>Windows 32-bit · 595 KiB
 - **0.2.9.5** — [JokerV0295.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/joker/files/JokerV0295.zip) (2005-11-25)<br/>Windows 32-bit · 201 KiB
 - **0.2.8.3** — [JokerV0283.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/joker/files/JokerV0283.zip)<br/>Windows 32-bit · 202 KiB
 - **0.0.5.3** — [JokerV0053.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/joker/files/JokerV0053.zip)<br/>Windows 32-bit · 141 KiB

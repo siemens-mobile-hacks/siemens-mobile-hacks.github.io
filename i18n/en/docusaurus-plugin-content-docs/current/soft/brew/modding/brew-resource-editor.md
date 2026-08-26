@@ -11,15 +11,15 @@ sidebar_position: 4
 **Author:** QUALCOMM Incorporated<br/>
 **Platforms:** BREW
 
-<img
-  className="screenshot"
-  src={require("./brew-resource-editor/img/brew-resource-editor.png").default}
-  alt={"BREW Resource Editor: screenshot 1"}
-/>
+<div className="screenshot">
+
+![BREW Resource Editor: screenshot 1](./brew-resource-editor/img/brew-resource-editor.png)
+
+</div>
 
 The official resource editor from the BREW SDK. It allows you to create and modify
 strings, images, menus, and dialogs for BREW applications, and then compile them into
-BAR files. The package includes the console resource compiler `brewrc.exe`.
+BAR files. The package includes the `brewrc.exe` command-line resource compiler.
 
 ## Versions
 

@@ -11,13 +11,13 @@ sidebar_position: 0
 **Forum thread:** [http://forum.siemens-club.ru/viewtopic.php?TopicID=13060](http://forum.siemens-club.ru/viewtopic.php?TopicID=13060)<br/>
 **Platforms:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD), ODM
 
-<img
-  className="screenshot"
-  src={require("./c55-phonebook/img/c55-phonebook.png").default}
-  alt={"C55 Phonebook: screenshot 1"}
-/>
+<div className="screenshot">
 
-A program for editing phonebooks on Siemens mobile phones.
+![C55 Phonebook: screenshot 1](./c55-phonebook/img/c55-phonebook.png)
+
+</div>
+
+A program for editing the phonebooks of Siemens mobile phones.
 
 The author tested the program on the C55, C45, and M50, but it should also work with other
 Siemens phones that support Unicode. The package includes configurations

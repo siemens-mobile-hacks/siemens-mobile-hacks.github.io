@@ -11,11 +11,11 @@ sidebar_position: 0
 **Author:** -=[LCW]=-ExXtReMe<br/>
 **Platforms:** BREW
 
-<img
-  className="screenshot"
-  src={require("./bar-image-grabber/img/bar-image-grabber.png").default}
-  alt={"Bar Image Grabber: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Bar Image Grabber: screenshot 1](./bar-image-grabber/img/bar-image-grabber.png)
+
+</div>
 
 Bar Image Grabber opens BAR resource archives, displays the graphic files found in them, and lets you save the selected
 images to the specified folder.

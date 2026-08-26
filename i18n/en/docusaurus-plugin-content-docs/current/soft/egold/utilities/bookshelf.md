@@ -11,11 +11,11 @@ sidebar_position: 0
 **Author:** Anton Krasovsky<br/>
 **Platforms:** x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./bookshelf/img/bookshelf.png").default}
-  alt={"Bookshelf: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Bookshelf: screenshot 1](./bookshelf/img/bookshelf.png)
+
+</div>
 
 Bookshelf lets you convert one or more text files into a ready-to-install midlet. When the midlet is launched on the phone,
 the user can read the texts included in it.
@@ -23,7 +23,7 @@ the user can read the texts included in it.
 For each text, you can choose the CP1251 or KOI8-R encoding, hyphenation language, indents, line spacing, and font. The program
 shows how the text will look on the phone screen and supports Palm Pilot fonts in PDB and PFT formats.
 
-You can include plugins in the created book for jumping to a page and between texts, viewing information, and automatic page-by-page
+You can include plugins in the generated book for jumping to a page and between texts, viewing information, and automatic paged
 or smooth scrolling. Siemens SL45i, C55, M50, S55, and SL55 are supported.
 
 ## Versions

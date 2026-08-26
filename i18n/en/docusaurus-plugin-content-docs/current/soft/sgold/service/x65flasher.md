@@ -12,11 +12,11 @@ sidebar_position: 2
 **Author:** Chaos<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./x65flasher/img/x65flasher.png").default}
-  alt={"x65flasher: screenshot 1"}
-/>
+<div className="screenshot">
+
+![x65flasher: screenshot 1](./x65flasher/img/x65flasher.png)
+
+</div>
 
 A flasher for 65–75 series phones plus a midlet for finding boot keys.
 
@@ -43,6 +43,6 @@ A flasher for 65–75 series phones plus a midlet for finding boot keys.
 ## Additional files
 
 - [px65v5.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/x65flasher/files/px65v5.zip)<br/>Chaos midlet for extracting HASH, ESN, and boot keys on Siemens x65–x75<br/>J2ME · 18.1 KiB
-- [px65v3.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/x65flasher/files/px65v3.zip)<br/>Early version of the Chaos midlet with a bootcore patching feature<br/>J2ME · 12.4 KiB
+- [px65v3.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/x65flasher/files/px65v3.zip)<br/>Early version of the Chaos midlet with a bootcore patching function<br/>J2ME · 12.4 KiB
 - [px75v1.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/x65flasher/files/px75v1.zip)<br/>Midlet for obtaining HASH and ESN on lower-end phone models<br/>J2ME · 39.1 KiB
 - [bsReader.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/x65flasher/files/bsReader.zip)<br/>Midlet for obtaining HASH and ESN on S75, SL75, and BenQ-Siemens<br/>J2ME · 60.3 KiB

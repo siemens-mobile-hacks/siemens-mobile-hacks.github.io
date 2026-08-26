@@ -10,11 +10,11 @@ sidebar_position: 5
 
 **Author:** Riza Purwo Nugroho
 
-<img
-  className="screenshot"
-  src={require("./universal-ringtone-converter/img/universal-ringtone-converter.png").default}
-  alt={"Universal Ringtone Converter: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Universal Ringtone Converter: screenshot 1](./universal-ringtone-converter/img/universal-ringtone-converter.png)
+
+</div>
 
 Universal Ringtone Converter converts MIDI to mobile phone ringtone text formats and back. You can convert a ringtone from
 one text format to another, edit it, play it through a MIDI sequencer, and get the key sequence for entering it

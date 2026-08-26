@@ -11,11 +11,11 @@ sidebar_position: 6
 **Author:** SirGeoph<br/>
 **Platforms:** BREW
 
-<img
-  className="screenshot"
-  src={require("./mif-unlocker/img/mif-unlocker.png").default}
-  alt={"MIF Unlocker: screenshot 1"}
-/>
+<div className="screenshot">
+
+![MIF Unlocker: screenshot 1](./mif-unlocker/img/mif-unlocker.png)
+
+</div>
 
 MIF Unlocker modifies the service fields of MIF files: it sets the Unlimited Use
 status for a BREW application and allows it to be restored. For applications with ringtones,

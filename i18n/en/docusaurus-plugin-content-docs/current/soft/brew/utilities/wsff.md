@@ -12,11 +12,11 @@ sidebar_position: 2
 **Author:** Papuas<br/>
 **Platforms:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD), x65/x75 (SGOLD), ODM, BREW
 
-<img
-  className="screenshot"
-  src={require("./wsff/img/wsff.png").default}
-  alt={"WSFF: screenshot 1"}
-/>
+<div className="screenshot">
+
+![WSFF: screenshot 1](./wsff/img/wsff.png)
+
+</div>
 
 WSFF analyzes WinSwup databases and extracts their contents. Version 4 works with
 XBI v4, allows saving DataBlock and CmdBlock logs, and supports the

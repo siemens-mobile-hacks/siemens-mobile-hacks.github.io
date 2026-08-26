@@ -16,16 +16,30 @@ Diagnostics, flashing, repair, and recovery for phones.
 - **[V_KLay](./v-klay.md)**<br/>
   Flasher and VKP patcher for Siemens phones with a keyboard layout editor.
 - **[All Siemens Unlocker](./all-siemens.md)**<br/>
-  Service utility for flashing, unlocking, and working with MAP files on older Siemens phones.
+  Service utility for flashing, unlocking, and working with MAP files for older Siemens phones.
+- **[BenQ TI Tool](./benq-ti-tool.md)**<br/>
+  Reading and writing FullFlash and EEPROM, flashing firmware and language packs for BenQ and BenQ-Siemens phones on the TI platform.
+- **[BenQ XCSD Tool](./benq-xcsd-tool.md)**<br/>
+  Flashing, configuration, and recovery of BenQ-Siemens phones on the TI platform.
+- **[C30 Repair BIN Generator](./c30-repair-bin-generator.md)**<br/>
+  Creating a `repair.bin` file from the IMEI of a Siemens C30 phone.
 - **[C62 Tool](./c62-tool.md)**<br/>
   GSM-Asia service utility for unlocking the Siemens C62 phone.
+- **[CL50 Dinghy SW Downloader](./cl50-dinghy-downloader.md)**<br/>
+  Flashing the Siemens CL50 with separate loading of the main software, language pack, and mapping.
 - **[Flash Programmer](./flash-programmer.md)**<br/>
-  Microcell flasher for software upload and GDFS recovery on the Siemens C62 phone.
+  Microcell flasher for software loading and GDFS recovery on the Siemens C62 phone.
 - **[Milano Backup Tool](./milano-backup.md)**<br/>
   Service utility for backing up and clearing user data on the Siemens ST55 and ST60.
 - **[Milano Downloader](./milano-downloader.md)**<br/>
-  Service flasher for the Siemens ST55 and ST60 with separate firmware, mapping, and language pack loading.
+  Service flasher for the Siemens ST55 and ST60 with separate loading of firmware, mapping, and language pack.
+- **[Siemens S40 Tool](./siemens-s40-tool.md)**<br/>
+  Locking, unlocking, reading, and writing flash memory on the Siemens S40.
+- **[Siemens U10/U15 Update Software](./u10-u15-update-software.md)**<br/>
+  Software update for the Siemens U10 and U15.
 - **[SST Service Toolbox](./sst.md)**<br/>
-  Service utility for unlocking, flashing, and recovering Siemens phones across different platforms.
+  Service utility for unlocking, flashing, and recovering Siemens phones on various platforms.
 - **[UniSiemens Professional](./unisiemens.md)**<br/>
   Flasher for reading and writing FullFlash and EEPROM on older Siemens phones from x35 to x50.
+- **[X3 Software Update Program](./x3-software-update-program.md)**<br/>
+  Reading and writing flash memory on Siemens ODM phones via TTPCom FLASH430.

@@ -11,16 +11,16 @@ sidebar_position: 5
 **Author:** Herbert Joos<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./x65-wallpaper-maker/img/x65-wallpaper-maker.png").default}
-  alt={"x65 Wallpaper Maker: screenshot 1"}
-/>
+<div className="screenshot">
+
+![x65 Wallpaper Maker: screenshot 1](./x65-wallpaper-maker/img/x65-wallpaper-maker.png)
+
+</div>
 
 x65 Wallpaper Maker crops an area of the required size from a large image and
-prepares 132×176 pixel wallpapers for Siemens x65 phones. BMP, JPEG, and GIF
-source images are supported; the aspect ratio of the selected area is preserved
-when scaling.
+prepares 132×176 pixel wallpapers for Siemens x65 phones. Source images in BMP,
+JPEG, and GIF formats are supported; the aspect ratio of the selected area is
+preserved during scaling.
 
 ## Versions
 

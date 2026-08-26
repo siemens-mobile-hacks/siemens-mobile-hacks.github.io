@@ -12,19 +12,19 @@ sidebar_position: 7
 **Author:** Phantom<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./eepromform/img/eepromform-before.gif").default}
-  alt={"EEPROMForm: screenshot 1"}
-/>
+<div className="screenshot">
+
+![EEPROMForm: screenshot 1](./eepromform/img/eepromform-before.gif)
+
+</div>
 
 EEPROMForm is intended for formatting and clearing the EELITE and EEFULL areas
 in Siemens x65 phones.
 
-Before performing operations, the program saves backup copies of EEPROM, EELITE, and EEFULL.
+Before operations, the program saves backup copies of EEPROM, EELITE, and EEFULL.
 The phone model and IMEI, the number of occupied blocks before and after
-formatting, the bus level, and the battery voltage are displayed. EEPROM operations
-are performed in service mode.
+formatting, the bus level, and the battery voltage are displayed. Work with EEPROM
+is performed in service mode.
 
 ## Versions
 

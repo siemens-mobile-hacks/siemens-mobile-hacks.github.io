@@ -11,14 +11,14 @@ sidebar_position: 4
 **Author:** Sinclair<br/>
 **Platforms:** x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./c55-pictures-editor/img/c55-pictures-editor.png").default}
-  alt={"C55 Pictures Editor: screenshot 1"}
-/>
+<div className="screenshot">
 
-C55 Pictures Editor is intended for replacing built-in images in the Siemens C55
-firmware. The program displays the graphics it finds, lets you insert your own
+![C55 Pictures Editor: screenshot 1](./c55-pictures-editor/img/c55-pictures-editor.png)
+
+</div>
+
+C55 Pictures Editor is intended for replacing built-in images in the firmware of
+the Siemens C55. The program displays the detected graphics, lets you insert your own
 images, and save the changes as a patch.
 
 ## Versions

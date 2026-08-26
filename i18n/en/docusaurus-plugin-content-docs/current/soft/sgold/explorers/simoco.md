@@ -13,14 +13,14 @@ sidebar_position: 0
 **Author:** Ing. Pavel Cibulka<br/>
 **Platforms:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./simoco/img/simoco.jpg").default}
-  alt={"SiMoCo: screenshot 1"}
-/>
+<div className="screenshot">
 
-SiMoCo (Siemens Mobile Control, formerly known as Sx45CZ) is designed to
-control Siemens mobile phones from a computer. Supported models include S25,
+![SiMoCo: screenshot 1](./simoco/img/simoco.jpg)
+
+</div>
+
+SiMoCo (Siemens Mobile Control, formerly called Sx45CZ) is designed to
+control Siemens mobile phones from a computer. It supports the S25,
 C35(i), M35, S35(i), SL42(i), SL45(i), C45, S45(i), ME45, M50, MT50, C55,
 S55, SL55, M55, A60, C60, MC60, CF62, C65, M65, CX65, S65, CX70, C75, CX75,
 M75, and S75. The phone is connected by cable to a serial port or via an
@@ -33,24 +33,24 @@ Program features:
   keypad lock, and speakerphone.
 - Display the incoming caller number, answer and reject calls.
 - View and edit SIM and phone phonebooks, the address book,
-  print, back up and restore, drag and drop entries with the mouse,
+  print, back up and restore, drag and drop entries,
   import and export vCard.
 - Create and send SMS with selectable encoding, validity period, delivery
   report, and Flash SMS mode; long messages up to five SMS.
 - Send SMS in bulk and save recipient groups.
-- View and edit SMS on the SIM card and in the phone memory.
+- View and edit SMS on the SIM card and in phone memory.
 - Send and receive EMS: multipart messages, images, animations, and sounds,
   including on phones without built-in EMS support.
 - Automatically archive received and sent SMS, export to CSV, and
   save message text to a file.
 - Notifications for new SMS in a separate window or as an icon in the notification area.
-- Access FlexMemory and transfer files between the phone and the computer.
+- Access FlexMemory and transfer files between the phone and computer.
 - View and edit the organizer and calendar.
 - Support for national characters in SMS, phonebooks, the address book, and
   the organizer using UCS-2 and UTF-8.
 - View available and preferred networks, operator information, and
   edit the preferred networks list.
-- Upload logos and splash screens from BMP and GIF files, as well as a
+- Upload logos and startup screens from BMP and GIF files, as well as a
   logo editor.
 - Upload melodies from MIDI files and an iMelody editor with saving to
   TXT, iMelody, or MIDI.
@@ -59,8 +59,8 @@ Program features:
 - Send DTMF tones and strings.
 - Remotely control the phone via AT+CKPD.
 - Activate the phone service menu.
-- View communication between the program and the phone and manually enter AT commands in
-  the terminal window.
+- View communication between the program and the phone and manually enter AT commands in the
+  terminal window.
 
 ## Versions
 

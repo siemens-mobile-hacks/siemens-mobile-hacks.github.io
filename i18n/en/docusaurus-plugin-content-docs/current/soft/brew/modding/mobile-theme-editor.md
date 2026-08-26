@@ -11,14 +11,14 @@ sidebar_position: 7
 **Author:** BenQ Mobile<br/>
 **Platforms:** x65/x75 (SGOLD), BREW
 
-<img
-  className="screenshot"
-  src={require("./mobile-theme-editor/img/mobile-theme-editor.png").default}
-  alt={"Mobile Theme Editor: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Mobile Theme Editor: screenshot 1](./mobile-theme-editor/img/mobile-theme-editor.png)
+
+</div>
 
 Mobile Theme Editor is intended for creating and editing themes for
-BenQ-Siemens phones. The program lets you change the graphics and color schemes
+BenQ-Siemens phones. The program allows you to change the graphics and color schemes
 of interface elements and preview the result for supported models.
 
 ## Versions
@@ -26,4 +26,4 @@ of interface elements and preview the result for supported models.
 - **2.2.3.053** — [mobile-theme-editor-2.2.3.053.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/mobile-theme-editor/files/mobile-theme-editor-2.2.3.053.zip) (2006-09-26)<br/>Official English version<br/>Windows 32-bit · 19.9 MiB
 - **2.2.3.053** — [mobile-theme-editor-2.2.3.053-ru-1.2.2.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/mobile-theme-editor/files/mobile-theme-editor-2.2.3.053-ru-1.2.2.zip) (2006-09-26)<br/>Russian localization 1.2.2<br/>Windows 32-bit · 11.9 MiB
 - **2.2.3.053** — [mobile-theme-editor-2.2.3.053-ru-1.1.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/mobile-theme-editor/files/mobile-theme-editor-2.2.3.053-ru-1.1.zip) (2006-09-26)<br/>Russian localization 1.1<br/>Windows 32-bit · 11.9 MiB
-- **2.2.3.053** — [mobile-theme-editor-2.2.3.053-ru-native.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/mobile-theme-editor/files/mobile-theme-editor-2.2.3.053-ru-native.zip) (2006-09-26)<br/>Russian native Excelsior JET build without a specified localization version number<br/>Windows 32-bit · 12.0 MiB
+- **2.2.3.053** — [mobile-theme-editor-2.2.3.053-ru-native.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/mobile-theme-editor/files/mobile-theme-editor-2.2.3.053-ru-native.zip) (2006-09-26)<br/>Native Russian Excelsior JET build without a specified localization version number<br/>Windows 32-bit · 12.0 MiB

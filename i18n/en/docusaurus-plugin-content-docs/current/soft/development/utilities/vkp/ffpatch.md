@@ -11,15 +11,15 @@ sidebar_position: 0
 **Homepage:** [http://vi-soft.com.ua/](https://web.archive.org/web/20130813164842/http://vi-soft.com.ua/) (web archive)<br/>
 **Author:** Александр Яблочкин
 
-<img
-  className="screenshot"
-  src={require("./ffpatch/img/ffpatch.png").default}
-  alt={"FFPatch: screenshot 1"}
-/>
+<div className="screenshot">
+
+![FFPatch: screenshot 1](./ffpatch/img/ffpatch.png)
+
+</div>
 
 Compares two FullFlash files. The comparison result can be saved to a VKP file.
 The program also searches for installed patches in the FullFlash image.
 
 ## Versions
 
-- **0.4.2** — [ffpatch.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/development/utilities/vkp/ffpatch/files/ffpatch.zip)<br/>Includes the user guide<br/>Windows 32-bit · 84.1 KiB
+- **0.4.2** — [ffpatch.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/development/utilities/vkp/ffpatch/files/ffpatch.zip)<br/>Includes the user manual<br/>Windows 32-bit · 84.1 KiB

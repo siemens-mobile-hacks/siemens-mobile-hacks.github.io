@@ -11,18 +11,18 @@ sidebar_position: 7
 **Author:** Alonefox, Geka<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./flex-table-edit/img/flex-table-edit.png").default}
-  alt={"FlexTableEdit: screenshot 1"}
-/>
+<div className="screenshot">
+
+![FlexTableEdit: screenshot 1](./flex-table-edit/img/flex-table-edit.png)
+
+</div>
 
 FlexTableEdit works with the Flex table of Siemens x65–x75 firmware. The program
 shows the location and parameters of the FFS, FFS_B, and FFS_C partitions, lets you
 modify entries, assemble partition fragments, and save the result as a patch.
 
-The package includes a technical description of the structure of FullFlash, the
-language pack, ROM, RAM, and the FFS partitions of x65–x75 phones.
+The package includes a technical description of the structure of FullFlash, the language pack, ROM, RAM,
+and the FFS partitions of x65–x75 phones.
 
 ## Versions
 

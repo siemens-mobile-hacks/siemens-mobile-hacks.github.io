@@ -13,5 +13,7 @@ Tools for researching and developing phone software.
 
 ## Sections
 
-- **[Utilities](./utilities/index.md)** (1)<br/>
-  Converters, analyzers, and other supporting development tools.
+- **[Debugging](./debugging/index.md)** (1)<br/>
+  Debuggers for analyzing the memory and machine code of Siemens phones.
+- **[Utilities](./utilities/index.md)** (3)<br/>
+  Converters, analyzers, and other auxiliary development tools.

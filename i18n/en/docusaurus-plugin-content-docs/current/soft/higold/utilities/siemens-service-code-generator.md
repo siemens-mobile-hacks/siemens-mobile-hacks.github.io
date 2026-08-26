@@ -11,17 +11,17 @@ sidebar_position: 0
 **Author:** Greenstone; analysis assistance — DarkBear<br/>
 **Platforms:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./siemens-service-code-generator/img/siemens-service-code-generator.png").default}
-  alt={"Siemens Service Code Generator: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Siemens Service Code Generator: screenshot 1](./siemens-service-code-generator/img/siemens-service-code-generator.png)
+
+</div>
 
 The generator calculates two activation codes for the undocumented Siemens service
-menu based on the IMSI. The first code unlocks all menu items, while the second
-unlocks only Monitor and Audiomonitor. The IMSI can be entered manually or read
-from the phone via cable or IrDA; the program writes the generated code to the
-last entry in the SIM card phonebook.
+menu based on the IMSI. The first code unlocks all items, the second unlocks only Monitor and
+Audiomonitor. The IMSI can be entered manually or read from the phone via cable
+or IrDA; the program writes the generated code to the last phonebook entry on the
+SIM card.
 
 The codes have been verified on S25, C35, M35, S35i, C45, S45, ME45, SL45, M50, MT50, and C55.
 For C55 with firmware version 11 and later, an EEPROM modification is required.

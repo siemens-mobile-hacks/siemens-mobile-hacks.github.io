@@ -11,11 +11,11 @@ sidebar_position: 0
 **Author:** 武汉探索电脑工作室<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./x85screen/img/x85screen.png").default}
-  alt={"X85Screen: screenshot 1"}
-/>
+<div className="screenshot">
+
+![X85Screen: screenshot 1](./x85screen/img/x85screen.png)
+
+</div>
 
 X85Screen connects to the phone via the COM port, reads the display contents, and
 saves the screenshot as BMP or JPEG. The captured frames can be arranged into six
@@ -28,6 +28,6 @@ cells, dragged between them, and saved separately or as a single combined image.
 <details>
 <summary><strong>Archived versions (1)</strong></summary>
 
-- **0.12b** — [shootx65-0.12b.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/utilities/x85screen/files/shootx65-0.12b.zip) (2004-12-21)<br/>Early version named ShootX65<br/>Windows 32-bit · 33.8 KiB
+- **0.12b** — [shootx65-0.12b.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/utilities/x85screen/files/shootx65-0.12b.zip) (2004-12-21)<br/>Early version under the name ShootX65<br/>Windows 32-bit · 33.8 KiB
 
 </details>

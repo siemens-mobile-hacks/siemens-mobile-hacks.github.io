@@ -10,8 +10,8 @@ state:
   panasonic/index.md: 6f2145dca0300b04e4b7d015d24afe21
   reverse-engineering-egold/how-start.md: 77fd1ec02d552f29e1be104a37a543aa
   reverse-engineering-egold/index.md: f4d16b9eb835a61121dd0ff90d645a91
-  soft/index.md: 66a74104032f87ce9c19286f05e89433
-  soft/utilities/index.md: 9d348e392f98971af62a0f25522711f5
+  soft/index.md: 00815c2247294699e37ca9fe28ad5a95
+  soft/utilities/index.md: dda8c70e4cbed911251b90f80d4f7459
   soft/utilities/midletsigner.md: 15039a08a0786fb176144aec2e0d104c
   soft/utilities/vmo2wav.md: 151b2bc5c819acf144098dc56b387d45
   soft/service/index.md: 88b07eca79c09078cce988a05550353b
@@ -39,241 +39,277 @@ state:
   soft/development/firmware/index.md: ba8cfcc3e7a24ac1476d3020c1aca6fc
   soft/development/firmware/smelter.md: d8232e526934d2361ab8a45e1fb7a076
   soft/development/firmware/wsff.md: fede32d1a3f518dbf8f8420ad3991c67
-  soft/development/debugging/armdebugger.md: 56fdfccf8b35de48bbbd09545283bbb4
-  soft/development/debugging/atcgsn-debug.md: 8dde95169863b3e8e710d6333ed85586
-  soft/development/debugging/cgsn-debugger.md: 1581b2aadca1199ea2ca34add23fd6dc
+  soft/development/debugging/armdebugger.md: e7ad2470c443303570dbaf88062d6fa2
+  soft/development/debugging/atcgsn-debug.md: 7b355b9da06e5216c3434dcf939de99b
+  soft/development/debugging/cgsn-debugger.md: aefac82607ffbc6a3b6398ad2021de64
   soft/development/debugging/index.md: 225485baa5dc5566b7c211466f61ae15
-  soft/development/debugging/siemens-debugger.md: 313fae05210e34dd2c5d0cd4a10fbb31
+  soft/development/debugging/siemens-debugger.md: 594919bb0737a86f639e7a0056b15ba9
   development-egold/index.md: 2d0eb6b3f3ced5bbd3ec62931dfe2b1a
   development-egold/tasking-c166.md: c7aaa4a8a753cf70bdf06dbd54969bb1
-  soft/utilities/ff-converter.md: de3458a01384c41038db0bea0a157f43
-  soft/utilities/filescomparer.md: a24b99dc680018417ef555a62e789929
-  soft/utilities/audio/create-ringtone.md: 39f019bc5f7a00aa3b6a5df3b3c289a6
+  soft/utilities/ff-converter.md: 94a51b8357284bce4fbcb5cee24cc0a9
+  soft/utilities/filescomparer.md: a4a004a5d59cc7bd0641f801cd03c80c
+  soft/utilities/audio/create-ringtone.md: b57f61155030ff54ffb4d69496e222b1
   soft/utilities/audio/index.md: 7d43100b3bf035c77d1226ca3c2dcdcb
-  soft/utilities/audio/midi-converter.md: ca956e7fabdf6afec77dd09a4091659d
-  soft/utilities/audio/mp3siem.md: d97b0bdf19cc02b6db2a885e38e3fb32
-  soft/utilities/audio/ringtone-editor.md: a03adb5b5d311def25f59d81d9a2f95e
-  soft/utilities/audio/smf-to-smaf-converter.md: ed6db387db79f3c09b2d6c9d2fb60202
-  soft/utilities/audio/universal-ringtone-converter.md: 90b3dcc712714c6a77f914b353ca2f83
+  soft/utilities/audio/midi-converter.md: 9bc79d1ecf633c2e32559828c43d0faa
+  soft/utilities/audio/mp3siem.md: f3efe820d487b9340ff558d275126a37
+  soft/utilities/audio/ringtone-editor.md: 08cdd19d1b061e061da432e185421866
+  soft/utilities/audio/smf-to-smaf-converter.md: 5f2b216e1c5d9f4c60781e951794a7e8
+  soft/utilities/audio/universal-ringtone-converter.md: 0a2a59a50e7c6558aa27fba357da89fa
   soft/utilities/audio/vmo2wav.md: 15d8a184140eb55c306556c7960d9fbe
   soft/utilities/audio/wav-amr-converter.md: 85b072e05de6f2a8b5a7f0106821955e
   soft/sgold/index.md: 61522c65c46f82089a9e51301b7ba1f8
   soft/sgold/utilities/index.md: 1367ddc99eb70adf825c3c870bc23b52
   soft/sgold/utilities/midletsigner.md: 26260466313caf23fbe744a0dc49cccb
-  soft/sgold/utilities/minigps-auto-creator.md: 4c15fa2e45a694b8093b0d0e957d74c2
-  soft/sgold/utilities/wsff.md: 24fbd9e5e0a7286dc1a84ef817d2e78c
-  soft/sgold/utilities/x65-wallpaper-maker.md: fcd427a8f76497460e6c406bcd297ed8
-  soft/sgold/utilities/x85screen.md: 78d1fa06cdb5063fc30e30f02851a53a
-  soft/sgold/service/eepromform.md: b8a224fb6b482770babc7e3715b13824
-  soft/sgold/service/getmaster.md: e5580e472c6943e4d4733fe23007439d
+  soft/sgold/utilities/minigps-auto-creator.md: d0ec326ab0c2f0e46c61e0bc9c8d8959
+  soft/sgold/utilities/wsff.md: 328fb357a914d8ab4f7bf8050bc46910
+  soft/sgold/utilities/x65-wallpaper-maker.md: 945f85b80586881adca7dd48a20431cd
+  soft/sgold/utilities/x85screen.md: 5e0906368cf35ec71584c3143c9c3eac
+  soft/sgold/service/eepromform.md: 9d0e141556b46ac7e6566eb3905fa37d
+  soft/sgold/service/getmaster.md: 9b1bfd3e08dc5a4004cb9da348a4d077
   soft/sgold/service/index.md: f529f54aa1068232229750efaa3f7f52
-  soft/sgold/service/map65.md: 8473eace49a78cc2843a7a04e02cd206
+  soft/sgold/service/map65.md: 2be9bb913223d3742d5ae3cb49c2f969
   soft/sgold/service/openall.md: 7003339344572f7f8cd3b2dc243fb64f
-  soft/sgold/service/siemens-eeprom-tool.md: b3cbf2555f30d5502f9e833b7f43ece8
-  soft/sgold/service/sst.md: c934b744566d81d477eca8a4d8f9e03e
-  soft/sgold/service/swrite-map-r65.md: 0417c0f40d1fb1074864ebbfc078349c
-  soft/sgold/service/v-klay.md: e8f0eecfcd5c3b178e3a55d30bf94378
-  soft/sgold/service/win-exit-tool.md: 6c12bbede95c962ea141cc24db75f1fe
-  soft/sgold/service/winswup.md: c6724e94acdef840ba98c1ab17b0bdb8
-  soft/sgold/service/x65-papua-utils.md: 0756bee2a7f7170cb23da89afe36e6c5
-  soft/sgold/service/x65flasher.md: 95c58748180c4e26b1c7461331f089fb
-  soft/sgold/modding/colour-skin-creator.md: 420cd4475b352eaa229fbd1ceb8eb463
-  soft/sgold/modding/direct-softkey-editor.md: 14b77b167c4346e48b562e9dea70db90
-  soft/sgold/modding/fak-editor.md: c9a33c5c2a0a119c7b8c1a667a9b032a
-  soft/sgold/modding/flex-table-edit.md: 506033b891bff4695982603675f06e2f
-  soft/sgold/modding/gpf-creator.md: 77665f9cc17a429fd573ce7b2462ba90
+  soft/sgold/service/siemens-eeprom-tool.md: 977d130085350e6171dfd42b661cfb76
+  soft/sgold/service/sst.md: 57cdb4574df8f141fba7b6c920d9b4d0
+  soft/sgold/service/swrite-map-r65.md: 2fafc2b33df117d8e3062894a1b369ce
+  soft/sgold/service/v-klay.md: 48ad5bd94bbf94e3ad2a759d33e1d903
+  soft/sgold/service/win-exit-tool.md: e83c97207c8afec4887b63d232b96526
+  soft/sgold/service/winswup.md: 422ed6ff3408b542abb51f79f77fa515
+  soft/sgold/service/x65-papua-utils.md: 07ed10768a2a49f4fc5c4340d86714c7
+  soft/sgold/service/x65flasher.md: 9ea711ce1bcb45494dd35807d35a1b1f
+  soft/sgold/modding/colour-skin-creator.md: 7666ea7ab4bed46af8bc263ec854e461
+  soft/sgold/modding/direct-softkey-editor.md: 28e53c2b5f8a242de00e5bc83d4b0b5c
+  soft/sgold/modding/fak-editor.md: a004cf917fffba108d523b8d8e9986f7
+  soft/sgold/modding/flex-table-edit.md: f9751b9936f4e5fcf3aec0b278d9b09d
+  soft/sgold/modding/gpf-creator.md: a3b8f1741358fd2e59b8323808cfee9b
   soft/sgold/modding/index.md: b69e69fec88e2c229d351bae5adb0b9f
-  soft/sgold/modding/keychanger.md: 5a383d1d6c69dec37a24b0df02754925
-  soft/sgold/modding/lg-r.md: 541aabc7c0a0ab48ad59c735f67da439
-  soft/sgold/modding/mccx65.md: 5f34ab19abd86dbd356760892778ea19
-  soft/sgold/modding/mobile-theme-editor.md: 28bbf734f762b0e0a8645d925c3f1aed
-  soft/sgold/modding/power-up-patch-generator.md: 4c789d1310b1451f3871d5169831f96c
-  soft/sgold/modding/s65-key-definer.md: f2b1b8c592e7da8e459bc5f2d370e9a0
-  soft/sgold/modding/siemens-ce.md: 6b6575a5fec053a5cc0e08b5e61817cd
-  soft/sgold/modding/siemens-picture-change.md: d6ae2a291f07bb975272afe096f94a0d
-  soft/sgold/modding/smelter.md: 21b8509d74deae25ee3189ffd1530175
-  soft/sgold/explorers/at-enabler.md: 0486458e53f42a0c0dc9346936a4430f
+  soft/sgold/modding/keychanger.md: dd656b71df132f443cdf98a894559496
+  soft/sgold/modding/lg-r.md: 1711e87b8f4ecf1c685313ce26a5f324
+  soft/sgold/modding/mccx65.md: 46f6c1ec021c2c976cfbd5ddcc90f019
+  soft/sgold/modding/mobile-theme-editor.md: 38ced4a1eef370f5414f63adeee689b9
+  soft/sgold/modding/power-up-patch-generator.md: 835b5d83e035e916fbcc6f5ce3397ed7
+  soft/sgold/modding/s65-key-definer.md: 692a51ddcc3f223ef2944c4fb8fdb728
+  soft/sgold/modding/siemens-ce.md: 4caefe1bfba24ca9a0b1d49ee506cd8e
+  soft/sgold/modding/siemens-picture-change.md: 440cff1defebd4c655b0e584968a4d8c
+  soft/sgold/modding/smelter.md: 1b6bc711c85fd8741dcab3a680bb9277
+  soft/sgold/explorers/at-enabler.md: e5d99e416f41f7bcfa108c47466fcd66
   soft/sgold/explorers/farobex.md: 10d9ea7ea1fb6b5a7de5577660ff112c
   soft/sgold/explorers/index.md: e459af318641c0e3f28844b22ec301e9
   soft/sgold/explorers/sifs.md: 10d226b4d3481e778daf067cb48fd8a9
-  soft/sgold/explorers/simoco.md: 7c209d7d53b0644a1e4540d642d6082a
-  soft/sgold/explorers/vnavigator.md: 59d278c34dc31a330e260e16f6a79abe
-  soft/sgold/explorers/vsfe.md: c89aa7b7478e278fa79d7742f7db1ef8
+  soft/sgold/explorers/simoco.md: 1709c963b7e5b86de038f01745de2066
+  soft/sgold/explorers/vnavigator.md: 92f7d4ba1e02e90f2f56842185cc80ff
+  soft/sgold/explorers/vsfe.md: 9b15792495cb2e6c3f5947b0a1d15b41
   soft/sgold/explorers/vsofs.md: 35d3bea00aa6aac6ccf26d0c2773c923
   soft/sgold/drivers/dca-510.md: e17c68e80a6d3175bdba9995cf588596
   soft/sgold/drivers/dca-540.md: 83e862f0ef20315f21c6f82d11428c30
   soft/sgold/drivers/index.md: 3b285693caeba7363296235b66fc22af
-  soft/sgold/drivers/pl-2303.md: e511d978b4502664d650fbfa6df1db68
-  soft/odm/index.md: ecd2c94263ffe06c2e85b46e4bcc71d3
+  soft/sgold/drivers/pl-2303.md: 306caa566d9a31b36c3ae2cd833bb84f
+  soft/odm/index.md: 5e1667ca5679cffcb3d3c8a061abd00d
   soft/odm/utilities/index.md: d7e05f365bb8c0e20f555322e76d7b78
-  soft/odm/utilities/wsff.md: 35e11155cb878b364ee1c27ec5a64760
-  soft/odm/service/all-siemens.md: 670b2d0acd0fb8a75205509987f7096b
-  soft/odm/service/c62-tool.md: ea977b55887532b3cf57747596e5200a
-  soft/odm/service/flash-programmer.md: 567ccdf391e878792f2b83f76e2cf5f3
-  soft/odm/service/index.md: f32659c497e2881d8d96ac3de7aa7c81
-  soft/odm/service/milano-backup.md: 46b1eed24798c6b9f5164ce2bd7130ef
-  soft/odm/service/milano-downloader.md: af678e20618f851b6dbff97c2de113a2
-  soft/odm/service/sst.md: d7084dca9a0f67579a5730c59d74bb69
-  soft/odm/service/unisiemens.md: 72e27806e2555a9fd7c57d295c17b6e0
-  soft/odm/service/v-klay.md: fc303e64b3ba7e902acc76e3618bf834
+  soft/odm/utilities/wsff.md: 994d2bce94024b8c78e32ebf6c307a99
+  soft/odm/service/all-siemens.md: 7d5cf0e4c8356acc91a6534f7fe71d9b
+  soft/odm/service/c62-tool.md: 799182f6fc68473f566cb097cdbf73ef
+  soft/odm/service/flash-programmer.md: 070942269ab527bc18e9b87b30e489f8
+  soft/odm/service/index.md: 72877c621e80632094bf1d4c66646d22
+  soft/odm/service/milano-backup.md: 89007a0af0ed4d8d3ac402694e1b2be0
+  soft/odm/service/milano-downloader.md: ee34bd27cb4a7561eddaf957c988fd93
+  soft/odm/service/sst.md: 9342daa515eff217ea9864324d5f9d6b
+  soft/odm/service/unisiemens.md: c285efff0a58216c989ef87d66862d7a
+  soft/odm/service/v-klay.md: 06c3b0a3554bef839e7bfd3efae3f931
   soft/odm/modding/index.md: f7c8ac6fe1c6b8c59cbd7c289e2d3243
-  soft/odm/modding/siemens-ce.md: 15e4bf32d6d46d5efd593af048868ce3
-  soft/odm/modding/st55-bg-maker.md: 462ebeebdedcbff0b0ab70fa8ce4b8b4
-  soft/odm/modding/stres.md: eadfee9d4a386920f8c8d813675d5e3a
-  soft/odm/explorers/c55-phonebook.md: 13849890c513978f717b2ed52ec091ab
-  soft/odm/explorers/index.md: 779ca5d9fa9b91cebdb8adf0ae816efd
+  soft/odm/modding/siemens-ce.md: 647b256b366f5ce9c7564b182e1176d6
+  soft/odm/modding/st55-bg-maker.md: 558822c768d872649ea75c3fe351e8ce
+  soft/odm/modding/stres.md: 5e9bb292c86f3ee45d8d104d08ba4972
+  soft/odm/explorers/c55-phonebook.md: b70048b68edaacbae56efa18321d8379
+  soft/odm/explorers/index.md: 982b7b6ae4571de073d4e834350c546c
   soft/odm/drivers/dca-510.md: b53d662ff79e9688b5c9b12a9a51a29b
   soft/odm/drivers/dca-540.md: 1eaa3546f4848ebece4687a372cf90ee
   soft/odm/drivers/index.md: 48f346171cc655953fddb7b36c611fa4
-  soft/odm/drivers/pl-2303.md: 385daa5f898ca5275d2bf8cffe75d0fb
+  soft/odm/drivers/pl-2303.md: 5e521be4f1f79081146f348eef326fd1
   soft/j2me/index.md: 70e8ec82dc55b315c812c143e5a077da
   soft/j2me/readmaniac.md: 18a424f1b9bf8535c1b33a640b975720
   soft/j2me/sms-sender.md: 36a3281b9e3f0e3f4d5c2fb9a4d8ddcd
   soft/j2me/sms-translit.md: adc0aa771bb561edb64ecdfb3bb03c8b
-  soft/higold/index.md: 3d1835aa6902c27b2231ca49994ec7fb
+  soft/higold/index.md: 3c030c040dedf1651eb4ab2ca6d7c8bd
   soft/higold/utilities/index.md: a18dc6296b84700f5fc283a0ec276f88
-  soft/higold/utilities/siemens-service-code-generator.md: 8ed2bfbb2c6c484d240edf29e3d5423d
-  soft/higold/utilities/wsff.md: 9d34a717114219fe40b4ed8ec8eb72c7
-  soft/higold/service/c25info.md: 34be172ee99b0998d2f12c708747af7e
-  soft/higold/service/index.md: db01249528646a5ec8bf46fe1ff9fd69
-  soft/higold/service/v-klay.md: 2c96d1dcc6bcedd7a07b436777ff8894
-  soft/higold/modding/flash-imager.md: f920599c77df0de3eb834e445c5379c7
+  soft/higold/utilities/siemens-service-code-generator.md: c525d33e2862db6ca611309aeab34c2b
+  soft/higold/utilities/wsff.md: 83338482a607d8587581ed240bb80acf
+  soft/higold/service/c25info.md: 7fe8230bfaf9714054ad74fd0ab60f3f
+  soft/higold/service/index.md: 53c28a4ac275295369143f23d5d497a3
+  soft/higold/service/v-klay.md: b2809413c5fd8eed56240435d2f7e9ac
+  soft/higold/modding/flash-imager.md: e34f4abacafab64e10f55695789e36bb
   soft/higold/modding/index.md: 7cc660bb2960775c8696bf509d7dbfc0
-  soft/higold/modding/siemens-language-editor.md: 51f1be1c4f0e928facee6a0bcb7ff74d
-  soft/higold/explorers/c55-phonebook.md: cc0f3e1260ce323f291e5d16fd2ee21d
+  soft/higold/modding/siemens-language-editor.md: 10f642da003ae955e42be600756b1865
+  soft/higold/explorers/c55-phonebook.md: 49ae3c180734e08e8ec4a5cdf607aca1
   soft/higold/explorers/index.md: c001f09d6743021d340727e5a2fd2231
-  soft/higold/explorers/simoco.md: 8a32e241421cf0cc03456b703e3ff98a
+  soft/higold/explorers/simoco.md: 864804533a0554084d9d76685a1a40a1
   soft/higold/drivers/dca-510.md: 3089101c158ec7df886f480cd3f3c961
   soft/higold/drivers/dca-540.md: c20b0b6c54354e4630ed1a62fc2e1750
   soft/higold/drivers/index.md: 87a70374a1aed423f4cd55f680303086
-  soft/higold/drivers/pl-2303.md: 6f034f9a832545427ffae1e81d1547bc
+  soft/higold/drivers/pl-2303.md: c283610a6fdfec914152845eb49fdddc
   soft/higold/drivers/s25-irda-modem.md: 6d823cc2c73967e3ee6f2d79287cfe02
-  soft/emulators/c55.md: 6f644e55589b2188751ba9e5a9e10f22
-  soft/emulators/c60.md: 28f6711b43c0fbaf5ab1e3c86748d728
-  soft/emulators/c65.md: fbfc371b6f9bb59d7670be5abf3c4979
-  soft/emulators/cf62.md: 2fdecc4e81295956f183745e30b07496
-  soft/emulators/cf75.md: 71d796c7016657e206b1729d2bd17277
-  soft/emulators/cx65.md: 8403b400ec2c4d9449bb71b4f9891205
-  soft/emulators/cx75.md: a6f6921b45d698ad4cb379fa5d9698d1
-  soft/emulators/ef81.md: 6384ee3999df48255ee36fdaf4cb777f
-  soft/emulators/el71.md: da33f5944335540f18ebc11186f12a50
+  soft/emulators/c55.md: 33a32f1a996c493ada6baa3556567c59
+  soft/emulators/c60.md: 96168905418fd6385522ff058d857ea8
+  soft/emulators/c65.md: 20f1c66f73da6f023a99c93009551a55
+  soft/emulators/cf62.md: ad72b9a0c74108a60597f67ccd19b382
+  soft/emulators/cf75.md: 5b4ce3fae890ce5728aa7b698dfe6021
+  soft/emulators/cx65.md: f26dbaea87260f5d13a13a25545b1bef
+  soft/emulators/cx75.md: 93e84dffbf090010bca2977cb8db71c9
+  soft/emulators/ef81.md: af20de551a5a49d81abcada377c7b340
+  soft/emulators/el71.md: 4effb90eb41e20f8b4601f5d468c9f8a
   soft/emulators/index.md: 8bd5956795369cdf42fb1ba9a6811eed
-  soft/emulators/m50.md: cc55b14913986a7f2485249bc786426e
-  soft/emulators/m55.md: 2404676cd39529e1bac556397af7f238
-  soft/emulators/mc60.md: 18ac663f81f01f2156e1dd45469603ea
-  soft/emulators/mobility-toolkit.md: 4be6a73f403a70a0fe0ea8577903715c
-  soft/emulators/s55.md: e8fb21acf46081690ef7932839ed49e5
-  soft/emulators/s65.md: 05765a4a861412f8d663e71d8b21ed0b
-  soft/emulators/s68.md: 5d4120c9fc1cf9bc6b159fb93ce39e12
-  soft/emulators/s75.md: d03a04b9a83593f9a8c68cee867cb845
-  soft/emulators/sl45i.md: 09584e6ba2077b60f3669057b36b1949
-  soft/emulators/sl55.md: b28a4bdc0362a3c098716c4f5f369f89
-  soft/emulators/sl65.md: 67be263a8619e098a2f3283a4587e731
-  soft/emulators/sl75.md: 004fe12cabe9514a4a342ce96e6d7ac4
-  soft/emulators/sxg75.md: 2d4188f2dc5d8ab970088b6341995dab
-  soft/egold/index.md: 85fbeee2166f82c5f86c1886c377b977
-  soft/egold/utilities/bookshelf.md: adaedb591970ffaf8aeff72ee970cc4d
-  soft/egold/utilities/index.md: 042479d0106c427835abf42ae562f8a1
-  soft/egold/utilities/siemens-screenshot.md: 1488052216050f70d015cfe25bacf0aa
-  soft/egold/utilities/siemens-service-code-generator.md: f4fa56bedd0a5c8176ce613f9614f2bd
-  soft/egold/utilities/txt2wmlc.md: 2f55d285ba4047c52b92000644e447d2
-  soft/egold/utilities/wsff.md: 3896ae25ae0e92e9721bcb116967a14b
-  soft/egold/service/all-siemens.md: 17bfcf5578902c23472656bfaacd83b2
-  soft/egold/service/freia.md: 254cdbbe9f04eb3dd7a1d8ab4c4e6db2
-  soft/egold/service/index.md: cecfaf63e550eaf29b7f2280b6ce69b1
+  soft/emulators/m50.md: 116f1adf0dbfed6dc160abdcdb0610d2
+  soft/emulators/m55.md: 3bad7785e18e8f15b0d0bbbd95eeef6c
+  soft/emulators/mc60.md: 21fdffb2cbadbc32819f7dc5981b6df7
+  soft/emulators/mobility-toolkit.md: 2ecbb6023f7b85b10cd29829707f72cc
+  soft/emulators/s55.md: eb8f80ebee9434ffc0630e8fba6b772f
+  soft/emulators/s65.md: eb127d469aca0e1b9f255154e407eb39
+  soft/emulators/s68.md: 5d2fd3201913c05d0aaf11e8ada28500
+  soft/emulators/s75.md: bcac4ccb881e14c9f1a0ef39f30f06fe
+  soft/emulators/sl45i.md: d06cca7809a3db26fb34dd365914a61f
+  soft/emulators/sl55.md: fbc8e9bc4bdf439847214931b820c1fb
+  soft/emulators/sl65.md: f4a053e3bfa5dcae9792c74f027f0f59
+  soft/emulators/sl75.md: ed3b96fca3ca2089a96929273466b2d6
+  soft/emulators/sxg75.md: ba5d9ed523ca684c35758cfe5c858a57
+  soft/egold/index.md: f17adf848390c7a2f486f7b43a3423bd
+  soft/egold/utilities/bookshelf.md: f4331fa8215c0fb7a16f43bc64dc2f61
+  soft/egold/utilities/index.md: 47c58d99eff90d3994d0e9f5a94a06e7
+  soft/egold/utilities/siemens-screenshot.md: ca1388b7c95f32a3af8c175eb7e130e3
+  soft/egold/utilities/siemens-service-code-generator.md: 7bb5ce8fce9887287a8ecf35bf3f8bb4
+  soft/egold/utilities/txt2wmlc.md: f2f75accd6da4d358ff1b16d66abd65d
+  soft/egold/utilities/wsff.md: 621323c9856aa69469dc5e6696b55ac1
+  soft/egold/service/all-siemens.md: a414e3591c5c5e7b87e18898e66a1ee9
+  soft/egold/service/freia.md: cb4df18272142647c6ba8df1db565ecf
+  soft/egold/service/index.md: dc4c78ccf5c939a1d7352f7ba1e93427
   soft/egold/service/initmap.md: d52b429aee675455a8fc5ec8412783fe
-  soft/egold/service/joker.md: da0addfa08aa964c3a5c39e827e75c01
-  soft/egold/service/ksie.md: 68671ec9c6c5a7b5c89ef5a16aba1c07
-  soft/egold/service/mapinit.md: bd8e610508a0e2da27b078959eb482f0
-  soft/egold/service/openall.md: e27853c250dae8c43945419d5ad67c62
-  soft/egold/service/siemens-contrast-tool.md: 9b5c0aeaa99b66a7a08f340b987f3f92
-  soft/egold/service/siemens-eeprom-tool.md: cb0304eed0d6f3420c9269f43378119f
+  soft/egold/service/joker.md: d58f1f2134e667eeae6b1aa979e97d3a
+  soft/egold/service/ksie.md: de79415eece1a8691c0e63fc2f133f8a
+  soft/egold/service/mapinit.md: 514fde3e3f719db4226b68f3dc7803b6
+  soft/egold/service/openall.md: caabfac701067b42109c53d3f6e9505d
+  soft/egold/service/siemens-contrast-tool.md: e79643f8d44bcce1942904b1f4b6eae0
+  soft/egold/service/siemens-eeprom-tool.md: f41747a5d430a7606fee6fd95601c114
   soft/egold/service/siemens-flash-reader.md: e1efbcc30063bdf895ede9307c814a55
-  soft/egold/service/siemens-quick-eeprom-features.md: 9982f6ec842a064bd909b828f95b3342
-  soft/egold/service/siemens-service-profiler.md: b13d10a34c34ff68561673c175e74ea0
-  soft/egold/service/siemens-tools.md: b0ba33f928b16075385a3c62fc87563c
-  soft/egold/service/siemprom.md: f57c78524c0441f70926444c552eac0e
-  soft/egold/service/sst.md: 1520e67a47f027930261c99b6477cc8d
-  soft/egold/service/unisiemens.md: cdabe5e3c981eb428674401531713216
-  soft/egold/service/v-klay.md: 97c84899bc298e417836e7fc8ee53c38
-  soft/egold/service/winswup.md: c873b497c999f6c9fb6ac30fb3c42f3c
-  soft/egold/service/x55-contrast-tool.md: e1f4b131a21e5bce729f527a3186fe01
-  soft/egold/service/zeesiemens.md: f28010f98579b3966d5904a9363c5ba5
-  soft/egold/modding/a52-melody-changer.md: 2a2be384fc93b73737b75fbc65d40b77
-  soft/egold/modding/c45ffimager.md: 4e3bdbf7a6beaf3e8291e8cee17f0505
-  soft/egold/modding/c55-pictures-editor.md: 8a2ca00c7c79934cd39adc67d3393348
-  soft/egold/modding/flash-imager.md: 8a3c24019f2480c9cb1b121d802dd8e1
-  soft/egold/modding/index.md: e4e2a68075c82028f66ec9e17b3ec7e3
-  soft/egold/modding/layoutme.md: bdc0dd4dc3d8348bbe21d54ed8c997e6
-  soft/egold/modding/pcaedit.md: 6ffeb5124bf9952de182ac0763247db1
-  soft/egold/modding/picpac.md: b91e5cf93778c4047c5bd6a4d96fc11c
-  soft/egold/modding/ringpac.md: 56ee42c5c7d47785c851e04426af0fbb
-  soft/egold/modding/siemens-ce.md: 21c805a2587d8909ca7118055178a8a1
-  soft/egold/modding/siemens-language-editor.md: 899c9d5881c0f73d8689159eca39b8a7
-  soft/egold/modding/siemens-picture-change.md: d9a659940a38053747277b0f48c0de14
-  soft/egold/modding/slik-graphical-menu.md: cd949ffd315259c08e6d507576fd0533
-  soft/egold/modding/smelter.md: 7e393f175902fef208049b5e93a6da15
-  soft/egold/modding/smes.md: d3d17344f41ced87b5b8cadd8e7501d3
-  soft/egold/modding/t9-base-creator.md: 19cd55dde23a1f0d6478a6de783c6931
-  soft/egold/modding/x55-c60-color-converter.md: d3e3ed7440d06261cbccfa3ec4f3d8d4
-  soft/egold/explorers/c55-phonebook.md: cbc52fb39630f31e788a1d18d82f91a4
+  soft/egold/service/siemens-quick-eeprom-features.md: 6057ff52b4aca744a0cc4292be0a5b46
+  soft/egold/service/siemens-service-profiler.md: 5b6ec1b47e8671bb25ad28155313f87d
+  soft/egold/service/siemens-tools.md: 194ea2d1461e5235e2acdaf58dea82be
+  soft/egold/service/siemprom.md: f0692a91a6985f0993172c710da418be
+  soft/egold/service/sst.md: ec0fd0b6d3633717e19c107f583b26c8
+  soft/egold/service/unisiemens.md: 8037f287fe90a84e58d0315d3cc850a2
+  soft/egold/service/v-klay.md: 68a31fdd131b1b8857002b1594321639
+  soft/egold/service/winswup.md: a75be5ffb2e68e963ba4b5c4bc85ccae
+  soft/egold/service/x55-contrast-tool.md: 1194024c9101e53e97681d3cc0ca7c5a
+  soft/egold/service/zeesiemens.md: 0ff956b05e55d4933c56a00596f3b1f6
+  soft/egold/modding/a52-melody-changer.md: af48e25fea6e83acfcfd7a08d51f0732
+  soft/egold/modding/c45ffimager.md: 36c1d8563262b05a9b32acaa62ae435e
+  soft/egold/modding/c55-pictures-editor.md: 4bfcab47ed937983fab1eb95e607f0e0
+  soft/egold/modding/flash-imager.md: 26575d23eaec9a7979c7bcf86155976a
+  soft/egold/modding/index.md: b8aeb6f2e7dd66d0a2994804dba049ec
+  soft/egold/modding/layoutme.md: 0fdc9470ec0ff4be39c68330e04e2ed3
+  soft/egold/modding/pcaedit.md: 6515f62e9db0c1a5d43dc0cdf778ea49
+  soft/egold/modding/picpac.md: 010d986d9f364cab9deefabfdbb6bf04
+  soft/egold/modding/ringpac.md: 1ba36c70251c59c5ee72c6774f1410c1
+  soft/egold/modding/siemens-ce.md: 40ab7d8ba3337644cc0b9710016f96f8
+  soft/egold/modding/siemens-language-editor.md: a1167c42e16cf5ddbe90a49797b7644f
+  soft/egold/modding/siemens-picture-change.md: ba6bd5ce82a4d3e12083c730be1ffe19
+  soft/egold/modding/slik-graphical-menu.md: 4c317fa160e19b3fcfd602a0a4d13fa4
+  soft/egold/modding/smelter.md: bb0c1345562d1500032ce9035dd410f7
+  soft/egold/modding/smes.md: e3596d4dfb0d8f983346a68422a80cba
+  soft/egold/modding/t9-base-creator.md: 424efbed8f6c3b6a55fc34cc4a6ffce7
+  soft/egold/modding/x55-c60-color-converter.md: 52a98739f9a1bb718a85f5cade750226
+  soft/egold/explorers/c55-phonebook.md: 2937c6ab596d4fa3c0513807671306c7
   soft/egold/explorers/fardes.md: a46e1e470c5fc7308c8e633b0445b2f8
   soft/egold/explorers/index.md: a15a771fa33b0bceaffb258aef767263
-  soft/egold/explorers/simoco.md: e1ff011acd53f65114e4772c38610851
-  soft/egold/explorers/vsfe.md: 6fa55c1366655da7578ab58662b741ab
+  soft/egold/explorers/simoco.md: dbae5a26b22e1292c3eb9dd23e8c2470
+  soft/egold/explorers/vsfe.md: f41d74b3b22e69a8ae7bfd5235fb22ec
   soft/egold/explorers/vsofs.md: ce9b6d66eb463f277d7d3d0a0b4fbb84
   soft/egold/drivers/dca-510.md: 329f64fb08f07511617e1a4507934b1e
   soft/egold/drivers/dca-540.md: 92c576a45144b49af086df375164a80a
   soft/egold/drivers/index.md: e4d089475b5a9d7d6451e8d9eb4f5378
-  soft/egold/drivers/pl-2303.md: 339ee0419c8507db53c982be5eccc424
-  soft/development/utilities/vkp/ffpatch.md: 370db8e2ecc511aeb6c9f77c0714a3f1
-  soft/development/utilities/vkp/fullflash-comparer.md: 3c1649b0868c4ba60e347b6c4baecc27
+  soft/egold/drivers/pl-2303.md: 6bcb40656d6a5733c2aa0ca399e7f805
+  soft/development/utilities/vkp/ffpatch.md: 5f98896b23fad01c22a4e0a6c3495d66
+  soft/development/utilities/vkp/fullflash-comparer.md: d37034ff18a4d8641392c9151bc2052a
   soft/development/utilities/vkp/hex2vkp.md: 5441b22aa48ea09dc40bc14a66408d46
   soft/development/utilities/vkp/index.md: 462da799769fbe16153e2a325cead3b2
   soft/development/utilities/vkp/slfc.md: 7870b692680768dc5b9b543548a3e6c3
-  soft/development/utilities/vkp/vkp-resolver.md: 2e760a3a1814307223f9543595655afa
-  soft/development/utilities/vkp/vkp-tracer.md: 5ba318cb78699bef543ba50762a50cc4
-  soft/brew/index.md: 19a46834154ee1ce9c1849e965b80575
+  soft/development/utilities/vkp/vkp-resolver.md: 337239c197c46f49906cba70a22debf7
+  soft/development/utilities/vkp/vkp-tracer.md: 5bdf27a576fa439ac9ec1f0642388ef3
+  soft/brew/index.md: 0d0e5c03efc291af3cba7ecf37257f2b
   soft/brew/utilities/index.md: 81d09f3cc84809418ba29cb652e34eb0
-  soft/brew/utilities/java-midlet-installer.md: fbff74feb44efc34eb56d7310e07aa3e
-  soft/brew/utilities/sxg75-filename-cutter.md: 04c62c1203e08375425afefb5005b131
-  soft/brew/utilities/wsff.md: 5f54e3acdb45c7e74a6daf3fe66277cb
-  soft/brew/service/index.md: b4ef319dec3080232a786240f790b0f5
-  soft/brew/service/nv-editor.md: 68b4d8b48f3b8c06f7b518218b22b85b
-  soft/brew/modding/bar-image-grabber.md: 762e3f361efcd6cef934cffac23e6891
-  soft/brew/modding/bci-authoring-tool.md: 0159f73de485acff132a0e448d6404a2
-  soft/brew/modding/brew-graphicpatch-creator.md: 173484ea233ddd3ad5266fb9c0786ff2
-  soft/brew/modding/brew-mif-editor.md: da27a2a56a7ef619551ca3b019a2ef7c
-  soft/brew/modding/brew-resource-editor.md: 2ff08e56027ba1653e6c6fdc21a70486
+  soft/brew/utilities/java-midlet-installer.md: cdc7e49146dfdfad61dbe7919c45000b
+  soft/brew/utilities/sxg75-filename-cutter.md: 6c000d33d1f5c22b58e560d3063422ab
+  soft/brew/utilities/wsff.md: d2287b4c870aff16a230174913d6b27c
+  soft/brew/service/index.md: f75bcbaf7151290ad4e6329265914feb
+  soft/brew/service/nv-editor.md: 60f66edc61a66e98b98639bbd5630496
+  soft/brew/modding/bar-image-grabber.md: 83d027411fce9115d7783a492c790976
+  soft/brew/modding/bci-authoring-tool.md: de91ec781b6064a83554d5e5b044f6b5
+  soft/brew/modding/brew-graphicpatch-creator.md: 2598e6bbd6bb4ec5671cec7a19bf3024
+  soft/brew/modding/brew-mif-editor.md: 60cf383af197517271c5343241726375
+  soft/brew/modding/brew-resource-editor.md: a226f86250ea5c93d80c3ac6b141c9c3
   soft/brew/modding/index.md: f1563e394bb7e8c598771d51ebd94acd
-  soft/brew/modding/mbn-resourcer.md: 55c2abc006d69dafc4a14297765d6a0f
-  soft/brew/modding/mif-unlocker.md: 0e5d977131f213b5f808a757b2d02dd8
-  soft/brew/modding/mobile-theme-editor.md: b4d42b043435ccb316b354febea24918
-  soft/brew/modding/outer-logo-converter.md: 9e68a041ac7b64f23b7548829db154cf
-  soft/brew/modding/qc-bs-firmware-analyzer.md: 92f30d97ad22591ab731a96a7c37915c
-  soft/brew/explorers/brew-apploader.md: ef9cdc20925e69a0c27d616a9e3cad32
-  soft/brew/explorers/brew-mobile-commander.md: a58677056b927ef5cb24fb241432349d
+  soft/brew/modding/mbn-resourcer.md: 54ee40aaf772a30065ecd48f1e04cc7e
+  soft/brew/modding/mif-unlocker.md: 25ebc35f7273251dcf207c4fde71c335
+  soft/brew/modding/mobile-theme-editor.md: c0dbab9f3b337d3fb005b87c1e521a00
+  soft/brew/modding/outer-logo-converter.md: c44a09ff50089a475493249bcb47fc9e
+  soft/brew/modding/qc-bs-firmware-analyzer.md: a9007a0e70d17108797feb3f002ede4d
+  soft/brew/explorers/brew-apploader.md: 59e31ff92c46394f09fe80b40ceb4159
+  soft/brew/explorers/brew-mobile-commander.md: b9d697588d5390d761ca4ca9f4208907
   soft/brew/explorers/efs-explorer-lite.md: 8474bb1ae87dc9ff575a38402962c973
-  soft/brew/explorers/gagin.md: c5c9eb12b038ba1be6363cd98fa26e18
+  soft/brew/explorers/gagin.md: 8a720aaca45c7d3d51d5ca195929e761
   soft/brew/explorers/index.md: 05d667170eb32404401c2dc3463497fb
-  soft/brew/explorers/sxg75-controller.md: 4ae4348fd4078c3973230ebc8372f493
+  soft/brew/explorers/sxg75-controller.md: 252e47971f117cce512b915eff8b0d81
   soft/brew/drivers/dca-510.md: 837c69f25afccda9499887624b3e7fad
   soft/brew/drivers/dca-540.md: 60c43344def588c7148d6ae3fd9407a0
   soft/brew/drivers/ef91-usb.md: e69bd5fee590181534b1050814b412ad
   soft/brew/drivers/index.md: 8cb055f3d1de25f6c3072bf305c0dfb7
-  soft/brew/drivers/pl-2303.md: 5c6803dd15e9ea96b697fad3d21c22d9
-  soft/brew/development/index.md: 7e2090d0c9c1a143c373396fdcc9acbf
-  soft/brew/development/utilities/brew-tools-suite.md: 5101652ba67f7eadb5ed6b41eda52e6d
-  soft/brew/development/utilities/index.md: b9aecd89afb47ad7df72264aac25778c
+  soft/brew/drivers/pl-2303.md: d435a8bff0ca88f63074d2c549523a39
+  soft/brew/development/index.md: 3601896e82b5437f34ca15e0790e541f
+  soft/brew/development/utilities/brew-tools-suite.md: 51585550fbe1037b2b7f04dd5f8b2617
+  soft/brew/development/utilities/index.md: 66794cfc769670c73c1f6534ca0dbaed
   soft/higold/service/siemens-flash-reader.md: 245865d6c8da6d91ed6e0b9491487c61
-  soft/utilities/sendsms.md: d279be4a68b225bb4330246797ac1038
-  soft/sgold/utilities/sisms.md: 848b7cb183c5dee13322edf0e3da5719
-  soft/sgold/service/broom-netmonitor.md: 2b01c2b04203af42900a70981eb2b6f4
-  soft/sgold/modding/benq-siemens-el71-theme-builder.md: 24ce66db48d4a8eed289aaf06c7634c3
-  soft/sgold/modding/e71seriesgc.md: 831900319c26750a98b2dc5b9e98aa4b
-  soft/sgold/explorers/connective-program.md: 34e8c688bb242d207795fe9b536c8c6a
-  soft/sgold/explorers/mobile-phone-manager.md: 2871991046536893db5c47704000649e
-  soft/egold/utilities/sisms.md: 5091dff7750e869d65be28f950291155
-  soft/egold/service/s45i-activator.md: 22253d1eaa02b1df0d081aa401e38857
-  soft/egold/modding/s55-colour-scheme-editor.md: 7fac40dfb22e5cccafd9959879ce7867
-  soft/brew/explorers/connective-program.md: 7e783044d281e659899bd53ad196fc58
+  soft/utilities/sendsms.md: e44df0269b21be70ef37c355dac88904
+  soft/sgold/utilities/sisms.md: 49f86f6beeade3b4e3de8c7d24e83b15
+  soft/sgold/service/broom-netmonitor.md: 535d0ca45c0a21b9cf956ccbf07ab194
+  soft/sgold/modding/benq-siemens-el71-theme-builder.md: 9fcf03df9700af699dfc39e703ce2ac8
+  soft/sgold/modding/e71seriesgc.md: 1a104a0bba1918a280e7b39cabe70c11
+  soft/sgold/explorers/connective-program.md: 1715c50588e69912d648d4bb1575563a
+  soft/sgold/explorers/mobile-phone-manager.md: 4544a9e4a337751490f5e6db5e80a695
+  soft/egold/utilities/sisms.md: e73f41280da904b004019508275e4ba4
+  soft/egold/service/s45i-activator.md: c880046184b69fb1c8a4a821f9f5e3d0
+  soft/egold/modding/s55-colour-scheme-editor.md: 2934b5adf5b987087e04fc518c78346a
+  soft/brew/explorers/connective-program.md: 1bc8e3fa0d4728dab04cfbb728de9672
+  soft/utilities/hiserial.md: 65417bdf180dfdafdd6dfee712c8be64
+  soft/utilities/jadmaker.md: 4be7134aa6bb3b3a622c7c7b0d1c7bc5
+  soft/utilities/sim/index.md: 82206cc9c3a35db91631e86958c070ed
+  soft/utilities/sim/sim-emu.md: 2ea5b7d9bc7ae2d786ee6fcbb8aaddef
+  soft/utilities/sim/sim-scan.md: fa45d65929aebec9c1c5339d424c5076
+  soft/odm/service/benq-ti-tool.md: 3496c40d9d58d4ba9b83f035dd51e9b1
+  soft/odm/service/benq-xcsd-tool.md: 32302626229e7d024aa45bf21fbe8809
+  soft/odm/service/c30-repair-bin-generator.md: 087f302cbe918353c27b60cdfc90ff56
+  soft/odm/service/cl50-dinghy-downloader.md: 27311767270ec421783c0c004f0a24e0
+  soft/odm/service/siemens-s40-tool.md: fda9e55c8cec2fbdbbc7007896b771ab
+  soft/odm/service/u10-u15-update-software.md: 3bbb39ce6e1d35ff5e55fe1323a251cb
+  soft/odm/service/x3-software-update-program.md: fdcaf34c0c105df35896cea4c2676f0c
+  soft/odm/explorers/c62dirli.md: 62a781fc6d148627f6ac5f04d1772fba
+  soft/odm/explorers/smart-tool.md: e9cb1e820b39ae17c7b21479e842f773
+  soft/higold/service/siemens-s6-flasher.md: 5fc54f2755f031ff9cb73563ae4696b6
+  soft/egold/utilities/mobilechat.md: 953f36ba0da2539b3cf151a36af12a6c
+  soft/egold/service/mobisim.md: 5fb7544314e2dffa30478f3068a006a3
+  soft/egold/modding/funnybytes.md: 1e82270784b55b3d9d86965afce017a4
+  soft/egold/modding/siemens-cms35-ie.md: c400fb1aba15744f12fe624699b945e9
+  soft/brew/service/3gswup2qpst.md: 84131f6c1374bda83fdf9d5349d49d5e
+  soft/brew/service/cdma-workshop.md: f3e867b01b970a69f60e8b13736a575b
+  soft/brew/service/qpst.md: edb579d077835941be26c57e9f956b26
+  soft/brew/service/readwriteflash-qc.md: 6be411cd3f5105826bf92afa8617b22e
+  soft/brew/service/s80-user-download-tool.md: 6aef2964cbb7550263adbd13a4da552d
+  soft/brew/development/utilities/brew-app-signer.md: 98f417a9cbc9675aa37a98f1156341e5
+  soft/brew/development/utilities/brew-utilities.md: 23d4abbc3b483f2d140c54d8ca2b9e86
+  soft/brew/development/debugging/index.md: 5b5fa321f2d260d00e6b24c26ea6078c
+  soft/brew/development/debugging/qxdm.md: 7d33e56e8d5d47f0e09b9d45e0a6eb1f
+  soft/apoxi/index.md: a8beaf3aa6005f9f9fb748a0d256915b
+  soft/apoxi/service/ifwd-flashtool-e2.md: ab89e8290c18be1da14258333f70ab0c
+  soft/apoxi/service/index.md: 487d41af451d0439da9dd5f2eaaea9bf
+  soft/apoxi/service/kp500-flashing-tool.md: 293868a1ac895362f57b1f94d4c1b157
+  soft/apoxi/service/phone-tool.md: cde6b42abe3a27e9d954df0deb90660f
+  soft/apoxi/drivers/flashusb.md: def7d2785540f06ba133407b91479dd7
+  soft/apoxi/drivers/index.md: 147116915e8ec11c3b4f9c7f76704b90
+  soft/apoxi/drivers/pl-2303.md: 1a22e60ade54fda3fe4184c427240100

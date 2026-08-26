@@ -11,16 +11,16 @@ sidebar_position: 10
 **Author:** Sandra<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./lg-r/img/lg-r.png").default}
-  alt={"LG_R: screenshot 1"}
-/>
+<div className="screenshot">
 
-LG_R transfers the translation from an old language pack version to a new one. The program matches
-strings from the old and new English language packs, inserts the corresponding
+![LG_R: screenshot 1](./lg-r/img/lg-r.png)
+
+</div>
+
+LG_R transfers the translation from an old langpack version to a new one. The program matches
+strings from the old and new English langpacks, inserts the corresponding
 Russian strings, and marks phrases for which no translation was found.
 
 ## Versions
 
-- **1.0** — [lg-r-1.0.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/lg-r/files/lg-r-1.0.zip)<br/>Delphi source code and text exports of Siemens CX65 language packs versions 43 and 50<br/>Windows 32-bit · 725 KiB
+- **1.0** — [lg-r-1.0.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/lg-r/files/lg-r-1.0.zip)<br/>Delphi source code and text dumps of Siemens CX65 langpacks versions 43 and 50<br/>Windows 32-bit · 725 KiB

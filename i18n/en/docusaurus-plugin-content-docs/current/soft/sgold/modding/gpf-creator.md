@@ -11,18 +11,18 @@ sidebar_position: 8
 **Author:** ziemenz<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./gpf-creator/img/gpf-creator.png").default}
-  alt={"GPF Creator: screenshot 1"}
-/>
+<div className="screenshot">
+
+![GPF Creator: screenshot 1](./gpf-creator/img/gpf-creator.png)
+
+</div>
 
 The program is intended for converting regular BMP images into GPF files.
 
 Compressed 16-bit and 12-bit images are supported. During conversion, you can specify
-the image number in FullFlash, the transparency color, and the color depth. The image number
-can be entered in decimal or hexadecimal format. The program also allows
-you to open an existing GPF file and change the image number stored in it.
+the image number in the FullFlash, the transparency color, and the color depth. The image number
+can be entered in decimal or hexadecimal format. The program also allows you
+to open an existing GPF file and change the image number stored in it.
 
 ## Versions
 

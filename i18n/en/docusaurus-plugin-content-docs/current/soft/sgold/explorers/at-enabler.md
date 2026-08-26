@@ -11,14 +11,14 @@ sidebar_position: 2
 **Author:** Phantom<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./at-enabler/img/at-enabler.png").default}
-  alt={"ATEnabler: screenshot 1"}
-/>
+<div className="screenshot">
+
+![ATEnabler: screenshot 1](./at-enabler/img/at-enabler.png)
+
+</div>
 
 AT Activator for x65 switches a Siemens x65 phone to the mode required for
-file system tools to work over homemade and non-original cables.
+file system tools to work through homemade and third-party cables.
 The utility lets you select a COM port and performs activation with the `AT^SQWE=2` command.
 
 ## Versions

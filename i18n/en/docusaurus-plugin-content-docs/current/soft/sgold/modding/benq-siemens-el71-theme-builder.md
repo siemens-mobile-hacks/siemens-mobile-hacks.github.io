@@ -13,18 +13,18 @@ sidebar_position: 3
 **Author:** Blind007<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./benq-siemens-el71-theme-builder/img/benq-siemens-el71-theme-builder.png").default}
-  alt={"BenQ-Siemens EL71 ThemeBuilder: screenshot 1"}
-/>
+<div className="screenshot">
+
+![BenQ-Siemens EL71 ThemeBuilder: screenshot 1](./benq-siemens-el71-theme-builder/img/benq-siemens-el71-theme-builder.png)
+
+</div>
 
 The program builds themes for the BenQ-Siemens E71 and EL71. You can add
-ringtones, message, power-on, and power-off sounds, animation, a
-screensaver, a wallpaper, menu elements, status bar lines, borders, and other
+ringtones, message tones, power-on and power-off sounds, animation,
+screensavers, background images, menu elements, status bar items, borders, and other
 graphic resources to a theme.
 
-Version 1.0.3.0 adds a phone display preview and log file generation.
+Version 1.0.3.0 adds phone display preview and log file generation.
 Opening and editing already built themes is not implemented.
 
 ## Versions

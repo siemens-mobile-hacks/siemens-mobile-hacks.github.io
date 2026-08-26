@@ -11,16 +11,16 @@ sidebar_position: 0
 **Author:** QUALCOMM Incorporated; patch — VeXed<br/>
 **Platforms:** BREW
 
-<img
-  className="screenshot"
-  src={require("./brew-apploader/img/brew-apploader.png").default}
-  alt={"BREW AppLoader: screenshot 1"}
-/>
+<div className="screenshot">
+
+![BREW AppLoader: screenshot 1](./brew-apploader/img/brew-apploader.png)
+
+</div>
 
 BREW AppLoader is designed to work with the phone's file system over a
 serial port. The program allows you to:
 
-- Browse files, directories, and installed BREW modules;
+- View files, directories, and installed BREW modules;
 - Copy files between the computer and the phone;
 - Create and delete directories;
 - Delete files and modules;

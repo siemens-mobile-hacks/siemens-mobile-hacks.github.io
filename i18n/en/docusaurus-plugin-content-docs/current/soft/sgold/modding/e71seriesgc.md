@@ -8,27 +8,27 @@ sidebar_position: 5
 
 # E71seriesGC
 
-**Home page:** [http://www.skypiece.narod.ru/](https://web.archive.org/web/20080203044008/http://www.skypiece.narod.ru/) (web archive)<br/>
+**Homepage:** [http://www.skypiece.narod.ru/](https://web.archive.org/web/20080203044008/http://www.skypiece.narod.ru/) (web archive)<br/>
 **Forum thread:** [http://e71.ru/forum/20-518-1#9908](http://e71.ru/forum/20-518-1#9908)<br/>
 **Author:** Zeus<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./e71seriesgc/img/e71seriesgc.png").default}
-  alt={"E71seriesGC: screenshot 1"}
-/>
+<div className="screenshot">
 
-A program for working with graphics and fonts in BenQ-Siemens E71 FullFlash
-with firmware versions 42 and 45.
+![E71seriesGC: screenshot 1](./e71seriesgc/img/e71seriesgc.png)
+
+</div>
+
+A program for working with graphics and fonts in the FullFlash of the BenQ-Siemens E71 with
+firmware versions 42 and 45.
 
 Features of E71seriesGC 0.1.758:
 
 - Viewing and merging GPF files.
-- Converting SPC3 graphics patches to GPF2.
+- Converting SPC3 graphic patches to GPF2.
 - Converting GPF to GPF2 and back.
 - Experimental conversion of BMP to GPF2.
-- Replacing images and fonts with VKP patch creation.
+- Replacing images and fonts with creation of a VKP patch.
 - Extracting images to GPF or BMP.
 - Extracting fonts to BMP.
 

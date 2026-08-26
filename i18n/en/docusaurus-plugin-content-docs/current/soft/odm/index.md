@@ -13,9 +13,9 @@ Software for phones based on ODM platforms.
 
 ## Sections
 
-- **[Service](./service/index.md)** (8)<br/>
-  Diagnostics, flashing, repair, and recovery for phones.
-- **[Explorers](./explorers/index.md)** (1)<br/>
+- **[Service](./service/index.md)** (15)<br/>
+  Diagnostics, flashing, repair, and recovery of phones.
+- **[Explorers](./explorers/index.md)** (3)<br/>
   Programs for managing phone contents from a computer.
 - **[Modding](./modding/index.md)** (3)<br/>
   Modifying the interface and firmware resources of phones.

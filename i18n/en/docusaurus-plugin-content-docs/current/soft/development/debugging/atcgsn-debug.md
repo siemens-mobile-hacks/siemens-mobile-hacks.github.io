@@ -8,17 +8,17 @@ sidebar_position: 1
 
 # ATCGSN.Debug
 
-**Home page:** [http://gsmdev.de/index.php?c=projekte](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=projekte) (web archive)<br/>
+**Homepage:** [http://gsmdev.de/index.php?c=projekte](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=projekte) (web archive)<br/>
 **Author:** ACiD[mrp]
 
-<img
-  className="screenshot"
-  src={require("./atcgsn-debug/img/atcgsn-debug.png").default}
-  alt={"ATCGSN.Debug: screenshot 1"}
-/>
+<div className="screenshot">
+
+![ATCGSN.Debug: screenshot 1](./atcgsn-debug/img/atcgsn-debug.png)
+
+</div>
 
 ATCGSN.Debug reads and modifies the RAM of a running Siemens phone through the extended AT+CGSN command and a patch installed in the firmware.
-The program calls functions by address, writes and executes code, searches for data in memory, and connects via COM port, USB, IrDA, or
+The program performs calls by address, writes and runs code, searches for data in memory, and connects via COM port, USB, IrDA, or
 Bluetooth. The package includes ready-made patches and instructions for creating a patch for another phone.
 
 More about EGOLD development: [http://alexsid.antex.ru/index.php?main=techinfo.php](https://web.archive.org/web/20050901015815/http://alexsid.antex.ru/index.php?main=techinfo.php) (web archive)

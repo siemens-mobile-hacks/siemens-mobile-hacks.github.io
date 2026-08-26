@@ -11,15 +11,15 @@ sidebar_position: 8
 **Author:** BenQ Poland<br/>
 **Platforms:** BREW
 
-<img
-  className="screenshot"
-  src={require("./outer-logo-converter/img/outer-logo-converter.png").default}
-  alt={"Outer Logo Converter: screenshot 1"}
-/>
+<div className="screenshot">
 
-Outer Logo Converter converts an image to the 16-bit or 18-bit bitmap format
-for the phone's external display logo. The user selects the source and output
-file and the bit depth of the result.
+![Outer Logo Converter: screenshot 1](./outer-logo-converter/img/outer-logo-converter.png)
+
+</div>
+
+Outer Logo Converter converts an image into the 16-bit or 18-bit bitmap logo
+format for the phone's external display. The user selects the source and
+output file and the bit depth of the result.
 
 ## Versions
 

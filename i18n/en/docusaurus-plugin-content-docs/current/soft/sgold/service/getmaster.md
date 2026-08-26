@@ -10,11 +10,11 @@ sidebar_position: 8
 
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./getmaster/img/getmaster.png").default}
-  alt={"GetMaster: screenshot 1"}
-/>
+<div className="screenshot">
+
+![GetMaster: screenshot 1](./getmaster/img/getmaster.png)
+
+</div>
 
 GetMaster calculates the master code for Siemens x65 phones using the IMEI and data
 from EEPROM block 5121.

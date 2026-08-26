@@ -10,11 +10,11 @@ sidebar_position: 17
 
 **Author:** Siemens Mobile
 
-<img
-  className="screenshot"
-  src={require("./sl45i/img/sl45i.png").default}
-  alt={"Siemens SL45i: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Siemens SL45i: screenshot 1](./sl45i/img/sl45i.png)
+
+</div>
 
 Siemens SL45i emulator for Siemens Mobility Toolkit.
 

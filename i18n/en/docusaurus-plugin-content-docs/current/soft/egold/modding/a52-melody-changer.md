@@ -11,20 +11,15 @@ sidebar_position: 3
 **Author:** phobos computer<br/>
 **Platforms:** x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./a52-melody-changer/img/a52-melody-changer.png").default}
-  alt={"A52 Melody Changer: screenshot 1"}
-/>
+<div className="screenshot">
 
-This program is intended for changing standard and custom melodies,
-pictures, and animations in the Siemens A52. It does not write data to the phone itself, but
-creates patches for V_KLay.
+![A52 Melody Changer: screenshot 1](./a52-melody-changer/img/a52-melody-changer.png)
 
-You can open a FullFlash or EEPROM dump created with V_KLay, find resource addresses,
-replace several items at once, and build either a single shared patch or separate patches for them
-with rollback data. Changing melody names and automatic
-launch of V_KLay are supported. The original dump is not modified by the program.
+</div>
+
+The program is intended for modifying standard and user melodies, pictures, and animations in the Siemens A52. It does not write data to the phone itself, but creates patches for V_KLay.
+
+You can open a FullFlash or EEPROM dump made with V_KLay, find resource addresses, replace several items at once, and build either a single shared patch or separate patches for them with rollback data. Changing melody names and automatic V_KLay launch are supported. The program does not modify the original dump.
 
 ## Versions
 

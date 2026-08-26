@@ -11,15 +11,15 @@ sidebar_position: 1
 **Author:** QUALCOMM Incorporated<br/>
 **Platforms:** BREW
 
-<img
-  className="screenshot"
-  src={require("./bci-authoring-tool/img/bci-authoring-tool.png").default}
-  alt={"BREW Compressed Image Authoring Tool: screenshot 1"}
-/>
+<div className="screenshot">
+
+![BREW Compressed Image Authoring Tool: screenshot 1](./bci-authoring-tool/img/bci-authoring-tool.png)
+
+</div>
 
 BREW Compressed Image Authoring Tool is intended for creating BCI resources
-used by BREW applications. The program imports images, converts
-them to the internal compressed BREW format, and lets you view individual
+used by BREW applications. The program imports images, converts them
+into BREW's internal compressed format, and allows you to view individual
 animation frames.
 
 ## Versions

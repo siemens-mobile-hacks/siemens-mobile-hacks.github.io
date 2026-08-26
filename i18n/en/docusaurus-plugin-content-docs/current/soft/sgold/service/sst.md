@@ -13,26 +13,26 @@ sidebar_position: 11
 **Author:** SST-GSM Team<br/>
 **Platforms:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD), ODM
 
-<img
-  className="screenshot"
-  src={require("./sst/img/sst.jpg").default}
-  alt={"SST Service Toolbox: screenshot 1"}
-/>
+<div className="screenshot">
+
+![SST Service Toolbox: screenshot 1](./sst/img/sst.jpg)
+
+</div>
 
 SST Service Toolbox Professional Edition is a professional service application for Siemens phones.
 
 - Unlocking all locks and the phone code
-- Reapplying SP-Lock to the selected network and adding a second operator
+- Reapplying SP-Lock for the selected network and adding a second operator
 - Reading and writing EEPROM, firmware, flash memory, and language packs
 - Recovering phones that do not power on and devices showing the Wrong Software message
 - Fast uploading of language packs and T9
-- Decustomization, backup of battery parameters, and contrast adjustment
+- Decustomization, battery parameter backup, and contrast adjustment
 - Operation at speeds up to 920 kbit/s and support for USB cables
-- Bootcore protection and work with test point
+- Bootcore protection and test point support
 - Code calculator for CL50 and ST55
 - Unlocking, recovery, and flashing of devices based on EGOLD, EGOLD Lite, SGOLD, AVR, and ARM
 
-Version 6.50 supports phones in the x35–x65 series, SX1, C62, CFX65, A70, and their regional variants.
+Version 6.50 supports phones from the x35–x65 series, SX1, C62, CFX65, A70, and their regional variants.
 
 ## Versions
 

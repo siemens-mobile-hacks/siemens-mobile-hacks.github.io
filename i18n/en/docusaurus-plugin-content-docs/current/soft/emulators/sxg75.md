@@ -10,15 +10,15 @@ sidebar_position: 21
 
 **Author:** BenQ Mobile
 
-<img
-  className="screenshot"
-  src={require("./sxg75/img/sxg75.png").default}
-  alt={"Siemens SXG75: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Siemens SXG75: screenshot 1](./sxg75/img/sxg75.png)
+
+</div>
 
 Siemens SXG75 emulator for BenQ Mobile Toolkit.
 
-Requires [BenQ Mobile Toolkit 3.2.626][smtk].
+Requires [BenQ Mobile Toolkit 3.2.626][smtk] to run.
 
 [smtk]: /docs/soft/emulators/mobility-toolkit
 

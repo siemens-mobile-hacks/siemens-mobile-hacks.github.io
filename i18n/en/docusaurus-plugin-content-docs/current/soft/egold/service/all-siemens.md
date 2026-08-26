@@ -11,11 +11,11 @@ sidebar_position: 4
 **Author:** Nutzo<br/>
 **Platforms:** x35/x45/x55 (EGOLD), ODM
 
-<img
-  className="screenshot"
-  src={require("./all-siemens/img/all-siemens.png").default}
-  alt={"All Siemens Unlocker: screenshot 1"}
-/>
+<div className="screenshot">
+
+![All Siemens Unlocker: screenshot 1](./all-siemens/img/all-siemens.png)
+
+</div>
 
 All Siemens Unlocker performs direct phone unlocking, creates a backup MAP and a MAP for unlocking using a LOG file, writes
 MAP to the phone, and decrypts EEPROM blocks. The program also reads Flash in KSI and FLS formats, writes firmware, and checks or

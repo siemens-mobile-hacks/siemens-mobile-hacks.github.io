@@ -11,18 +11,18 @@ sidebar_position: 3
 **Author:** Skylord<br/>
 **Platforms:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./siemens-eeprom-tool/img/siemens-eeprom-tool.png").default}
-  alt={"Siemens EEPROM Tool: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Siemens EEPROM Tool: screenshot 1](./siemens-eeprom-tool/img/siemens-eeprom-tool.png)
+
+</div>
 
 This program is intended for working with the EEPROM of Siemens mobile phones via
-Service Mode. It allows you to read and save EEPROM blocks both in bulk and
-individually. You can also save them to disk all at once, separately, or however
+Service Mode. It allows you to read and save EEPROM blocks either all at once or
+individually. You can also save them to disk all together, separately, or however
 you like — in binary and text hexadecimal
-format. And in general — it does a whole lot more. There are no equivalents with
-similar functionality yet. ;-)
+format. And in general — it does a whole lot more. There are currently no
+analogues with similar functionality. ;)
 
 Program features:
 
@@ -35,25 +35,25 @@ Program features:
 - Comparing all or selected blocks in two lists.
 - Loading and saving blocks in EEP, BIN, and text HEX formats.
 - Reading standard and delta InitMap mappings, as well as Freia MAP files.
-- Sequential loading of multiple files with replacement of duplicate blocks
-  by data from the last file.
+- Sequential loading of multiple files with repeated blocks replaced by data from
+  the last file.
 - Working with EELITE and EEFULL on x65 phones.
 - Retrieving phone information and free EEPROM space available through
   Service Mode.
-- Displaying block descriptions from `eeprom.dsc` taking into account the hardware platform version.
+- Displaying block descriptions from `eeprom.dsc` taking the hardware platform version into account.
 - Creating `eeprom.dsc` from InitMap mappings using the included GetMapDesc
   program.
-- Launching external programs to edit the selected block with subsequent
-  loading of the result back.
+- Launching external programs to edit the selected block and then loading the
+  result back.
 - Support for up to 16 COM ports and entering Service Mode on a powered-on phone using
   PreCheck.
 
-To use it, you need a regular Siemens cable with external power. COM or USB
+To use it, you need a standard Siemens cable with external power. COM or USB
 — it does not matter, as long as the cable chips are not powered by the phone.
 
 Do not use this program if you do not know what EEPROM is and why it is
-needed. It can quickly and painlessly kill the phone, and bringing it back —
-that is your problem.
+needed. It can quickly and painlessly kill your phone, and bringing it back to life
+is your problem.
 
 ## Versions
 

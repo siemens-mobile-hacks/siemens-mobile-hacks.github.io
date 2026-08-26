@@ -11,22 +11,22 @@ sidebar_position: 11
 **Forum thread:** [http://forum.siemens-club.org/viewtopic.php?TopicID=40203](http://forum.siemens-club.org/viewtopic.php?TopicID=40203)<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./mccx65/img/mccx65.png").default}
-  alt={"MCCx65: screenshot 1"}
-/>
+<div className="screenshot">
+
+![MCCx65: screenshot 1](./mccx65/img/mccx65.png)
+
+</div>
 
 Menu Creator for Siemens x65–x75 is intended for editing phone menu files
 in FS format.
 
 You can add standard phone functions, Java midlets,
 HTTP links, and phone numbers to menu items. Custom item names are supported,
-saving them to an FS or Properties file, and hiding an item if the selected
+saving them in an FS or Properties file, and hiding an item if the selected
 function is unavailable. Menu FS files from Vodafone firmware are also supported.
 
 The function list is stored in `mccx65.dbf`, so you can extend it
-yourself. You can pass the file to open to the program via the command line.
+yourself. The file to open can be passed to the program via the command line.
 
 ## Versions
 

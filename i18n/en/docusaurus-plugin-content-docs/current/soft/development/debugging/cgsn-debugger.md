@@ -11,20 +11,20 @@ sidebar_position: 2
 **Homepage:** [http://gsmdev.de/index.php?c=projekte](https://web.archive.org/web/20050313185721/http://gsmdev.de/index.php?c=projekte) (web archive)<br/>
 **Author:** KonstanT
 
-<img
-  className="screenshot"
-  src={require("./cgsn-debugger/img/cgsn-debugger.png").default}
-  alt={"CGSN Debugger: screenshot 1"}
-/>
+<div className="screenshot">
+
+![CGSN Debugger: screenshot 1](./cgsn-debugger/img/cgsn-debugger.png)
+
+</div>
 
 A debugger for working with the internal RAM, ROM, and Flash memory of Siemens phones
 based on the EGOLD platform through the corresponding version of the AT+CGSN patch.
 
-- Read a memory region to a file;
-- Write to and fill memory;
-- Search for data within a segment;
-- Monitor the selected memory region;
-- Call a procedure at a specified address with register values set.
+- Reading a memory region to a file;
+- Writing to and filling memory;
+- Searching for data within a segment;
+- Monitoring a selected memory region;
+- Calling a procedure at a specified address with register values set.
 
 More about development for EGOLD: [http://alexsid.antex.ru/index.php?main=techinfo.php](https://web.archive.org/web/20050901015815/http://alexsid.antex.ru/index.php?main=techinfo.php) (web archive)
 

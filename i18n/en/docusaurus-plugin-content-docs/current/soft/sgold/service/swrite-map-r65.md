@@ -11,11 +11,11 @@ sidebar_position: 5
 **Author:** Siemens<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./swrite-map-r65/img/swrite-map-r65.png").default}
-  alt={"SWriteMapR65: screenshot 1"}
-/>
+<div className="screenshot">
+
+![SWriteMapR65: screenshot 1](./swrite-map-r65/img/swrite-map-r65.png)
+
+</div>
 
 Siemens service utility for writing standard and delta MAP files to the
 EEPROM of x75 series phones. Communicates with the phone via the COM port in BFB Mode;

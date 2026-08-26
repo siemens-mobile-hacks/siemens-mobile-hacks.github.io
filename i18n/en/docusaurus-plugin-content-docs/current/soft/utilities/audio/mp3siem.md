@@ -8,13 +8,13 @@ sidebar_position: 3
 
 # MP3Siem
 
-<img
-  className="screenshot"
-  src={require("./mp3siem/img/mp3siem.png").default}
-  alt={"MP3Siem: screenshot 1"}
-/>
+<div className="screenshot">
 
-MP3Siem re-encodes MP3 files through an intermediate 16 kHz mono WAV for playback on Siemens C55, M55, S55,
+![MP3Siem: screenshot 1](./mp3siem/img/mp3siem.png)
+
+</div>
+
+MP3Siem re-encodes MP3 through an intermediate WAV at 16 kHz and mono for playback on Siemens C55, M55, S55,
 SX1, C65, CX65, M65, and S65. The package includes the LAME encoder and SoX.
 
 ## Versions

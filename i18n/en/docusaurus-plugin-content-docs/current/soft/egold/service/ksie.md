@@ -11,15 +11,15 @@ sidebar_position: 7
 **Author:** Nutzo<br/>
 **Platforms:** x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./ksie/img/ksie.png").default}
-  alt={"KSiE: screenshot 1"}
-/>
+<div className="screenshot">
+
+![KSiE: screenshot 1](./ksie/img/ksie.png)
+
+</div>
 
 A command-line program primarily intended for unlocking the Siemens C45. Version 2.02 also supports the A50 and C55.
 
-- Create a backup MAP copy of the EEPROM and unlock the phone
+- Create a backup MAP copy of EEPROM and unlock the phone
 - Create a MAP from a log file and write the MAP to the phone
 - Read and write flash memory in KSI and FLS formats
 - Work with FullFlash in emulation mode without a connected phone

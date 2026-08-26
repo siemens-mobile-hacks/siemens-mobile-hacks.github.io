@@ -11,11 +11,11 @@ sidebar_position: 2
 **Author:** -=[LCW]=-ExXtReMe<br/>
 **Platforms:** BREW
 
-<img
-  className="screenshot"
-  src={require("./brew-graphicpatch-creator/img/brew-graphicpatch-creator.png").default}
-  alt={"BREW Graphicpatch Creator: screenshot 1"}
-/>
+<div className="screenshot">
+
+![BREW Graphicpatch Creator: screenshot 1](./brew-graphicpatch-creator/img/brew-graphicpatch-creator.png)
+
+</div>
 
 BREW Graphicpatch Creator opens BAR files, displays the graphics they contain,
 and lets you replace selected images. The modified resource can be

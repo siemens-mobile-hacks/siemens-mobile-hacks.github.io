@@ -8,15 +8,15 @@ sidebar_position: 0
 
 # ArmDebugger
 
-**Home page:** [http://chaos.allsiemens.com/software.html](https://web.archive.org/web/20130813164842/http://chaos.allsiemens.com/software.html) (web archive)<br/>
+**Homepage:** [http://chaos.allsiemens.com/software.html](https://web.archive.org/web/20130813164842/http://chaos.allsiemens.com/software.html) (web archive)<br/>
 **Forum thread:** [http://forum.allsiemens.com/viewtopic.php?t=20735](https://web.archive.org/web/20160806060433/http://forum.allsiemens.com/viewtopic.php?t=20735) (web archive)<br/>
 **Author:** Chaos
 
-<img
-  className="screenshot"
-  src={require("./armdebugger/img/armdebugger.png").default}
-  alt={"ArmDebugger: screenshot 1"}
-/>
+<div className="screenshot">
+
+![ArmDebugger: screenshot 1](./armdebugger/img/armdebugger.png)
+
+</div>
 
 Debugger for Siemens 65/70/75 series phones.
 
@@ -28,12 +28,12 @@ Debugger for Siemens 65/70/75 series phones.
   RAM range
 - Ability to edit memory, including the flash area (flash page
   substitution is used)
-- Search for bytes/strings in memory and references
+- Search for bytes/strings in memory, references
 - Integration with Keil ARM tools
 - Additional features: dump memory to a file, call flash functions with
   parameters, hex/bin/dec calculator
 
-[ArmDebugger usage guide](/docs/reverse-engineering/arm-debugger).
+[Instructions for using ArmDebugger](/docs/reverse-engineering/arm-debugger).
 
 ## Versions
 
@@ -42,7 +42,7 @@ Debugger for Siemens 65/70/75 series phones.
 <details>
 <summary><strong>Archived versions (3)</strong></summary>
 
-- **0.7.9** — [ArmDebugger-079.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/development/debugging/armdebugger/files/ArmDebugger-079.zip) (2006-12-28)<br/>Includes a brief guide and examples for Keil ARM Tools<br/>Windows 32-bit · 525 KiB
+- **0.7.9** — [ArmDebugger-079.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/development/debugging/armdebugger/files/ArmDebugger-079.zip) (2006-12-28)<br/>Includes a quick guide and examples for Keil ARM Tools<br/>Windows 32-bit · 525 KiB
 - **0.4.1** — [ArmDebugger-041.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/development/debugging/armdebugger/files/ArmDebugger-041.zip) (2005-07-21)<br/>Windows 32-bit · 475 KiB
 - **0.2.1** — [ArmDebugger-021.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/development/debugging/armdebugger/files/ArmDebugger-021.zip) (2005-05-19)<br/>Released under the name Arm65Debugger<br/>Windows 32-bit · 451 KiB
 

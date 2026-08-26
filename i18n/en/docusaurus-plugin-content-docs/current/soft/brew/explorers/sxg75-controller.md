@@ -11,15 +11,15 @@ sidebar_position: 5
 **Author:** SiemensMania.cz<br/>
 **Platforms:** BREW
 
-<img
-  className="screenshot"
-  src={require("./sxg75-controller/img/sxg75-controller.png").default}
-  alt={"SXG75 Controller: screenshot 1"}
-/>
+<div className="screenshot">
+
+![SXG75 Controller: screenshot 1](./sxg75-controller/img/sxg75-controller.png)
+
+</div>
 
 SXG75 Controller works with the Siemens SXG75 file system via OBEX and BREW: it displays phone and computer directories, copies,
 renames, and deletes files. The program also reads and writes SMS messages, installs themes, and transfers Java applications and games to
-the corresponding directories on the phone.
+the corresponding phone directories.
 
 ## Versions
 

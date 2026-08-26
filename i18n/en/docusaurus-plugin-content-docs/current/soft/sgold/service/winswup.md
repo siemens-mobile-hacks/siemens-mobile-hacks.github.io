@@ -11,14 +11,14 @@ sidebar_position: 0
 **Author:** Siemens AG<br/>
 **Platforms:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./winswup/img/winswup.png").default}
-  alt={"WinSwup: screenshot 1"}
-/>
+<div className="screenshot">
+
+![WinSwup: screenshot 1](./winswup/img/winswup.png)
+
+</div>
 
 Official software for flashing Siemens phones. Useful for uploading
-XBI, XBZ firmware and the XFS file system to the phone.
+XBI, XBZ, and XFS file system firmware to the phone.
 
 ## Versions
 
@@ -52,7 +52,7 @@ XBI, XBZ firmware and the XFS file system to the phone.
 - **0.98-pre** — [winswup-0.98-pre.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.98-pre.zip) (2001-05-03)<br/>Windows 32-bit · 403 KiB
 - **0.97** — [winswup-0.97.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.97.zip) (2001-03-15)<br/>Windows 32-bit · 825 KiB
 - **0.95** — [winswup-0.95.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.95.zip) (2000-12-19)<br/>Windows 32-bit · 373 KiB
-- **0.95** — [winswup-0.95-amd32.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.95-amd32.zip) (2000-12-19)<br/>Includes the AMD32 DLL<br/>Windows 32-bit · 422 KiB
+- **0.95** — [winswup-0.95-amd32.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.95-amd32.zip) (2000-12-19)<br/>Includes AMD32 DLL<br/>Windows 32-bit · 422 KiB
 - **0.91** — [winswup-0.91.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.91.zip) (2000-12-05)<br/>Windows 32-bit · 385 KiB
 - **0.91-pre2** — [winswup-0.91-pre2.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.91-pre2.zip) (2000-09-01)<br/>Windows 32-bit · 381 KiB
 - **0.91-pre1** — [winswup-0.91-pre1.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/winswup/files/winswup-0.91-pre1.zip) (2000-07-10)<br/>Windows 32-bit · 383 KiB

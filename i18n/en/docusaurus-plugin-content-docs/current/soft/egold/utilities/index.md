@@ -14,14 +14,16 @@ Utilities for working with phones, firmware, and mobile files.
 ## Programs
 
 - **[Bookshelf](./bookshelf.md)**<br/>
-  Create J2ME books from text files for Siemens SL45i, C55, M50, S55, and SL55.
+  Creating J2ME books from text files for Siemens SL45i, C55, M50, S55, and SL55.
+- **[MobileChat](./mobilechat.md)**<br/>
+  Exchanging SMS messages in chat format through a connected Siemens phone.
 - **[Siemens Screenshot](./siemens-screenshot.md)**<br/>
-  Capture screenshots from Siemens x35–x60 phone displays via BFB.
+  Capturing screenshots from the displays of Siemens x35–x60 phones via BFB.
 - **[Siemens Service Code Generator](./siemens-service-code-generator.md)**<br/>
-  Calculate and write activation codes for the Siemens phone service menu to a SIM card.
+  Calculating and writing service menu activation codes for Siemens phones to a SIM card.
 - **[SiSMS](./sisms.md)**<br/>
-  Read SMS archives in SMI and SMO formats from Siemens x45–x75 phones and save messages to a text file.
+  Reading SMS archives in SMI and SMO formats from Siemens x45–x75 phones and saving messages to a text file.
 - **[TXT2WMLC](./txt2wmlc.md)**<br/>
-  Convert text files into WMLC pages for viewing in the Siemens 45-series WAP browser.
+  Converting text files into WMLC pages for viewing in the Siemens 45 series WAP browser.
 - **[WSFF](./wsff.md)**<br/>
-  Program for analyzing and unpacking Siemens WinSwup service firmware.
+  A program for analyzing and unpacking Siemens WinSwup service firmware.

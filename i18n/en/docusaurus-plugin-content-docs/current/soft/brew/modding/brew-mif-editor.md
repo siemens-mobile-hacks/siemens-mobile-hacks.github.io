@@ -11,15 +11,14 @@ sidebar_position: 3
 **Author:** QUALCOMM Incorporated<br/>
 **Platforms:** BREW
 
-<img
-  className="screenshot"
-  src={require("./brew-mif-editor/img/brew-mif-editor.png").default}
-  alt={"BREW MIF Editor: screenshot 1"}
-/>
+<div className="screenshot">
 
-The official MIF file editor from the BREW SDK. A MIF file contains the module
-and BREW application applet descriptions, their classes, access rights, and
-associated resources.
+![BREW MIF Editor: screenshot 1](./brew-mif-editor/img/brew-mif-editor.png)
+
+</div>
+
+The official MIF file editor from the BREW SDK. A MIF contains the description of a module and
+BREW application applets, their classes, access rights, and associated resources.
 
 The editor lets you specify the application name, author, version, and copyright,
 edit Class ID, MIME types, external and exported classes,

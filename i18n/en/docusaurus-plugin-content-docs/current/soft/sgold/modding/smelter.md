@@ -12,18 +12,18 @@ sidebar_position: 0
 **Author:** avkiev<br/>
 **Platforms:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./smelter/img/smelter.png").default}
-  alt={"Smelter: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Smelter: screenshot 1](./smelter/img/smelter.png)
+
+</div>
 
 This program is intended for analyzing a phone fullflash. It extracts
-information about EEPROMs, the langpack, menu, pictures, melodies,
-files, and much more from the ff, and then displays them in a convenient format. The program is
-optimized for the 55 series, but in theory it should also work properly with
+information from the ff about EEPROMs, the langpack, menus, pictures, melodies,
+files, and much more, and then displays them in a convenient form. The program
+is optimized for the 55 series, but in theory it should also work properly with
 fullflashes from other phones. It was originally intended for flash diggers, but
-may also be useful for inexperienced users.
+may also be useful to less experienced users.
 
 Features:
 
@@ -32,18 +32,18 @@ Features:
   individual blocks, creating backups, and determining the IMEI;
 - Viewing and editing the langpack, loading and saving the entire langpack or
   its area;
-- Exploring the menu system and finding entry points of elements;
-- Viewing and extracting pictures from the ff;
-- Viewing, listening to, loading, and extracting melodies;
-- Viewing the contents of flex memory and extracting files;
+- Analyzing the menu system and finding entry points of elements;
+- Viewing and unloading pictures from the ff;
+- Viewing, listening to, loading, and unloading melodies;
+- Viewing the contents of flex memory and unloading files;
 - Graphical ff block view;
 - Viewing the x45–x65 address book;
-- Searching for bytes with a mask and alignment, searching for text;
+- Searching for bytes with mask and alignment, searching for text;
 - Creating a VKP patch from ff changes and launching V_Klay;
-- Saving lists to text format and IDC files for IDA, searching within lists,
+- Saving lists in text format and IDC files for IDA, searching within lists,
   and integration with WinHex or HexWorkshop;
 - Multilingual interface;
-- Viewing ff, the standard Windows calculator, and a separate Calc166;
+- ff viewer, standard Windows calculator, and separate Calc166;
 - Searching for standard functions by signatures specified in the ini file;
 - Generating standard patches by signatures specified in the ini file;
 - Finding boot keys and creating a loader for V_Klay;
@@ -55,14 +55,14 @@ Features:
 - Checking and stripping ELF files.
 
 For the program to work correctly, OCX components from the OCX
-Control package, provided in the additional files, are required.
+Control package, available in the additional files, are required.
 
 ## Versions
 
 - **9.65** — [smelter-9.65.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/smelter/files/smelter-9.65.zip) (2008-04-20)<br/>Includes databases, scripts, and documentation<br/>Windows 32-bit · 497 KiB
 
 <details>
-<summary><strong>Archived versions (9)</strong></summary>
+<summary><strong>Archived versions (10)</strong></summary>
 
 - **9.10** — [smelter-9.10.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/smelter/files/smelter-9.10.zip) (2007-04-03)<br/>Windows 32-bit · 445 KiB
 - **8.84** — [smelter-8.84.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/smelter/files/smelter-8.84.zip) (2007-01-26)<br/>Windows 32-bit · 428 KiB
@@ -73,6 +73,7 @@ Control package, provided in the additional files, are required.
 - **7.20** — [smelter-7.20.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/smelter/files/smelter-7.20.zip) (2005-11-22)<br/>Windows 32-bit · 301 KiB
 - **6.65** — [smelter-6.65.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/smelter/files/smelter-6.65.zip) (2005-09-02)<br/>Windows 32-bit · 285 KiB
 - **5.67** — [smelter-5.67.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/smelter/files/smelter-5.67.zip) (2005-02-04)<br/>Windows 32-bit · 234 KiB
+- **5.09** — [smelter-5.09.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/smelter/files/smelter-5.09.zip)<br/>Windows 32-bit · 250 KiB
 
 </details>
 

@@ -22,9 +22,11 @@ Modifying the interface and resources of phone firmware.
 - **[A52 Melody Changer](./a52-melody-changer.md)**<br/>
   Replacing melodies, images, and animations in Siemens A52 firmware using V_KLay patches.
 - **[C55 Pictures Editor](./c55-pictures-editor.md)**<br/>
-  Replacing built-in graphics in Siemens C55 and creating graphic patches.
+  Replacing built-in Siemens C55 graphics and creating graphic patches.
 - **[Flash Imager](./flash-imager.md)**<br/>
   Viewing and replacing built-in graphics in Siemens phone FullFlash.
+- **[FunnyBytes](./funnybytes.md)**<br/>
+  Russification and applying ready-made fixes to Siemens C35, M35, and S35 FullFlash.
 - **[LayoutMe](./layoutme.md)**<br/>
   Keyboard layout editor for Siemens phone FullFlash.
 - **[PCAEdit](./pcaedit.md)**<br/>
@@ -37,6 +39,8 @@ Modifying the interface and resources of phone firmware.
   Creating and editing color schemes for Siemens S55.
 - **[Siemens C45ffimager](./c45ffimager.md)**<br/>
   Replacing and adding images in Siemens C45 FullFlash.
+- **[Siemens Image Viewer/Importer](./siemens-cms35-ie.md)**<br/>
+  Viewing and replacing built-in graphics and skins in Siemens x35 FullFlash.
 - **[Siemens Language Editor](./siemens-language-editor.md)**<br/>
   Extracting and replacing the language pack in Siemens phone FullFlash for the 35/45/50/55 series.
 - **[Siemens X55 T9 Base Creator](./t9-base-creator.md)**<br/>

@@ -15,3 +15,7 @@ Programs for managing phone contents from a computer.
 
 - **[C55 Phonebook](./c55-phonebook.md)**<br/>
   Siemens phonebook editor with Unicode support and SNTP clock synchronization.
+- **[C62DirLi](./c62dirli.md)**<br/>
+  Editing file system directory lists on the Siemens C62.
+- **[Smart Tool](./smart-tool.md)**<br/>
+  Manage SMS, the phonebook, images, melodies, and other data on the Siemens ST55/ST60.

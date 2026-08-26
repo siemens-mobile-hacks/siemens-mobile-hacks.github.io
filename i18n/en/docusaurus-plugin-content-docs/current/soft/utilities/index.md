@@ -15,6 +15,8 @@ Utilities for working with phones, firmware, and mobile files.
 
 - **[Audio](./audio/index.md)** (8)<br/>
   Converters and editors for melodies, ringtones, and sound files.
+- **[SIM cards](./sim/index.md)** (2)<br/>
+  Programs for analyzing SIM cards and working with programmable cards.
 
 ## Programs
 
@@ -22,5 +24,9 @@ Utilities for working with phones, firmware, and mobile files.
   Converts Siemens firmware dumps from BIN and FLS to FullFlash BIN.
 - **[FilesComparer](./filescomparer.md)**<br/>
   A program for byte-by-byte comparison of files and FullFlash images.
+- **[HiSerial](./hiserial.md)**<br/>
+  An alternative COM port driver with speeds up to 460800 bit/s for Siemens DCA-500 and DCA-100 cables.
+- **[JADMaker](./jadmaker.md)**<br/>
+  Creates JAD files for mobile Java applications from existing JAR files.
 - **[SendSMS](./sendsms.md)**<br/>
-  Send SMS through a phone connected to the COM port from a graphical interface or the command line.
+  Sends SMS through a phone connected to a COM port from a graphical interface or the command line.

@@ -12,11 +12,11 @@ sidebar_position: 3
 **Author:** Vladimir Gorkov<br/>
 **Platforms:** x65/x75 (SGOLD), BREW
 
-<img
-  className="screenshot"
-  src={require("./connective-program/img/connective-program.png").default}
-  alt={"Connective Program: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Connective Program: screenshot 1](./connective-program/img/connective-program.png)
+
+</div>
 
 A program for exchanging data between a computer and mobile phones,
 smartphones, and PDAs. Supports BenQ-Siemens E71, EL71, EF81, C81, M81, and S68.
@@ -25,7 +25,7 @@ Program features:
 
 - Automatic detection of available ports.
 - Connection via serial port, USB, IrDA, and Bluetooth.
-- Bookmarks for quick navigation to frequently used folders.
+- Bookmarks for quick access to frequently used folders.
 - Copy process monitoring: direction, speed, and remaining time.
 - Runs from removable media without installation.
 - Support for the Windows clipboard and Drag & Drop.

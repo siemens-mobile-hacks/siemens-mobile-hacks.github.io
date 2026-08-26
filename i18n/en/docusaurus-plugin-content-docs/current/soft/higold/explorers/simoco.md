@@ -13,13 +13,13 @@ sidebar_position: 0
 **Author:** Ing. Pavel Cibulka<br/>
 **Platforms:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD), x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./simoco/img/simoco.jpg").default}
-  alt={"SiMoCo: screenshot 1"}
-/>
+<div className="screenshot">
 
-SiMoCo (Siemens Mobile Control, formerly known as Sx45CZ) is designed to
+![SiMoCo: screenshot 1](./simoco/img/simoco.jpg)
+
+</div>
+
+SiMoCo (Siemens Mobile Control, formerly named Sx45CZ) is designed to
 control Siemens mobile phones from a computer. Supported models include S25,
 C35(i), M35, S35(i), SL42(i), SL45(i), C45, S45(i), ME45, M50, MT50, C55,
 S55, SL55, M55, A60, C60, MC60, CF62, C65, M65, CX65, S65, CX70, C75, CX75,
@@ -28,38 +28,38 @@ IR port that creates a virtual COM port.
 
 Program features:
 
-- Viewing technical information about the phone.
-- Managing calls, volume, ringtone, vibration alert, sound,
+- View technical information about the phone.
+- Manage calls, volume, ringtone, vibration alert, sound,
   keypad lock, and speakerphone.
-- Displaying the incoming caller number, answering and rejecting calls.
-- Viewing and editing SIM and phone phonebooks, the address book,
-  printing, backup and restore, dragging entries with the mouse,
-  importing and exporting vCard.
-- Creating and sending SMS with a choice of encoding, validity period,
-  delivery report, and Flash SMS mode; long messages up to five SMS.
-- Sending SMS in bulk and saving recipient groups.
-- Viewing and editing SMS on the SIM card and in phone memory.
-- Sending and receiving EMS: concatenated messages, images, animations, and sounds,
+- Display the incoming caller number, answer and reject calls.
+- View and edit SIM and phone phonebooks, the address book,
+  print, back up and restore, move entries with the mouse,
+  import and export vCard.
+- Create and send SMS with selectable encoding, validity period, delivery
+  report, and Flash SMS mode; long messages up to five SMS.
+- Send SMS in bulk and save recipient groups.
+- View and edit SMS on the SIM card and in phone memory.
+- Send and receive EMS: multipart messages, images, animations, and sounds,
   including on phones without built-in EMS support.
-- Automatic archiving of received and sent SMS, export to CSV, and
-  saving message text to a file.
-- Notifications about new SMS in a separate window or as an icon in the notification area.
-- Access to FlexMemory and file transfer between the phone and computer.
-- Viewing and editing the organizer and calendar.
+- Automatically archive received and sent SMS, export to CSV, and
+  save message text to a file.
+- Notifications for new SMS in a separate window or as an icon in the notification area.
+- Access FlexMemory and transfer files between the phone and computer.
+- View and edit the organizer and calendar.
 - Support for national characters in SMS, phonebooks, the address book, and
   the organizer using UCS-2 and UTF-8.
-- Viewing available and preferred networks, operator information, and
-  editing the preferred networks list.
-- Uploading logos and startup screens from BMP and GIF files, as well as a
+- View available and preferred networks, operator information, and
+  edit the preferred networks list.
+- Upload logos and startup screens from BMP and GIF files, as well as a
   logo editor.
-- Uploading melodies from MIDI files and an iMelody editor with saving to
+- Upload melodies from MIDI files and an iMelody editor with saving to
   TXT, iMelody, or MIDI.
-- Configuring call forwarding and call barring.
-- Synchronizing the phone date and time with the computer.
-- Sending DTMF tones and strings.
-- Remote control of the phone via AT+CKPD.
-- Activating the phone service menu.
-- Viewing communication between the program and the phone and manually entering AT commands in
+- Configure call forwarding and call barring.
+- Synchronize the phone date and time with the computer.
+- Send DTMF signals and strings.
+- Remotely control the phone via AT+CKPD.
+- Activate the phone service menu.
+- View communication between the program and the phone and manually enter AT commands in
   the terminal window.
 
 ## Versions

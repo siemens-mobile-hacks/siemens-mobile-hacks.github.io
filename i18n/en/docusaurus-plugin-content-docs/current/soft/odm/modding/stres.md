@@ -10,20 +10,20 @@ sidebar_position: 2
 
 **Platforms:** ODM
 
-<img
-  className="screenshot"
-  src={require("./stres/img/stres.png").default}
-  alt={"STRes: screenshot 1"}
-/>
+<div className="screenshot">
+
+![STRes: screenshot 1](./stres/img/stres.png)
+
+</div>
 
 STRes is intended for modifying resources on Siemens ST55 and ST60 phones.
 The program opens a full backup in MOT format created by Milano Backup Tool,
 replaces the graphics in it using an STR resource file, and saves the modified backup for
 writing back to the phone.
 
-Version 0.3 supports the Siemens ST55 with firmware 040503 and WishM build, as well as
-the ST60 with firmware versions 040226 and 040305. For supported firmware versions,
-ready-made resource tables are provided.
+Version 0.3 supports Siemens ST55 with firmware 040503 and WishM build, as well as
+ST60 with firmware versions 040226 and 040305. Ready-made resource tables are provided
+for the supported firmware versions.
 
 ## Versions
 

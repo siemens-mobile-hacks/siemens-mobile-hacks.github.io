@@ -11,20 +11,20 @@ sidebar_position: 1
 **Author:** Skylord<br/>
 **Platforms:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./siemens-language-editor/img/siemens-language-editor.png").default}
-  alt={"Siemens Language Editor: screenshot 1"}
-/>
+<div className="screenshot">
 
-The program is intended for editing the phone's text resources — the language pack. With it, you can replace menu item names,
-change help text, or create a new interface language not provided by Siemens.
+![Siemens Language Editor: screenshot 1](./siemens-language-editor/img/siemens-language-editor.png)
+
+</div>
+
+The program is intended for editing the phone's text resources — the language pack. With its help, you can replace menu item names,
+change the help text, or create a new interface language not provided by Siemens.
 
 Siemens Language Editor takes the phone's FullFlash and unpacks its language pack into a Unicode-encoded LGP text file. After
-editing, the program packs the text back into the place of the old language pack. Single-byte and double-byte code page signatures,
-control characters, and LNG files from SL4x are supported.
+editing, the program packs the text back in place of the old language pack. Single-byte and double-byte code page signatures,
+service characters, and LNG files from SL4x are supported.
 
-Parameters for models, firmware, and recoding tables are stored in an INI file, so support for a new phone can be added to the configuration.
+Model, firmware, and recoding table parameters are stored in an INI file, so support for a new phone can be added to the configuration.
 The program was tested by the author on x35, x45, and x5x phones with English, Russian, and Chinese language packs.
 
 ## Versions

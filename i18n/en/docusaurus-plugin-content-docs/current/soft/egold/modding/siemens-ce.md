@@ -8,14 +8,14 @@ sidebar_position: 2
 
 # Siemens CE
 
-**Author:** V!per (Vad!m); enhancements — dspmobile<br/>
+**Author:** V!per (Vad!m); enhancements by dspmobile<br/>
 **Platforms:** x35/x45/x55 (EGOLD), x65/x75 (SGOLD), ODM
 
-<img
-  className="screenshot"
-  src={require("./siemens-ce/img/siemens-ce.png").default}
-  alt={"Siemens CE: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Siemens CE: screenshot 1](./siemens-ce/img/siemens-ce.png)
+
+</div>
 
 Siemens CE is designed to search for and modify fonts in Siemens mobile
 phones. It opens FullFlash, FLS, and individual font blocks,
@@ -23,7 +23,7 @@ displays the character table, and lets you edit each character pixel by pixel.
 
 Features:
 
-- Automatic detection of font tables in FullFlash for x35–x65 phones;
+- Automatic detection of font tables in FullFlash images of x35–x65 phones;
 - Support for different sizes, styles, and code pages;
 - Display of Unicode and language pack codes for the selected character;
 - Import and export of individual characters and font blocks;

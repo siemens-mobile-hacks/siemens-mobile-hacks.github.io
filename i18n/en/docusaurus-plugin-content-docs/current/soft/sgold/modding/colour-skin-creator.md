@@ -11,11 +11,11 @@ sidebar_position: 4
 **Author:** Siemens<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./colour-skin-creator/img/colour-skin-creator.png").default}
-  alt={"Colour Skin Creator: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Colour Skin Creator: screenshot 1](./colour-skin-creator/img/colour-skin-creator.png)
+
+</div>
 
 An official Siemens application from the Siemens Customization Tools suite for
 creating color schemes for x65 phones.
@@ -27,4 +27,4 @@ saved in SCS format for uploading to the phone's color schemes folder.
 
 ## Versions
 
-- **1.0** — [colour-skin-creator-1.0.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/colour-skin-creator/files/colour-skin-creator-1.0.zip) (2004-09-01)<br/>Java Runtime Environment required<br/>Windows 32-bit · 638 KiB
+- **1.0** — [colour-skin-creator-1.0.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/modding/colour-skin-creator/files/colour-skin-creator-1.0.zip) (2004-09-01)<br/>Requires Java Runtime Environment<br/>Windows 32-bit · 638 KiB

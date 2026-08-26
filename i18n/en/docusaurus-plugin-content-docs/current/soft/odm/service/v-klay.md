@@ -12,14 +12,14 @@ sidebar_position: 0
 **Author:** ValeraVi (Valeriy Vishnyak)<br/>
 **Platforms:** x10/x25 (HIGOLD), x35/x45/x55 (EGOLD), x65/x75 (SGOLD), ODM
 
-<img
-  className="screenshot"
-  src={require("./v-klay/img/v-klay.png").default}
-  alt={"V_KLay: screenshot 1"}
-/>
+<div className="screenshot">
 
-A program for applying patches, reading/writing Flash, and changing the
-keyboard layout of Siemens mobile phones.
+![V_KLay: screenshot 1](./v-klay/img/v-klay.png)
+
+</div>
+
+A program for applying patches, reading/writing Flash, and changing the keyboard
+layout of Siemens mobile phones.
 
 Features:
 
@@ -41,7 +41,7 @@ Features:
 - Work with the phone without powering it off in online mode;
 - Multilingual interface.
 
-Support for a specific phone is determined by the availability of a suitable
+Support for a specific phone depends on the availability of a suitable
 VKD loader.
 
 ## Versions

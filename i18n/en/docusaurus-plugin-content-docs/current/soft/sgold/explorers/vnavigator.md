@@ -8,15 +8,15 @@ sidebar_position: 7
 
 # VNavigator x65 (OLD)
 
-**Home page:** [http://www.vnavigator.com.ru/](https://web.archive.org/web/20050319154203/http://www.vnavigator.com.ru/) (web archive)<br/>
+**Homepage:** [http://www.vnavigator.com.ru/](https://web.archive.org/web/20050319154203/http://www.vnavigator.com.ru/) (web archive)<br/>
 **Author:** VNavigator Soft<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./vnavigator/img/vnavigator.png").default}
-  alt={"VNavigator x65 (OLD): screenshot 1"}
-/>
+<div className="screenshot">
+
+![VNavigator x65 (OLD): screenshot 1](./vnavigator/img/vnavigator.png)
+
+</div>
 
 A program for working with the file system of Siemens x65 phones. Files and folders
 can be copied, moved, renamed, and deleted, as well as having their

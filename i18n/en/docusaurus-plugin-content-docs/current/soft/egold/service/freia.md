@@ -11,32 +11,33 @@ sidebar_position: 5
 **Author:** Nutzo<br/>
 **Platforms:** x35/x45/x55 (EGOLD)
 
-<img
-  className="screenshot"
-  src={require("./freia/img/freia.png").default}
-  alt={"Freia: screenshot 1"}
-/>
+<div className="screenshot">
 
-A command-line and graphical application primarily for unlocking and flashing Siemens phones.
+![Freia: screenshot 1](./freia/img/freia.png)
+
+</div>
+
+A command-line and graphical application primarily intended for unlocking and flashing Siemens phones.
 
 - Create a backup MAP copy of EEPROM before unlocking
-- Directly unlock the phone and create a MAP from a log file
+- Direct phone unlocking and MAP creation from a log file
 - Read and write flash memory in KSI, FLS, and raw formats
 - Work with FullFlash in emulation mode without a connected phone
 - Decrypt EEPROM blocks
 - Back up and restore battery parameters
 - Read phone information and write flash IMEI
-- Work via COM port at speeds up to 921600 bit/s
+- Work through the COM port at speeds up to 921600 bit/s
 
 Later versions added support for A52, A60, C60, M55, MC60, SX1, loading via the bootcore bug, and operation with the Prodigy interface.
 
 ## Versions
 
-- **15** — [freia-15.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/freia/files/freia-15.zip) (2004-05-06)<br/>Windows 32-bit · 691 KiB
+- **18** — [freia-18.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/freia/files/freia-18.zip)<br/>Windows 32-bit · 655 KiB
 
 <details>
-<summary><strong>Archived versions (3)</strong></summary>
+<summary><strong>Archived versions (4)</strong></summary>
 
+- **15** — [freia-15.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/freia/files/freia-15.zip) (2004-05-06)<br/>Windows 32-bit · 691 KiB
 - **10** — [freia-10.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/freia/files/freia-10.zip) (2004-03-04)<br/>Windows 32-bit · 687 KiB
 - **9** — [freia-9.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/freia/files/freia-9.zip) (2003-12-10)<br/>Windows 32-bit · 773 KiB
 - **8** — [freia-8.zip](https://git.siepatch.dev/siepatch/soft/media/branch/main/catalog/service/freia/files/freia-8.zip) (2003-09-25)<br/>Windows 32-bit · 767 KiB

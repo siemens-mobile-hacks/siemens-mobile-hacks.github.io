@@ -10,11 +10,11 @@ sidebar_position: 1
 
 **Author:** Yamaha Corporation
 
-<img
-  className="screenshot"
-  src={require("./smf-to-smaf-converter/img/smf-to-smaf-converter.png").default}
-  alt={"MA-1 SMF to SMAF Converter: screenshot 1"}
-/>
+<div className="screenshot">
+
+![MA-1 SMF to SMAF Converter: screenshot 1](./smf-to-smaf-converter/img/smf-to-smaf-converter.png)
+
+</div>
 
 MA-1 SMF to SMAF Converter converts standard SMF MIDI files to the
 SMAF/MA-1 format with the MMF extension for use on mobile phones. The program

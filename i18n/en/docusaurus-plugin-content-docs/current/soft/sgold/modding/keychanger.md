@@ -11,20 +11,19 @@ sidebar_position: 9
 **Author:** TheKING<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./keychanger/img/keychanger.png").default}
-  alt={"KEYchanger: screenshot 1"}
-/>
+<div className="screenshot">
+
+![KEYchanger: screenshot 1](./keychanger/img/keychanger.png)
+
+</div>
 
 KEYchanger edits EEPROM blocks 5425 and 5423 saved by Siemens
-EEPROM Tool. Block 5425 controls key and joystick actions in standby mode,
-and block 5423 controls the items in "My menu".
+EEPROM Tool. Block 5425 is responsible for key and joystick actions in standby mode,
+and block 5423 is responsible for the items in "My menu".
 
 The program recognizes commands for launching midlets, bookmarks, and address book
 entries, lets you add midlets from `javaregdb.pd`, clear assignments, and remove
-soft-key confirmation. Function names are loaded from Russian and English
-lists.
+soft-key confirmation. Function names are loaded from Russian and English lists.
 
 ## Versions
 

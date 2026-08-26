@@ -13,8 +13,8 @@ Software for phones based on the HiGold platform.
 
 ## Sections
 
-- **[Service](./service/index.md)** (3)<br/>
-  Diagnostics, flashing, repair, and recovery of phones.
+- **[Service](./service/index.md)** (4)<br/>
+  Diagnostics, flashing, repair, and phone recovery.
 - **[Explorers](./explorers/index.md)** (2)<br/>
   Programs for managing phone contents from a computer.
 - **[Modding](./modding/index.md)** (2)<br/>

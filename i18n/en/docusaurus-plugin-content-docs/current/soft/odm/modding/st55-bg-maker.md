@@ -10,11 +10,11 @@ sidebar_position: 1
 
 **Platforms:** ODM
 
-<img
-  className="screenshot"
-  src={require("./st55-bg-maker/img/st55-bg-maker.png").default}
-  alt={"ST55 BG Maker: screenshot 1"}
-/>
+<div className="screenshot">
+
+![ST55 BG Maker: screenshot 1](./st55-bg-maker/img/st55-bg-maker.png)
+
+</div>
 
 ST55 BG Maker prepares the background and operator logo for the Siemens ST55 and
 shows the result on a mockup of the phone display. You can save only the background or

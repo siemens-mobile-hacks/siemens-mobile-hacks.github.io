@@ -11,14 +11,14 @@ sidebar_position: 5
 **Author:** Viper BJK<br/>
 **Platforms:** BREW
 
-<img
-  className="screenshot"
-  src={require("./mbn-resourcer/img/mbn-resourcer.png").default}
-  alt={"MBN Resourcer: screenshot 1"}
-/>
+<div className="screenshot">
+
+![MBN Resourcer: screenshot 1](./mbn-resourcer/img/mbn-resourcer.png)
+
+</div>
 
 MBN Resourcer, also known as AMSS Analyser, is intended for analyzing
-`AMSS.MBN` files and QAPP files of phones on the BREW platform, including Siemens SXG75 and
+`AMSS.MBN` files and QAPP files on BREW-based phones, including the Siemens SXG75 and
 BenQ-Siemens EF81, E61, and other models.
 
 The program extracts resource and application tables, MagicTable, certificates, and

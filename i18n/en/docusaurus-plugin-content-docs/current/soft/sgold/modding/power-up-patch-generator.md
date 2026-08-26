@@ -11,11 +11,11 @@ sidebar_position: 13
 **Author:** seesadmean (poo-shock/N1K)<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./power-up-patch-generator/img/power-up-patch-generator.png").default}
-  alt={"Power-UP Patch Generator: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Power-UP Patch Generator: screenshot 1](./power-up-patch-generator/img/power-up-patch-generator.png)
+
+</div>
 
 Power-UP Patch Generator opens FullFlash images of Siemens x65/x75 phones and creates
 a VKP patch to run custom code when the phone powers on. The program

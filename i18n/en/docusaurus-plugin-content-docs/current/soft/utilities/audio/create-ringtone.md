@@ -11,14 +11,14 @@ sidebar_position: 0
 **Homepage:** [http://www.create-ringtone.com/](http://www.create-ringtone.com/)<br/>
 **Author:** Excode Software
 
-<img
-  className="screenshot"
-  src={require("./create-ringtone/img/create-ringtone.png").default}
-  alt={"Create Ringtone: screenshot 1"}
-/>
+<div className="screenshot">
+
+![Create Ringtone: screenshot 1](./create-ringtone/img/create-ringtone.png)
+
+</div>
 
 Create Ringtone creates ringtones from MP3, WAV, WMA, OGG, and Audio CD tracks,
-and also prepares wallpaper images for mobile phones.
+and also prepares background images for mobile phones.
 
 ## Versions
 

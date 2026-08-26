@@ -12,19 +12,19 @@ sidebar_position: 15
 **Author:** ACiD[mrp]<br/>
 **Platforms:** x65/x75 (SGOLD)
 
-<img
-  className="screenshot"
-  src={require("./direct-softkey-editor/img/direct-softkey-editor.png").default}
-  alt={"x65 Direct Softkey Editor: screenshot 1"}
-/>
+<div className="screenshot">
+
+![x65 Direct Softkey Editor: screenshot 1](./direct-softkey-editor/img/direct-softkey-editor.png)
+
+</div>
 
 Direct Softkey Editor lets you change all softkeys and shortcuts on any
 Siemens x65 phone, including those that the standard menu allows you to assign
 only once.
 
 The program switches the phone to service mode, reads the key assignments and
-the "My menu" list, lets you select new values, and writes the changes back to
-the phone.
+the "My menu" list, lets you choose new values, and writes the changes
+back to the phone.
 
 The package includes Croatian, English, German, Greek, Italian, and Russian interface languages.
 

@@ -11,14 +11,14 @@ sidebar_position: 4
 **Author:** GAGIN<br/>
 **Platforms:** BREW
 
-<img
-  className="screenshot"
-  src={require("./gagin/img/gagin.png").default}
-  alt={"GAGIN: screenshot 1"}
-/>
+<div className="screenshot">
+
+![GAGIN: screenshot 1](./gagin/img/gagin.png)
+
+</div>
 
 GAGIN displays directories and files in the built-in BREW file system, copies files between the phone and the computer, deletes them, and
-shows directory sizes. The program also uploads and deletes BREW modules with a set of MIF, MOD, SIG, and BAR files, and can switch the
+shows directory sizes. The program also uploads and deletes BREW modules with the MIF, MOD, SIG, and BAR file set and can switch the
 phone to offline mode.
 
 ## Versions

@@ -10,20 +10,20 @@ sidebar_position: 5
 
 **Author:** !Freeman!
 
-<img
-  className="screenshot"
-  src={require("./vkp-tracer/img/vkp-tracer.png").default}
-  alt={"VkpTracer: screenshot 1"}
-/>
+<div className="screenshot">
 
-The program is intended to shift a specified address range by a given value
+![VkpTracer: screenshot 1](./vkp-tracer/img/vkp-tracer.png)
+
+</div>
+
+The program is designed to shift a specified address range by a given value
 in VKP files for V_KLay. This makes it possible to move patch data to another
-flash memory area when the free space in the patch and on the phone does not match.
+area of flash memory when the free space in the patch and on the phone does not match.
 
 You can specify a new start address or the shift amount, automatically
-detect data boundaries, fix HEX references to moved data, and fill the old
-area with `FF` bytes. Continuous patches, a list of patches from a folder, and
-image preview in graphic patches are supported. The result is saved next to the
+detect data boundaries, fix HEX references to the moved data, and clear the
+old area with `FF` bytes. Continuous patches, a list of patches from a
+folder, and image viewing in graphic patches are supported. The result is saved next to the
 source file with the `_out` suffix.
 
 ## Versions
